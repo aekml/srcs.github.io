@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="slides-format" content="viewport">
+    <title>LC App Modular Architecture</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            --color-bg: #18181B;
+            --color-bg-deep: #09090B;
+            --color-surface: #27272A;
+            --color-text: #FAFAFA;
+            --color-text-secondary: #E4E4E7;
+            --color-text-muted: #A1A1AA;
+            --color-accent-1: #F97316;
+            --color-accent-2: #14B8A6;
+            --color-accent-3: #FEF3C7;
+            --color-glass-bg: rgba(255,255,255,0.05);
+            --color-glass-border: rgba(255,255,255,0.09);
+            --color-vignette: rgba(0,0,0,0.42);
+            --font-display: 'Archivo Black', sans-serif;
+            --font-body: 'DM Sans', sans-serif;
+        }
+    </style>
+    <style>
+        :root { --color-bg: #18181B; --color-text: #FAFAFA; --glow-color-rgb: 249,115,22; --font-body:'DM Sans',sans-serif; }
+        *, *::before, *::after { box-sizing: border-box; }
+        html, body { background: var(--color-bg); margin: 0; }
+        body { font-family: var(--font-body); color: var(--color-text); overflow: hidden; height: 100vh; width: 100vw; }
+        .deck { width: 100vw; height: 100vh; position: relative; }
+        .slide { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: var(--color-bg); display: flex; flex-direction: column; align-items: center; justify-content: center; opacity: 0; transform: scale(0.95); transition: opacity 0.7s ease, transform 0.7s ease; pointer-events: none; overflow: hidden; }
+        .slide.active { opacity: 1; transform: scale(1); pointer-events: all; }
+        .slide > .content { position: relative; z-index: 2; width: 100%; max-width: 1180px; padding: clamp(1.5rem, 3vw, 3.2rem); }
+        .nav-controls { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); display: flex; align-items: center; gap: 16px; z-index: 100; background: rgba(24,24,27,0.72); backdrop-filter: blur(10px); padding: 10px 24px; border-radius: 40px; border: 1px solid rgba(255,255,255,0.08); }
+        .nav-btn { width: 40px; height: 40px; border: none; background: rgba(255,255,255,0.06); color: #F97316; border-radius: 50%; font-size: 1.2rem; cursor: pointer; }
+        .slide-dots { display: flex; gap: 8px; }
+        .slide-dots .dot { width: 10px; height: 10px; border-radius: 50%; background: rgba(255,255,255,0.15); cursor: pointer; transition: background 0.3s, transform 0.3s; }
+        .slide-dots .dot.active { background: #F97316; transform: scale(1.3); }
+        .slide-counter { font-size: 0.8rem; color: #A1A1AA; min-width: 44px; text-align: center; }
+        .reveal { opacity: 0; transform: translateY(20px); }
+        .gradient-mesh { position: absolute; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; }
+        .blob { position: absolute; border-radius: 50%; filter: blur(80px); animation: float-slow 12s ease-in-out infinite; }
+        .blob:nth-child(2) { animation: float-drift 15s ease-in-out infinite; }
+        .blob:nth-child(3) { animation: float-slow 18s ease-in-out infinite reverse; }
+        .slide::before { content: ''; position: absolute; inset: 0; z-index: 1; pointer-events: none; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E"); background-size: 256px 256px; opacity: 0.03; mix-blend-mode: overlay; }
+        .slide::after { content: ''; position: absolute; inset: 0; z-index: 1; pointer-events: none; background: radial-gradient(ellipse at center, transparent 48%, rgba(0,0,0,0.42) 100%); }
+        @keyframes float-slow { 0% { transform: translate(0, 0) scale(1); } 25% { transform: translate(60px, -50px) scale(1.12); } 50% { transform: translate(-40px, 40px) scale(0.9); } 75% { transform: translate(50px, 20px) scale(1.08); } 100% { transform: translate(0, 0) scale(1); } }
+        @keyframes float-drift { 0% { transform: translate(0, 0) scale(1) rotate(0deg); } 33% { transform: translate(-50px, -60px) scale(1.15) rotate(3deg); } 66% { transform: translate(40px, 30px) scale(0.88) rotate(-2deg); } 100% { transform: translate(0, 0) scale(1) rotate(0deg); } }
+        @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-15px); } }
+        .text-glow { text-shadow: 0 0 20px rgba(var(--glow-color-rgb), 0.5), 0 0 40px rgba(var(--glow-color-rgb), 0.2); }
+        .arch-box { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.09); border-radius: 20px; backdrop-filter: blur(10px); }
+        .rail { height: 10px; border-radius: 999px; background: linear-gradient(90deg,#F97316,#14B8A6); }
+        .chip { display:inline-block; padding: 0.32rem 0.7rem; border-radius: 999px; background: rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.1); font-size: 0.78rem; color:#E4E4E7; }
+        .mini { font-size:0.82rem; line-height:1.2rem; color:#D4D4D8; }
+        .particle-canvas, .particle-canvas-ambient { position:absolute; inset:0; z-index:1; }
+        @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.2s !important; } }
+    </style>
+</head>
+<body>
+<div class="mouse-spotlight" style="position:fixed;inset:0;z-index:99;pointer-events:none;"></div>
+<div class="deck">
+    <div class="slide active" data-slide="1">
+        <div class="gradient-mesh">
+            <div class="blob" style="width:520px;height:520px;top:-120px;right:-100px;background:#F97316;opacity:0.15"></div>
+            <div class="blob" style="width:300px;height:300px;bottom:-60px;left:-40px;background:#14B8A6;opacity:0.14"></div>
+            <div class="blob" style="width:220px;height:220px;top:44%;left:15%;background:#FEF3C7;opacity:0.10"></div>
+        </div>
+        <canvas class="particle-canvas"></canvas>
+        <div class="content text-center">
+            <div class="text-[120px] mb-5 animate-[float_3s_ease-in-out_infinite]">⚡</div>
+            <h1 class="font-display text-[clamp(2.4rem,5.8vw,4.8rem)] tracking-tight mb-4 bg-linear-to-br from-accent-1 via-accent-2 to-accent-3 bg-clip-text text-transparent reveal">LC APP MODULAR ARCHITECTURE</h1>
+            <p class="text-[clamp(0.9rem,1.5vw,1.25rem)] tracking-[5px] uppercase text-text-muted reveal">Independently buildable domains for request, permit, execution, return, audit, and notifications</p>
+        </div>
+    </div>
+
+    <div class="slide" data-slide="2">
+        <div class="gradient-mesh"><div class="blob" style="width:350px;height:350px;top:-80px;right:-80px;background:#F97316;opacity:0.08"></div><div class="blob" style="width:260px;height:260px;bottom:-50px;left:-50px;background:#14B8A6;opacity:0.07"></div></div>
+        <div class="content">
+            <p class="reveal uppercase tracking-[4px] text-text-muted text-sm mb-3">Architecture goal</p>
+            <h2 class="font-display text-[clamp(2rem,4vw,3rem)] mb-6 reveal">Why modular for LC</h2>
+            <div class="grid grid-cols-2 gap-6 mt-6">
+                <div class="arch-box p-7 reveal"><div class="text-4xl mb-3">🧩</div><h3 class="text-accent-1 text-xl font-bold mb-2">Independent delivery tracks</h3><p class="mini">Teams can build request, approval, field execution, and substation return flows in parallel with stable APIs and shared identity contracts.</p></div>
+                <div class="arch-box p-7 reveal"><div class="text-4xl mb-3">🛡️</div><h3 class="text-accent-1 text-xl font-bold mb-2">Safety and audit isolation</h3><p class="mini">Safety-critical actions such as permit issue, LC return, override, and revocation stay in dedicated services with immutable logs and stronger authorization.</p></div>
+                <div class="arch-box p-7 reveal"><div class="text-4xl mb-3">📶</div><h3 class="text-accent-1 text-xl font-bold mb-2">Offline-first field support</h3><p class="mini">Field modules can cache work orders, crew checklists, and return drafts independently without blocking approval or dashboard modules.</p></div>
+                <div class="arch-box p-7 reveal"><div class="text-4xl mb-3">🔁</div><h3 class="text-accent-1 text-xl font-bold mb-2">Clear integration boundaries</h3><p class="mini">Notification, document, reporting, and master-data modules subscribe to domain events instead of being tightly embedded in workflow code.</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide" data-slide="3">
+        <div class="gradient-mesh"><div class="blob" style="width:360px;height:360px;top:-90px;left:-70px;background:#14B8A6;opacity:0.08"></div><div class="blob" style="width:280px;height:280px;bottom:-60px;right:-40px;background:#F97316;opacity:0.07"></div></div>
+        <canvas class="particle-canvas-ambient"></canvas>
+        <div class="content">
+            <p class="reveal uppercase tracking-[4px] text-text-muted text-sm mb-3">Principles</p>
+            <h2 class="font-display text-[clamp(2rem,4vw,3rem)] mb-6 reveal">Design principles</h2>
+            <div class="grid grid-cols-3 gap-5">
+                <div class="arch-box p-6 reveal"><h3 class="text-lg font-bold text-accent-2 mb-2">Domain-led modules</h3><p class="mini">Separate business capabilities, not technical layers, so each module maps to a real operational owner.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="text-lg font-bold text-accent-2 mb-2">Contract-first APIs</h3><p class="mini">REST and event contracts versioned from day one to avoid cross-team regressions.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="text-lg font-bold text-accent-2 mb-2">Shared auth core</h3><p class="mini">Identity, roles, sections, and duty rosters come from one trusted authorization service.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="text-lg font-bold text-accent-2 mb-2">Immutable audit trail</h3><p class="mini">Every approve, issue, avail, pause, revoke, and return event is append-only and timestamped.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="text-lg font-bold text-accent-2 mb-2">Offline sync boundaries</h3><p class="mini">Only the field app syncs delayed commands; approval and substation actions stay online and synchronous.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="text-lg font-bold text-accent-2 mb-2">Config over code</h3><p class="mini">Approval matrix, hierarchy, station mapping, and form rules stay configurable for each utility zone.</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide" data-slide="4">
+        <div class="gradient-mesh"><div class="blob" style="width:390px;height:390px;top:-70px;right:-50px;background:#F97316;opacity:0.08"></div><div class="blob" style="width:220px;height:220px;bottom:-40px;left:10%;background:#FEF3C7;opacity:0.07"></div></div>
+        <div class="content">
+            <p class="reveal uppercase tracking-[4px] text-text-muted text-sm mb-3">Module map</p>
+            <h2 class="font-display text-[clamp(2rem,4vw,3rem)] mb-6 reveal">Target module landscape</h2>
+            <div class="grid grid-cols-3 gap-5">
+                <div class="arch-box p-6 reveal"><h3 class="text-xl font-bold text-accent-1 mb-3">1. Identity & RBAC</h3><p class="mini mb-3">Users, employee mapping, role grants, section ownership, shift roster, and device trust.</p><span class="chip">Shared platform</span></div>
+                <div class="arch-box p-6 reveal"><h3 class="text-xl font-bold text-accent-1 mb-3">2. LC Request</h3><p class="mini mb-3">Request form, asset selection, work scope, crew tagging, and validation rules.</p><span class="chip">AE owned flow</span></div>
+                <div class="arch-box p-6 reveal"><h3 class="text-xl font-bold text-accent-1 mb-3">3. Approval Engine</h3><p class="mini mb-3">AEE and EE approvals, delegation, reject-resubmit, SLA timers, and escalation.</p><span class="chip">Workflow core</span></div>
+                <div class="arch-box p-6 reveal"><h3 class="text-xl font-bold text-accent-1 mb-3">4. Permit Issuance</h3><p class="mini mb-3">Substation isolation checklist, operator confirmation, issue token, and permit activation.</p><span class="chip">Safety critical</span></div>
+                <div class="arch-box p-6 reveal"><h3 class="text-xl font-bold text-accent-1 mb-3">5. Field Execution</h3><p class="mini mb-3">Avail LC, progress updates, work pause, evidence capture, and completion declaration.</p><span class="chip">Offline capable</span></div>
+                <div class="arch-box p-6 reveal"><h3 class="text-xl font-bold text-accent-1 mb-3">6. Return & Closure</h3><p class="mini mb-3">Return request, operator verification, energization readiness, closure note, and release.</p><span class="chip">Operator owned</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide" data-slide="5">
+        <div class="gradient-mesh"><div class="blob" style="width:350px;height:350px;top:-80px;left:-60px;background:#14B8A6;opacity:0.08"></div><div class="blob" style="width:260px;height:260px;bottom:-40px;right:-40px;background:#F97316;opacity:0.06"></div></div>
+        <div class="content">
+            <p class="reveal uppercase tracking-[4px] text-text-muted text-sm mb-3">Supporting services</p>
+            <h2 class="font-display text-[clamp(2rem,4vw,3rem)] mb-6 reveal">Cross-cutting modules</h2>
+            <div class="grid grid-cols-3 gap-5">
+                <div class="arch-box p-6 reveal"><h3 class="text-lg font-bold text-accent-2 mb-2">Notification service</h3><p class="mini">Push, SMS, email, in-app inbox, reminder and breach alerts triggered by workflow events.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="text-lg font-bold text-accent-2 mb-2">Master data service</h3><p class="mini">Feeders, substations, lines, asset hierarchies, sections, crew rosters, and outage dependency maps.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="text-lg font-bold text-accent-2 mb-2">Document service</h3><p class="mini">Permit PDFs, closure sheets, attachments, digital signatures, and evidence bundles.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="text-lg font-bold text-accent-2 mb-2">Audit log service</h3><p class="mini">Immutable action journal, actor metadata, device info, timestamps, and investigation exports.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="text-lg font-bold text-accent-2 mb-2">Reporting & analytics</h3><p class="mini">Permit turnaround, pending approvals, duration overruns, feeder trends, and safety KPI dashboards.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="text-lg font-bold text-accent-2 mb-2">Configuration service</h3><p class="mini">Approval hierarchy, notification policies, role mapping, station templates, and zone-specific rules.</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide" data-slide="6">
+        <div class="gradient-mesh"><div class="blob" style="width:380px;height:380px;top:-80px;right:-70px;background:#F97316;opacity:0.08"></div><div class="blob" style="width:300px;height:300px;bottom:-50px;left:-50px;background:#14B8A6;opacity:0.07"></div></div>
+        <div class="content">
+            <p class="reveal uppercase tracking-[4px] text-text-muted text-sm mb-3">Layering</p>
+            <h2 class="font-display text-[clamp(2rem,4vw,3rem)] mb-6 reveal">Reference architecture stack</h2>
+            <div class="space-y-4 mt-6">
+                <div class="arch-box p-5 reveal"><div class="flex justify-between items-center"><div><div class="text-lg font-bold">Experience layer</div><div class="mini">Mobile app, supervisor app, operator console, web dashboards, admin console</div></div><div class="chip">Independent frontends</div></div><div class="rail mt-4"></div></div>
+                <div class="arch-box p-5 reveal"><div class="flex justify-between items-center"><div><div class="text-lg font-bold">API gateway / BFF</div><div class="mini">Session context, orchestration, response shaping, offline sync endpoints, and throttling</div></div><div class="chip">Edge contract</div></div><div class="rail mt-4"></div></div>
+                <div class="arch-box p-5 reveal"><div class="flex justify-between items-center"><div><div class="text-lg font-bold">Domain services</div><div class="mini">Request, approval, permit issuance, execution, return, notifications, documents, audit</div></div><div class="chip">Core modules</div></div><div class="rail mt-4"></div></div>
+                <div class="arch-box p-5 reveal"><div class="flex justify-between items-center"><div><div class="text-lg font-bold">Data layer</div><div class="mini">Operational MongoDB, event log store, object storage, cache, and reporting warehouse</div></div><div class="chip">Polyglot data</div></div><div class="rail mt-4"></div></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide" data-slide="7">
+        <div class="gradient-mesh"><div class="blob" style="width:360px;height:360px;top:-80px;left:-60px;background:#FEF3C7;opacity:0.08"></div><div class="blob" style="width:260px;height:260px;bottom:-50px;right:-40px;background:#F97316;opacity:0.07"></div></div>
+        <canvas class="particle-canvas-ambient"></canvas>
+        <div class="content">
+            <p class="reveal uppercase tracking-[4px] text-text-muted text-sm mb-3">Ownership model</p>
+            <h2 class="font-display text-[clamp(2rem,4vw,3rem)] mb-6 reveal">Suggested team split</h2>
+            <div class="grid grid-cols-2 gap-6">
+                <div class="arch-box p-7 reveal"><h3 class="text-accent-1 text-xl font-bold mb-3">Team A: Experience & request</h3><p class="mini mb-3">AE mobile screens, request workflows, drafts, attachments, and request dashboard.</p><div class="space-y-2"><span class="chip">React Native / PWA</span> <span class="chip">Form schema</span> <span class="chip">Draft sync</span></div></div>
+                <div class="arch-box p-7 reveal"><h3 class="text-accent-1 text-xl font-bold mb-3">Team B: Approval & workflow</h3><p class="mini mb-3">Approval engine, matrix rules, timers, escalation, delegation, and workflow APIs.</p><div class="space-y-2"><span class="chip">Node service</span> <span class="chip">Rules engine</span> <span class="chip">SLA alerts</span></div></div>
+                <div class="arch-box p-7 reveal"><h3 class="text-accent-1 text-xl font-bold mb-3">Team C: Permit & field execution</h3><p class="mini mb-3">Operator issue/return console, execution app, offline work logs, and completion events.</p><div class="space-y-2"><span class="chip">Safety checklist</span> <span class="chip">Offline queue</span> <span class="chip">Evidence capture</span></div></div>
+                <div class="arch-box p-7 reveal"><h3 class="text-accent-1 text-xl font-bold mb-3">Team D: Shared platform</h3><p class="mini mb-3">Identity, notifications, documents, audit, reporting, DevOps, observability, and release governance.</p><div class="space-y-2"><span class="chip">SSO / JWT</span> <span class="chip">Azure infra</span> <span class="chip">Logging</span></div></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide" data-slide="8">
+        <div class="gradient-mesh"><div class="blob" style="width:360px;height:360px;top:-70px;right:-70px;background:#14B8A6;opacity:0.08"></div><div class="blob" style="width:260px;height:260px;bottom:-50px;left:-30px;background:#F97316;opacity:0.07"></div></div>
+        <div class="content">
+            <p class="reveal uppercase tracking-[4px] text-text-muted text-sm mb-3">Repository strategy</p>
+            <h2 class="font-display text-[clamp(2rem,4vw,3rem)] mb-6 reveal">Monorepo package structure</h2>
+            <div class="grid grid-cols-3 gap-5">
+                <div class="arch-box p-6 reveal"><h3 class="font-bold text-accent-2 mb-2">apps/mobile-request</h3><p class="mini">AE request app and common shell.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="font-bold text-accent-2 mb-2">apps/mobile-field</h3><p class="mini">Execution, avail, evidence, and return initiation.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="font-bold text-accent-2 mb-2">apps/web-ops</h3><p class="mini">Approvals, operator console, dashboards, admin.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="font-bold text-accent-2 mb-2">services/workflow</h3><p class="mini">Approval and lifecycle orchestration.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="font-bold text-accent-2 mb-2">services/permit</h3><p class="mini">Issue, revoke, return, closure logic.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="font-bold text-accent-2 mb-2">services/platform</h3><p class="mini">Auth, notifications, docs, audit, config.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="font-bold text-accent-2 mb-2">packages/ui</h3><p class="mini">Shared role-aware components and theming.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="font-bold text-accent-2 mb-2">packages/contracts</h3><p class="mini">Types, API schemas, domain events, enums.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="font-bold text-accent-2 mb-2">packages/utils</h3><p class="mini">Validation, offline sync helpers, date and safety utilities.</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide" data-slide="9">
+        <div class="gradient-mesh"><div class="blob" style="width:350px;height:350px;top:-70px;left:-60px;background:#F97316;opacity:0.09"></div><div class="blob" style="width:260px;height:260px;bottom:-40px;right:-40px;background:#14B8A6;opacity:0.07"></div></div>
+        <div class="content">
+            <p class="reveal uppercase tracking-[4px] text-text-muted text-sm mb-3">Integration contracts</p>
+            <h2 class="font-display text-[clamp(2rem,4vw,3rem)] mb-6 reveal">Core APIs and events</h2>
+            <div class="grid grid-cols-2 gap-6">
+                <div class="arch-box p-7 reveal"><h3 class="text-xl font-bold text-accent-1 mb-3">Synchronous APIs</h3><p class="mini">Create request, submit approval decision, issue permit, avail permit, return permit, fetch dashboard queues, and download permit document.</p></div>
+                <div class="arch-box p-7 reveal"><h3 class="text-xl font-bold text-accent-1 mb-3">Domain events</h3><p class="mini">LC_REQUESTED, LC_APPROVED_L1, LC_APPROVED_L2, LC_ISSUED, LC_AVAILED, WORK_COMPLETED, LC_RETURNED, LC_CLOSED, LC_REVOKED.</p></div>
+                <div class="arch-box p-7 reveal"><h3 class="text-xl font-bold text-accent-1 mb-3">Contract rules</h3><p class="mini">Each event carries permitId, actorId, role, stationId, feederId, timestamp, and correlationId for traceability.</p></div>
+                <div class="arch-box p-7 reveal"><h3 class="text-xl font-bold text-accent-1 mb-3">Consumer modules</h3><p class="mini">Notifications, audit, reporting, and document generation subscribe without changing core workflow services.</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide" data-slide="10">
+        <div class="gradient-mesh"><div class="blob" style="width:390px;height:390px;top:-60px;right:-60px;background:#F97316;opacity:0.08"></div><div class="blob" style="width:280px;height:280px;bottom:-50px;left:-50px;background:#FEF3C7;opacity:0.07"></div></div>
+        <div class="content">
+            <p class="reveal uppercase tracking-[4px] text-text-muted text-sm mb-3">Data ownership</p>
+            <h2 class="font-display text-[clamp(2rem,4vw,3rem)] mb-6 reveal">Data domains and boundaries</h2>
+            <div class="grid grid-cols-3 gap-5">
+                <div class="arch-box p-6 reveal"><h3 class="font-bold text-accent-2 mb-2">Workflow DB</h3><p class="mini">LC requests, approval states, role assignments, SLA deadlines, and current permit status.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="font-bold text-accent-2 mb-2">Permit DB</h3><p class="mini">Issue checklist, operator actions, field avail details, work completion, return and closure artifacts.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="font-bold text-accent-2 mb-2">Master DB</h3><p class="mini">Feeders, substations, sections, employee registry, hierarchy, and standard work templates.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="font-bold text-accent-2 mb-2">Audit store</h3><p class="mini">Append-only event log with device, location, IP, and pre/post payload snapshots.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="font-bold text-accent-2 mb-2">Object storage</h3><p class="mini">Photos, signatures, PDF permits, risk sheets, and closure evidence.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="font-bold text-accent-2 mb-2">Analytics mart</h3><p class="mini">Read-optimized datasets for dashboards, performance reporting, and safety trend analysis.</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide" data-slide="11">
+        <div class="gradient-mesh"><div class="blob" style="width:360px;height:360px;top:-70px;left:-50px;background:#14B8A6;opacity:0.08"></div><div class="blob" style="width:260px;height:260px;bottom:-40px;right:-30px;background:#F97316;opacity:0.07"></div></div>
+        <div class="content">
+            <p class="reveal uppercase tracking-[4px] text-text-muted text-sm mb-3">Security</p>
+            <h2 class="font-display text-[clamp(2rem,4vw,3rem)] mb-6 reveal">Security and governance controls</h2>
+            <div class="grid grid-cols-2 gap-6">
+                <div class="arch-box p-7 reveal"><h3 class="text-xl font-bold text-accent-1 mb-3">Role and duty checks</h3><p class="mini">Only mapped AE can raise, AEE and EE can approve, line staff can avail, and substation operators can issue or return based on station duty roster.</p></div>
+                <div class="arch-box p-7 reveal"><h3 class="text-xl font-bold text-accent-1 mb-3">Safety state machine</h3><p class="mini">Invalid transitions are blocked, for example execution cannot start before issue, and closure cannot happen before return verification.</p></div>
+                <div class="arch-box p-7 reveal"><h3 class="text-xl font-bold text-accent-1 mb-3">Strong evidence capture</h3><p class="mini">Geo-stamped photos, signatures, timestamps, and optional second-factor confirmation for permit issue and closure.</p></div>
+                <div class="arch-box p-7 reveal"><h3 class="text-xl font-bold text-accent-1 mb-3">Operational governance</h3><p class="mini">Configurable maker-checker rules, zone-level reporting, audit export, retention, and incident replay capabilities.</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide" data-slide="12">
+        <div class="gradient-mesh"><div class="blob" style="width:500px;height:500px;top:-120px;right:-80px;background:#F97316;opacity:0.14"></div><div class="blob" style="width:320px;height:320px;bottom:-70px;left:-50px;background:#14B8A6;opacity:0.12"></div><div class="blob" style="width:200px;height:200px;top:45%;left:20%;background:#FEF3C7;opacity:0.09"></div></div>
+        <canvas class="particle-canvas"></canvas>
+        <div class="content text-center">
+            <p class="reveal uppercase tracking-[5px] text-text-muted text-sm mb-4">Recommended rollout</p>
+            <h2 class="font-display text-[clamp(2.2rem,5vw,4rem)] mb-4 bg-linear-to-br from-accent-1 via-accent-2 to-accent-3 bg-clip-text text-transparent reveal">PHASE BY DOMAIN, NOT BY SCREEN</h2>
+            <div class="grid grid-cols-3 gap-5 mt-8 text-left">
+                <div class="arch-box p-6 reveal"><h3 class="text-lg font-bold text-accent-1 mb-2">Phase 1</h3><p class="mini">Identity, master data, LC request, approval engine, and basic notifications.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="text-lg font-bold text-accent-1 mb-2">Phase 2</h3><p class="mini">Permit issue, field execution, offline sync, evidence, and return workflow.</p></div>
+                <div class="arch-box p-6 reveal"><h3 class="text-lg font-bold text-accent-1 mb-2">Phase 3</h3><p class="mini">Documents, analytics, audit replay, advanced escalation, and enterprise integrations.</p></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="nav-controls">
+    <button class="nav-btn" onclick="changeSlide(-1)" aria-label="Previous slide">&#8249;</button>
+    <div class="slide-dots" id="dots"></div>
+    <button class="nav-btn" onclick="changeSlide(1)" aria-label="Next slide">&#8250;</button>
+    <span class="slide-counter" id="counter">1 / 12</span>
+</div>
+<script>
+let current = 1;
+const total = document.querySelectorAll('.slide').length;
+const dotsContainer = document.getElementById('dots');
+const counter = document.getElementById('counter');
+for (let i = 1; i <= total; i++) { const dot = document.createElement('div'); dot.className = 'dot' + (i === 1 ? ' active' : ''); dot.onclick = () => goToSlide(i); dotsContainer.appendChild(dot); }
+function goToSlide(n) { const prev = document.querySelector('.slide.active'); const next = document.querySelector(`.slide[data-slide="${n}"]`); if (prev) prev.classList.remove('active'); if (next) { next.classList.add('active'); animateSlide(next); } current = n; updateNav(); }
+function changeSlide(dir) { let next = current + dir; if (next < 1) next = total; if (next > total) next = 1; goToSlide(next); }
+function updateNav() { document.querySelectorAll('.dot').forEach((d, i) => d.classList.toggle('active', i + 1 === current)); counter.textContent = current + ' / ' + total; }
+document.addEventListener('keydown', (e) => { if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); changeSlide(1); } if (e.key === 'ArrowLeft') { e.preventDefault(); changeSlide(-1); } });
+let touchStartX = 0;
+document.addEventListener('touchstart', (e) => { touchStartX = e.touches[0].clientX; });
+document.addEventListener('touchend', (e) => { const diff = touchStartX - e.changedTouches[0].clientX; if (Math.abs(diff) > 50) changeSlide(diff > 0 ? 1 : -1); });
+function animateSlide(slide) { slide.querySelectorAll('.reveal').forEach((el, i) => { el.style.transition = 'none'; el.style.opacity = '0'; el.style.transform = 'translateY(20px)'; el.offsetHeight; const delay = i * 0.08; el.style.transition = `opacity 0.35s ease ${delay}s, transform 0.35s ease ${delay}s`; el.style.opacity = '1'; el.style.transform = 'translateY(0px)'; }); }
+document.addEventListener('mousemove', (e) => { const spotlight = document.querySelector('.mouse-spotlight'); if (spotlight) { spotlight.style.background = `radial-gradient(600px circle at ${e.clientX}px ${e.clientY}px, rgba(249,115,22,0.06), transparent 40%)`; } });
+window.initParticles = function(canvas, options) { if (!canvas) return; const ctx = canvas.getContext('2d'); const resize = () => { canvas.width = canvas.offsetWidth; canvas.height = canvas.offsetHeight; }; resize(); window.addEventListener('resize', resize); const interactive = options.interactive !== false; const count = options.count || (interactive ? 55 : 18); let mx = -1000, my = -1000; const particles = Array.from({ length: count }, () => ({ x: Math.random()*canvas.width, y: Math.random()*canvas.height, vx:(Math.random()-0.5)*0.3, vy:(Math.random()-0.5)*0.3, size:Math.random()*2.5+0.8, alpha:Math.random()*0.35+0.1 })); if (interactive) { canvas.addEventListener('mousemove', (e) => { const rect = canvas.getBoundingClientRect(); mx = e.clientX - rect.left; my = e.clientY - rect.top; }); canvas.addEventListener('mouseleave', () => { mx = -1000; my = -1000; }); }
+(function animate(){ ctx.clearRect(0,0,canvas.width,canvas.height); particles.forEach(p=>{ if (interactive) { const dx = p.x - mx, dy = p.y - my, dist = Math.sqrt(dx*dx+dy*dy) || 1; if (dist < 120) { const force = (120 - dist) / 120 * 2; p.vx += (dx/dist)*force*0.1; p.vy += (dy/dist)*force*0.1; } } p.vx *= 0.98; p.vy *= 0.98; p.x += p.vx; p.y += p.vy; if (p.x < 0) p.x = canvas.width; if (p.x > canvas.width) p.x = 0; if (p.y < 0) p.y = canvas.height; if (p.y > canvas.height) p.y = 0; ctx.beginPath(); ctx.arc(p.x,p.y,p.size,0,Math.PI*2); ctx.fillStyle = `rgba(249,115,22,${p.alpha})`; ctx.fill(); }); requestAnimationFrame(animate); })(); };
+document.querySelectorAll('.particle-canvas').forEach(c => window.initParticles(c, { interactive: true, count: 55 }));
+document.querySelectorAll('.particle-canvas-ambient').forEach(c => window.initParticles(c, { interactive: false, count: 18 }));
+animateSlide(document.querySelector('.slide.active'));
+</script>
+</body>
+</html>
