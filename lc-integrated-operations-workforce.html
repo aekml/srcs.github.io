@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>LC Integrated Operations + Workforce Console</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f7f6f2; --surface: #ffffff; --surface-2: #f4f4f5; --text: #1f2937; --muted: #6b7280;
+      --border: rgba(17,24,39,0.10); --primary: #01696f; --primary-2: #0c4e54; --primary-soft: #e8f3f2;
+      --warning-soft: #fff3dc; --warning: #b7791f; --success-soft: #e8f7eb; --success: #237a3b;
+      --danger-soft: #fdecec; --danger: #b42318; --blue-soft: #eaf2ff; --blue: #2563eb; --purple-soft:#efe8ff; --purple:#7c3aed;
+      --shadow: 0 18px 50px rgba(15, 23, 42, 0.10);
+    }
+    [data-theme="dark"] {
+      --bg: #171614; --surface: #1d1d1a; --surface-2: #232320; --text: #f5f5f4; --muted: #a8a29e;
+      --border: rgba(255,255,255,0.10); --primary: #4f98a3; --primary-2: #6db5bf; --primary-soft: rgba(79,152,163,0.14);
+      --warning-soft: rgba(183,121,31,0.18); --warning: #f7b955; --success-soft: rgba(35,122,59,0.18); --success: #7ad18b;
+      --danger-soft: rgba(180,35,24,0.18); --danger: #f97066; --blue-soft: rgba(37,99,235,0.16); --blue: #78a9ff; --purple-soft: rgba(124,58,237,0.16); --purple:#b794f4;
+      --shadow: 0 20px 60px rgba(0,0,0,0.45);
+    }
+    * { box-sizing: border-box; }
+    body { font-family: 'Inter', system-ui, sans-serif; background: radial-gradient(circle at top, rgba(1,105,111,0.12), transparent 34%), radial-gradient(circle at bottom right, rgba(59,130,246,0.08), transparent 28%), var(--bg); color: var(--text); min-height: 100vh; }
+    .app-shell { width: min(100%, 430px); min-height: 100vh; margin: 0 auto; position: relative; overflow: hidden; }
+    .screen { min-height: 100vh; padding: max(14px, env(safe-area-inset-top)) 14px calc(92px + max(12px, env(safe-area-inset-bottom))); display: none; }
+    .screen.active { display: block; }
+    .card { background: color-mix(in srgb, var(--surface) 94%, transparent); border: 1px solid var(--border); border-radius: 24px; box-shadow: var(--shadow); backdrop-filter: blur(10px); }
+    .soft-card { background: var(--surface); border: 1px solid var(--border); border-radius: 20px; }
+    .input, .select, .textarea { width: 100%; min-height: 52px; border-radius: 18px; border: 1px solid var(--border); background: var(--surface); color: var(--text); padding: 14px 16px; outline: none; }
+    .textarea { min-height: 110px; resize: none; }
+    .input:focus, .select:focus, .textarea:focus { border-color: var(--primary); box-shadow: 0 0 0 4px rgba(1,105,111,0.10); }
+    .btn { min-height: 52px; border-radius: 18px; padding: 0 16px; display: inline-flex; align-items: center; justify-content: center; font-weight: 700; }
+    .btn-primary { background: linear-gradient(180deg, var(--primary), var(--primary-2)); color: white; box-shadow: 0 12px 24px rgba(1,105,111,0.24); }
+    .btn-secondary { background: var(--surface); color: var(--text); border: 1px solid var(--border); }
+    .btn-soft { background: var(--primary-soft); color: var(--primary); }
+    .chip { display: inline-flex; align-items: center; gap: 6px; border-radius: 999px; padding: 7px 12px; font-size: 12px; font-weight: 700; }
+    .chip-primary { background: var(--primary-soft); color: var(--primary); }
+    .chip-warning { background: var(--warning-soft); color: var(--warning); }
+    .chip-success { background: var(--success-soft); color: var(--success); }
+    .chip-danger { background: var(--danger-soft); color: var(--danger); }
+    .chip-blue { background: var(--blue-soft); color: var(--blue); }
+    .chip-purple { background: var(--purple-soft); color: var(--purple); }
+    .tab, .filter-chip, .mini-chip { min-height: 40px; padding: 10px 14px; border-radius: 999px; font-size: 12px; font-weight: 700; border: 1px solid var(--border); background: var(--surface); color: var(--muted); white-space: nowrap; }
+    .tab.active, .filter-chip.active, .role-chip.active, .mini-chip.active { background: linear-gradient(180deg, var(--primary), var(--primary-2)); color: white; border-color: transparent; }
+    .role-chip { min-height: 72px; padding: 12px 14px; border-radius: 18px; border: 1px solid var(--border); background: var(--surface); display: flex; gap: 12px; width: 100%; text-align: left; }
+    .metric { border-radius: 18px; padding: 14px; background: var(--surface); border: 1px solid var(--border); }
+    .chart-wrap { height: 220px; position: relative; }
+    .mini-chart-wrap { height: 210px; position: relative; }
+    .step-dot { width: 34px; height: 34px; border-radius: 999px; display: inline-flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 800; border: 1px solid var(--border); background: var(--surface); color: var(--muted); }
+    .step-dot.active { background: linear-gradient(180deg, var(--primary), var(--primary-2)); color: white; border-color: transparent; }
+    .check-row { display: flex; align-items: start; gap: 12px; padding: 12px 0; border-bottom: 1px dashed var(--border); }
+    .check-row:last-child { border-bottom: none; }
+    .bottom-nav { position: fixed; left: 50%; transform: translateX(-50%); bottom: max(10px, env(safe-area-inset-bottom)); width: min(calc(100% - 20px), 410px); background: color-mix(in srgb, var(--surface) 94%, transparent); border: 1px solid var(--border); border-radius: 24px; padding: 10px 8px; box-shadow: var(--shadow); backdrop-filter: blur(14px); z-index: 50; }
+    .nav-item { display: flex; flex-direction: column; align-items: center; gap: 4px; color: var(--muted); font-size: 11px; font-weight: 700; min-height: 52px; justify-content: center; border-radius: 16px; }
+    .nav-item.active { color: var(--primary); background: var(--primary-soft); }
+    .fab { position: fixed; right: calc(18px + env(safe-area-inset-right)); bottom: calc(82px + env(safe-area-inset-bottom)); width: 58px; height: 58px; border-radius: 999px; background: linear-gradient(180deg, var(--primary), var(--primary-2)); color: white; display: flex; align-items: center; justify-content: center; box-shadow: 0 16px 30px rgba(1,105,111,0.28); font-size: 28px; z-index: 60; }
+    .hidden-ui { display: none !important; }
+    .list-row { display:flex; align-items:center; justify-content:space-between; gap:10px; padding:12px 0; border-bottom:1px dashed var(--border); }
+    .list-row:last-child { border-bottom:none; }
+  </style>
+</head>
+<body>
+  <div class="app-shell">
+    <section id="screen-login" class="screen active">
+      <div class="card p-5 mt-4">
+        <div class="flex items-start justify-between gap-4 mb-5">
+          <div>
+            <div class="inline-flex items-center gap-3 mb-3">
+              <div class="h-12 w-12 rounded-2xl flex items-center justify-center text-white font-extrabold text-lg" style="background: linear-gradient(180deg, var(--primary), var(--primary-2));">LC</div>
+              <div>
+                <p class="text-sm font-semibold" style="color: var(--muted);">Electricity Distribution Utility</p>
+                <h1 class="text-2xl font-extrabold tracking-tight">Line Clear</h1>
+              </div>
+            </div>
+            <p class="text-sm leading-6" style="color: var(--muted);">Unified access for Operations and Workforce & Approval Console.</p>
+          </div>
+          <button id="themeToggle" class="btn btn-secondary px-4 text-sm" type="button">☾</button>
+        </div>
+        <div class="space-y-4">
+          <div><label class="block text-sm font-semibold mb-2">Employee ID</label><input class="input" value="AEE2056"></div>
+          <div><label class="block text-sm font-semibold mb-2">Password</label><input class="input" type="password" value="password@123"></div>
+          <div>
+            <div class="flex items-center justify-between mb-2"><label class="block text-sm font-semibold">Open console</label><p class="text-xs" style="color: var(--muted);">Choose your workspace</p></div>
+            <div class="space-y-3" id="loginRoleList">
+              <button type="button" class="role-chip" data-login-role="ae"><span>🧑‍💼</span><span><span class="block font-semibold">LC Operations – AE</span><span class="text-xs opacity-80">Request, monitor, and track line clear flow</span></span></button>
+              <button type="button" class="role-chip" data-login-role="crew"><span>👷</span><span><span class="block font-semibold">LC Operations – Crew</span><span class="text-xs opacity-80">Avail LC, update work, request return</span></span></button>
+              <button type="button" class="role-chip" data-login-role="operator"><span>⚡</span><span><span class="block font-semibold">LC Operations – Operator</span><span class="text-xs opacity-80">Issue and close LC permits</span></span></button>
+              <button type="button" class="role-chip active" data-login-role="aee"><span>🗂️</span><span><span class="block font-semibold">Workforce & Approval – AEE/EE</span><span class="text-xs opacity-80">Crew registry, shift planner, and approvals</span></span></button>
+            </div>
+          </div>
+          <div class="soft-card p-4"><p class="text-xs font-semibold uppercase tracking-[0.18em]" style="color: var(--muted);">Selected workspace</p><p id="selectedLoginRole" class="text-base font-bold mt-1">Workforce & Approval – AEE/EE</p><p id="selectedLoginHint" class="text-sm mt-1" style="color: var(--muted);">You will land on the approval and crew planning console.</p></div>
+          <button id="signInBtn" class="btn btn-primary w-full">Sign in securely</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="screen-operations-dashboard" class="screen">
+      <header class="flex items-start justify-between gap-3 mb-4">
+        <div><p class="text-xs font-semibold uppercase tracking-[0.2em]" style="color: var(--muted);">LC Operations</p><h1 class="text-2xl font-extrabold tracking-tight mt-1">Good afternoon</h1><p id="dashboardSubRole" class="text-sm mt-1" style="color: var(--muted);">Assistant Engineer · Yelahanka O&M</p></div>
+        <button class="h-11 w-11 rounded-2xl flex items-center justify-center card text-base relative">🔔<span class="absolute -top-1 -right-1 min-w-[20px] h-5 px-1 rounded-full text-[11px] font-bold flex items-center justify-center text-white" style="background: var(--danger);">3</span></button>
+      </header>
+      <section class="card p-4 mb-4">
+        <div class="flex items-center justify-between gap-3 mb-3"><div><p class="text-xs font-semibold uppercase tracking-[0.18em]" style="color: var(--muted);">Role context</p><p id="dashboardRoleTitle" class="text-lg font-extrabold mt-1">Assistant Engineer</p></div><span id="dashboardRoleBadge" class="chip chip-primary">Request flow</span></div>
+        <div class="flex gap-2 overflow-auto pb-1" id="dashboardRoleSwitchers"><button class="filter-chip active" data-role="ae">AE</button><button class="filter-chip" data-role="crew">Crew</button><button class="filter-chip" data-role="operator">Operator</button></div>
+      </section>
+      <section class="grid grid-cols-2 gap-3 mb-4"><div class="metric"><p class="text-xs font-semibold uppercase tracking-[0.18em]" style="color: var(--muted);">Pending</p><p id="metric1" class="text-2xl font-extrabold mt-2">4</p><p class="text-xs mt-1" style="color: var(--muted);">Awaiting action</p></div><div class="metric"><p class="text-xs font-semibold uppercase tracking-[0.18em]" style="color: var(--muted);">Active LC</p><p id="metric2" class="text-2xl font-extrabold mt-2">2</p><p class="text-xs mt-1" style="color: var(--muted);">Live permits today</p></div></section>
+      <section class="card p-4 mb-4"><div class="flex items-center justify-between gap-3 mb-3"><div><h2 class="text-base font-extrabold">Permit status mix</h2><p class="text-sm mt-1" style="color: var(--muted);">Operational visibility for line clear flow.</p></div><span class="chip chip-blue">Live</span></div><div class="chart-wrap"><canvas id="permitMixChart"></canvas></div></section>
+      <section class="space-y-3"><article class="card p-4"><div class="flex items-start justify-between gap-3"><div><div class="flex items-center gap-2 flex-wrap"><h3 class="text-base font-extrabold">LC-2026-014</h3><span class="chip chip-warning">Pending Approval</span></div><p class="text-sm font-semibold mt-2">Feeder-101 · 11 kV</p><p class="text-sm mt-1" style="color: var(--muted);">Insulator replacement at Pole 23</p></div><button class="btn btn-primary !min-h-[44px] px-4 text-sm">View</button></div></article></section>
+    </section>
+
+    <section id="screen-workforce-dashboard" class="screen">
+      <header class="flex items-start justify-between gap-3 mb-4">
+        <div><p class="text-xs font-semibold uppercase tracking-[0.2em]" style="color: var(--muted);">Workforce & Approval Console</p><h1 class="text-2xl font-extrabold tracking-tight mt-1">AEE / EE command view</h1><p class="text-sm mt-1" style="color: var(--muted);">Crew registry, shift readiness, and approvals</p></div>
+        <button class="h-11 w-11 rounded-2xl flex items-center justify-center card text-base relative">🔔<span class="absolute -top-1 -right-1 min-w-[20px] h-5 px-1 rounded-full text-[11px] font-bold flex items-center justify-center text-white" style="background: var(--danger);">5</span></button>
+      </header>
+
+      <section class="card p-4 mb-4">
+        <div class="grid grid-cols-2 gap-3">
+          <div class="metric"><p class="text-xs font-semibold uppercase tracking-[0.18em]" style="color: var(--muted);">Pending approvals</p><p class="text-2xl font-extrabold mt-2">6</p><p class="text-xs mt-1" style="color: var(--muted);">3 urgent today</p></div>
+          <div class="metric"><p class="text-xs font-semibold uppercase tracking-[0.18em]" style="color: var(--muted);">Shift coverage</p><p class="text-2xl font-extrabold mt-2">87%</p><p class="text-xs mt-1" style="color: var(--muted);">3 vacancies across shifts</p></div>
+        </div>
+      </section>
+
+      <section class="soft-card p-3 mb-4">
+        <div class="flex gap-2 overflow-auto pb-1" id="workforceTabs">
+          <button class="tab active" data-workforce-tab="overview">Overview</button>
+          <button class="tab" data-workforce-tab="approvals">Approvals</button>
+          <button class="tab" data-workforce-tab="crew">Crew</button>
+          <button class="tab" data-workforce-tab="planner">Planner</button>
+        </div>
+      </section>
+
+      <section id="tab-overview" class="workforce-panel">
+        <section class="card p-4 mb-4">
+          <div class="flex items-center justify-between gap-3 mb-3"><div><h2 class="text-base font-extrabold">Shift staffing mix</h2><p class="text-sm mt-1" style="color: var(--muted);">Coverage across Shift 1, Shift 2, and Shift 3.</p></div><span class="chip chip-purple">Today</span></div>
+          <div class="mini-chart-wrap"><canvas id="shiftCoverageChart"></canvas></div>
+        </section>
+        <section class="card p-4 mb-4">
+          <div class="flex items-center justify-between gap-3 mb-3"><div><h2 class="text-base font-extrabold">Approval queue</h2><p class="text-sm mt-1" style="color: var(--muted);">Tap Approvals tab for action.</p></div><button class="btn btn-soft !min-h-[40px] px-4 open-approvals">Open</button></div>
+          <div class="list-row"><div><p class="font-semibold text-sm">LC-2026-018</p><p class="text-sm" style="color: var(--muted);">Feeder-212 · Crew not fully assigned</p></div><span class="chip chip-warning">Pending</span></div>
+          <div class="list-row"><div><p class="font-semibold text-sm">LC-2026-017</p><p class="text-sm" style="color: var(--muted);">HT patrol work · Shift 3</p></div><span class="chip chip-danger">Urgent</span></div>
+        </section>
+      </section>
+
+      <section id="tab-approvals" class="workforce-panel hidden-ui">
+        <section class="card p-4 mb-4">
+          <div class="flex items-center justify-between gap-3 mb-3"><div><h2 class="text-base font-extrabold">Approval inbox</h2><p class="text-sm mt-1" style="color: var(--muted);">Review crew readiness before approving LC.</p></div><span class="chip chip-primary">AEE / EE</span></div>
+          <div class="space-y-3">
+            <div class="soft-card p-4"><div class="flex items-start justify-between gap-3"><div><p class="font-bold text-sm">LC-2026-018</p><p class="text-sm mt-1" style="color: var(--muted);">Feeder-212 · Shift 2 · 3 crew assigned / 1 vacancy</p></div><button class="btn btn-primary !min-h-[40px] px-4 text-sm open-approval-detail">Review</button></div></div>
+            <div class="soft-card p-4"><div class="flex items-start justify-between gap-3"><div><p class="font-bold text-sm">LC-2026-017</p><p class="text-sm mt-1" style="color: var(--muted);">Emergency section work · Operator available</p></div><button class="btn btn-secondary !min-h-[40px] px-4 text-sm">Review</button></div></div>
+          </div>
+        </section>
+      </section>
+
+      <section id="tab-crew" class="workforce-panel hidden-ui">
+        <section class="card p-4 mb-4">
+          <div class="flex items-center justify-between gap-3 mb-3"><div><h2 class="text-base font-extrabold">Crew master</h2><p class="text-sm mt-1" style="color: var(--muted);">Manage registered crew members and skills.</p></div><button class="btn btn-primary !min-h-[40px] px-4 text-sm open-crew-register">+ Add</button></div>
+          <div class="list-row"><div><p class="font-semibold text-sm">Rakesh H</p><p class="text-sm" style="color: var(--muted);">Line Man · HT · Section East</p></div><span class="chip chip-success">Active</span></div>
+          <div class="list-row"><div><p class="font-semibold text-sm">Manju K</p><p class="text-sm" style="color: var(--muted);">Helper · LT · Section East</p></div><span class="chip chip-primary">Shift 2</span></div>
+          <div class="list-row"><div><p class="font-semibold text-sm">Suresh P</p><p class="text-sm" style="color: var(--muted);">Driver · Support</p></div><span class="chip chip-warning">Reserve</span></div>
+        </section>
+      </section>
+
+      <section id="tab-planner" class="workforce-panel hidden-ui">
+        <section class="card p-4 mb-4">
+          <div class="flex items-center justify-between gap-3 mb-3"><div><h2 class="text-base font-extrabold">Daily shift planner</h2><p class="text-sm mt-1" style="color: var(--muted);">Assign crew by date and shift.</p></div><button class="btn btn-soft !min-h-[40px] px-4 text-sm open-planner-detail">Open</button></div>
+          <div class="grid grid-cols-3 gap-2 mb-3"><button class="mini-chip active">Shift 1</button><button class="mini-chip">Shift 2</button><button class="mini-chip">Shift 3</button></div>
+          <div class="soft-card p-4"><p class="font-semibold text-sm">Assigned today</p><p class="text-sm mt-1" style="color: var(--muted);">Shift 1: 4 members · Shift 2: 3 members · Shift 3: 5 members</p></div>
+        </section>
+      </section>
+    </section>
+
+    <section id="screen-approval-detail" class="screen">
+      <div class="flex items-center justify-between mb-4"><button class="btn btn-secondary px-4 back-workforce">←</button><p class="text-sm font-bold">Approval Detail</p><span class="chip chip-warning">Pending</span></div>
+      <div class="card p-4 mb-4">
+        <h2 class="text-lg font-extrabold">LC-2026-018</h2>
+        <p class="text-sm mt-1" style="color: var(--muted);">Feeder-212 · Shift 2 · Planned maintenance</p>
+        <div class="mt-4 space-y-3">
+          <div class="soft-card p-4"><p class="text-sm font-semibold">Crew readiness</p><p class="text-sm mt-1" style="color: var(--muted);">Assigned: Rakesh, Manju, Suresh · Vacancy: 1 Helper</p></div>
+          <div class="soft-card p-4"><p class="text-sm font-semibold">Operator coverage</p><p class="text-sm mt-1" style="color: var(--muted);">Station operator available for Shift 2 at Yelahanka MUSS.</p></div>
+          <div><label class="block text-sm font-semibold mb-2">Approval comment</label><textarea class="textarea">Crew partially assigned. Approving with instruction to assign one additional helper before issue.</textarea></div>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 gap-3 mb-3"><button class="btn btn-secondary">Return</button><button class="btn btn-primary approve-and-send">Approve</button></div>
+      <button class="btn btn-soft w-full send-to-operations">Send to LC Operations</button>
+    </section>
+
+    <section id="screen-crew-register" class="screen">
+      <div class="flex items-center justify-between mb-4"><button class="btn btn-secondary px-4 back-workforce">←</button><p class="text-sm font-bold">Register Crew Member</p><span class="chip chip-primary">Crew Master</span></div>
+      <div class="card p-4 space-y-4">
+        <div><label class="block text-sm font-semibold mb-2">Employee Name</label><input class="input" value="Anil Kumar"></div>
+        <div><label class="block text-sm font-semibold mb-2">Employee ID</label><input class="input" value="CR3041"></div>
+        <div><label class="block text-sm font-semibold mb-2">Designation</label><select class="select"><option>Helper</option><option>Line Man</option><option>Driver</option></select></div>
+        <div><label class="block text-sm font-semibold mb-2">Skill</label><select class="select"><option>LT Support</option><option>HT Work</option></select></div>
+      </div>
+      <button class="btn btn-primary w-full mt-4 save-crew">Save Crew Member</button>
+    </section>
+
+    <section id="screen-planner-detail" class="screen">
+      <div class="flex items-center justify-between mb-4"><button class="btn btn-secondary px-4 back-workforce">←</button><p class="text-sm font-bold">Daily Shift Planner</p><span class="chip chip-purple">Planner</span></div>
+      <div class="card p-4 mb-4">
+        <div class="grid grid-cols-3 gap-2 mb-4"><button class="mini-chip">Shift 1</button><button class="mini-chip active">Shift 2</button><button class="mini-chip">Shift 3</button></div>
+        <div class="soft-card p-4 mb-3"><p class="text-sm font-semibold">Available crew</p><p class="text-sm mt-1" style="color: var(--muted);">Rakesh H, Manju K, Suresh P, Anil K</p></div>
+        <div class="soft-card p-4"><p class="text-sm font-semibold">Assigned for Shift 2</p><p class="text-sm mt-1" style="color: var(--muted);">Rakesh H, Manju K, Suresh P</p></div>
+      </div>
+      <div class="grid grid-cols-2 gap-3"><button class="btn btn-secondary">Reassign</button><button class="btn btn-primary apply-shift-plan">Apply plan</button></div>
+    </section>
+  </div>
+
+  <button id="fabNew" class="fab hidden-ui" aria-label="Primary action">＋</button>
+  <nav id="bottomNav" class="bottom-nav hidden-ui">
+    <div class="grid grid-cols-5 gap-1">
+      <button class="nav-item active go-home"><span class="text-lg">⌂</span><span>Home</span></button>
+      <button class="nav-item open-approvals"><span class="text-lg">✓</span><span>Approve</span></button>
+      <button class="nav-item open-planner-detail"><span class="text-lg">☰</span><span>Planner</span></button>
+      <button class="nav-item open-operations-dashboard"><span class="text-lg">⚡</span><span>Ops</span></button>
+      <button class="nav-item"><span class="text-lg">◉</span><span>Profile</span></button>
+    </div>
+  </nav>
+
+  <script>
+    const screens = [...document.querySelectorAll('.screen')];
+    const bottomNav = document.getElementById('bottomNav');
+    const fabNew = document.getElementById('fabNew');
+    let currentWorkspace = 'aee';
+    let permitMixChart, shiftCoverageChart;
+
+    const loginHints = {
+      ae: ['LC Operations – AE', 'You will land on the AE operations dashboard.'],
+      crew: ['LC Operations – Crew', 'You will land on the crew execution dashboard.'],
+      operator: ['LC Operations – Operator', 'You will land on the station operator dashboard.'],
+      aee: ['Workforce & Approval – AEE/EE', 'You will land on the approval and crew planning console.']
+    };
+
+    const opsRoleData = {
+      ae: { title:'Assistant Engineer', badge:'Request flow', sub:'Assistant Engineer · Yelahanka O&M', permitMix:[4,2,1,1] },
+      crew: { title:'Crew Member', badge:'Execution flow', sub:'Crew Member · Shift 2 · Section East', permitMix:[1,1,3,0] },
+      operator: { title:'Station Operator', badge:'Issue / Return', sub:'Station Operator · MUSS Yelahanka', permitMix:[2,3,5,1] }
+    };
+
+    const getCss = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+
+    function showScreen(id) {
+      screens.forEach(s => s.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+      const inApp = id !== 'screen-login';
+      bottomNav.classList.toggle('hidden-ui', !inApp);
+      const workforceHome = id === 'screen-workforce-dashboard';
+      const operationsHome = id === 'screen-operations-dashboard';
+      fabNew.classList.toggle('hidden-ui', !(operationsHome && currentWorkspace !== 'aee'));
+      fabNew.textContent = currentWorkspace === 'aee' ? '＋' : '＋';
+      if (id === 'screen-workforce-dashboard') renderWorkforceCharts();
+      if (id === 'screen-operations-dashboard') renderOpsChart();
+      window.scrollTo(0,0);
+    }
+
+    function setWorkspace(role) {
+      currentWorkspace = role;
+      if (role === 'aee') {
+        showScreen('screen-workforce-dashboard');
+      } else {
+        applyOpsRole(role);
+        showScreen('screen-operations-dashboard');
+      }
+    }
+
+    document.querySelectorAll('[data-login-role]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('[data-login-role]').forEach(x => x.classList.remove('active'));
+        btn.classList.add('active');
+        currentWorkspace = btn.dataset.loginRole;
+        document.getElementById('selectedLoginRole').textContent = loginHints[currentWorkspace][0];
+        document.getElementById('selectedLoginHint').textContent = loginHints[currentWorkspace][1];
+      });
+    });
+
+    document.getElementById('signInBtn').addEventListener('click', () => setWorkspace(currentWorkspace));
+
+    function renderOpsChart() {
+      if (!document.getElementById('permitMixChart')) return;
+      if (permitMixChart) permitMixChart.destroy();
+      const data = opsRoleData[currentWorkspace] || opsRoleData.ae;
+      permitMixChart = new Chart(document.getElementById('permitMixChart'), {
+        type: 'doughnut',
+        data: { labels:['Pending','Approved','Active','Returned'], datasets:[{ data:data.permitMix, backgroundColor:[getCss('--warning'), getCss('--primary'), getCss('--success'), getCss('--blue')], borderColor:getCss('--surface'), borderWidth:4 }] },
+        options: { responsive:true, maintainAspectRatio:false, cutout:'64%', plugins:{ legend:{ position:'bottom', labels:{ color:getCss('--muted'), usePointStyle:true, boxWidth:10, padding:14, font:{ size:11, weight:'700' } } } } }
+      });
+    }
+
+    function applyOpsRole(role) {
+      currentWorkspace = role;
+      const r = opsRoleData[role];
+      document.getElementById('dashboardRoleTitle').textContent = r.title;
+      document.getElementById('dashboardRoleBadge').textContent = r.badge;
+      document.getElementById('dashboardSubRole').textContent = r.sub;
+      document.querySelectorAll('#dashboardRoleSwitchers [data-role]').forEach(x => x.classList.toggle('active', x.dataset.role === role));
+      renderOpsChart();
+    }
+
+    document.querySelectorAll('#dashboardRoleSwitchers [data-role]').forEach(btn => btn.addEventListener('click', () => applyOpsRole(btn.dataset.role)));
+
+    function renderWorkforceCharts() {
+      if (!document.getElementById('shiftCoverageChart')) return;
+      if (shiftCoverageChart) shiftCoverageChart.destroy();
+      shiftCoverageChart = new Chart(document.getElementById('shiftCoverageChart'), {
+        type:'bar',
+        data:{ labels:['Shift 1','Shift 2','Shift 3'], datasets:[{ label:'Assigned crew', data:[4,3,5], backgroundColor:[getCss('--blue'), getCss('--primary'), getCss('--purple')], borderRadius:12, borderSkipped:false, maxBarThickness:40 }] },
+        options:{ responsive:true, maintainAspectRatio:false, plugins:{ legend:{ display:false } }, scales:{ x:{ ticks:{ color:getCss('--muted'), font:{ size:11, weight:'700' } }, grid:{ display:false } }, y:{ beginAtZero:true, ticks:{ color:getCss('--muted'), precision:0, stepSize:1 }, grid:{ color:getCss('--border') } } } }
+      });
+    }
+
+    document.querySelectorAll('[data-workforce-tab]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('[data-workforce-tab]').forEach(x => x.classList.remove('active'));
+        btn.classList.add('active');
+        document.querySelectorAll('.workforce-panel').forEach(p => p.classList.add('hidden-ui'));
+        document.getElementById('tab-' + btn.dataset.workforceTab).classList.remove('hidden-ui');
+      });
+    });
+
+    document.querySelectorAll('.open-approvals').forEach(btn => btn.addEventListener('click', () => {
+      showScreen('screen-workforce-dashboard');
+      document.querySelectorAll('[data-workforce-tab]').forEach(x => x.classList.remove('active'));
+      document.querySelector('[data-workforce-tab="approvals"]').classList.add('active');
+      document.querySelectorAll('.workforce-panel').forEach(p => p.classList.add('hidden-ui'));
+      document.getElementById('tab-approvals').classList.remove('hidden-ui');
+    }));
+
+    document.querySelectorAll('.open-approval-detail').forEach(btn => btn.addEventListener('click', () => showScreen('screen-approval-detail')));
+    document.querySelectorAll('.open-crew-register').forEach(btn => btn.addEventListener('click', () => showScreen('screen-crew-register')));
+    document.querySelectorAll('.open-planner-detail').forEach(btn => btn.addEventListener('click', () => showScreen('screen-planner-detail')));
+    document.querySelectorAll('.back-workforce').forEach(btn => btn.addEventListener('click', () => showScreen('screen-workforce-dashboard')));
+    document.querySelectorAll('.go-home').forEach(btn => btn.addEventListener('click', () => currentWorkspace === 'aee' ? showScreen('screen-workforce-dashboard') : showScreen('screen-operations-dashboard')));
+    document.querySelectorAll('.open-operations-dashboard').forEach(btn => btn.addEventListener('click', () => { applyOpsRole('ae'); showScreen('screen-operations-dashboard'); }));
+
+    document.querySelectorAll('.approve-and-send').forEach(btn => btn.addEventListener('click', () => alert('LC approved successfully.')));
+    document.querySelectorAll('.send-to-operations').forEach(btn => btn.addEventListener('click', () => { applyOpsRole('operator'); showScreen('screen-operations-dashboard'); alert('Approved LC pushed to LC Operations dashboard for issue workflow.'); }));
+    document.querySelectorAll('.save-crew').forEach(btn => btn.addEventListener('click', () => { alert('Crew member registered.'); showScreen('screen-workforce-dashboard'); }));
+    document.querySelectorAll('.apply-shift-plan').forEach(btn => btn.addEventListener('click', () => { alert('Shift plan applied. Updated crew availability will be reflected in approvals and operations.'); showScreen('screen-workforce-dashboard'); }));
+
+    const root = document.documentElement;
+    const themeToggle = document.getElementById('themeToggle');
+    let isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    root.setAttribute('data-theme', isDark ? 'dark' : 'light');
+    themeToggle.textContent = isDark ? '☀︎' : '☾';
+    themeToggle.addEventListener('click', () => {
+      isDark = !isDark;
+      root.setAttribute('data-theme', isDark ? 'dark' : 'light');
+      themeToggle.textContent = isDark ? '☀︎' : '☾';
+      if (document.getElementById('screen-workforce-dashboard').classList.contains('active')) renderWorkforceCharts();
+      if (document.getElementById('screen-operations-dashboard').classList.contains('active')) renderOpsChart();
+    });
+  </script>
+</body>
+</html>
+EOF && ls -l output/lc-integrated-operations-workforce.html
