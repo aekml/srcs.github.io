@@ -15,6 +15,7 @@ const copiedMsg = document.getElementById("copiedMsg");
 const regionSearch = document.getElementById("regionSearch");
 const designationSearch = document.getElementById("designationSearch");
 const clearSearchBtn = document.getElementById("clearSearchBtn");
+const exportCsvBtn = document.getElementById("exportCsvBtn");
 
 // App State
 const state = {
@@ -297,4 +298,63 @@ document.addEventListener("keydown", e => {
     });
     render();
   }
+});
+
+// --- CSV Export Logic ---
+exportCsvBtn.addEventListener("click", () => {
+  if (!filteredData || filteredData.length === 0) {
+    alert("No data to export.");
+    return;
+  }
+
+  // 1. Define the CSV headers
+  const headers = [
+    "ID", "Code", "Name", "Designation", "Email", 
+    "Mobile", "Office Name", "Level", "Zone", "Address"
+  ];
+
+  // 2. Build the CSV string
+  const csvRows = [headers.join(",")]; // Add header row
+
+  filteredData.forEach(d => {
+    const row = [
+      d.id || "",
+      d.code || "",
+      d.officer?.name || "",
+      d.officer?.designation || "",
+      d.officer?.email || "",
+      d.officer?.mobile || "",
+      d.officeName || "",
+      d.level || "",
+      d.zone || "",
+      d.address || ""
+    ];
+
+    // Escape quotes and commas inside the fields
+    const escapedRow = row.map(val => {
+      const str = String(val).replace(/"/g, '""'); // Double up quotes for escaping
+      return `"${str}"`; // Wrap every field in quotes
+    });
+
+    csvRows.push(escapedRow.join(","));
+  });
+
+  const csvString = csvRows.join("\n");
+
+  // 3. Create a Blob and trigger the download
+  const blob = new Blob([csvString], { type: "text/csv;charset=utf-8;" });
+  const url = URL.createObjectURL(blob);
+  
+  const link = document.createElement("a");
+  link.setAttribute("href", url);
+  
+  // Create a clean filename with today's date
+  const dateStr = new Date().toISOString().split("T")[0];
+  link.setAttribute("download", `bescom_contacts_${dateStr}.csv`);
+  
+  link.style.display = "none";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(url); // Clean up memory
 });
