@@ -1,7 +1,9 @@
 let data = [];
+let filteredData = [];
 let selectedEmails = new Set();
 let lastClickedIndex = null;
 
+// DOM Elements
 const container = document.getElementById("cardContainer");
 const searchInput = document.getElementById("searchInput");
 const regionFilters = document.getElementById("regionFilters");
@@ -12,298 +14,287 @@ const clearBtn = document.getElementById("clearBtn");
 const copiedMsg = document.getElementById("copiedMsg");
 const regionSearch = document.getElementById("regionSearch");
 const designationSearch = document.getElementById("designationSearch");
-const clearSearchBtn =   document.getElementById("clearSearchBtn");
+const clearSearchBtn = document.getElementById("clearSearchBtn");
 
-/* DESIGNATION ORDER (Hierarchy) */
+// App State
+const state = {
+  search: "",
+  activeRegions: new Set(),
+  activeDesignations: new Set(),
+  renderLimit: 250
+};
+
+// Hierarchy sorting
 const designationOrder = [
-    "Assistant Engineer",
-    "Assistant Executive Engineer",
-    "Executive Engineer",
-    "Superintending Engineer",
-    "Chief Engineer"
+  "Assistant Engineer",
+  "Assistant Executive Engineer",
+  "Executive Engineer",
+  "Superintending Engineer",
+  "Chief Engineer",
+  "Zone Officer",
+  "Circle Officer",
+  "Division Officer",
+  "Subdivision Officer",
+  "Section Officer"
 ];
 
+// Load and index data
 fetch("contacts.json")
-    .then(res => res.json())
-    .then(json => {
-        data = json;
-        initFilters();
-        render();
-    });
+  .then(res => res.json())
+  .then(json => {
+    data = json.map((d, i) => ({
+      ...d,
+      _rowIndex: i,
+      _initials: (d.officer?.name || "")
+        .split(" ")
+        .filter(Boolean)
+        .map(n => n[0])
+        .join("")
+        .slice(0, 3), // Max 3 initials
+      _search: [
+        d.id ?? "",
+        d.code ?? "",
+        d.level ?? "",
+        d.zone ?? "",
+        d.officeName ?? "",
+        d.address ?? "",
+        d.officer?.name ?? "",
+        d.officer?.designation ?? "",
+        d.officer?.email ?? "",
+        d.officer?.mobile ?? ""
+      ].join(" ").toLowerCase()
+    }));
 
-function createPills(container, values) {
-
-    container.innerHTML = "";
-
-    values.forEach(v => {
-        const label = document.createElement("label");
-        label.className = "pill";
-
-        label.innerHTML = `
-            <input type="checkbox" value="${v}" hidden>
-            ${v}
-        `;
-
-        const checkbox = label.querySelector("input");
-
-        label.addEventListener("click", () => {
-            checkbox.checked = !checkbox.checked;
-            label.classList.toggle("active", checkbox.checked);
-            render();
-        });
-
-        container.appendChild(label);
-    });
-}
-
-function initFilters() {
-    const regions =
-        [...new Set(data.map(d => d.zone))].sort();
-
-    const designations =
-    [...new Set(data.map(d => d.officer.designation))]
-        .sort((a, b) => {
-
-            const ai = designationOrder.indexOf(a);
-            const bi = designationOrder.indexOf(b);
-
-            /* known hierarchy first */
-            if (ai !== -1 && bi !== -1)
-                return ai - bi;
-
-            /* known before unknown */
-            if (ai !== -1) return -1;
-            if (bi !== -1) return 1;
-
-            /* fallback alphabetical */
-            return a.localeCompare(b);
-        });
-
-    createPills(regionFilters, regions);
-    createPills(designationFilters, designations);
-}
-
-function getActiveFilters(container) {
-    return [...container.querySelectorAll("input")]
-        .filter(i => i.checked)
-        .map(i => i.value);
-}
-
-function getFilteredData(){
-
-    const search = searchInput.value.toLowerCase();
-    const activeRegions = getActiveFilters(regionFilters);
-    const activeDesignations = getActiveFilters(designationFilters);
-
-    return data.filter(d => {
-
-        const textMatch =
-            d.officer.name.toLowerCase().includes(search) ||
-            d.officer.email.toLowerCase().includes(search) ||
-            d.officer.mobile.includes(search) ||
-            d.officeName.toLowerCase().includes(search) ||
-            d.officer.designation.toLowerCase().includes(search);
-
-        const regionMatch =
-            !activeRegions.length || activeRegions.includes(d.zone);
-
-        const designationMatch =
-            !activeDesignations.length ||
-            activeDesignations.includes(d.officer.designation);
-
-        return textMatch && regionMatch && designationMatch;
-    });
-}
-
-function render() {
-    const search = searchInput.value.toLowerCase();
-    const activeRegions = getActiveFilters(regionFilters);
-    const activeDesignations = getActiveFilters(designationFilters);
-
-/*    const filtered = data.filter(d => {
-        const textMatch =
-            d.officer.name.toLowerCase().includes(search) ||
-            d.officer.email.toLowerCase().includes(search) ||
-            d.officer.mobile.includes(search) ||
-            d.officeName.toLowerCase().includes(search) ||
-            d.officer.designation.toLowerCase().includes(search);
-
-        const regionMatch =
-            !activeRegions.length || activeRegions.includes(d.zone);
-
-        const designationMatch =
-            !activeDesignations.length ||
-            activeDesignations.includes(d.officer.designation);
-
-        return textMatch && regionMatch && designationMatch;
-    });*/
-	
-	const filtered = getFilteredData();
-
-    resultCount.innerText = `${filtered.length} results`;
-    container.innerHTML = "";
-
-    filtered.forEach((o, index) => {
-        const card = document.createElement("div");
-        card.className = "card";
-        if (selectedEmails.has(o.officer.email))
-            card.classList.add("selected");
-
-        const initials = o.officer.name.split(" ")
-            .map(n => n[0]).join("");
-
-        card.innerHTML = `
-            <input type="checkbox"
-                ${selectedEmails.has(o.officer.email) ? "checked" : ""}>
-            <div class="avatar">${initials}</div>
-            <div class="name">${o.officer.name}</div>
-            <div class="designation">${o.officer.designation}</div>
-
-            <div class="meta">
-                <i class="fa-solid fa-building"></i>
-                ${o.officeName}
-            </div>
-
-            <div class="meta email-row">
-                <span>
-                    <i class="fa-solid fa-envelope"></i>
-                    ${o.officer.email}
-                </span>
-                <i class="fa-regular fa-copy copy-icon"></i>
-            </div>
-
-            <div class="meta">
-                <i class="fa-solid fa-phone"></i>
-                <a href="tel:${o.officer.mobile}">${o.officer.mobile}</a>
-                <a href="https://wa.me/${o.officer.mobile.replace(/\D/g,'')}" target="_blank">
-                    <i class="fa-brands fa-whatsapp whatsapp"></i>
-                </a>
-            </div>
-        `;
-
-        card.addEventListener("click", e => {
-
-			if (e.target.closest(".copy-icon") ||
-				e.target.tagName === "A" ||
-				e.target.tagName === "INPUT")
-				return;
-
-			toggleSelection(
-				o.officer.email,
-				index,
-				e.shiftKey
-			);
-		});
-
-        card.querySelector(".copy-icon")
-            .addEventListener("click", e => {
-                e.stopPropagation();
-                navigator.clipboard.writeText(o.officer.email);
-                showCopied();
-            });
-
-        container.appendChild(card);
-    });
-}
-
-function toggleSelection(email, index, shiftKey) {
-
-    const filtered = getFilteredData();
-
-    /* SHIFT RANGE SELECT */
-    if (shiftKey && lastClickedIndex !== null) {
-
-        const start = Math.min(index, lastClickedIndex);
-        const end   = Math.max(index, lastClickedIndex);
-
-        for (let i = start; i <= end; i++) {
-            selectedEmails.add(filtered[i].officer.email);
-        }
-
-    } else {
-
-        if (selectedEmails.has(email))
-            selectedEmails.delete(email);
-        else
-            selectedEmails.add(email);
-    }
-
-    lastClickedIndex = index;
-
+    initFilters();
     render();
+  });
+
+// Utility: Debounce function for search
+function debounce(fn, delay = 180) {
+  let t;
+  return (...args) => {
+    clearTimeout(t);
+    t = setTimeout(() => fn(...args), delay);
+  };
+}
+
+// Render dynamic filter pills
+function createPills(containerEl, values, type) {
+  containerEl.innerHTML = "";
+
+  values.forEach(v => {
+    const label = document.createElement("label");
+    label.className = "pill";
+    // Fixed: Properly inject the hidden checkbox inside the label
+    label.innerHTML = `<input type="checkbox" value="${v}" hidden> ${v}`;
+
+    const checkbox = label.querySelector("input");
+
+    label.addEventListener("click", (e) => {
+      // Prevent double-firing from label + input interaction
+      if (e.target === checkbox) return; 
+      
+      checkbox.checked = !checkbox.checked;
+      label.classList.toggle("active", checkbox.checked);
+
+      if (type === "region") {
+        checkbox.checked ? state.activeRegions.add(v) : state.activeRegions.delete(v);
+      } else {
+        checkbox.checked ? state.activeDesignations.add(v) : state.activeDesignations.delete(v);
+      }
+
+      render();
+    });
+
+    containerEl.appendChild(label);
+  });
+}
+
+// Initialize filters
+function initFilters() {
+  const regions = [...new Set(data.map(d => d.zone))].filter(Boolean).sort();
+
+  const designations = [...new Set(data.map(d => d.officer?.designation))].filter(Boolean).sort((a, b) => {
+    const ai = designationOrder.indexOf(a);
+    const bi = designationOrder.indexOf(b);
+    if (ai !== -1 && bi !== -1) return ai - bi;
+    if (ai !== -1) return -1;
+    if (bi !== -1) return 1;
+    return a.localeCompare(b);
+  });
+
+  createPills(regionFilters, regions, "region");
+  createPills(designationFilters, designations, "designation");
+}
+
+// Filter engine
+function getFilteredData() {
+  const q = state.search;
+  const hasRegionFilter = state.activeRegions.size > 0;
+  const hasDesignationFilter = state.activeDesignations.size > 0;
+
+  return data.filter(d => {
+    if (q && !d._search.includes(q)) return false;
+    if (hasRegionFilter && !state.activeRegions.has(d.zone)) return false;
+    if (hasDesignationFilter && !state.activeDesignations.has(d.officer?.designation)) return false;
+    return true;
+  });
+}
+
+// Main Render Loop
+function render() {
+  filteredData = getFilteredData();
+
+  // Cap DOM elements to prevent lag
+  const visible = filteredData.slice(0, state.renderLimit);
+  
+  resultCount.textContent = filteredData.length > state.renderLimit
+      ? `${filteredData.length} results • showing first ${state.renderLimit}`
+      : `${filteredData.length} results`;
+
+  container.innerHTML = visible.map((o, index) => {
+    const email = o.officer?.email || "";
+    const selected = selectedEmails.has(email);
+
+    return `
+      <div class="card ${selected ? "selected" : ""}" data-index="${index}" data-email="${email}">
+        <input type="checkbox" ${selected ? "checked" : ""} tabindex="-1" />
+        <div class="avatar">${o._initials}</div>
+        <div class="name">${o.officer?.name || "Unknown"}</div>
+        <div class="designation">${o.officer?.designation || ""}</div>
+        <div class="meta"><i class="fa-solid fa-building"></i> ${o.officeName || ""}</div>
+        <div class="meta"><i class="fa-solid fa-location-dot"></i> ${o.zone || ""} • ${o.level || ""}</div>
+        <div class="meta email-row">
+          <span><i class="fa-solid fa-envelope"></i> ${email}</span>
+          <i class="fa-regular fa-copy copy-icon" data-copy="${email}"></i>
+        </div>
+        <div class="meta">
+          <i class="fa-solid fa-phone"></i>
+          <a href="tel:${o.officer?.mobile}">${o.officer?.mobile || ""}</a>
+          <a href="https://wa.me/${(o.officer?.mobile || "").replace(/\D/g, "")}" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-whatsapp whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    `;
+  }).join("");
+}
+
+// Selection logic (handles Shift + Click range selection)
+function toggleSelection(email, index, shiftKey) {
+  if (!email) return;
+
+  if (shiftKey && lastClickedIndex !== null) {
+    const start = Math.min(index, lastClickedIndex);
+    const end = Math.max(index, lastClickedIndex);
+    for (let i = start; i <= end; i++) {
+      if (filteredData[i]?.officer?.email) {
+        selectedEmails.add(filteredData[i].officer.email);
+      }
+    }
+  } else {
+    if (selectedEmails.has(email)) selectedEmails.delete(email);
+    else selectedEmails.add(email);
+    lastClickedIndex = index;
+  }
+
+  render();
 }
 
 function showCopied() {
-    copiedMsg.style.display = "block";
-    setTimeout(() => copiedMsg.style.display = "none", 1500);
+  copiedMsg.style.display = "block";
+  setTimeout(() => {
+    copiedMsg.style.display = "none";
+  }, 1200);
 }
 
-function filterPills(searchInput, container) {
-
-    const term = searchInput.value.toLowerCase();
-
-    container.querySelectorAll(".pill").forEach(pill => {
-        const text = pill.textContent.toLowerCase();
-
-        pill.style.display =
-            text.includes(term) ? "flex" : "none";
-    });
+// Pill quick-search filter
+function filterPills(inputEl, containerEl) {
+  const term = inputEl.value.toLowerCase().trim();
+  containerEl.querySelectorAll(".pill").forEach(pill => {
+    pill.style.display = pill.textContent.toLowerCase().includes(term) ? "flex" : "none";
+  });
 }
+
+/* --- EVENT LISTENERS --- */
+
+// Card Event Delegation (handles all clicks inside the grid efficiently)
+container.addEventListener("click", e => {
+  // 1. Handle Copy Icon Click
+  const copyEl = e.target.closest("[data-copy]");
+  if (copyEl) {
+    e.stopPropagation();
+    navigator.clipboard.writeText(copyEl.dataset.copy);
+    showCopied();
+    return;
+  }
+
+  // 2. Handle Card Selection Click
+  const card = e.target.closest(".card");
+  if (!card) return;
+  
+  // Ignore clicks on links or the checkbox directly to prevent double-firing
+  if (e.target.closest("a") || e.target.tagName === "INPUT") {
+    // If they clicked the checkbox, we still want to toggle selection,
+    // so we let the wrapper handle the logic below, but stop native propagation.
+    if (e.target.tagName !== "INPUT") return;
+  }
+
+  toggleSelection(card.dataset.email, Number(card.dataset.index), e.shiftKey);
+});
+
+// Debounced Search Input
+const debouncedSearch = debounce(value => {
+  state.search = value.trim().toLowerCase();
+  clearSearchBtn.classList.toggle("show", value.length > 0);
+  lastClickedIndex = null; // Reset shift-click anchor when search changes
+  render();
+}, 180);
+
+searchInput.addEventListener("input", e => {
+  debouncedSearch(e.target.value);
+});
+
+clearSearchBtn.addEventListener("click", () => {
+  searchInput.value = "";
+  state.search = "";
+  clearSearchBtn.classList.remove("show");
+  searchInput.focus();
+  render();
+});
 
 copyBtn.addEventListener("click", () => {
-    if (!selectedEmails.size) return;
-    navigator.clipboard.writeText(
-        [...selectedEmails].join(";")
-    );
-    showCopied();
+  if (!selectedEmails.size) return;
+  navigator.clipboard.writeText([...selectedEmails].join(", "));
+  showCopied();
 });
 
 clearBtn.addEventListener("click", () => {
-    selectedEmails.clear();
-    render();
+  selectedEmails.clear();
+  lastClickedIndex = null;
+  render();
 });
 
-regionSearch.addEventListener("input", () =>
-    filterPills(regionSearch, regionFilters)
-);
+// Sidebar Pill Search
+regionSearch.addEventListener("input", () => filterPills(regionSearch, regionFilters));
+designationSearch.addEventListener("input", () => filterPills(designationSearch, designationFilters));
 
-designationSearch.addEventListener("input", () =>
-    filterPills(designationSearch, designationFilters)
-);
-
-clearSearchBtn.addEventListener("click", () => {
-
-    searchInput.value = "";
-    clearSearchBtn.classList.remove("show");
-
-    searchInput.focus();
-    render();
-});
-
-searchInput.addEventListener("input", () => {
-
-    clearSearchBtn.classList.toggle(
-        "show",
-        searchInput.value.length > 0
-    );
-
-    render();
-});
-regionFilters.addEventListener("change", render);
-designationFilters.addEventListener("change", render);
-
+// Keyboard Shortcuts
 document.addEventListener("keydown", e => {
-	
-	if(e.key === "Escape"){
-        searchInput.value="";
-        clearSearchBtn.classList.remove("show");
-        render();
-    }
-	
-    else if (e.ctrlKey && e.key === "a") {
-        e.preventDefault();
-        getFilteredData().forEach(d =>
-			selectedEmails.add(d.officer.email));
-        render();
-    }
+  if (e.key === "Escape") {
+    searchInput.value = "";
+    state.search = "";
+    clearSearchBtn.classList.remove("show");
+    render();
+  } else if (e.ctrlKey && e.key.toLowerCase() === "a") {
+    // Check if the user is typing in an input field before hijacking Ctrl+A
+    if (document.activeElement && document.activeElement.tagName === "INPUT") return;
+    
+    e.preventDefault();
+    const visible = filteredData.slice(0, state.renderLimit);
+    visible.forEach(d => {
+      if (d.officer?.email) selectedEmails.add(d.officer.email);
+    });
+    render();
+  }
 });
