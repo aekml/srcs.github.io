@@ -164,22 +164,27 @@ function initFilters() {
 
 function createPills(containerEl, values, filterName) {
   containerEl.innerHTML = "";
+  
   values.forEach(v => {
     const label = document.createElement("label");
     label.className = "pill";
     label.innerHTML = `<input type="checkbox" value="${v}" hidden> ${v}`;
     const checkbox = label.querySelector("input");
 
-    label.addEventListener("click", (e) => {
-      if (e.target === checkbox) return; 
-      checkbox.checked = !checkbox.checked;
+    // FIX: Listen to the 'change' event on the input, not 'click' on the label.
+    // The browser automatically handles clicks on the label to toggle the checkbox.
+    checkbox.addEventListener("change", () => {
       label.classList.toggle("active", checkbox.checked);
 
-      if (checkbox.checked) state.activeFilters[filterName].add(v);
-      else state.activeFilters[filterName].delete(v);
+      if (checkbox.checked) {
+        state.activeFilters[filterName].add(v);
+      } else {
+        state.activeFilters[filterName].delete(v);
+      }
 
       render();
     });
+
     containerEl.appendChild(label);
   });
 }
