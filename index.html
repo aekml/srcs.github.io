@@ -1,1 +1,76 @@
-Hello SG&EV, BESCOM
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BESCOM Engineer's Directory</title>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+<aside class="sidebar">
+    <div class="logo">
+        <div class="logo-icon">⚡</div>
+        <div>
+            <h2>BESCOM</h2><span>DIRECTORY</span>
+        </div>
+    </div>
+
+	<div class="filter-section">
+		<h4>Zone</h4>
+		<input class="filter-search" id="regionSearch"
+			placeholder="Search zone...">
+		<div id="regionFilters" class="filter-list pills"></div>
+	</div>
+
+	<div class="filter-section">
+		<h4>Designation</h4>
+		<input class="filter-search" id="designationSearch"
+			placeholder="Search designation...">
+		<div id="designationFilters" class="filter-list pills"></div>
+	</div>
+
+</aside>
+
+<main class="main">
+
+<header class="topbar">
+    <div class="search-wrapper">
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search by name, email, phone, designation, office..." >
+
+    <button id="clearSearchBtn" class="search-clear">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+</div>
+
+    <div id="resultCount" class="result-count">0 results</div>
+
+    <div class="actions">
+        <button id="copyBtn" class="copy-btn">
+            <i class="fa-solid fa-copy"></i> Copy Emails
+        </button>
+
+        <button id="clearBtn" class="clear-btn">
+            Clear
+        </button>
+    </div>
+
+    <div id="copiedMsg" class="copied-msg">✔ Copied</div>
+</header>
+
+<div id="cardContainer" class="cards"></div>
+
+</main>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>

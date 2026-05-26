@@ -1,0 +1,7039 @@
+[
+  {
+    "level": "Zone",
+    "zone": "North",
+    "officeName": "Office of Chief Engineer - North Zone",
+    "officer": {
+      "name": "Sneha Patel",
+      "designation": "Chief Engineer",
+      "email": "sneha.patel@utility-zone.com",
+      "mobile": "9718611810"
+    },
+    "address": "Head Office, North Region Office",
+    "gis": {
+      "lat": "12.226415",
+      "lng": "77.066484"
+    }
+  },
+  {
+    "level": "Circle",
+    "zone": "North",
+    "circle": "Apple",
+    "officeName": "Apple Circle Office",
+    "officer": {
+      "name": "Deepa Kumar",
+      "designation": "Superintending Engineer",
+      "email": "deepa.kumar@utility-circle.com",
+      "mobile": "9910036277"
+    },
+    "address": "Apple, North Region Office",
+    "gis": {
+      "lat": "12.805206",
+      "lng": "77.615091"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Rose",
+    "officeName": "Rose Division Office",
+    "officer": {
+      "name": "Vijay Nair",
+      "designation": "Executive Engineer",
+      "email": "vijay.nair@utility-division.com",
+      "mobile": "9657419612"
+    },
+    "address": "Rose, North Region Office",
+    "gis": {
+      "lat": "12.545860",
+      "lng": "77.122374"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Rose",
+    "subdivision": "N1",
+    "officeName": "Subdivision N1",
+    "officer": {
+      "name": "Sneha Iyer",
+      "designation": "Assistant Executive Engineer",
+      "email": "sneha.iyer@utility-subdivision.com",
+      "mobile": "9153553888"
+    },
+    "address": "N1, North Region Office",
+    "gis": {
+      "lat": "12.081593",
+      "lng": "77.988667"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Rose",
+    "subdivision": "N1",
+    "section": "SEC-1",
+    "officeName": "Office of the Assistant Engineer of Banashankari Section",
+    "officer": {
+      "name": "Deepa Sharma",
+      "designation": "Assistant Engineer",
+      "email": "deepa.sharma@utility-section.com",
+      "mobile": "9618518219"
+    },
+    "address": "Banashankari, North Region Office",
+    "gis": {
+      "lat": "12.570999",
+      "lng": "77.170643"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Rose",
+    "subdivision": "N1",
+    "section": "SEC-2",
+    "officeName": "Office of the Assistant Engineer of Banashankari Section",
+    "officer": {
+      "name": "Rahul Singh",
+      "designation": "Assistant Engineer",
+      "email": "rahul.singh@utility-section.com",
+      "mobile": "9931122252"
+    },
+    "address": "Banashankari, North Region Office",
+    "gis": {
+      "lat": "12.078066",
+      "lng": "77.241169"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Rose",
+    "subdivision": "N2",
+    "officeName": "Subdivision N2",
+    "officer": {
+      "name": "Deepa Singh",
+      "designation": "Assistant Executive Engineer",
+      "email": "deepa.singh@utility-subdivision.com",
+      "mobile": "9245610261"
+    },
+    "address": "N2, North Region Office",
+    "gis": {
+      "lat": "12.288574",
+      "lng": "77.909517"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Rose",
+    "subdivision": "N2",
+    "section": "SEC-3",
+    "officeName": "Office of the Assistant Engineer of Marathahalli Section",
+    "officer": {
+      "name": "Rahul Reddy",
+      "designation": "Assistant Engineer",
+      "email": "rahul.reddy@utility-section.com",
+      "mobile": "9991861694"
+    },
+    "address": "Marathahalli, North Region Office",
+    "gis": {
+      "lat": "12.142586",
+      "lng": "77.728013"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Rose",
+    "subdivision": "N2",
+    "section": "SEC-4",
+    "officeName": "Office of the Assistant Engineer of Rajajinagar Section",
+    "officer": {
+      "name": "Kiran Kumar",
+      "designation": "Assistant Engineer",
+      "email": "kiran.kumar@utility-section.com",
+      "mobile": "9903671526"
+    },
+    "address": "Rajajinagar, North Region Office",
+    "gis": {
+      "lat": "12.250543",
+      "lng": "77.073995"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Rose",
+    "subdivision": "N3",
+    "officeName": "Subdivision N3",
+    "officer": {
+      "name": "Anita Das",
+      "designation": "Assistant Executive Engineer",
+      "email": "anita.das@utility-subdivision.com",
+      "mobile": "9299290678"
+    },
+    "address": "N3, North Region Office",
+    "gis": {
+      "lat": "12.450679",
+      "lng": "77.931149"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Rose",
+    "subdivision": "N3",
+    "section": "SEC-5",
+    "officeName": "Office of the Assistant Engineer of Malleshwaram Section",
+    "officer": {
+      "name": "Vijay Singh",
+      "designation": "Assistant Engineer",
+      "email": "vijay.singh@utility-section.com",
+      "mobile": "9198676675"
+    },
+    "address": "Malleshwaram, North Region Office",
+    "gis": {
+      "lat": "12.132786",
+      "lng": "77.113935"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Rose",
+    "subdivision": "N3",
+    "section": "SEC-6",
+    "officeName": "Office of the Assistant Engineer of Sarjapur Section",
+    "officer": {
+      "name": "Ravi Sharma",
+      "designation": "Assistant Engineer",
+      "email": "ravi.sharma@utility-section.com",
+      "mobile": "9718651098"
+    },
+    "address": "Sarjapur, North Region Office",
+    "gis": {
+      "lat": "12.424605",
+      "lng": "77.942339"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Rose",
+    "subdivision": "N4",
+    "officeName": "Subdivision N4",
+    "officer": {
+      "name": "Arjun Das",
+      "designation": "Assistant Executive Engineer",
+      "email": "arjun.das@utility-subdivision.com",
+      "mobile": "9988906469"
+    },
+    "address": "N4, North Region Office",
+    "gis": {
+      "lat": "12.351146",
+      "lng": "77.974131"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Rose",
+    "subdivision": "N4",
+    "section": "SEC-7",
+    "officeName": "Office of the Assistant Engineer of Ulsoor Section",
+    "officer": {
+      "name": "Suresh Kumar",
+      "designation": "Assistant Engineer",
+      "email": "suresh.kumar@utility-section.com",
+      "mobile": "9576714437"
+    },
+    "address": "Ulsoor, North Region Office",
+    "gis": {
+      "lat": "12.525348",
+      "lng": "77.738266"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Rose",
+    "subdivision": "N4",
+    "section": "SEC-8",
+    "officeName": "Office of the Assistant Engineer of Hebbal Section",
+    "officer": {
+      "name": "Ravi Reddy",
+      "designation": "Assistant Engineer",
+      "email": "ravi.reddy@utility-section.com",
+      "mobile": "9120324747"
+    },
+    "address": "Hebbal, North Region Office",
+    "gis": {
+      "lat": "12.477257",
+      "lng": "77.264147"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lily",
+    "officeName": "Lily Division Office",
+    "officer": {
+      "name": "Arjun Sharma",
+      "designation": "Executive Engineer",
+      "email": "arjun.sharma@utility-division.com",
+      "mobile": "9509156585"
+    },
+    "address": "Lily, North Region Office",
+    "gis": {
+      "lat": "12.760576",
+      "lng": "77.988860"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lily",
+    "subdivision": "N5",
+    "officeName": "Subdivision N5",
+    "officer": {
+      "name": "Suresh Singh",
+      "designation": "Assistant Executive Engineer",
+      "email": "suresh.singh@utility-subdivision.com",
+      "mobile": "9991888165"
+    },
+    "address": "N5, North Region Office",
+    "gis": {
+      "lat": "12.966048",
+      "lng": "77.901141"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lily",
+    "subdivision": "N5",
+    "section": "SEC-9",
+    "officeName": "Office of the Assistant Engineer of BTM Section",
+    "officer": {
+      "name": "Ravi Patel",
+      "designation": "Assistant Engineer",
+      "email": "ravi.patel@utility-section.com",
+      "mobile": "9674652875"
+    },
+    "address": "BTM, North Region Office",
+    "gis": {
+      "lat": "12.733781",
+      "lng": "77.499330"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lily",
+    "subdivision": "N5",
+    "section": "SEC-10",
+    "officeName": "Office of the Assistant Engineer of Indiranagar Section",
+    "officer": {
+      "name": "Kiran Singh",
+      "designation": "Assistant Engineer",
+      "email": "kiran.singh@utility-section.com",
+      "mobile": "9661419193"
+    },
+    "address": "Indiranagar, North Region Office",
+    "gis": {
+      "lat": "12.083752",
+      "lng": "77.049530"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lily",
+    "subdivision": "N6",
+    "officeName": "Subdivision N6",
+    "officer": {
+      "name": "Vijay Patel",
+      "designation": "Assistant Executive Engineer",
+      "email": "vijay.patel@utility-subdivision.com",
+      "mobile": "9265032909"
+    },
+    "address": "N6, North Region Office",
+    "gis": {
+      "lat": "12.393376",
+      "lng": "77.730662"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lily",
+    "subdivision": "N6",
+    "section": "SEC-11",
+    "officeName": "Office of the Assistant Engineer of Rajajinagar Section",
+    "officer": {
+      "name": "Meena Rao",
+      "designation": "Assistant Engineer",
+      "email": "meena.rao@utility-section.com",
+      "mobile": "9406118271"
+    },
+    "address": "Rajajinagar, North Region Office",
+    "gis": {
+      "lat": "12.429141",
+      "lng": "77.879768"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lily",
+    "subdivision": "N6",
+    "section": "SEC-12",
+    "officeName": "Office of the Assistant Engineer of BTM Section",
+    "officer": {
+      "name": "Vijay Patel",
+      "designation": "Assistant Engineer",
+      "email": "vijay.patel@utility-section.com",
+      "mobile": "9928530273"
+    },
+    "address": "BTM, North Region Office",
+    "gis": {
+      "lat": "12.364650",
+      "lng": "77.342667"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lily",
+    "subdivision": "N7",
+    "officeName": "Subdivision N7",
+    "officer": {
+      "name": "Kiran Iyer",
+      "designation": "Assistant Executive Engineer",
+      "email": "kiran.iyer@utility-subdivision.com",
+      "mobile": "9966348271"
+    },
+    "address": "N7, North Region Office",
+    "gis": {
+      "lat": "12.345647",
+      "lng": "77.756685"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lily",
+    "subdivision": "N7",
+    "section": "SEC-13",
+    "officeName": "Office of the Assistant Engineer of Whitefield Section",
+    "officer": {
+      "name": "Arjun Singh",
+      "designation": "Assistant Engineer",
+      "email": "arjun.singh@utility-section.com",
+      "mobile": "9343493530"
+    },
+    "address": "Whitefield, North Region Office",
+    "gis": {
+      "lat": "12.617317",
+      "lng": "77.779418"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lily",
+    "subdivision": "N7",
+    "section": "SEC-14",
+    "officeName": "Office of the Assistant Engineer of MG Road Section",
+    "officer": {
+      "name": "Ravi Kumar",
+      "designation": "Assistant Engineer",
+      "email": "ravi.kumar@utility-section.com",
+      "mobile": "9296016072"
+    },
+    "address": "MG Road, North Region Office",
+    "gis": {
+      "lat": "12.940946",
+      "lng": "77.629338"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lily",
+    "subdivision": "N8",
+    "officeName": "Subdivision N8",
+    "officer": {
+      "name": "Meena Reddy",
+      "designation": "Assistant Executive Engineer",
+      "email": "meena.reddy@utility-subdivision.com",
+      "mobile": "9881018276"
+    },
+    "address": "N8, North Region Office",
+    "gis": {
+      "lat": "12.446097",
+      "lng": "77.320383"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lily",
+    "subdivision": "N8",
+    "section": "SEC-15",
+    "officeName": "Office of the Assistant Engineer of Kengeri Section",
+    "officer": {
+      "name": "Sneha Das",
+      "designation": "Assistant Engineer",
+      "email": "sneha.das@utility-section.com",
+      "mobile": "9733855760"
+    },
+    "address": "Kengeri, North Region Office",
+    "gis": {
+      "lat": "12.333848",
+      "lng": "77.500179"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lily",
+    "subdivision": "N8",
+    "section": "SEC-16",
+    "officeName": "Office of the Assistant Engineer of Peenya Section",
+    "officer": {
+      "name": "Deepa Rao",
+      "designation": "Assistant Engineer",
+      "email": "deepa.rao@utility-section.com",
+      "mobile": "9988757807"
+    },
+    "address": "Peenya, North Region Office",
+    "gis": {
+      "lat": "12.610759",
+      "lng": "77.574939"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lotus",
+    "officeName": "Lotus Division Office",
+    "officer": {
+      "name": "Sneha Reddy",
+      "designation": "Executive Engineer",
+      "email": "sneha.reddy@utility-division.com",
+      "mobile": "9161340580"
+    },
+    "address": "Lotus, North Region Office",
+    "gis": {
+      "lat": "12.326299",
+      "lng": "77.078592"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lotus",
+    "subdivision": "N9",
+    "officeName": "Subdivision N9",
+    "officer": {
+      "name": "Anita Nair",
+      "designation": "Assistant Executive Engineer",
+      "email": "anita.nair@utility-subdivision.com",
+      "mobile": "9559857736"
+    },
+    "address": "N9, North Region Office",
+    "gis": {
+      "lat": "12.492557",
+      "lng": "77.651284"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lotus",
+    "subdivision": "N9",
+    "section": "SEC-17",
+    "officeName": "Office of the Assistant Engineer of Sarjapur Section",
+    "officer": {
+      "name": "Rahul Nair",
+      "designation": "Assistant Engineer",
+      "email": "rahul.nair@utility-section.com",
+      "mobile": "9686944906"
+    },
+    "address": "Sarjapur, North Region Office",
+    "gis": {
+      "lat": "12.416321",
+      "lng": "77.485826"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lotus",
+    "subdivision": "N9",
+    "section": "SEC-18",
+    "officeName": "Office of the Assistant Engineer of BTM Section",
+    "officer": {
+      "name": "Kiran Reddy",
+      "designation": "Assistant Engineer",
+      "email": "kiran.reddy@utility-section.com",
+      "mobile": "9807491937"
+    },
+    "address": "BTM, North Region Office",
+    "gis": {
+      "lat": "12.368585",
+      "lng": "77.684480"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lotus",
+    "subdivision": "N10",
+    "officeName": "Subdivision N10",
+    "officer": {
+      "name": "Vijay Nair",
+      "designation": "Assistant Executive Engineer",
+      "email": "vijay.nair@utility-subdivision.com",
+      "mobile": "9936524568"
+    },
+    "address": "N10, North Region Office",
+    "gis": {
+      "lat": "12.634586",
+      "lng": "77.202317"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lotus",
+    "subdivision": "N10",
+    "section": "SEC-19",
+    "officeName": "Office of the Assistant Engineer of MG Road Section",
+    "officer": {
+      "name": "Ravi Kumar",
+      "designation": "Assistant Engineer",
+      "email": "ravi.kumar@utility-section.com",
+      "mobile": "9697016671"
+    },
+    "address": "MG Road, North Region Office",
+    "gis": {
+      "lat": "12.371041",
+      "lng": "77.573878"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lotus",
+    "subdivision": "N10",
+    "section": "SEC-20",
+    "officeName": "Office of the Assistant Engineer of Indiranagar Section",
+    "officer": {
+      "name": "Arjun Gupta",
+      "designation": "Assistant Engineer",
+      "email": "arjun.gupta@utility-section.com",
+      "mobile": "9798059985"
+    },
+    "address": "Indiranagar, North Region Office",
+    "gis": {
+      "lat": "12.906451",
+      "lng": "77.493565"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lotus",
+    "subdivision": "N11",
+    "officeName": "Subdivision N11",
+    "officer": {
+      "name": "Meena Das",
+      "designation": "Assistant Executive Engineer",
+      "email": "meena.das@utility-subdivision.com",
+      "mobile": "9594234165"
+    },
+    "address": "N11, North Region Office",
+    "gis": {
+      "lat": "12.635387",
+      "lng": "77.024839"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lotus",
+    "subdivision": "N11",
+    "section": "SEC-21",
+    "officeName": "Office of the Assistant Engineer of Electronic City Section",
+    "officer": {
+      "name": "Sneha Reddy",
+      "designation": "Assistant Engineer",
+      "email": "sneha.reddy@utility-section.com",
+      "mobile": "9373008203"
+    },
+    "address": "Electronic City, North Region Office",
+    "gis": {
+      "lat": "12.510410",
+      "lng": "77.244163"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lotus",
+    "subdivision": "N11",
+    "section": "SEC-22",
+    "officeName": "Office of the Assistant Engineer of Peenya Section",
+    "officer": {
+      "name": "Suresh Das",
+      "designation": "Assistant Engineer",
+      "email": "suresh.das@utility-section.com",
+      "mobile": "9909483820"
+    },
+    "address": "Peenya, North Region Office",
+    "gis": {
+      "lat": "12.485303",
+      "lng": "77.277096"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lotus",
+    "subdivision": "N12",
+    "officeName": "Subdivision N12",
+    "officer": {
+      "name": "Deepa Singh",
+      "designation": "Assistant Executive Engineer",
+      "email": "deepa.singh@utility-subdivision.com",
+      "mobile": "9892134412"
+    },
+    "address": "N12, North Region Office",
+    "gis": {
+      "lat": "12.497101",
+      "lng": "77.372045"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lotus",
+    "subdivision": "N12",
+    "section": "SEC-23",
+    "officeName": "Office of the Assistant Engineer of Indiranagar Section",
+    "officer": {
+      "name": "Vijay Gupta",
+      "designation": "Assistant Engineer",
+      "email": "vijay.gupta@utility-section.com",
+      "mobile": "9708596757"
+    },
+    "address": "Indiranagar, North Region Office",
+    "gis": {
+      "lat": "12.464169",
+      "lng": "77.380493"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Apple",
+    "division": "Lotus",
+    "subdivision": "N12",
+    "section": "SEC-24",
+    "officeName": "Office of the Assistant Engineer of Domlur Section",
+    "officer": {
+      "name": "Suresh Patel",
+      "designation": "Assistant Engineer",
+      "email": "suresh.patel@utility-section.com",
+      "mobile": "9372818953"
+    },
+    "address": "Domlur, North Region Office",
+    "gis": {
+      "lat": "12.680333",
+      "lng": "77.052773"
+    }
+  },
+  {
+    "level": "Circle",
+    "zone": "North",
+    "circle": "Mango",
+    "officeName": "Mango Circle Office",
+    "officer": {
+      "name": "Meena Kumar",
+      "designation": "Superintending Engineer",
+      "email": "meena.kumar@utility-circle.com",
+      "mobile": "9378596881"
+    },
+    "address": "Mango, North Region Office",
+    "gis": {
+      "lat": "12.476558",
+      "lng": "77.518885"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Jasmine",
+    "officeName": "Jasmine Division Office",
+    "officer": {
+      "name": "Ravi Singh",
+      "designation": "Executive Engineer",
+      "email": "ravi.singh@utility-division.com",
+      "mobile": "9744161072"
+    },
+    "address": "Jasmine, North Region Office",
+    "gis": {
+      "lat": "12.211731",
+      "lng": "77.606483"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Jasmine",
+    "subdivision": "N13",
+    "officeName": "Subdivision N13",
+    "officer": {
+      "name": "Vijay Rao",
+      "designation": "Assistant Executive Engineer",
+      "email": "vijay.rao@utility-subdivision.com",
+      "mobile": "9742069363"
+    },
+    "address": "N13, North Region Office",
+    "gis": {
+      "lat": "12.335592",
+      "lng": "77.125970"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Jasmine",
+    "subdivision": "N13",
+    "section": "SEC-25",
+    "officeName": "Office of the Assistant Engineer of Peenya Section",
+    "officer": {
+      "name": "Arjun Rao",
+      "designation": "Assistant Engineer",
+      "email": "arjun.rao@utility-section.com",
+      "mobile": "9399426349"
+    },
+    "address": "Peenya, North Region Office",
+    "gis": {
+      "lat": "12.067086",
+      "lng": "77.986504"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Jasmine",
+    "subdivision": "N13",
+    "section": "SEC-26",
+    "officeName": "Office of the Assistant Engineer of Marathahalli Section",
+    "officer": {
+      "name": "Kiran Iyer",
+      "designation": "Assistant Engineer",
+      "email": "kiran.iyer@utility-section.com",
+      "mobile": "9875670720"
+    },
+    "address": "Marathahalli, North Region Office",
+    "gis": {
+      "lat": "12.695306",
+      "lng": "77.430043"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Jasmine",
+    "subdivision": "N14",
+    "officeName": "Subdivision N14",
+    "officer": {
+      "name": "Deepa Das",
+      "designation": "Assistant Executive Engineer",
+      "email": "deepa.das@utility-subdivision.com",
+      "mobile": "9153725768"
+    },
+    "address": "N14, North Region Office",
+    "gis": {
+      "lat": "12.599348",
+      "lng": "77.647455"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Jasmine",
+    "subdivision": "N14",
+    "section": "SEC-27",
+    "officeName": "Office of the Assistant Engineer of Electronic City Section",
+    "officer": {
+      "name": "Vijay Iyer",
+      "designation": "Assistant Engineer",
+      "email": "vijay.iyer@utility-section.com",
+      "mobile": "9259079779"
+    },
+    "address": "Electronic City, North Region Office",
+    "gis": {
+      "lat": "12.818874",
+      "lng": "77.607972"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Jasmine",
+    "subdivision": "N14",
+    "section": "SEC-28",
+    "officeName": "Office of the Assistant Engineer of Rajajinagar Section",
+    "officer": {
+      "name": "Arjun Gupta",
+      "designation": "Assistant Engineer",
+      "email": "arjun.gupta@utility-section.com",
+      "mobile": "9255678125"
+    },
+    "address": "Rajajinagar, North Region Office",
+    "gis": {
+      "lat": "12.259669",
+      "lng": "77.286534"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Jasmine",
+    "subdivision": "N15",
+    "officeName": "Subdivision N15",
+    "officer": {
+      "name": "Anita Sharma",
+      "designation": "Assistant Executive Engineer",
+      "email": "anita.sharma@utility-subdivision.com",
+      "mobile": "9227750734"
+    },
+    "address": "N15, North Region Office",
+    "gis": {
+      "lat": "12.936160",
+      "lng": "77.987662"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Jasmine",
+    "subdivision": "N15",
+    "section": "SEC-29",
+    "officeName": "Office of the Assistant Engineer of BTM Section",
+    "officer": {
+      "name": "Suresh Patel",
+      "designation": "Assistant Engineer",
+      "email": "suresh.patel@utility-section.com",
+      "mobile": "9385773909"
+    },
+    "address": "BTM, North Region Office",
+    "gis": {
+      "lat": "12.749545",
+      "lng": "77.493667"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Jasmine",
+    "subdivision": "N15",
+    "section": "SEC-30",
+    "officeName": "Office of the Assistant Engineer of Bellandur Section",
+    "officer": {
+      "name": "Kiran Gupta",
+      "designation": "Assistant Engineer",
+      "email": "kiran.gupta@utility-section.com",
+      "mobile": "9331583960"
+    },
+    "address": "Bellandur, North Region Office",
+    "gis": {
+      "lat": "12.934959",
+      "lng": "77.408551"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Jasmine",
+    "subdivision": "N16",
+    "officeName": "Subdivision N16",
+    "officer": {
+      "name": "Anita Singh",
+      "designation": "Assistant Executive Engineer",
+      "email": "anita.singh@utility-subdivision.com",
+      "mobile": "9818546029"
+    },
+    "address": "N16, North Region Office",
+    "gis": {
+      "lat": "12.171027",
+      "lng": "77.727056"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Jasmine",
+    "subdivision": "N16",
+    "section": "SEC-31",
+    "officeName": "Office of the Assistant Engineer of Yelahanka Section",
+    "officer": {
+      "name": "Meena Gupta",
+      "designation": "Assistant Engineer",
+      "email": "meena.gupta@utility-section.com",
+      "mobile": "9112013892"
+    },
+    "address": "Yelahanka, North Region Office",
+    "gis": {
+      "lat": "12.189769",
+      "lng": "77.260139"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Jasmine",
+    "subdivision": "N16",
+    "section": "SEC-32",
+    "officeName": "Office of the Assistant Engineer of MG Road Section",
+    "officer": {
+      "name": "Rahul Sharma",
+      "designation": "Assistant Engineer",
+      "email": "rahul.sharma@utility-section.com",
+      "mobile": "9866520336"
+    },
+    "address": "MG Road, North Region Office",
+    "gis": {
+      "lat": "12.402114",
+      "lng": "77.065981"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Tulip",
+    "officeName": "Tulip Division Office",
+    "officer": {
+      "name": "Meena Gupta",
+      "designation": "Executive Engineer",
+      "email": "meena.gupta@utility-division.com",
+      "mobile": "9672981010"
+    },
+    "address": "Tulip, North Region Office",
+    "gis": {
+      "lat": "12.785194",
+      "lng": "77.566486"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Tulip",
+    "subdivision": "N17",
+    "officeName": "Subdivision N17",
+    "officer": {
+      "name": "Deepa Singh",
+      "designation": "Assistant Executive Engineer",
+      "email": "deepa.singh@utility-subdivision.com",
+      "mobile": "9752838504"
+    },
+    "address": "N17, North Region Office",
+    "gis": {
+      "lat": "12.700442",
+      "lng": "77.861814"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Tulip",
+    "subdivision": "N17",
+    "section": "SEC-33",
+    "officeName": "Office of the Assistant Engineer of Ulsoor Section",
+    "officer": {
+      "name": "Anita Nair",
+      "designation": "Assistant Engineer",
+      "email": "anita.nair@utility-section.com",
+      "mobile": "9879673804"
+    },
+    "address": "Ulsoor, North Region Office",
+    "gis": {
+      "lat": "12.979597",
+      "lng": "77.984588"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Tulip",
+    "subdivision": "N17",
+    "section": "SEC-34",
+    "officeName": "Office of the Assistant Engineer of BTM Section",
+    "officer": {
+      "name": "Sneha Patel",
+      "designation": "Assistant Engineer",
+      "email": "sneha.patel@utility-section.com",
+      "mobile": "9248177400"
+    },
+    "address": "BTM, North Region Office",
+    "gis": {
+      "lat": "12.821949",
+      "lng": "77.075491"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Tulip",
+    "subdivision": "N18",
+    "officeName": "Subdivision N18",
+    "officer": {
+      "name": "Anita Nair",
+      "designation": "Assistant Executive Engineer",
+      "email": "anita.nair@utility-subdivision.com",
+      "mobile": "9889582858"
+    },
+    "address": "N18, North Region Office",
+    "gis": {
+      "lat": "12.223494",
+      "lng": "77.825960"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Tulip",
+    "subdivision": "N18",
+    "section": "SEC-35",
+    "officeName": "Office of the Assistant Engineer of MG Road Section",
+    "officer": {
+      "name": "Suresh Rao",
+      "designation": "Assistant Engineer",
+      "email": "suresh.rao@utility-section.com",
+      "mobile": "9640653357"
+    },
+    "address": "MG Road, North Region Office",
+    "gis": {
+      "lat": "12.526900",
+      "lng": "77.347079"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Tulip",
+    "subdivision": "N18",
+    "section": "SEC-36",
+    "officeName": "Office of the Assistant Engineer of Kengeri Section",
+    "officer": {
+      "name": "Deepa Patel",
+      "designation": "Assistant Engineer",
+      "email": "deepa.patel@utility-section.com",
+      "mobile": "9718615431"
+    },
+    "address": "Kengeri, North Region Office",
+    "gis": {
+      "lat": "12.437117",
+      "lng": "77.338461"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Tulip",
+    "subdivision": "N19",
+    "officeName": "Subdivision N19",
+    "officer": {
+      "name": "Rahul Iyer",
+      "designation": "Assistant Executive Engineer",
+      "email": "rahul.iyer@utility-subdivision.com",
+      "mobile": "9275440439"
+    },
+    "address": "N19, North Region Office",
+    "gis": {
+      "lat": "12.246453",
+      "lng": "77.719786"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Tulip",
+    "subdivision": "N19",
+    "section": "SEC-37",
+    "officeName": "Office of the Assistant Engineer of Marathahalli Section",
+    "officer": {
+      "name": "Kiran Nair",
+      "designation": "Assistant Engineer",
+      "email": "kiran.nair@utility-section.com",
+      "mobile": "9180225322"
+    },
+    "address": "Marathahalli, North Region Office",
+    "gis": {
+      "lat": "12.624055",
+      "lng": "77.975631"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Tulip",
+    "subdivision": "N19",
+    "section": "SEC-38",
+    "officeName": "Office of the Assistant Engineer of Indiranagar Section",
+    "officer": {
+      "name": "Ravi Das",
+      "designation": "Assistant Engineer",
+      "email": "ravi.das@utility-section.com",
+      "mobile": "9751093793"
+    },
+    "address": "Indiranagar, North Region Office",
+    "gis": {
+      "lat": "12.147757",
+      "lng": "77.996757"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Tulip",
+    "subdivision": "N20",
+    "officeName": "Subdivision N20",
+    "officer": {
+      "name": "Ravi Kumar",
+      "designation": "Assistant Executive Engineer",
+      "email": "ravi.kumar@utility-subdivision.com",
+      "mobile": "9128029202"
+    },
+    "address": "N20, North Region Office",
+    "gis": {
+      "lat": "12.462611",
+      "lng": "77.645849"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Tulip",
+    "subdivision": "N20",
+    "section": "SEC-39",
+    "officeName": "Office of the Assistant Engineer of Marathahalli Section",
+    "officer": {
+      "name": "Meena Gupta",
+      "designation": "Assistant Engineer",
+      "email": "meena.gupta@utility-section.com",
+      "mobile": "9647897197"
+    },
+    "address": "Marathahalli, North Region Office",
+    "gis": {
+      "lat": "12.069694",
+      "lng": "77.012125"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Tulip",
+    "subdivision": "N20",
+    "section": "SEC-40",
+    "officeName": "Office of the Assistant Engineer of Hosur Road Section",
+    "officer": {
+      "name": "Anita Singh",
+      "designation": "Assistant Engineer",
+      "email": "anita.singh@utility-section.com",
+      "mobile": "9966304395"
+    },
+    "address": "Hosur Road, North Region Office",
+    "gis": {
+      "lat": "12.295357",
+      "lng": "77.161004"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Daisy",
+    "officeName": "Daisy Division Office",
+    "officer": {
+      "name": "Kiran Gupta",
+      "designation": "Executive Engineer",
+      "email": "kiran.gupta@utility-division.com",
+      "mobile": "9993592751"
+    },
+    "address": "Daisy, North Region Office",
+    "gis": {
+      "lat": "12.939543",
+      "lng": "77.322005"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Daisy",
+    "subdivision": "N21",
+    "officeName": "Subdivision N21",
+    "officer": {
+      "name": "Suresh Iyer",
+      "designation": "Assistant Executive Engineer",
+      "email": "suresh.iyer@utility-subdivision.com",
+      "mobile": "9198200362"
+    },
+    "address": "N21, North Region Office",
+    "gis": {
+      "lat": "12.939020",
+      "lng": "77.183977"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Daisy",
+    "subdivision": "N21",
+    "section": "SEC-41",
+    "officeName": "Office of the Assistant Engineer of Hebbal Section",
+    "officer": {
+      "name": "Arjun Das",
+      "designation": "Assistant Engineer",
+      "email": "arjun.das@utility-section.com",
+      "mobile": "9167334100"
+    },
+    "address": "Hebbal, North Region Office",
+    "gis": {
+      "lat": "12.178725",
+      "lng": "77.548112"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Daisy",
+    "subdivision": "N21",
+    "section": "SEC-42",
+    "officeName": "Office of the Assistant Engineer of Kengeri Section",
+    "officer": {
+      "name": "Suresh Sharma",
+      "designation": "Assistant Engineer",
+      "email": "suresh.sharma@utility-section.com",
+      "mobile": "9417748238"
+    },
+    "address": "Kengeri, North Region Office",
+    "gis": {
+      "lat": "12.342148",
+      "lng": "77.371440"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Daisy",
+    "subdivision": "N22",
+    "officeName": "Subdivision N22",
+    "officer": {
+      "name": "Sneha Reddy",
+      "designation": "Assistant Executive Engineer",
+      "email": "sneha.reddy@utility-subdivision.com",
+      "mobile": "9234889959"
+    },
+    "address": "N22, North Region Office",
+    "gis": {
+      "lat": "12.342955",
+      "lng": "77.010565"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Daisy",
+    "subdivision": "N22",
+    "section": "SEC-43",
+    "officeName": "Office of the Assistant Engineer of Marathahalli Section",
+    "officer": {
+      "name": "Kiran Sharma",
+      "designation": "Assistant Engineer",
+      "email": "kiran.sharma@utility-section.com",
+      "mobile": "9861647770"
+    },
+    "address": "Marathahalli, North Region Office",
+    "gis": {
+      "lat": "12.064290",
+      "lng": "77.471529"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Daisy",
+    "subdivision": "N22",
+    "section": "SEC-44",
+    "officeName": "Office of the Assistant Engineer of BTM Section",
+    "officer": {
+      "name": "Vijay Rao",
+      "designation": "Assistant Engineer",
+      "email": "vijay.rao@utility-section.com",
+      "mobile": "9727990983"
+    },
+    "address": "BTM, North Region Office",
+    "gis": {
+      "lat": "12.706011",
+      "lng": "77.912833"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Daisy",
+    "subdivision": "N23",
+    "officeName": "Subdivision N23",
+    "officer": {
+      "name": "Ravi Nair",
+      "designation": "Assistant Executive Engineer",
+      "email": "ravi.nair@utility-subdivision.com",
+      "mobile": "9339961278"
+    },
+    "address": "N23, North Region Office",
+    "gis": {
+      "lat": "12.449849",
+      "lng": "77.130386"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Daisy",
+    "subdivision": "N23",
+    "section": "SEC-45",
+    "officeName": "Office of the Assistant Engineer of Malleshwaram Section",
+    "officer": {
+      "name": "Vijay Rao",
+      "designation": "Assistant Engineer",
+      "email": "vijay.rao@utility-section.com",
+      "mobile": "9584595996"
+    },
+    "address": "Malleshwaram, North Region Office",
+    "gis": {
+      "lat": "12.414113",
+      "lng": "77.639256"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Daisy",
+    "subdivision": "N23",
+    "section": "SEC-46",
+    "officeName": "Office of the Assistant Engineer of Hebbal Section",
+    "officer": {
+      "name": "Suresh Gupta",
+      "designation": "Assistant Engineer",
+      "email": "suresh.gupta@utility-section.com",
+      "mobile": "9573346835"
+    },
+    "address": "Hebbal, North Region Office",
+    "gis": {
+      "lat": "12.989149",
+      "lng": "77.488167"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Daisy",
+    "subdivision": "N24",
+    "officeName": "Subdivision N24",
+    "officer": {
+      "name": "Ravi Das",
+      "designation": "Assistant Executive Engineer",
+      "email": "ravi.das@utility-subdivision.com",
+      "mobile": "9623461337"
+    },
+    "address": "N24, North Region Office",
+    "gis": {
+      "lat": "12.061572",
+      "lng": "77.209359"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Daisy",
+    "subdivision": "N24",
+    "section": "SEC-47",
+    "officeName": "Office of the Assistant Engineer of Banashankari Section",
+    "officer": {
+      "name": "Rahul Singh",
+      "designation": "Assistant Engineer",
+      "email": "rahul.singh@utility-section.com",
+      "mobile": "9351240524"
+    },
+    "address": "Banashankari, North Region Office",
+    "gis": {
+      "lat": "12.136768",
+      "lng": "77.075998"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Mango",
+    "division": "Daisy",
+    "subdivision": "N24",
+    "section": "SEC-48",
+    "officeName": "Office of the Assistant Engineer of Indiranagar Section",
+    "officer": {
+      "name": "Suresh Kumar",
+      "designation": "Assistant Engineer",
+      "email": "suresh.kumar@utility-section.com",
+      "mobile": "9456787797"
+    },
+    "address": "Indiranagar, North Region Office",
+    "gis": {
+      "lat": "12.416292",
+      "lng": "77.250527"
+    }
+  },
+  {
+    "level": "Circle",
+    "zone": "North",
+    "circle": "Orange",
+    "officeName": "Orange Circle Office",
+    "officer": {
+      "name": "Kiran Das",
+      "designation": "Superintending Engineer",
+      "email": "kiran.das@utility-circle.com",
+      "mobile": "9152240092"
+    },
+    "address": "Orange, North Region Office",
+    "gis": {
+      "lat": "12.320118",
+      "lng": "77.089368"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Orchid",
+    "officeName": "Orchid Division Office",
+    "officer": {
+      "name": "Ravi Das",
+      "designation": "Executive Engineer",
+      "email": "ravi.das@utility-division.com",
+      "mobile": "9520294818"
+    },
+    "address": "Orchid, North Region Office",
+    "gis": {
+      "lat": "12.112413",
+      "lng": "77.672796"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Orchid",
+    "subdivision": "N25",
+    "officeName": "Subdivision N25",
+    "officer": {
+      "name": "Arjun Sharma",
+      "designation": "Assistant Executive Engineer",
+      "email": "arjun.sharma@utility-subdivision.com",
+      "mobile": "9728268089"
+    },
+    "address": "N25, North Region Office",
+    "gis": {
+      "lat": "12.385238",
+      "lng": "77.041705"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Orchid",
+    "subdivision": "N25",
+    "section": "SEC-49",
+    "officeName": "Office of the Assistant Engineer of Malleshwaram Section",
+    "officer": {
+      "name": "Anita Rao",
+      "designation": "Assistant Engineer",
+      "email": "anita.rao@utility-section.com",
+      "mobile": "9955328129"
+    },
+    "address": "Malleshwaram, North Region Office",
+    "gis": {
+      "lat": "12.240401",
+      "lng": "77.934768"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Orchid",
+    "subdivision": "N25",
+    "section": "SEC-50",
+    "officeName": "Office of the Assistant Engineer of Hosur Road Section",
+    "officer": {
+      "name": "Meena Rao",
+      "designation": "Assistant Engineer",
+      "email": "meena.rao@utility-section.com",
+      "mobile": "9524542637"
+    },
+    "address": "Hosur Road, North Region Office",
+    "gis": {
+      "lat": "12.101996",
+      "lng": "77.645504"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Orchid",
+    "subdivision": "N26",
+    "officeName": "Subdivision N26",
+    "officer": {
+      "name": "Meena Das",
+      "designation": "Assistant Executive Engineer",
+      "email": "meena.das@utility-subdivision.com",
+      "mobile": "9844162092"
+    },
+    "address": "N26, North Region Office",
+    "gis": {
+      "lat": "12.151547",
+      "lng": "77.454483"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Orchid",
+    "subdivision": "N26",
+    "section": "SEC-51",
+    "officeName": "Office of the Assistant Engineer of Ulsoor Section",
+    "officer": {
+      "name": "Kiran Gupta",
+      "designation": "Assistant Engineer",
+      "email": "kiran.gupta@utility-section.com",
+      "mobile": "9254731015"
+    },
+    "address": "Ulsoor, North Region Office",
+    "gis": {
+      "lat": "12.093060",
+      "lng": "77.191614"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Orchid",
+    "subdivision": "N26",
+    "section": "SEC-52",
+    "officeName": "Office of the Assistant Engineer of Kengeri Section",
+    "officer": {
+      "name": "Vijay Rao",
+      "designation": "Assistant Engineer",
+      "email": "vijay.rao@utility-section.com",
+      "mobile": "9631588405"
+    },
+    "address": "Kengeri, North Region Office",
+    "gis": {
+      "lat": "12.150438",
+      "lng": "77.919729"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Orchid",
+    "subdivision": "N27",
+    "officeName": "Subdivision N27",
+    "officer": {
+      "name": "Meena Sharma",
+      "designation": "Assistant Executive Engineer",
+      "email": "meena.sharma@utility-subdivision.com",
+      "mobile": "9951957000"
+    },
+    "address": "N27, North Region Office",
+    "gis": {
+      "lat": "12.858952",
+      "lng": "77.248884"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Orchid",
+    "subdivision": "N27",
+    "section": "SEC-53",
+    "officeName": "Office of the Assistant Engineer of Hosur Road Section",
+    "officer": {
+      "name": "Sneha Gupta",
+      "designation": "Assistant Engineer",
+      "email": "sneha.gupta@utility-section.com",
+      "mobile": "9219394910"
+    },
+    "address": "Hosur Road, North Region Office",
+    "gis": {
+      "lat": "12.442744",
+      "lng": "77.112281"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Orchid",
+    "subdivision": "N27",
+    "section": "SEC-54",
+    "officeName": "Office of the Assistant Engineer of Sarjapur Section",
+    "officer": {
+      "name": "Kiran Kumar",
+      "designation": "Assistant Engineer",
+      "email": "kiran.kumar@utility-section.com",
+      "mobile": "9155316407"
+    },
+    "address": "Sarjapur, North Region Office",
+    "gis": {
+      "lat": "12.985697",
+      "lng": "77.605163"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Orchid",
+    "subdivision": "N28",
+    "officeName": "Subdivision N28",
+    "officer": {
+      "name": "Sneha Das",
+      "designation": "Assistant Executive Engineer",
+      "email": "sneha.das@utility-subdivision.com",
+      "mobile": "9483283504"
+    },
+    "address": "N28, North Region Office",
+    "gis": {
+      "lat": "12.909612",
+      "lng": "77.381327"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Orchid",
+    "subdivision": "N28",
+    "section": "SEC-55",
+    "officeName": "Office of the Assistant Engineer of Kengeri Section",
+    "officer": {
+      "name": "Arjun Rao",
+      "designation": "Assistant Engineer",
+      "email": "arjun.rao@utility-section.com",
+      "mobile": "9198235543"
+    },
+    "address": "Kengeri, North Region Office",
+    "gis": {
+      "lat": "12.690575",
+      "lng": "77.340609"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Orchid",
+    "subdivision": "N28",
+    "section": "SEC-56",
+    "officeName": "Office of the Assistant Engineer of Hebbal Section",
+    "officer": {
+      "name": "Meena Das",
+      "designation": "Assistant Engineer",
+      "email": "meena.das@utility-section.com",
+      "mobile": "9391178419"
+    },
+    "address": "Hebbal, North Region Office",
+    "gis": {
+      "lat": "12.264067",
+      "lng": "77.704212"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Sunflower",
+    "officeName": "Sunflower Division Office",
+    "officer": {
+      "name": "Ravi Singh",
+      "designation": "Executive Engineer",
+      "email": "ravi.singh@utility-division.com",
+      "mobile": "9474896270"
+    },
+    "address": "Sunflower, North Region Office",
+    "gis": {
+      "lat": "12.630559",
+      "lng": "77.405367"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Sunflower",
+    "subdivision": "N29",
+    "officeName": "Subdivision N29",
+    "officer": {
+      "name": "Ravi Sharma",
+      "designation": "Assistant Executive Engineer",
+      "email": "ravi.sharma@utility-subdivision.com",
+      "mobile": "9189340662"
+    },
+    "address": "N29, North Region Office",
+    "gis": {
+      "lat": "12.231538",
+      "lng": "77.336725"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Sunflower",
+    "subdivision": "N29",
+    "section": "SEC-57",
+    "officeName": "Office of the Assistant Engineer of MG Road Section",
+    "officer": {
+      "name": "Kiran Gupta",
+      "designation": "Assistant Engineer",
+      "email": "kiran.gupta@utility-section.com",
+      "mobile": "9693679192"
+    },
+    "address": "MG Road, North Region Office",
+    "gis": {
+      "lat": "12.726521",
+      "lng": "77.925821"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Sunflower",
+    "subdivision": "N29",
+    "section": "SEC-58",
+    "officeName": "Office of the Assistant Engineer of Marathahalli Section",
+    "officer": {
+      "name": "Kiran Sharma",
+      "designation": "Assistant Engineer",
+      "email": "kiran.sharma@utility-section.com",
+      "mobile": "9846494792"
+    },
+    "address": "Marathahalli, North Region Office",
+    "gis": {
+      "lat": "12.195394",
+      "lng": "77.819816"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Sunflower",
+    "subdivision": "N30",
+    "officeName": "Subdivision N30",
+    "officer": {
+      "name": "Kiran Iyer",
+      "designation": "Assistant Executive Engineer",
+      "email": "kiran.iyer@utility-subdivision.com",
+      "mobile": "9963040677"
+    },
+    "address": "N30, North Region Office",
+    "gis": {
+      "lat": "12.476742",
+      "lng": "77.124763"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Sunflower",
+    "subdivision": "N30",
+    "section": "SEC-59",
+    "officeName": "Office of the Assistant Engineer of MG Road Section",
+    "officer": {
+      "name": "Anita Sharma",
+      "designation": "Assistant Engineer",
+      "email": "anita.sharma@utility-section.com",
+      "mobile": "9490865349"
+    },
+    "address": "MG Road, North Region Office",
+    "gis": {
+      "lat": "12.381338",
+      "lng": "77.015657"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Sunflower",
+    "subdivision": "N30",
+    "section": "SEC-60",
+    "officeName": "Office of the Assistant Engineer of Banashankari Section",
+    "officer": {
+      "name": "Rahul Patel",
+      "designation": "Assistant Engineer",
+      "email": "rahul.patel@utility-section.com",
+      "mobile": "9928879259"
+    },
+    "address": "Banashankari, North Region Office",
+    "gis": {
+      "lat": "12.916118",
+      "lng": "77.478301"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Sunflower",
+    "subdivision": "N31",
+    "officeName": "Subdivision N31",
+    "officer": {
+      "name": "Deepa Patel",
+      "designation": "Assistant Executive Engineer",
+      "email": "deepa.patel@utility-subdivision.com",
+      "mobile": "9684163215"
+    },
+    "address": "N31, North Region Office",
+    "gis": {
+      "lat": "12.668799",
+      "lng": "77.976348"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Sunflower",
+    "subdivision": "N31",
+    "section": "SEC-61",
+    "officeName": "Office of the Assistant Engineer of Ulsoor Section",
+    "officer": {
+      "name": "Suresh Das",
+      "designation": "Assistant Engineer",
+      "email": "suresh.das@utility-section.com",
+      "mobile": "9767747856"
+    },
+    "address": "Ulsoor, North Region Office",
+    "gis": {
+      "lat": "12.098983",
+      "lng": "77.616330"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Sunflower",
+    "subdivision": "N31",
+    "section": "SEC-62",
+    "officeName": "Office of the Assistant Engineer of Peenya Section",
+    "officer": {
+      "name": "Kiran Nair",
+      "designation": "Assistant Engineer",
+      "email": "kiran.nair@utility-section.com",
+      "mobile": "9162200453"
+    },
+    "address": "Peenya, North Region Office",
+    "gis": {
+      "lat": "12.155674",
+      "lng": "77.274457"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Sunflower",
+    "subdivision": "N32",
+    "officeName": "Subdivision N32",
+    "officer": {
+      "name": "Kiran Rao",
+      "designation": "Assistant Executive Engineer",
+      "email": "kiran.rao@utility-subdivision.com",
+      "mobile": "9198122859"
+    },
+    "address": "N32, North Region Office",
+    "gis": {
+      "lat": "12.455979",
+      "lng": "77.047783"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Sunflower",
+    "subdivision": "N32",
+    "section": "SEC-63",
+    "officeName": "Office of the Assistant Engineer of BTM Section",
+    "officer": {
+      "name": "Vijay Gupta",
+      "designation": "Assistant Engineer",
+      "email": "vijay.gupta@utility-section.com",
+      "mobile": "9289827580"
+    },
+    "address": "BTM, North Region Office",
+    "gis": {
+      "lat": "12.280534",
+      "lng": "77.459716"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Sunflower",
+    "subdivision": "N32",
+    "section": "SEC-64",
+    "officeName": "Office of the Assistant Engineer of Rajajinagar Section",
+    "officer": {
+      "name": "Rahul Reddy",
+      "designation": "Assistant Engineer",
+      "email": "rahul.reddy@utility-section.com",
+      "mobile": "9147564962"
+    },
+    "address": "Rajajinagar, North Region Office",
+    "gis": {
+      "lat": "12.790485",
+      "lng": "77.954029"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Marigold",
+    "officeName": "Marigold Division Office",
+    "officer": {
+      "name": "Vijay Kumar",
+      "designation": "Executive Engineer",
+      "email": "vijay.kumar@utility-division.com",
+      "mobile": "9742586260"
+    },
+    "address": "Marigold, North Region Office",
+    "gis": {
+      "lat": "12.543475",
+      "lng": "77.036614"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Marigold",
+    "subdivision": "N33",
+    "officeName": "Subdivision N33",
+    "officer": {
+      "name": "Sneha Gupta",
+      "designation": "Assistant Executive Engineer",
+      "email": "sneha.gupta@utility-subdivision.com",
+      "mobile": "9611825746"
+    },
+    "address": "N33, North Region Office",
+    "gis": {
+      "lat": "12.006252",
+      "lng": "77.399392"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Marigold",
+    "subdivision": "N33",
+    "section": "SEC-65",
+    "officeName": "Office of the Assistant Engineer of Hosur Road Section",
+    "officer": {
+      "name": "Anita Patel",
+      "designation": "Assistant Engineer",
+      "email": "anita.patel@utility-section.com",
+      "mobile": "9532153933"
+    },
+    "address": "Hosur Road, North Region Office",
+    "gis": {
+      "lat": "12.891168",
+      "lng": "77.438214"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Marigold",
+    "subdivision": "N33",
+    "section": "SEC-66",
+    "officeName": "Office of the Assistant Engineer of Peenya Section",
+    "officer": {
+      "name": "Vijay Iyer",
+      "designation": "Assistant Engineer",
+      "email": "vijay.iyer@utility-section.com",
+      "mobile": "9918606737"
+    },
+    "address": "Peenya, North Region Office",
+    "gis": {
+      "lat": "12.332066",
+      "lng": "77.055112"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Marigold",
+    "subdivision": "N34",
+    "officeName": "Subdivision N34",
+    "officer": {
+      "name": "Sneha Das",
+      "designation": "Assistant Executive Engineer",
+      "email": "sneha.das@utility-subdivision.com",
+      "mobile": "9423807262"
+    },
+    "address": "N34, North Region Office",
+    "gis": {
+      "lat": "12.530923",
+      "lng": "77.406978"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Marigold",
+    "subdivision": "N34",
+    "section": "SEC-67",
+    "officeName": "Office of the Assistant Engineer of Jayanagar Section",
+    "officer": {
+      "name": "Arjun Singh",
+      "designation": "Assistant Engineer",
+      "email": "arjun.singh@utility-section.com",
+      "mobile": "9682689612"
+    },
+    "address": "Jayanagar, North Region Office",
+    "gis": {
+      "lat": "12.188987",
+      "lng": "77.046419"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Marigold",
+    "subdivision": "N34",
+    "section": "SEC-68",
+    "officeName": "Office of the Assistant Engineer of Electronic City Section",
+    "officer": {
+      "name": "Anita Patel",
+      "designation": "Assistant Engineer",
+      "email": "anita.patel@utility-section.com",
+      "mobile": "9944856616"
+    },
+    "address": "Electronic City, North Region Office",
+    "gis": {
+      "lat": "12.637442",
+      "lng": "77.105004"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Marigold",
+    "subdivision": "N35",
+    "officeName": "Subdivision N35",
+    "officer": {
+      "name": "Ravi Gupta",
+      "designation": "Assistant Executive Engineer",
+      "email": "ravi.gupta@utility-subdivision.com",
+      "mobile": "9799602842"
+    },
+    "address": "N35, North Region Office",
+    "gis": {
+      "lat": "12.527527",
+      "lng": "77.408159"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Marigold",
+    "subdivision": "N35",
+    "section": "SEC-69",
+    "officeName": "Office of the Assistant Engineer of Peenya Section",
+    "officer": {
+      "name": "Arjun Gupta",
+      "designation": "Assistant Engineer",
+      "email": "arjun.gupta@utility-section.com",
+      "mobile": "9645303048"
+    },
+    "address": "Peenya, North Region Office",
+    "gis": {
+      "lat": "12.404557",
+      "lng": "77.785825"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Marigold",
+    "subdivision": "N35",
+    "section": "SEC-70",
+    "officeName": "Office of the Assistant Engineer of Peenya Section",
+    "officer": {
+      "name": "Vijay Reddy",
+      "designation": "Assistant Engineer",
+      "email": "vijay.reddy@utility-section.com",
+      "mobile": "9874484009"
+    },
+    "address": "Peenya, North Region Office",
+    "gis": {
+      "lat": "12.671121",
+      "lng": "77.967981"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Marigold",
+    "subdivision": "N36",
+    "officeName": "Subdivision N36",
+    "officer": {
+      "name": "Deepa Das",
+      "designation": "Assistant Executive Engineer",
+      "email": "deepa.das@utility-subdivision.com",
+      "mobile": "9509463611"
+    },
+    "address": "N36, North Region Office",
+    "gis": {
+      "lat": "12.770917",
+      "lng": "77.633094"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Marigold",
+    "subdivision": "N36",
+    "section": "SEC-71",
+    "officeName": "Office of the Assistant Engineer of Indiranagar Section",
+    "officer": {
+      "name": "Meena Iyer",
+      "designation": "Assistant Engineer",
+      "email": "meena.iyer@utility-section.com",
+      "mobile": "9659890584"
+    },
+    "address": "Indiranagar, North Region Office",
+    "gis": {
+      "lat": "12.208502",
+      "lng": "77.589075"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "North",
+    "circle": "Orange",
+    "division": "Marigold",
+    "subdivision": "N36",
+    "section": "SEC-72",
+    "officeName": "Office of the Assistant Engineer of Domlur Section",
+    "officer": {
+      "name": "Kiran Rao",
+      "designation": "Assistant Engineer",
+      "email": "kiran.rao@utility-section.com",
+      "mobile": "9737957705"
+    },
+    "address": "Domlur, North Region Office",
+    "gis": {
+      "lat": "12.433194",
+      "lng": "77.590854"
+    }
+  },
+  {
+    "level": "Zone",
+    "zone": "South",
+    "officeName": "Office of Chief Engineer - South Zone",
+    "officer": {
+      "name": "Rahul Reddy",
+      "designation": "Chief Engineer",
+      "email": "rahul.reddy@utility-zone.com",
+      "mobile": "9923127827"
+    },
+    "address": "Head Office, South Region Office",
+    "gis": {
+      "lat": "12.783448",
+      "lng": "77.392171"
+    }
+  },
+  {
+    "level": "Circle",
+    "zone": "South",
+    "circle": "Banana",
+    "officeName": "Banana Circle Office",
+    "officer": {
+      "name": "Suresh Rao",
+      "designation": "Superintending Engineer",
+      "email": "suresh.rao@utility-circle.com",
+      "mobile": "9125251626"
+    },
+    "address": "Banana, South Region Office",
+    "gis": {
+      "lat": "12.430429",
+      "lng": "77.462994"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Lavender",
+    "officeName": "Lavender Division Office",
+    "officer": {
+      "name": "Deepa Reddy",
+      "designation": "Executive Engineer",
+      "email": "deepa.reddy@utility-division.com",
+      "mobile": "9683782927"
+    },
+    "address": "Lavender, South Region Office",
+    "gis": {
+      "lat": "12.296241",
+      "lng": "77.712552"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Lavender",
+    "subdivision": "S1",
+    "officeName": "Subdivision S1",
+    "officer": {
+      "name": "Ravi Das",
+      "designation": "Assistant Executive Engineer",
+      "email": "ravi.das@utility-subdivision.com",
+      "mobile": "9338288691"
+    },
+    "address": "S1, South Region Office",
+    "gis": {
+      "lat": "12.518617",
+      "lng": "77.649305"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Lavender",
+    "subdivision": "S1",
+    "section": "SEC-73",
+    "officeName": "Office of the Assistant Engineer of Rajajinagar Section",
+    "officer": {
+      "name": "Arjun Iyer",
+      "designation": "Assistant Engineer",
+      "email": "arjun.iyer@utility-section.com",
+      "mobile": "9738564377"
+    },
+    "address": "Rajajinagar, South Region Office",
+    "gis": {
+      "lat": "12.510568",
+      "lng": "77.618902"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Lavender",
+    "subdivision": "S1",
+    "section": "SEC-74",
+    "officeName": "Office of the Assistant Engineer of Ulsoor Section",
+    "officer": {
+      "name": "Ravi Iyer",
+      "designation": "Assistant Engineer",
+      "email": "ravi.iyer@utility-section.com",
+      "mobile": "9164034050"
+    },
+    "address": "Ulsoor, South Region Office",
+    "gis": {
+      "lat": "12.092882",
+      "lng": "77.488557"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Lavender",
+    "subdivision": "S2",
+    "officeName": "Subdivision S2",
+    "officer": {
+      "name": "Vijay Gupta",
+      "designation": "Assistant Executive Engineer",
+      "email": "vijay.gupta@utility-subdivision.com",
+      "mobile": "9286897111"
+    },
+    "address": "S2, South Region Office",
+    "gis": {
+      "lat": "12.324172",
+      "lng": "77.728319"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Lavender",
+    "subdivision": "S2",
+    "section": "SEC-75",
+    "officeName": "Office of the Assistant Engineer of Malleshwaram Section",
+    "officer": {
+      "name": "Vijay Iyer",
+      "designation": "Assistant Engineer",
+      "email": "vijay.iyer@utility-section.com",
+      "mobile": "9497998876"
+    },
+    "address": "Malleshwaram, South Region Office",
+    "gis": {
+      "lat": "12.968673",
+      "lng": "77.822814"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Lavender",
+    "subdivision": "S2",
+    "section": "SEC-76",
+    "officeName": "Office of the Assistant Engineer of Peenya Section",
+    "officer": {
+      "name": "Arjun Singh",
+      "designation": "Assistant Engineer",
+      "email": "arjun.singh@utility-section.com",
+      "mobile": "9787171724"
+    },
+    "address": "Peenya, South Region Office",
+    "gis": {
+      "lat": "12.670214",
+      "lng": "77.100272"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Lavender",
+    "subdivision": "S3",
+    "officeName": "Subdivision S3",
+    "officer": {
+      "name": "Kiran Gupta",
+      "designation": "Assistant Executive Engineer",
+      "email": "kiran.gupta@utility-subdivision.com",
+      "mobile": "9415923855"
+    },
+    "address": "S3, South Region Office",
+    "gis": {
+      "lat": "12.055108",
+      "lng": "77.054845"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Lavender",
+    "subdivision": "S3",
+    "section": "SEC-77",
+    "officeName": "Office of the Assistant Engineer of BTM Section",
+    "officer": {
+      "name": "Anita Kumar",
+      "designation": "Assistant Engineer",
+      "email": "anita.kumar@utility-section.com",
+      "mobile": "9576311469"
+    },
+    "address": "BTM, South Region Office",
+    "gis": {
+      "lat": "12.590527",
+      "lng": "77.427088"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Lavender",
+    "subdivision": "S3",
+    "section": "SEC-78",
+    "officeName": "Office of the Assistant Engineer of Hosur Road Section",
+    "officer": {
+      "name": "Vijay Gupta",
+      "designation": "Assistant Engineer",
+      "email": "vijay.gupta@utility-section.com",
+      "mobile": "9106651696"
+    },
+    "address": "Hosur Road, South Region Office",
+    "gis": {
+      "lat": "12.385337",
+      "lng": "77.363001"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Lavender",
+    "subdivision": "S4",
+    "officeName": "Subdivision S4",
+    "officer": {
+      "name": "Suresh Sharma",
+      "designation": "Assistant Executive Engineer",
+      "email": "suresh.sharma@utility-subdivision.com",
+      "mobile": "9609230740"
+    },
+    "address": "S4, South Region Office",
+    "gis": {
+      "lat": "12.411844",
+      "lng": "77.601308"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Lavender",
+    "subdivision": "S4",
+    "section": "SEC-79",
+    "officeName": "Office of the Assistant Engineer of Indiranagar Section",
+    "officer": {
+      "name": "Meena Das",
+      "designation": "Assistant Engineer",
+      "email": "meena.das@utility-section.com",
+      "mobile": "9488403352"
+    },
+    "address": "Indiranagar, South Region Office",
+    "gis": {
+      "lat": "12.093201",
+      "lng": "77.135564"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Lavender",
+    "subdivision": "S4",
+    "section": "SEC-80",
+    "officeName": "Office of the Assistant Engineer of Yelahanka Section",
+    "officer": {
+      "name": "Anita Kumar",
+      "designation": "Assistant Engineer",
+      "email": "anita.kumar@utility-section.com",
+      "mobile": "9781513324"
+    },
+    "address": "Yelahanka, South Region Office",
+    "gis": {
+      "lat": "12.218201",
+      "lng": "77.698077"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Hibiscus",
+    "officeName": "Hibiscus Division Office",
+    "officer": {
+      "name": "Sneha Sharma",
+      "designation": "Executive Engineer",
+      "email": "sneha.sharma@utility-division.com",
+      "mobile": "9244345214"
+    },
+    "address": "Hibiscus, South Region Office",
+    "gis": {
+      "lat": "12.742450",
+      "lng": "77.896497"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Hibiscus",
+    "subdivision": "S5",
+    "officeName": "Subdivision S5",
+    "officer": {
+      "name": "Arjun Iyer",
+      "designation": "Assistant Executive Engineer",
+      "email": "arjun.iyer@utility-subdivision.com",
+      "mobile": "9270634325"
+    },
+    "address": "S5, South Region Office",
+    "gis": {
+      "lat": "12.545814",
+      "lng": "77.827920"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Hibiscus",
+    "subdivision": "S5",
+    "section": "SEC-81",
+    "officeName": "Office of the Assistant Engineer of Hebbal Section",
+    "officer": {
+      "name": "Arjun Iyer",
+      "designation": "Assistant Engineer",
+      "email": "arjun.iyer@utility-section.com",
+      "mobile": "9320923057"
+    },
+    "address": "Hebbal, South Region Office",
+    "gis": {
+      "lat": "12.554067",
+      "lng": "77.761584"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Hibiscus",
+    "subdivision": "S5",
+    "section": "SEC-82",
+    "officeName": "Office of the Assistant Engineer of Whitefield Section",
+    "officer": {
+      "name": "Meena Singh",
+      "designation": "Assistant Engineer",
+      "email": "meena.singh@utility-section.com",
+      "mobile": "9757439067"
+    },
+    "address": "Whitefield, South Region Office",
+    "gis": {
+      "lat": "12.725534",
+      "lng": "77.476157"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Hibiscus",
+    "subdivision": "S6",
+    "officeName": "Subdivision S6",
+    "officer": {
+      "name": "Arjun Sharma",
+      "designation": "Assistant Executive Engineer",
+      "email": "arjun.sharma@utility-subdivision.com",
+      "mobile": "9361231875"
+    },
+    "address": "S6, South Region Office",
+    "gis": {
+      "lat": "12.548161",
+      "lng": "77.558489"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Hibiscus",
+    "subdivision": "S6",
+    "section": "SEC-83",
+    "officeName": "Office of the Assistant Engineer of Ulsoor Section",
+    "officer": {
+      "name": "Rahul Patel",
+      "designation": "Assistant Engineer",
+      "email": "rahul.patel@utility-section.com",
+      "mobile": "9212903446"
+    },
+    "address": "Ulsoor, South Region Office",
+    "gis": {
+      "lat": "12.163599",
+      "lng": "77.006003"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Hibiscus",
+    "subdivision": "S6",
+    "section": "SEC-84",
+    "officeName": "Office of the Assistant Engineer of Whitefield Section",
+    "officer": {
+      "name": "Vijay Das",
+      "designation": "Assistant Engineer",
+      "email": "vijay.das@utility-section.com",
+      "mobile": "9826435952"
+    },
+    "address": "Whitefield, South Region Office",
+    "gis": {
+      "lat": "12.635021",
+      "lng": "77.440048"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Hibiscus",
+    "subdivision": "S7",
+    "officeName": "Subdivision S7",
+    "officer": {
+      "name": "Arjun Kumar",
+      "designation": "Assistant Executive Engineer",
+      "email": "arjun.kumar@utility-subdivision.com",
+      "mobile": "9727147160"
+    },
+    "address": "S7, South Region Office",
+    "gis": {
+      "lat": "12.071312",
+      "lng": "77.695600"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Hibiscus",
+    "subdivision": "S7",
+    "section": "SEC-85",
+    "officeName": "Office of the Assistant Engineer of Rajajinagar Section",
+    "officer": {
+      "name": "Kiran Patel",
+      "designation": "Assistant Engineer",
+      "email": "kiran.patel@utility-section.com",
+      "mobile": "9857058126"
+    },
+    "address": "Rajajinagar, South Region Office",
+    "gis": {
+      "lat": "12.203211",
+      "lng": "77.341253"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Hibiscus",
+    "subdivision": "S7",
+    "section": "SEC-86",
+    "officeName": "Office of the Assistant Engineer of MG Road Section",
+    "officer": {
+      "name": "Deepa Nair",
+      "designation": "Assistant Engineer",
+      "email": "deepa.nair@utility-section.com",
+      "mobile": "9875938078"
+    },
+    "address": "MG Road, South Region Office",
+    "gis": {
+      "lat": "12.265661",
+      "lng": "77.260576"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Hibiscus",
+    "subdivision": "S8",
+    "officeName": "Subdivision S8",
+    "officer": {
+      "name": "Anita Gupta",
+      "designation": "Assistant Executive Engineer",
+      "email": "anita.gupta@utility-subdivision.com",
+      "mobile": "9991002414"
+    },
+    "address": "S8, South Region Office",
+    "gis": {
+      "lat": "12.517921",
+      "lng": "77.110296"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Hibiscus",
+    "subdivision": "S8",
+    "section": "SEC-87",
+    "officeName": "Office of the Assistant Engineer of MG Road Section",
+    "officer": {
+      "name": "Kiran Kumar",
+      "designation": "Assistant Engineer",
+      "email": "kiran.kumar@utility-section.com",
+      "mobile": "9308422389"
+    },
+    "address": "MG Road, South Region Office",
+    "gis": {
+      "lat": "12.535899",
+      "lng": "77.415229"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Hibiscus",
+    "subdivision": "S8",
+    "section": "SEC-88",
+    "officeName": "Office of the Assistant Engineer of Ulsoor Section",
+    "officer": {
+      "name": "Arjun Das",
+      "designation": "Assistant Engineer",
+      "email": "arjun.das@utility-section.com",
+      "mobile": "9206031071"
+    },
+    "address": "Ulsoor, South Region Office",
+    "gis": {
+      "lat": "12.845198",
+      "lng": "77.630946"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Magnolia",
+    "officeName": "Magnolia Division Office",
+    "officer": {
+      "name": "Suresh Nair",
+      "designation": "Executive Engineer",
+      "email": "suresh.nair@utility-division.com",
+      "mobile": "9263946749"
+    },
+    "address": "Magnolia, South Region Office",
+    "gis": {
+      "lat": "12.041463",
+      "lng": "77.932511"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Magnolia",
+    "subdivision": "S9",
+    "officeName": "Subdivision S9",
+    "officer": {
+      "name": "Arjun Nair",
+      "designation": "Assistant Executive Engineer",
+      "email": "arjun.nair@utility-subdivision.com",
+      "mobile": "9687691979"
+    },
+    "address": "S9, South Region Office",
+    "gis": {
+      "lat": "12.839355",
+      "lng": "77.560175"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Magnolia",
+    "subdivision": "S9",
+    "section": "SEC-89",
+    "officeName": "Office of the Assistant Engineer of Electronic City Section",
+    "officer": {
+      "name": "Kiran Reddy",
+      "designation": "Assistant Engineer",
+      "email": "kiran.reddy@utility-section.com",
+      "mobile": "9989910578"
+    },
+    "address": "Electronic City, South Region Office",
+    "gis": {
+      "lat": "12.647462",
+      "lng": "77.120750"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Magnolia",
+    "subdivision": "S9",
+    "section": "SEC-90",
+    "officeName": "Office of the Assistant Engineer of KR Puram Section",
+    "officer": {
+      "name": "Suresh Nair",
+      "designation": "Assistant Engineer",
+      "email": "suresh.nair@utility-section.com",
+      "mobile": "9980070829"
+    },
+    "address": "KR Puram, South Region Office",
+    "gis": {
+      "lat": "12.960939",
+      "lng": "77.359120"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Magnolia",
+    "subdivision": "S10",
+    "officeName": "Subdivision S10",
+    "officer": {
+      "name": "Suresh Das",
+      "designation": "Assistant Executive Engineer",
+      "email": "suresh.das@utility-subdivision.com",
+      "mobile": "9558443215"
+    },
+    "address": "S10, South Region Office",
+    "gis": {
+      "lat": "12.760567",
+      "lng": "77.591983"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Magnolia",
+    "subdivision": "S10",
+    "section": "SEC-91",
+    "officeName": "Office of the Assistant Engineer of MG Road Section",
+    "officer": {
+      "name": "Ravi Sharma",
+      "designation": "Assistant Engineer",
+      "email": "ravi.sharma@utility-section.com",
+      "mobile": "9920120132"
+    },
+    "address": "MG Road, South Region Office",
+    "gis": {
+      "lat": "12.933753",
+      "lng": "77.064977"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Magnolia",
+    "subdivision": "S10",
+    "section": "SEC-92",
+    "officeName": "Office of the Assistant Engineer of Indiranagar Section",
+    "officer": {
+      "name": "Sneha Singh",
+      "designation": "Assistant Engineer",
+      "email": "sneha.singh@utility-section.com",
+      "mobile": "9243770825"
+    },
+    "address": "Indiranagar, South Region Office",
+    "gis": {
+      "lat": "12.780160",
+      "lng": "77.149487"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Magnolia",
+    "subdivision": "S11",
+    "officeName": "Subdivision S11",
+    "officer": {
+      "name": "Deepa Patel",
+      "designation": "Assistant Executive Engineer",
+      "email": "deepa.patel@utility-subdivision.com",
+      "mobile": "9270922501"
+    },
+    "address": "S11, South Region Office",
+    "gis": {
+      "lat": "12.290828",
+      "lng": "77.375542"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Magnolia",
+    "subdivision": "S11",
+    "section": "SEC-93",
+    "officeName": "Office of the Assistant Engineer of MG Road Section",
+    "officer": {
+      "name": "Vijay Rao",
+      "designation": "Assistant Engineer",
+      "email": "vijay.rao@utility-section.com",
+      "mobile": "9222252055"
+    },
+    "address": "MG Road, South Region Office",
+    "gis": {
+      "lat": "12.060208",
+      "lng": "77.672225"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Magnolia",
+    "subdivision": "S11",
+    "section": "SEC-94",
+    "officeName": "Office of the Assistant Engineer of Kengeri Section",
+    "officer": {
+      "name": "Sneha Patel",
+      "designation": "Assistant Engineer",
+      "email": "sneha.patel@utility-section.com",
+      "mobile": "9935348966"
+    },
+    "address": "Kengeri, South Region Office",
+    "gis": {
+      "lat": "12.467789",
+      "lng": "77.074680"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Magnolia",
+    "subdivision": "S12",
+    "officeName": "Subdivision S12",
+    "officer": {
+      "name": "Kiran Iyer",
+      "designation": "Assistant Executive Engineer",
+      "email": "kiran.iyer@utility-subdivision.com",
+      "mobile": "9751073129"
+    },
+    "address": "S12, South Region Office",
+    "gis": {
+      "lat": "12.964975",
+      "lng": "77.384885"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Magnolia",
+    "subdivision": "S12",
+    "section": "SEC-95",
+    "officeName": "Office of the Assistant Engineer of Jayanagar Section",
+    "officer": {
+      "name": "Suresh Sharma",
+      "designation": "Assistant Engineer",
+      "email": "suresh.sharma@utility-section.com",
+      "mobile": "9960004068"
+    },
+    "address": "Jayanagar, South Region Office",
+    "gis": {
+      "lat": "12.391583",
+      "lng": "77.076620"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Magnolia",
+    "subdivision": "S12",
+    "section": "SEC-96",
+    "officeName": "Office of the Assistant Engineer of Banashankari Section",
+    "officer": {
+      "name": "Sneha Nair",
+      "designation": "Assistant Engineer",
+      "email": "sneha.nair@utility-section.com",
+      "mobile": "9700417446"
+    },
+    "address": "Banashankari, South Region Office",
+    "gis": {
+      "lat": "12.923562",
+      "lng": "77.372285"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Peony",
+    "officeName": "Peony Division Office",
+    "officer": {
+      "name": "Meena Das",
+      "designation": "Executive Engineer",
+      "email": "meena.das@utility-division.com",
+      "mobile": "9436420949"
+    },
+    "address": "Peony, South Region Office",
+    "gis": {
+      "lat": "12.209886",
+      "lng": "77.826450"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Peony",
+    "subdivision": "S13",
+    "officeName": "Subdivision S13",
+    "officer": {
+      "name": "Vijay Das",
+      "designation": "Assistant Executive Engineer",
+      "email": "vijay.das@utility-subdivision.com",
+      "mobile": "9748008350"
+    },
+    "address": "S13, South Region Office",
+    "gis": {
+      "lat": "12.118905",
+      "lng": "77.699301"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Peony",
+    "subdivision": "S13",
+    "section": "SEC-97",
+    "officeName": "Office of the Assistant Engineer of Marathahalli Section",
+    "officer": {
+      "name": "Ravi Reddy",
+      "designation": "Assistant Engineer",
+      "email": "ravi.reddy@utility-section.com",
+      "mobile": "9850574619"
+    },
+    "address": "Marathahalli, South Region Office",
+    "gis": {
+      "lat": "12.585730",
+      "lng": "77.504057"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Peony",
+    "subdivision": "S13",
+    "section": "SEC-98",
+    "officeName": "Office of the Assistant Engineer of Peenya Section",
+    "officer": {
+      "name": "Meena Reddy",
+      "designation": "Assistant Engineer",
+      "email": "meena.reddy@utility-section.com",
+      "mobile": "9961864122"
+    },
+    "address": "Peenya, South Region Office",
+    "gis": {
+      "lat": "12.226255",
+      "lng": "77.904394"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Peony",
+    "subdivision": "S14",
+    "officeName": "Subdivision S14",
+    "officer": {
+      "name": "Arjun Sharma",
+      "designation": "Assistant Executive Engineer",
+      "email": "arjun.sharma@utility-subdivision.com",
+      "mobile": "9885640310"
+    },
+    "address": "S14, South Region Office",
+    "gis": {
+      "lat": "12.164632",
+      "lng": "77.296807"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Peony",
+    "subdivision": "S14",
+    "section": "SEC-99",
+    "officeName": "Office of the Assistant Engineer of MG Road Section",
+    "officer": {
+      "name": "Suresh Das",
+      "designation": "Assistant Engineer",
+      "email": "suresh.das@utility-section.com",
+      "mobile": "9167665109"
+    },
+    "address": "MG Road, South Region Office",
+    "gis": {
+      "lat": "12.567056",
+      "lng": "77.702058"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Peony",
+    "subdivision": "S14",
+    "section": "SEC-100",
+    "officeName": "Office of the Assistant Engineer of Bellandur Section",
+    "officer": {
+      "name": "Ravi Kumar",
+      "designation": "Assistant Engineer",
+      "email": "ravi.kumar@utility-section.com",
+      "mobile": "9712745899"
+    },
+    "address": "Bellandur, South Region Office",
+    "gis": {
+      "lat": "12.445428",
+      "lng": "77.195169"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Peony",
+    "subdivision": "S15",
+    "officeName": "Subdivision S15",
+    "officer": {
+      "name": "Rahul Kumar",
+      "designation": "Assistant Executive Engineer",
+      "email": "rahul.kumar@utility-subdivision.com",
+      "mobile": "9884017124"
+    },
+    "address": "S15, South Region Office",
+    "gis": {
+      "lat": "12.727309",
+      "lng": "77.777841"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Peony",
+    "subdivision": "S15",
+    "section": "SEC-101",
+    "officeName": "Office of the Assistant Engineer of Jayanagar Section",
+    "officer": {
+      "name": "Arjun Iyer",
+      "designation": "Assistant Engineer",
+      "email": "arjun.iyer@utility-section.com",
+      "mobile": "9654839891"
+    },
+    "address": "Jayanagar, South Region Office",
+    "gis": {
+      "lat": "12.981583",
+      "lng": "77.348921"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Peony",
+    "subdivision": "S15",
+    "section": "SEC-102",
+    "officeName": "Office of the Assistant Engineer of Hebbal Section",
+    "officer": {
+      "name": "Deepa Das",
+      "designation": "Assistant Engineer",
+      "email": "deepa.das@utility-section.com",
+      "mobile": "9546784297"
+    },
+    "address": "Hebbal, South Region Office",
+    "gis": {
+      "lat": "12.471468",
+      "lng": "77.177797"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Peony",
+    "subdivision": "S16",
+    "officeName": "Subdivision S16",
+    "officer": {
+      "name": "Kiran Singh",
+      "designation": "Assistant Executive Engineer",
+      "email": "kiran.singh@utility-subdivision.com",
+      "mobile": "9704777536"
+    },
+    "address": "S16, South Region Office",
+    "gis": {
+      "lat": "12.997029",
+      "lng": "77.587156"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Peony",
+    "subdivision": "S16",
+    "section": "SEC-103",
+    "officeName": "Office of the Assistant Engineer of Yelahanka Section",
+    "officer": {
+      "name": "Deepa Das",
+      "designation": "Assistant Engineer",
+      "email": "deepa.das@utility-section.com",
+      "mobile": "9875614663"
+    },
+    "address": "Yelahanka, South Region Office",
+    "gis": {
+      "lat": "12.996268",
+      "lng": "77.224181"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Banana",
+    "division": "Peony",
+    "subdivision": "S16",
+    "section": "SEC-104",
+    "officeName": "Office of the Assistant Engineer of BTM Section",
+    "officer": {
+      "name": "Vijay Kumar",
+      "designation": "Assistant Engineer",
+      "email": "vijay.kumar@utility-section.com",
+      "mobile": "9261411534"
+    },
+    "address": "BTM, South Region Office",
+    "gis": {
+      "lat": "12.096373",
+      "lng": "77.152548"
+    }
+  },
+  {
+    "level": "Circle",
+    "zone": "South",
+    "circle": "Grape",
+    "officeName": "Grape Circle Office",
+    "officer": {
+      "name": "Kiran Patel",
+      "designation": "Superintending Engineer",
+      "email": "kiran.patel@utility-circle.com",
+      "mobile": "9715029275"
+    },
+    "address": "Grape, South Region Office",
+    "gis": {
+      "lat": "12.663841",
+      "lng": "77.450194"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Camellia",
+    "officeName": "Camellia Division Office",
+    "officer": {
+      "name": "Rahul Nair",
+      "designation": "Executive Engineer",
+      "email": "rahul.nair@utility-division.com",
+      "mobile": "9332415328"
+    },
+    "address": "Camellia, South Region Office",
+    "gis": {
+      "lat": "12.370260",
+      "lng": "77.822727"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Camellia",
+    "subdivision": "S17",
+    "officeName": "Subdivision S17",
+    "officer": {
+      "name": "Ravi Reddy",
+      "designation": "Assistant Executive Engineer",
+      "email": "ravi.reddy@utility-subdivision.com",
+      "mobile": "9533671466"
+    },
+    "address": "S17, South Region Office",
+    "gis": {
+      "lat": "12.423926",
+      "lng": "77.659552"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Camellia",
+    "subdivision": "S17",
+    "section": "SEC-105",
+    "officeName": "Office of the Assistant Engineer of Hebbal Section",
+    "officer": {
+      "name": "Sneha Reddy",
+      "designation": "Assistant Engineer",
+      "email": "sneha.reddy@utility-section.com",
+      "mobile": "9782215400"
+    },
+    "address": "Hebbal, South Region Office",
+    "gis": {
+      "lat": "12.993652",
+      "lng": "77.715297"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Camellia",
+    "subdivision": "S17",
+    "section": "SEC-106",
+    "officeName": "Office of the Assistant Engineer of Whitefield Section",
+    "officer": {
+      "name": "Deepa Iyer",
+      "designation": "Assistant Engineer",
+      "email": "deepa.iyer@utility-section.com",
+      "mobile": "9563554237"
+    },
+    "address": "Whitefield, South Region Office",
+    "gis": {
+      "lat": "12.588767",
+      "lng": "77.187157"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Camellia",
+    "subdivision": "S18",
+    "officeName": "Subdivision S18",
+    "officer": {
+      "name": "Arjun Kumar",
+      "designation": "Assistant Executive Engineer",
+      "email": "arjun.kumar@utility-subdivision.com",
+      "mobile": "9207097454"
+    },
+    "address": "S18, South Region Office",
+    "gis": {
+      "lat": "12.467037",
+      "lng": "77.320601"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Camellia",
+    "subdivision": "S18",
+    "section": "SEC-107",
+    "officeName": "Office of the Assistant Engineer of Ulsoor Section",
+    "officer": {
+      "name": "Ravi Sharma",
+      "designation": "Assistant Engineer",
+      "email": "ravi.sharma@utility-section.com",
+      "mobile": "9765166754"
+    },
+    "address": "Ulsoor, South Region Office",
+    "gis": {
+      "lat": "12.586730",
+      "lng": "77.350940"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Camellia",
+    "subdivision": "S18",
+    "section": "SEC-108",
+    "officeName": "Office of the Assistant Engineer of Banashankari Section",
+    "officer": {
+      "name": "Anita Nair",
+      "designation": "Assistant Engineer",
+      "email": "anita.nair@utility-section.com",
+      "mobile": "9735036642"
+    },
+    "address": "Banashankari, South Region Office",
+    "gis": {
+      "lat": "12.414148",
+      "lng": "77.654227"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Camellia",
+    "subdivision": "S19",
+    "officeName": "Subdivision S19",
+    "officer": {
+      "name": "Deepa Kumar",
+      "designation": "Assistant Executive Engineer",
+      "email": "deepa.kumar@utility-subdivision.com",
+      "mobile": "9455364674"
+    },
+    "address": "S19, South Region Office",
+    "gis": {
+      "lat": "12.671100",
+      "lng": "77.421476"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Camellia",
+    "subdivision": "S19",
+    "section": "SEC-109",
+    "officeName": "Office of the Assistant Engineer of Electronic City Section",
+    "officer": {
+      "name": "Rahul Das",
+      "designation": "Assistant Engineer",
+      "email": "rahul.das@utility-section.com",
+      "mobile": "9446689377"
+    },
+    "address": "Electronic City, South Region Office",
+    "gis": {
+      "lat": "12.263557",
+      "lng": "77.961899"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Camellia",
+    "subdivision": "S19",
+    "section": "SEC-110",
+    "officeName": "Office of the Assistant Engineer of Peenya Section",
+    "officer": {
+      "name": "Suresh Singh",
+      "designation": "Assistant Engineer",
+      "email": "suresh.singh@utility-section.com",
+      "mobile": "9250235115"
+    },
+    "address": "Peenya, South Region Office",
+    "gis": {
+      "lat": "12.823498",
+      "lng": "77.649164"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Camellia",
+    "subdivision": "S20",
+    "officeName": "Subdivision S20",
+    "officer": {
+      "name": "Suresh Kumar",
+      "designation": "Assistant Executive Engineer",
+      "email": "suresh.kumar@utility-subdivision.com",
+      "mobile": "9954836294"
+    },
+    "address": "S20, South Region Office",
+    "gis": {
+      "lat": "12.986782",
+      "lng": "77.568326"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Camellia",
+    "subdivision": "S20",
+    "section": "SEC-111",
+    "officeName": "Office of the Assistant Engineer of KR Puram Section",
+    "officer": {
+      "name": "Kiran Gupta",
+      "designation": "Assistant Engineer",
+      "email": "kiran.gupta@utility-section.com",
+      "mobile": "9375589246"
+    },
+    "address": "KR Puram, South Region Office",
+    "gis": {
+      "lat": "12.802690",
+      "lng": "77.966145"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Camellia",
+    "subdivision": "S20",
+    "section": "SEC-112",
+    "officeName": "Office of the Assistant Engineer of Malleshwaram Section",
+    "officer": {
+      "name": "Meena Gupta",
+      "designation": "Assistant Engineer",
+      "email": "meena.gupta@utility-section.com",
+      "mobile": "9353717762"
+    },
+    "address": "Malleshwaram, South Region Office",
+    "gis": {
+      "lat": "12.837609",
+      "lng": "77.613407"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Iris",
+    "officeName": "Iris Division Office",
+    "officer": {
+      "name": "Ravi Gupta",
+      "designation": "Executive Engineer",
+      "email": "ravi.gupta@utility-division.com",
+      "mobile": "9807150571"
+    },
+    "address": "Iris, South Region Office",
+    "gis": {
+      "lat": "12.833251",
+      "lng": "77.765214"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Iris",
+    "subdivision": "S21",
+    "officeName": "Subdivision S21",
+    "officer": {
+      "name": "Deepa Rao",
+      "designation": "Assistant Executive Engineer",
+      "email": "deepa.rao@utility-subdivision.com",
+      "mobile": "9353538374"
+    },
+    "address": "S21, South Region Office",
+    "gis": {
+      "lat": "12.649564",
+      "lng": "77.883876"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Iris",
+    "subdivision": "S21",
+    "section": "SEC-113",
+    "officeName": "Office of the Assistant Engineer of Marathahalli Section",
+    "officer": {
+      "name": "Meena Iyer",
+      "designation": "Assistant Engineer",
+      "email": "meena.iyer@utility-section.com",
+      "mobile": "9301863882"
+    },
+    "address": "Marathahalli, South Region Office",
+    "gis": {
+      "lat": "12.382971",
+      "lng": "77.408955"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Iris",
+    "subdivision": "S21",
+    "section": "SEC-114",
+    "officeName": "Office of the Assistant Engineer of Banashankari Section",
+    "officer": {
+      "name": "Suresh Patel",
+      "designation": "Assistant Engineer",
+      "email": "suresh.patel@utility-section.com",
+      "mobile": "9257662885"
+    },
+    "address": "Banashankari, South Region Office",
+    "gis": {
+      "lat": "12.563789",
+      "lng": "77.601651"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Iris",
+    "subdivision": "S22",
+    "officeName": "Subdivision S22",
+    "officer": {
+      "name": "Suresh Rao",
+      "designation": "Assistant Executive Engineer",
+      "email": "suresh.rao@utility-subdivision.com",
+      "mobile": "9485599028"
+    },
+    "address": "S22, South Region Office",
+    "gis": {
+      "lat": "12.942088",
+      "lng": "77.785798"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Iris",
+    "subdivision": "S22",
+    "section": "SEC-115",
+    "officeName": "Office of the Assistant Engineer of Marathahalli Section",
+    "officer": {
+      "name": "Vijay Sharma",
+      "designation": "Assistant Engineer",
+      "email": "vijay.sharma@utility-section.com",
+      "mobile": "9948017007"
+    },
+    "address": "Marathahalli, South Region Office",
+    "gis": {
+      "lat": "12.665526",
+      "lng": "77.577496"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Iris",
+    "subdivision": "S22",
+    "section": "SEC-116",
+    "officeName": "Office of the Assistant Engineer of BTM Section",
+    "officer": {
+      "name": "Suresh Singh",
+      "designation": "Assistant Engineer",
+      "email": "suresh.singh@utility-section.com",
+      "mobile": "9319568622"
+    },
+    "address": "BTM, South Region Office",
+    "gis": {
+      "lat": "12.909866",
+      "lng": "77.223110"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Iris",
+    "subdivision": "S23",
+    "officeName": "Subdivision S23",
+    "officer": {
+      "name": "Kiran Sharma",
+      "designation": "Assistant Executive Engineer",
+      "email": "kiran.sharma@utility-subdivision.com",
+      "mobile": "9402808132"
+    },
+    "address": "S23, South Region Office",
+    "gis": {
+      "lat": "12.892846",
+      "lng": "77.070070"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Iris",
+    "subdivision": "S23",
+    "section": "SEC-117",
+    "officeName": "Office of the Assistant Engineer of BTM Section",
+    "officer": {
+      "name": "Anita Iyer",
+      "designation": "Assistant Engineer",
+      "email": "anita.iyer@utility-section.com",
+      "mobile": "9472244118"
+    },
+    "address": "BTM, South Region Office",
+    "gis": {
+      "lat": "12.632028",
+      "lng": "77.034136"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Iris",
+    "subdivision": "S23",
+    "section": "SEC-118",
+    "officeName": "Office of the Assistant Engineer of Whitefield Section",
+    "officer": {
+      "name": "Rahul Gupta",
+      "designation": "Assistant Engineer",
+      "email": "rahul.gupta@utility-section.com",
+      "mobile": "9806617877"
+    },
+    "address": "Whitefield, South Region Office",
+    "gis": {
+      "lat": "12.680605",
+      "lng": "77.979865"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Iris",
+    "subdivision": "S24",
+    "officeName": "Subdivision S24",
+    "officer": {
+      "name": "Sneha Rao",
+      "designation": "Assistant Executive Engineer",
+      "email": "sneha.rao@utility-subdivision.com",
+      "mobile": "9306549177"
+    },
+    "address": "S24, South Region Office",
+    "gis": {
+      "lat": "12.966657",
+      "lng": "77.792364"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Iris",
+    "subdivision": "S24",
+    "section": "SEC-119",
+    "officeName": "Office of the Assistant Engineer of Peenya Section",
+    "officer": {
+      "name": "Kiran Reddy",
+      "designation": "Assistant Engineer",
+      "email": "kiran.reddy@utility-section.com",
+      "mobile": "9505593399"
+    },
+    "address": "Peenya, South Region Office",
+    "gis": {
+      "lat": "12.743380",
+      "lng": "77.944835"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Iris",
+    "subdivision": "S24",
+    "section": "SEC-120",
+    "officeName": "Office of the Assistant Engineer of Ulsoor Section",
+    "officer": {
+      "name": "Suresh Gupta",
+      "designation": "Assistant Engineer",
+      "email": "suresh.gupta@utility-section.com",
+      "mobile": "9179246175"
+    },
+    "address": "Ulsoor, South Region Office",
+    "gis": {
+      "lat": "12.330492",
+      "lng": "77.945602"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Azalea",
+    "officeName": "Azalea Division Office",
+    "officer": {
+      "name": "Meena Singh",
+      "designation": "Executive Engineer",
+      "email": "meena.singh@utility-division.com",
+      "mobile": "9842316827"
+    },
+    "address": "Azalea, South Region Office",
+    "gis": {
+      "lat": "12.061885",
+      "lng": "77.404746"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Azalea",
+    "subdivision": "S25",
+    "officeName": "Subdivision S25",
+    "officer": {
+      "name": "Sneha Das",
+      "designation": "Assistant Executive Engineer",
+      "email": "sneha.das@utility-subdivision.com",
+      "mobile": "9766473148"
+    },
+    "address": "S25, South Region Office",
+    "gis": {
+      "lat": "12.864687",
+      "lng": "77.700748"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Azalea",
+    "subdivision": "S25",
+    "section": "SEC-121",
+    "officeName": "Office of the Assistant Engineer of Bellandur Section",
+    "officer": {
+      "name": "Kiran Das",
+      "designation": "Assistant Engineer",
+      "email": "kiran.das@utility-section.com",
+      "mobile": "9501487941"
+    },
+    "address": "Bellandur, South Region Office",
+    "gis": {
+      "lat": "12.696765",
+      "lng": "77.720177"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Azalea",
+    "subdivision": "S25",
+    "section": "SEC-122",
+    "officeName": "Office of the Assistant Engineer of BTM Section",
+    "officer": {
+      "name": "Ravi Sharma",
+      "designation": "Assistant Engineer",
+      "email": "ravi.sharma@utility-section.com",
+      "mobile": "9716816657"
+    },
+    "address": "BTM, South Region Office",
+    "gis": {
+      "lat": "12.933665",
+      "lng": "77.530358"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Azalea",
+    "subdivision": "S26",
+    "officeName": "Subdivision S26",
+    "officer": {
+      "name": "Deepa Kumar",
+      "designation": "Assistant Executive Engineer",
+      "email": "deepa.kumar@utility-subdivision.com",
+      "mobile": "9205678033"
+    },
+    "address": "S26, South Region Office",
+    "gis": {
+      "lat": "12.180219",
+      "lng": "77.376223"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Azalea",
+    "subdivision": "S26",
+    "section": "SEC-123",
+    "officeName": "Office of the Assistant Engineer of Marathahalli Section",
+    "officer": {
+      "name": "Vijay Patel",
+      "designation": "Assistant Engineer",
+      "email": "vijay.patel@utility-section.com",
+      "mobile": "9335157987"
+    },
+    "address": "Marathahalli, South Region Office",
+    "gis": {
+      "lat": "12.884526",
+      "lng": "77.516299"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Azalea",
+    "subdivision": "S26",
+    "section": "SEC-124",
+    "officeName": "Office of the Assistant Engineer of Rajajinagar Section",
+    "officer": {
+      "name": "Kiran Reddy",
+      "designation": "Assistant Engineer",
+      "email": "kiran.reddy@utility-section.com",
+      "mobile": "9317193824"
+    },
+    "address": "Rajajinagar, South Region Office",
+    "gis": {
+      "lat": "12.192123",
+      "lng": "77.148618"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Azalea",
+    "subdivision": "S27",
+    "officeName": "Subdivision S27",
+    "officer": {
+      "name": "Rahul Das",
+      "designation": "Assistant Executive Engineer",
+      "email": "rahul.das@utility-subdivision.com",
+      "mobile": "9211514045"
+    },
+    "address": "S27, South Region Office",
+    "gis": {
+      "lat": "12.131535",
+      "lng": "77.860509"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Azalea",
+    "subdivision": "S27",
+    "section": "SEC-125",
+    "officeName": "Office of the Assistant Engineer of Electronic City Section",
+    "officer": {
+      "name": "Suresh Iyer",
+      "designation": "Assistant Engineer",
+      "email": "suresh.iyer@utility-section.com",
+      "mobile": "9629164564"
+    },
+    "address": "Electronic City, South Region Office",
+    "gis": {
+      "lat": "12.473524",
+      "lng": "77.625368"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Azalea",
+    "subdivision": "S27",
+    "section": "SEC-126",
+    "officeName": "Office of the Assistant Engineer of Rajajinagar Section",
+    "officer": {
+      "name": "Ravi Sharma",
+      "designation": "Assistant Engineer",
+      "email": "ravi.sharma@utility-section.com",
+      "mobile": "9710835931"
+    },
+    "address": "Rajajinagar, South Region Office",
+    "gis": {
+      "lat": "12.860145",
+      "lng": "77.669193"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Azalea",
+    "subdivision": "S28",
+    "officeName": "Subdivision S28",
+    "officer": {
+      "name": "Sneha Kumar",
+      "designation": "Assistant Executive Engineer",
+      "email": "sneha.kumar@utility-subdivision.com",
+      "mobile": "9140938553"
+    },
+    "address": "S28, South Region Office",
+    "gis": {
+      "lat": "12.517321",
+      "lng": "77.195495"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Azalea",
+    "subdivision": "S28",
+    "section": "SEC-127",
+    "officeName": "Office of the Assistant Engineer of Ulsoor Section",
+    "officer": {
+      "name": "Suresh Das",
+      "designation": "Assistant Engineer",
+      "email": "suresh.das@utility-section.com",
+      "mobile": "9590269548"
+    },
+    "address": "Ulsoor, South Region Office",
+    "gis": {
+      "lat": "12.418991",
+      "lng": "77.267161"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "South",
+    "circle": "Grape",
+    "division": "Azalea",
+    "subdivision": "S28",
+    "section": "SEC-128",
+    "officeName": "Office of the Assistant Engineer of Jayanagar Section",
+    "officer": {
+      "name": "Kiran Iyer",
+      "designation": "Assistant Engineer",
+      "email": "kiran.iyer@utility-section.com",
+      "mobile": "9167913613"
+    },
+    "address": "Jayanagar, South Region Office",
+    "gis": {
+      "lat": "12.731010",
+      "lng": "77.809408"
+    }
+  },
+  {
+    "level": "Zone",
+    "zone": "East",
+    "officeName": "Office of Chief Engineer - East Zone",
+    "officer": {
+      "name": "Suresh Sharma",
+      "designation": "Chief Engineer",
+      "email": "suresh.sharma@utility-zone.com",
+      "mobile": "9404181434"
+    },
+    "address": "Head Office, East Region Office",
+    "gis": {
+      "lat": "12.352175",
+      "lng": "77.722285"
+    }
+  },
+  {
+    "level": "Circle",
+    "zone": "East",
+    "circle": "Papaya",
+    "officeName": "Papaya Circle Office",
+    "officer": {
+      "name": "Ravi Nair",
+      "designation": "Superintending Engineer",
+      "email": "ravi.nair@utility-circle.com",
+      "mobile": "9311809567"
+    },
+    "address": "Papaya, East Region Office",
+    "gis": {
+      "lat": "12.942503",
+      "lng": "77.684927"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Begonia",
+    "officeName": "Begonia Division Office",
+    "officer": {
+      "name": "Rahul Gupta",
+      "designation": "Executive Engineer",
+      "email": "rahul.gupta@utility-division.com",
+      "mobile": "9668057818"
+    },
+    "address": "Begonia, East Region Office",
+    "gis": {
+      "lat": "12.982072",
+      "lng": "77.742984"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Begonia",
+    "subdivision": "E1",
+    "officeName": "Subdivision E1",
+    "officer": {
+      "name": "Meena Das",
+      "designation": "Assistant Executive Engineer",
+      "email": "meena.das@utility-subdivision.com",
+      "mobile": "9285272464"
+    },
+    "address": "E1, East Region Office",
+    "gis": {
+      "lat": "12.870925",
+      "lng": "77.115768"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Begonia",
+    "subdivision": "E1",
+    "section": "SEC-129",
+    "officeName": "Office of the Assistant Engineer of Marathahalli Section",
+    "officer": {
+      "name": "Deepa Reddy",
+      "designation": "Assistant Engineer",
+      "email": "deepa.reddy@utility-section.com",
+      "mobile": "9105928720"
+    },
+    "address": "Marathahalli, East Region Office",
+    "gis": {
+      "lat": "12.231270",
+      "lng": "77.173360"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Begonia",
+    "subdivision": "E1",
+    "section": "SEC-130",
+    "officeName": "Office of the Assistant Engineer of Ulsoor Section",
+    "officer": {
+      "name": "Vijay Kumar",
+      "designation": "Assistant Engineer",
+      "email": "vijay.kumar@utility-section.com",
+      "mobile": "9640952122"
+    },
+    "address": "Ulsoor, East Region Office",
+    "gis": {
+      "lat": "12.792948",
+      "lng": "77.223640"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Begonia",
+    "subdivision": "E2",
+    "officeName": "Subdivision E2",
+    "officer": {
+      "name": "Suresh Gupta",
+      "designation": "Assistant Executive Engineer",
+      "email": "suresh.gupta@utility-subdivision.com",
+      "mobile": "9229830698"
+    },
+    "address": "E2, East Region Office",
+    "gis": {
+      "lat": "12.512522",
+      "lng": "77.755300"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Begonia",
+    "subdivision": "E2",
+    "section": "SEC-131",
+    "officeName": "Office of the Assistant Engineer of MG Road Section",
+    "officer": {
+      "name": "Deepa Sharma",
+      "designation": "Assistant Engineer",
+      "email": "deepa.sharma@utility-section.com",
+      "mobile": "9241781959"
+    },
+    "address": "MG Road, East Region Office",
+    "gis": {
+      "lat": "12.709896",
+      "lng": "77.770776"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Begonia",
+    "subdivision": "E2",
+    "section": "SEC-132",
+    "officeName": "Office of the Assistant Engineer of Bellandur Section",
+    "officer": {
+      "name": "Ravi Singh",
+      "designation": "Assistant Engineer",
+      "email": "ravi.singh@utility-section.com",
+      "mobile": "9761705617"
+    },
+    "address": "Bellandur, East Region Office",
+    "gis": {
+      "lat": "12.516490",
+      "lng": "77.422357"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Begonia",
+    "subdivision": "E3",
+    "officeName": "Subdivision E3",
+    "officer": {
+      "name": "Suresh Gupta",
+      "designation": "Assistant Executive Engineer",
+      "email": "suresh.gupta@utility-subdivision.com",
+      "mobile": "9322725807"
+    },
+    "address": "E3, East Region Office",
+    "gis": {
+      "lat": "12.185163",
+      "lng": "77.040050"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Begonia",
+    "subdivision": "E3",
+    "section": "SEC-133",
+    "officeName": "Office of the Assistant Engineer of Indiranagar Section",
+    "officer": {
+      "name": "Arjun Singh",
+      "designation": "Assistant Engineer",
+      "email": "arjun.singh@utility-section.com",
+      "mobile": "9590622907"
+    },
+    "address": "Indiranagar, East Region Office",
+    "gis": {
+      "lat": "12.111289",
+      "lng": "77.614533"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Begonia",
+    "subdivision": "E3",
+    "section": "SEC-134",
+    "officeName": "Office of the Assistant Engineer of Peenya Section",
+    "officer": {
+      "name": "Deepa Patel",
+      "designation": "Assistant Engineer",
+      "email": "deepa.patel@utility-section.com",
+      "mobile": "9494716465"
+    },
+    "address": "Peenya, East Region Office",
+    "gis": {
+      "lat": "12.997845",
+      "lng": "77.741461"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Begonia",
+    "subdivision": "E4",
+    "officeName": "Subdivision E4",
+    "officer": {
+      "name": "Kiran Kumar",
+      "designation": "Assistant Executive Engineer",
+      "email": "kiran.kumar@utility-subdivision.com",
+      "mobile": "9285559343"
+    },
+    "address": "E4, East Region Office",
+    "gis": {
+      "lat": "12.052154",
+      "lng": "77.551007"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Begonia",
+    "subdivision": "E4",
+    "section": "SEC-135",
+    "officeName": "Office of the Assistant Engineer of Electronic City Section",
+    "officer": {
+      "name": "Kiran Nair",
+      "designation": "Assistant Engineer",
+      "email": "kiran.nair@utility-section.com",
+      "mobile": "9317026340"
+    },
+    "address": "Electronic City, East Region Office",
+    "gis": {
+      "lat": "12.536863",
+      "lng": "77.211019"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Begonia",
+    "subdivision": "E4",
+    "section": "SEC-136",
+    "officeName": "Office of the Assistant Engineer of KR Puram Section",
+    "officer": {
+      "name": "Kiran Nair",
+      "designation": "Assistant Engineer",
+      "email": "kiran.nair@utility-section.com",
+      "mobile": "9148891750"
+    },
+    "address": "KR Puram, East Region Office",
+    "gis": {
+      "lat": "12.295571",
+      "lng": "77.700095"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Bluebell",
+    "officeName": "Bluebell Division Office",
+    "officer": {
+      "name": "Rahul Iyer",
+      "designation": "Executive Engineer",
+      "email": "rahul.iyer@utility-division.com",
+      "mobile": "9791850774"
+    },
+    "address": "Bluebell, East Region Office",
+    "gis": {
+      "lat": "12.525232",
+      "lng": "77.087184"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Bluebell",
+    "subdivision": "E5",
+    "officeName": "Subdivision E5",
+    "officer": {
+      "name": "Rahul Gupta",
+      "designation": "Assistant Executive Engineer",
+      "email": "rahul.gupta@utility-subdivision.com",
+      "mobile": "9649488995"
+    },
+    "address": "E5, East Region Office",
+    "gis": {
+      "lat": "12.848525",
+      "lng": "77.900464"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Bluebell",
+    "subdivision": "E5",
+    "section": "SEC-137",
+    "officeName": "Office of the Assistant Engineer of BTM Section",
+    "officer": {
+      "name": "Vijay Reddy",
+      "designation": "Assistant Engineer",
+      "email": "vijay.reddy@utility-section.com",
+      "mobile": "9890878954"
+    },
+    "address": "BTM, East Region Office",
+    "gis": {
+      "lat": "12.717340",
+      "lng": "77.688818"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Bluebell",
+    "subdivision": "E5",
+    "section": "SEC-138",
+    "officeName": "Office of the Assistant Engineer of Banashankari Section",
+    "officer": {
+      "name": "Ravi Das",
+      "designation": "Assistant Engineer",
+      "email": "ravi.das@utility-section.com",
+      "mobile": "9289478497"
+    },
+    "address": "Banashankari, East Region Office",
+    "gis": {
+      "lat": "12.682954",
+      "lng": "77.294409"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Bluebell",
+    "subdivision": "E6",
+    "officeName": "Subdivision E6",
+    "officer": {
+      "name": "Kiran Kumar",
+      "designation": "Assistant Executive Engineer",
+      "email": "kiran.kumar@utility-subdivision.com",
+      "mobile": "9887772687"
+    },
+    "address": "E6, East Region Office",
+    "gis": {
+      "lat": "12.584302",
+      "lng": "77.465353"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Bluebell",
+    "subdivision": "E6",
+    "section": "SEC-139",
+    "officeName": "Office of the Assistant Engineer of Whitefield Section",
+    "officer": {
+      "name": "Ravi Kumar",
+      "designation": "Assistant Engineer",
+      "email": "ravi.kumar@utility-section.com",
+      "mobile": "9643236330"
+    },
+    "address": "Whitefield, East Region Office",
+    "gis": {
+      "lat": "12.263813",
+      "lng": "77.758699"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Bluebell",
+    "subdivision": "E6",
+    "section": "SEC-140",
+    "officeName": "Office of the Assistant Engineer of Malleshwaram Section",
+    "officer": {
+      "name": "Deepa Singh",
+      "designation": "Assistant Engineer",
+      "email": "deepa.singh@utility-section.com",
+      "mobile": "9551896933"
+    },
+    "address": "Malleshwaram, East Region Office",
+    "gis": {
+      "lat": "12.979244",
+      "lng": "77.874609"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Bluebell",
+    "subdivision": "E7",
+    "officeName": "Subdivision E7",
+    "officer": {
+      "name": "Deepa Reddy",
+      "designation": "Assistant Executive Engineer",
+      "email": "deepa.reddy@utility-subdivision.com",
+      "mobile": "9702966187"
+    },
+    "address": "E7, East Region Office",
+    "gis": {
+      "lat": "12.577162",
+      "lng": "77.587970"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Bluebell",
+    "subdivision": "E7",
+    "section": "SEC-141",
+    "officeName": "Office of the Assistant Engineer of KR Puram Section",
+    "officer": {
+      "name": "Arjun Reddy",
+      "designation": "Assistant Engineer",
+      "email": "arjun.reddy@utility-section.com",
+      "mobile": "9631737783"
+    },
+    "address": "KR Puram, East Region Office",
+    "gis": {
+      "lat": "12.935812",
+      "lng": "77.601636"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Bluebell",
+    "subdivision": "E7",
+    "section": "SEC-142",
+    "officeName": "Office of the Assistant Engineer of Kengeri Section",
+    "officer": {
+      "name": "Vijay Iyer",
+      "designation": "Assistant Engineer",
+      "email": "vijay.iyer@utility-section.com",
+      "mobile": "9917311042"
+    },
+    "address": "Kengeri, East Region Office",
+    "gis": {
+      "lat": "12.662207",
+      "lng": "77.545516"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Bluebell",
+    "subdivision": "E8",
+    "officeName": "Subdivision E8",
+    "officer": {
+      "name": "Rahul Kumar",
+      "designation": "Assistant Executive Engineer",
+      "email": "rahul.kumar@utility-subdivision.com",
+      "mobile": "9130715690"
+    },
+    "address": "E8, East Region Office",
+    "gis": {
+      "lat": "12.988510",
+      "lng": "77.528381"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Bluebell",
+    "subdivision": "E8",
+    "section": "SEC-143",
+    "officeName": "Office of the Assistant Engineer of Yelahanka Section",
+    "officer": {
+      "name": "Meena Rao",
+      "designation": "Assistant Engineer",
+      "email": "meena.rao@utility-section.com",
+      "mobile": "9798330563"
+    },
+    "address": "Yelahanka, East Region Office",
+    "gis": {
+      "lat": "12.678729",
+      "lng": "77.967404"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Bluebell",
+    "subdivision": "E8",
+    "section": "SEC-144",
+    "officeName": "Office of the Assistant Engineer of Sarjapur Section",
+    "officer": {
+      "name": "Meena Das",
+      "designation": "Assistant Engineer",
+      "email": "meena.das@utility-section.com",
+      "mobile": "9937885433"
+    },
+    "address": "Sarjapur, East Region Office",
+    "gis": {
+      "lat": "12.525152",
+      "lng": "77.482336"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Buttercup",
+    "officeName": "Buttercup Division Office",
+    "officer": {
+      "name": "Kiran Rao",
+      "designation": "Executive Engineer",
+      "email": "kiran.rao@utility-division.com",
+      "mobile": "9262986509"
+    },
+    "address": "Buttercup, East Region Office",
+    "gis": {
+      "lat": "12.546450",
+      "lng": "77.162804"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Buttercup",
+    "subdivision": "E9",
+    "officeName": "Subdivision E9",
+    "officer": {
+      "name": "Anita Iyer",
+      "designation": "Assistant Executive Engineer",
+      "email": "anita.iyer@utility-subdivision.com",
+      "mobile": "9739360535"
+    },
+    "address": "E9, East Region Office",
+    "gis": {
+      "lat": "12.166652",
+      "lng": "77.733914"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Buttercup",
+    "subdivision": "E9",
+    "section": "SEC-145",
+    "officeName": "Office of the Assistant Engineer of Electronic City Section",
+    "officer": {
+      "name": "Sneha Patel",
+      "designation": "Assistant Engineer",
+      "email": "sneha.patel@utility-section.com",
+      "mobile": "9339853753"
+    },
+    "address": "Electronic City, East Region Office",
+    "gis": {
+      "lat": "12.283968",
+      "lng": "77.719036"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Buttercup",
+    "subdivision": "E9",
+    "section": "SEC-146",
+    "officeName": "Office of the Assistant Engineer of MG Road Section",
+    "officer": {
+      "name": "Sneha Das",
+      "designation": "Assistant Engineer",
+      "email": "sneha.das@utility-section.com",
+      "mobile": "9390567827"
+    },
+    "address": "MG Road, East Region Office",
+    "gis": {
+      "lat": "12.440070",
+      "lng": "77.139604"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Buttercup",
+    "subdivision": "E10",
+    "officeName": "Subdivision E10",
+    "officer": {
+      "name": "Meena Kumar",
+      "designation": "Assistant Executive Engineer",
+      "email": "meena.kumar@utility-subdivision.com",
+      "mobile": "9762374931"
+    },
+    "address": "E10, East Region Office",
+    "gis": {
+      "lat": "12.344406",
+      "lng": "77.095776"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Buttercup",
+    "subdivision": "E10",
+    "section": "SEC-147",
+    "officeName": "Office of the Assistant Engineer of Hosur Road Section",
+    "officer": {
+      "name": "Ravi Patel",
+      "designation": "Assistant Engineer",
+      "email": "ravi.patel@utility-section.com",
+      "mobile": "9760613936"
+    },
+    "address": "Hosur Road, East Region Office",
+    "gis": {
+      "lat": "12.769009",
+      "lng": "77.643741"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Buttercup",
+    "subdivision": "E10",
+    "section": "SEC-148",
+    "officeName": "Office of the Assistant Engineer of Yelahanka Section",
+    "officer": {
+      "name": "Sneha Reddy",
+      "designation": "Assistant Engineer",
+      "email": "sneha.reddy@utility-section.com",
+      "mobile": "9240000003"
+    },
+    "address": "Yelahanka, East Region Office",
+    "gis": {
+      "lat": "12.366978",
+      "lng": "77.414353"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Buttercup",
+    "subdivision": "E11",
+    "officeName": "Subdivision E11",
+    "officer": {
+      "name": "Vijay Das",
+      "designation": "Assistant Executive Engineer",
+      "email": "vijay.das@utility-subdivision.com",
+      "mobile": "9468739690"
+    },
+    "address": "E11, East Region Office",
+    "gis": {
+      "lat": "12.376858",
+      "lng": "77.413350"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Buttercup",
+    "subdivision": "E11",
+    "section": "SEC-149",
+    "officeName": "Office of the Assistant Engineer of Domlur Section",
+    "officer": {
+      "name": "Rahul Rao",
+      "designation": "Assistant Engineer",
+      "email": "rahul.rao@utility-section.com",
+      "mobile": "9745570194"
+    },
+    "address": "Domlur, East Region Office",
+    "gis": {
+      "lat": "12.851545",
+      "lng": "77.364897"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Buttercup",
+    "subdivision": "E11",
+    "section": "SEC-150",
+    "officeName": "Office of the Assistant Engineer of Bellandur Section",
+    "officer": {
+      "name": "Rahul Rao",
+      "designation": "Assistant Engineer",
+      "email": "rahul.rao@utility-section.com",
+      "mobile": "9900924367"
+    },
+    "address": "Bellandur, East Region Office",
+    "gis": {
+      "lat": "12.039112",
+      "lng": "77.062808"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Buttercup",
+    "subdivision": "E12",
+    "officeName": "Subdivision E12",
+    "officer": {
+      "name": "Anita Sharma",
+      "designation": "Assistant Executive Engineer",
+      "email": "anita.sharma@utility-subdivision.com",
+      "mobile": "9521720021"
+    },
+    "address": "E12, East Region Office",
+    "gis": {
+      "lat": "12.905488",
+      "lng": "77.574201"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Buttercup",
+    "subdivision": "E12",
+    "section": "SEC-151",
+    "officeName": "Office of the Assistant Engineer of Hosur Road Section",
+    "officer": {
+      "name": "Vijay Iyer",
+      "designation": "Assistant Engineer",
+      "email": "vijay.iyer@utility-section.com",
+      "mobile": "9262659137"
+    },
+    "address": "Hosur Road, East Region Office",
+    "gis": {
+      "lat": "12.803571",
+      "lng": "77.689327"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Buttercup",
+    "subdivision": "E12",
+    "section": "SEC-152",
+    "officeName": "Office of the Assistant Engineer of BTM Section",
+    "officer": {
+      "name": "Suresh Nair",
+      "designation": "Assistant Engineer",
+      "email": "suresh.nair@utility-section.com",
+      "mobile": "9640242265"
+    },
+    "address": "BTM, East Region Office",
+    "gis": {
+      "lat": "12.627610",
+      "lng": "77.999190"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Carnation",
+    "officeName": "Carnation Division Office",
+    "officer": {
+      "name": "Meena Rao",
+      "designation": "Executive Engineer",
+      "email": "meena.rao@utility-division.com",
+      "mobile": "9377558323"
+    },
+    "address": "Carnation, East Region Office",
+    "gis": {
+      "lat": "12.412315",
+      "lng": "77.431956"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Carnation",
+    "subdivision": "E13",
+    "officeName": "Subdivision E13",
+    "officer": {
+      "name": "Suresh Das",
+      "designation": "Assistant Executive Engineer",
+      "email": "suresh.das@utility-subdivision.com",
+      "mobile": "9139199071"
+    },
+    "address": "E13, East Region Office",
+    "gis": {
+      "lat": "12.928912",
+      "lng": "77.204955"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Carnation",
+    "subdivision": "E13",
+    "section": "SEC-153",
+    "officeName": "Office of the Assistant Engineer of Rajajinagar Section",
+    "officer": {
+      "name": "Anita Sharma",
+      "designation": "Assistant Engineer",
+      "email": "anita.sharma@utility-section.com",
+      "mobile": "9147472465"
+    },
+    "address": "Rajajinagar, East Region Office",
+    "gis": {
+      "lat": "12.817076",
+      "lng": "77.763562"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Carnation",
+    "subdivision": "E13",
+    "section": "SEC-154",
+    "officeName": "Office of the Assistant Engineer of Hosur Road Section",
+    "officer": {
+      "name": "Meena Singh",
+      "designation": "Assistant Engineer",
+      "email": "meena.singh@utility-section.com",
+      "mobile": "9761632528"
+    },
+    "address": "Hosur Road, East Region Office",
+    "gis": {
+      "lat": "12.113773",
+      "lng": "77.817597"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Carnation",
+    "subdivision": "E14",
+    "officeName": "Subdivision E14",
+    "officer": {
+      "name": "Arjun Gupta",
+      "designation": "Assistant Executive Engineer",
+      "email": "arjun.gupta@utility-subdivision.com",
+      "mobile": "9163135590"
+    },
+    "address": "E14, East Region Office",
+    "gis": {
+      "lat": "12.635347",
+      "lng": "77.586919"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Carnation",
+    "subdivision": "E14",
+    "section": "SEC-155",
+    "officeName": "Office of the Assistant Engineer of Sarjapur Section",
+    "officer": {
+      "name": "Sneha Iyer",
+      "designation": "Assistant Engineer",
+      "email": "sneha.iyer@utility-section.com",
+      "mobile": "9936489424"
+    },
+    "address": "Sarjapur, East Region Office",
+    "gis": {
+      "lat": "12.568081",
+      "lng": "77.752140"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Carnation",
+    "subdivision": "E14",
+    "section": "SEC-156",
+    "officeName": "Office of the Assistant Engineer of KR Puram Section",
+    "officer": {
+      "name": "Meena Reddy",
+      "designation": "Assistant Engineer",
+      "email": "meena.reddy@utility-section.com",
+      "mobile": "9185151666"
+    },
+    "address": "KR Puram, East Region Office",
+    "gis": {
+      "lat": "12.164503",
+      "lng": "77.173832"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Carnation",
+    "subdivision": "E15",
+    "officeName": "Subdivision E15",
+    "officer": {
+      "name": "Ravi Das",
+      "designation": "Assistant Executive Engineer",
+      "email": "ravi.das@utility-subdivision.com",
+      "mobile": "9782139719"
+    },
+    "address": "E15, East Region Office",
+    "gis": {
+      "lat": "12.545009",
+      "lng": "77.082606"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Carnation",
+    "subdivision": "E15",
+    "section": "SEC-157",
+    "officeName": "Office of the Assistant Engineer of Domlur Section",
+    "officer": {
+      "name": "Kiran Iyer",
+      "designation": "Assistant Engineer",
+      "email": "kiran.iyer@utility-section.com",
+      "mobile": "9455705085"
+    },
+    "address": "Domlur, East Region Office",
+    "gis": {
+      "lat": "12.746300",
+      "lng": "77.030851"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Carnation",
+    "subdivision": "E15",
+    "section": "SEC-158",
+    "officeName": "Office of the Assistant Engineer of Hosur Road Section",
+    "officer": {
+      "name": "Anita Kumar",
+      "designation": "Assistant Engineer",
+      "email": "anita.kumar@utility-section.com",
+      "mobile": "9509727946"
+    },
+    "address": "Hosur Road, East Region Office",
+    "gis": {
+      "lat": "12.082187",
+      "lng": "77.711144"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Carnation",
+    "subdivision": "E16",
+    "officeName": "Subdivision E16",
+    "officer": {
+      "name": "Vijay Rao",
+      "designation": "Assistant Executive Engineer",
+      "email": "vijay.rao@utility-subdivision.com",
+      "mobile": "9188031347"
+    },
+    "address": "E16, East Region Office",
+    "gis": {
+      "lat": "12.805808",
+      "lng": "77.336708"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Carnation",
+    "subdivision": "E16",
+    "section": "SEC-159",
+    "officeName": "Office of the Assistant Engineer of Kengeri Section",
+    "officer": {
+      "name": "Kiran Singh",
+      "designation": "Assistant Engineer",
+      "email": "kiran.singh@utility-section.com",
+      "mobile": "9845718191"
+    },
+    "address": "Kengeri, East Region Office",
+    "gis": {
+      "lat": "12.529360",
+      "lng": "77.186172"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Papaya",
+    "division": "Carnation",
+    "subdivision": "E16",
+    "section": "SEC-160",
+    "officeName": "Office of the Assistant Engineer of KR Puram Section",
+    "officer": {
+      "name": "Ravi Iyer",
+      "designation": "Assistant Engineer",
+      "email": "ravi.iyer@utility-section.com",
+      "mobile": "9590763142"
+    },
+    "address": "KR Puram, East Region Office",
+    "gis": {
+      "lat": "12.176058",
+      "lng": "77.369148"
+    }
+  },
+  {
+    "level": "Circle",
+    "zone": "East",
+    "circle": "Guava",
+    "officeName": "Guava Circle Office",
+    "officer": {
+      "name": "Meena Singh",
+      "designation": "Superintending Engineer",
+      "email": "meena.singh@utility-circle.com",
+      "mobile": "9454474941"
+    },
+    "address": "Guava, East Region Office",
+    "gis": {
+      "lat": "12.992781",
+      "lng": "77.173666"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Chrysanthemum",
+    "officeName": "Chrysanthemum Division Office",
+    "officer": {
+      "name": "Vijay Gupta",
+      "designation": "Executive Engineer",
+      "email": "vijay.gupta@utility-division.com",
+      "mobile": "9418005290"
+    },
+    "address": "Chrysanthemum, East Region Office",
+    "gis": {
+      "lat": "12.029149",
+      "lng": "77.696328"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Chrysanthemum",
+    "subdivision": "E17",
+    "officeName": "Subdivision E17",
+    "officer": {
+      "name": "Deepa Singh",
+      "designation": "Assistant Executive Engineer",
+      "email": "deepa.singh@utility-subdivision.com",
+      "mobile": "9354824276"
+    },
+    "address": "E17, East Region Office",
+    "gis": {
+      "lat": "12.228167",
+      "lng": "77.450084"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Chrysanthemum",
+    "subdivision": "E17",
+    "section": "SEC-161",
+    "officeName": "Office of the Assistant Engineer of MG Road Section",
+    "officer": {
+      "name": "Sneha Reddy",
+      "designation": "Assistant Engineer",
+      "email": "sneha.reddy@utility-section.com",
+      "mobile": "9688525483"
+    },
+    "address": "MG Road, East Region Office",
+    "gis": {
+      "lat": "12.744539",
+      "lng": "77.713185"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Chrysanthemum",
+    "subdivision": "E17",
+    "section": "SEC-162",
+    "officeName": "Office of the Assistant Engineer of Ulsoor Section",
+    "officer": {
+      "name": "Meena Sharma",
+      "designation": "Assistant Engineer",
+      "email": "meena.sharma@utility-section.com",
+      "mobile": "9977971167"
+    },
+    "address": "Ulsoor, East Region Office",
+    "gis": {
+      "lat": "12.614519",
+      "lng": "77.743937"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Chrysanthemum",
+    "subdivision": "E18",
+    "officeName": "Subdivision E18",
+    "officer": {
+      "name": "Ravi Kumar",
+      "designation": "Assistant Executive Engineer",
+      "email": "ravi.kumar@utility-subdivision.com",
+      "mobile": "9743227052"
+    },
+    "address": "E18, East Region Office",
+    "gis": {
+      "lat": "12.426011",
+      "lng": "77.742029"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Chrysanthemum",
+    "subdivision": "E18",
+    "section": "SEC-163",
+    "officeName": "Office of the Assistant Engineer of Hosur Road Section",
+    "officer": {
+      "name": "Deepa Patel",
+      "designation": "Assistant Engineer",
+      "email": "deepa.patel@utility-section.com",
+      "mobile": "9885353029"
+    },
+    "address": "Hosur Road, East Region Office",
+    "gis": {
+      "lat": "12.994013",
+      "lng": "77.237587"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Chrysanthemum",
+    "subdivision": "E18",
+    "section": "SEC-164",
+    "officeName": "Office of the Assistant Engineer of Kengeri Section",
+    "officer": {
+      "name": "Ravi Nair",
+      "designation": "Assistant Engineer",
+      "email": "ravi.nair@utility-section.com",
+      "mobile": "9305165628"
+    },
+    "address": "Kengeri, East Region Office",
+    "gis": {
+      "lat": "12.387572",
+      "lng": "77.122654"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Chrysanthemum",
+    "subdivision": "E19",
+    "officeName": "Subdivision E19",
+    "officer": {
+      "name": "Rahul Rao",
+      "designation": "Assistant Executive Engineer",
+      "email": "rahul.rao@utility-subdivision.com",
+      "mobile": "9588548862"
+    },
+    "address": "E19, East Region Office",
+    "gis": {
+      "lat": "12.415508",
+      "lng": "77.013166"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Chrysanthemum",
+    "subdivision": "E19",
+    "section": "SEC-165",
+    "officeName": "Office of the Assistant Engineer of KR Puram Section",
+    "officer": {
+      "name": "Ravi Gupta",
+      "designation": "Assistant Engineer",
+      "email": "ravi.gupta@utility-section.com",
+      "mobile": "9933713925"
+    },
+    "address": "KR Puram, East Region Office",
+    "gis": {
+      "lat": "12.364445",
+      "lng": "77.434704"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Chrysanthemum",
+    "subdivision": "E19",
+    "section": "SEC-166",
+    "officeName": "Office of the Assistant Engineer of Indiranagar Section",
+    "officer": {
+      "name": "Meena Singh",
+      "designation": "Assistant Engineer",
+      "email": "meena.singh@utility-section.com",
+      "mobile": "9812439808"
+    },
+    "address": "Indiranagar, East Region Office",
+    "gis": {
+      "lat": "12.147118",
+      "lng": "77.106688"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Chrysanthemum",
+    "subdivision": "E20",
+    "officeName": "Subdivision E20",
+    "officer": {
+      "name": "Arjun Iyer",
+      "designation": "Assistant Executive Engineer",
+      "email": "arjun.iyer@utility-subdivision.com",
+      "mobile": "9755950487"
+    },
+    "address": "E20, East Region Office",
+    "gis": {
+      "lat": "12.987587",
+      "lng": "77.983497"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Chrysanthemum",
+    "subdivision": "E20",
+    "section": "SEC-167",
+    "officeName": "Office of the Assistant Engineer of BTM Section",
+    "officer": {
+      "name": "Vijay Das",
+      "designation": "Assistant Engineer",
+      "email": "vijay.das@utility-section.com",
+      "mobile": "9493618945"
+    },
+    "address": "BTM, East Region Office",
+    "gis": {
+      "lat": "12.944050",
+      "lng": "77.408576"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Chrysanthemum",
+    "subdivision": "E20",
+    "section": "SEC-168",
+    "officeName": "Office of the Assistant Engineer of Kengeri Section",
+    "officer": {
+      "name": "Deepa Patel",
+      "designation": "Assistant Engineer",
+      "email": "deepa.patel@utility-section.com",
+      "mobile": "9731376614"
+    },
+    "address": "Kengeri, East Region Office",
+    "gis": {
+      "lat": "12.947145",
+      "lng": "77.601503"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Daffodil",
+    "officeName": "Daffodil Division Office",
+    "officer": {
+      "name": "Suresh Iyer",
+      "designation": "Executive Engineer",
+      "email": "suresh.iyer@utility-division.com",
+      "mobile": "9126364683"
+    },
+    "address": "Daffodil, East Region Office",
+    "gis": {
+      "lat": "12.168445",
+      "lng": "77.473599"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Daffodil",
+    "subdivision": "E21",
+    "officeName": "Subdivision E21",
+    "officer": {
+      "name": "Anita Gupta",
+      "designation": "Assistant Executive Engineer",
+      "email": "anita.gupta@utility-subdivision.com",
+      "mobile": "9148993615"
+    },
+    "address": "E21, East Region Office",
+    "gis": {
+      "lat": "12.228600",
+      "lng": "77.037594"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Daffodil",
+    "subdivision": "E21",
+    "section": "SEC-169",
+    "officeName": "Office of the Assistant Engineer of Hebbal Section",
+    "officer": {
+      "name": "Meena Patel",
+      "designation": "Assistant Engineer",
+      "email": "meena.patel@utility-section.com",
+      "mobile": "9656052650"
+    },
+    "address": "Hebbal, East Region Office",
+    "gis": {
+      "lat": "12.330013",
+      "lng": "77.527640"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Daffodil",
+    "subdivision": "E21",
+    "section": "SEC-170",
+    "officeName": "Office of the Assistant Engineer of Jayanagar Section",
+    "officer": {
+      "name": "Deepa Nair",
+      "designation": "Assistant Engineer",
+      "email": "deepa.nair@utility-section.com",
+      "mobile": "9832133635"
+    },
+    "address": "Jayanagar, East Region Office",
+    "gis": {
+      "lat": "12.226589",
+      "lng": "77.329734"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Daffodil",
+    "subdivision": "E22",
+    "officeName": "Subdivision E22",
+    "officer": {
+      "name": "Sneha Kumar",
+      "designation": "Assistant Executive Engineer",
+      "email": "sneha.kumar@utility-subdivision.com",
+      "mobile": "9131302764"
+    },
+    "address": "E22, East Region Office",
+    "gis": {
+      "lat": "12.538528",
+      "lng": "77.122246"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Daffodil",
+    "subdivision": "E22",
+    "section": "SEC-171",
+    "officeName": "Office of the Assistant Engineer of Domlur Section",
+    "officer": {
+      "name": "Kiran Rao",
+      "designation": "Assistant Engineer",
+      "email": "kiran.rao@utility-section.com",
+      "mobile": "9380304059"
+    },
+    "address": "Domlur, East Region Office",
+    "gis": {
+      "lat": "12.636446",
+      "lng": "77.369176"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Daffodil",
+    "subdivision": "E22",
+    "section": "SEC-172",
+    "officeName": "Office of the Assistant Engineer of Hebbal Section",
+    "officer": {
+      "name": "Kiran Das",
+      "designation": "Assistant Engineer",
+      "email": "kiran.das@utility-section.com",
+      "mobile": "9293087898"
+    },
+    "address": "Hebbal, East Region Office",
+    "gis": {
+      "lat": "12.427415",
+      "lng": "77.575297"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Daffodil",
+    "subdivision": "E23",
+    "officeName": "Subdivision E23",
+    "officer": {
+      "name": "Sneha Rao",
+      "designation": "Assistant Executive Engineer",
+      "email": "sneha.rao@utility-subdivision.com",
+      "mobile": "9145559874"
+    },
+    "address": "E23, East Region Office",
+    "gis": {
+      "lat": "12.263520",
+      "lng": "77.212500"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Daffodil",
+    "subdivision": "E23",
+    "section": "SEC-173",
+    "officeName": "Office of the Assistant Engineer of Banashankari Section",
+    "officer": {
+      "name": "Meena Gupta",
+      "designation": "Assistant Engineer",
+      "email": "meena.gupta@utility-section.com",
+      "mobile": "9892136828"
+    },
+    "address": "Banashankari, East Region Office",
+    "gis": {
+      "lat": "12.940233",
+      "lng": "77.052063"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Daffodil",
+    "subdivision": "E23",
+    "section": "SEC-174",
+    "officeName": "Office of the Assistant Engineer of MG Road Section",
+    "officer": {
+      "name": "Meena Iyer",
+      "designation": "Assistant Engineer",
+      "email": "meena.iyer@utility-section.com",
+      "mobile": "9562030499"
+    },
+    "address": "MG Road, East Region Office",
+    "gis": {
+      "lat": "12.094139",
+      "lng": "77.040577"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Daffodil",
+    "subdivision": "E24",
+    "officeName": "Subdivision E24",
+    "officer": {
+      "name": "Meena Rao",
+      "designation": "Assistant Executive Engineer",
+      "email": "meena.rao@utility-subdivision.com",
+      "mobile": "9809933261"
+    },
+    "address": "E24, East Region Office",
+    "gis": {
+      "lat": "12.500343",
+      "lng": "77.434179"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Daffodil",
+    "subdivision": "E24",
+    "section": "SEC-175",
+    "officeName": "Office of the Assistant Engineer of Hosur Road Section",
+    "officer": {
+      "name": "Suresh Patel",
+      "designation": "Assistant Engineer",
+      "email": "suresh.patel@utility-section.com",
+      "mobile": "9519015869"
+    },
+    "address": "Hosur Road, East Region Office",
+    "gis": {
+      "lat": "12.311579",
+      "lng": "77.575355"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Daffodil",
+    "subdivision": "E24",
+    "section": "SEC-176",
+    "officeName": "Office of the Assistant Engineer of Marathahalli Section",
+    "officer": {
+      "name": "Vijay Sharma",
+      "designation": "Assistant Engineer",
+      "email": "vijay.sharma@utility-section.com",
+      "mobile": "9778076641"
+    },
+    "address": "Marathahalli, East Region Office",
+    "gis": {
+      "lat": "12.342660",
+      "lng": "77.671958"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Gardenia",
+    "officeName": "Gardenia Division Office",
+    "officer": {
+      "name": "Suresh Sharma",
+      "designation": "Executive Engineer",
+      "email": "suresh.sharma@utility-division.com",
+      "mobile": "9400827224"
+    },
+    "address": "Gardenia, East Region Office",
+    "gis": {
+      "lat": "12.884557",
+      "lng": "77.510554"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Gardenia",
+    "subdivision": "E25",
+    "officeName": "Subdivision E25",
+    "officer": {
+      "name": "Kiran Patel",
+      "designation": "Assistant Executive Engineer",
+      "email": "kiran.patel@utility-subdivision.com",
+      "mobile": "9278709457"
+    },
+    "address": "E25, East Region Office",
+    "gis": {
+      "lat": "12.645525",
+      "lng": "77.084638"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Gardenia",
+    "subdivision": "E25",
+    "section": "SEC-177",
+    "officeName": "Office of the Assistant Engineer of Rajajinagar Section",
+    "officer": {
+      "name": "Meena Iyer",
+      "designation": "Assistant Engineer",
+      "email": "meena.iyer@utility-section.com",
+      "mobile": "9197869933"
+    },
+    "address": "Rajajinagar, East Region Office",
+    "gis": {
+      "lat": "12.791422",
+      "lng": "77.470592"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Gardenia",
+    "subdivision": "E25",
+    "section": "SEC-178",
+    "officeName": "Office of the Assistant Engineer of Bellandur Section",
+    "officer": {
+      "name": "Deepa Reddy",
+      "designation": "Assistant Engineer",
+      "email": "deepa.reddy@utility-section.com",
+      "mobile": "9881282346"
+    },
+    "address": "Bellandur, East Region Office",
+    "gis": {
+      "lat": "12.850706",
+      "lng": "77.093270"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Gardenia",
+    "subdivision": "E26",
+    "officeName": "Subdivision E26",
+    "officer": {
+      "name": "Meena Reddy",
+      "designation": "Assistant Executive Engineer",
+      "email": "meena.reddy@utility-subdivision.com",
+      "mobile": "9535220519"
+    },
+    "address": "E26, East Region Office",
+    "gis": {
+      "lat": "12.964704",
+      "lng": "77.666706"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Gardenia",
+    "subdivision": "E26",
+    "section": "SEC-179",
+    "officeName": "Office of the Assistant Engineer of Yelahanka Section",
+    "officer": {
+      "name": "Kiran Singh",
+      "designation": "Assistant Engineer",
+      "email": "kiran.singh@utility-section.com",
+      "mobile": "9963725742"
+    },
+    "address": "Yelahanka, East Region Office",
+    "gis": {
+      "lat": "12.410975",
+      "lng": "77.140564"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Gardenia",
+    "subdivision": "E26",
+    "section": "SEC-180",
+    "officeName": "Office of the Assistant Engineer of Jayanagar Section",
+    "officer": {
+      "name": "Kiran Patel",
+      "designation": "Assistant Engineer",
+      "email": "kiran.patel@utility-section.com",
+      "mobile": "9614799631"
+    },
+    "address": "Jayanagar, East Region Office",
+    "gis": {
+      "lat": "12.334956",
+      "lng": "77.496094"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Gardenia",
+    "subdivision": "E27",
+    "officeName": "Subdivision E27",
+    "officer": {
+      "name": "Vijay Gupta",
+      "designation": "Assistant Executive Engineer",
+      "email": "vijay.gupta@utility-subdivision.com",
+      "mobile": "9737576955"
+    },
+    "address": "E27, East Region Office",
+    "gis": {
+      "lat": "12.460907",
+      "lng": "77.846363"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Gardenia",
+    "subdivision": "E27",
+    "section": "SEC-181",
+    "officeName": "Office of the Assistant Engineer of Rajajinagar Section",
+    "officer": {
+      "name": "Anita Rao",
+      "designation": "Assistant Engineer",
+      "email": "anita.rao@utility-section.com",
+      "mobile": "9996758452"
+    },
+    "address": "Rajajinagar, East Region Office",
+    "gis": {
+      "lat": "12.504810",
+      "lng": "77.860061"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Gardenia",
+    "subdivision": "E27",
+    "section": "SEC-182",
+    "officeName": "Office of the Assistant Engineer of Sarjapur Section",
+    "officer": {
+      "name": "Suresh Singh",
+      "designation": "Assistant Engineer",
+      "email": "suresh.singh@utility-section.com",
+      "mobile": "9781389779"
+    },
+    "address": "Sarjapur, East Region Office",
+    "gis": {
+      "lat": "12.992843",
+      "lng": "77.066779"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Gardenia",
+    "subdivision": "E28",
+    "officeName": "Subdivision E28",
+    "officer": {
+      "name": "Deepa Gupta",
+      "designation": "Assistant Executive Engineer",
+      "email": "deepa.gupta@utility-subdivision.com",
+      "mobile": "9308139432"
+    },
+    "address": "E28, East Region Office",
+    "gis": {
+      "lat": "12.801326",
+      "lng": "77.468159"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Gardenia",
+    "subdivision": "E28",
+    "section": "SEC-183",
+    "officeName": "Office of the Assistant Engineer of KR Puram Section",
+    "officer": {
+      "name": "Arjun Singh",
+      "designation": "Assistant Engineer",
+      "email": "arjun.singh@utility-section.com",
+      "mobile": "9546299744"
+    },
+    "address": "KR Puram, East Region Office",
+    "gis": {
+      "lat": "12.145113",
+      "lng": "77.965883"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "East",
+    "circle": "Guava",
+    "division": "Gardenia",
+    "subdivision": "E28",
+    "section": "SEC-184",
+    "officeName": "Office of the Assistant Engineer of Sarjapur Section",
+    "officer": {
+      "name": "Ravi Das",
+      "designation": "Assistant Engineer",
+      "email": "ravi.das@utility-section.com",
+      "mobile": "9673216972"
+    },
+    "address": "Sarjapur, East Region Office",
+    "gis": {
+      "lat": "12.940618",
+      "lng": "77.456216"
+    }
+  },
+  {
+    "level": "Zone",
+    "zone": "West",
+    "officeName": "Office of Chief Engineer - West Zone",
+    "officer": {
+      "name": "Vijay Kumar",
+      "designation": "Chief Engineer",
+      "email": "vijay.kumar@utility-zone.com",
+      "mobile": "9770429203"
+    },
+    "address": "Head Office, West Region Office",
+    "gis": {
+      "lat": "12.036070",
+      "lng": "77.395508"
+    }
+  },
+  {
+    "level": "Circle",
+    "zone": "West",
+    "circle": "Pineapple",
+    "officeName": "Pineapple Circle Office",
+    "officer": {
+      "name": "Deepa Sharma",
+      "designation": "Superintending Engineer",
+      "email": "deepa.sharma@utility-circle.com",
+      "mobile": "9540670846"
+    },
+    "address": "Pineapple, West Region Office",
+    "gis": {
+      "lat": "12.205517",
+      "lng": "77.745491"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Geranium",
+    "officeName": "Geranium Division Office",
+    "officer": {
+      "name": "Anita Reddy",
+      "designation": "Executive Engineer",
+      "email": "anita.reddy@utility-division.com",
+      "mobile": "9947944751"
+    },
+    "address": "Geranium, West Region Office",
+    "gis": {
+      "lat": "12.310181",
+      "lng": "77.075838"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Geranium",
+    "subdivision": "W1",
+    "officeName": "Subdivision W1",
+    "officer": {
+      "name": "Anita Singh",
+      "designation": "Assistant Executive Engineer",
+      "email": "anita.singh@utility-subdivision.com",
+      "mobile": "9457504006"
+    },
+    "address": "W1, West Region Office",
+    "gis": {
+      "lat": "12.405850",
+      "lng": "77.653412"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Geranium",
+    "subdivision": "W1",
+    "section": "SEC-185",
+    "officeName": "Office of the Assistant Engineer of Sarjapur Section",
+    "officer": {
+      "name": "Sneha Iyer",
+      "designation": "Assistant Engineer",
+      "email": "sneha.iyer@utility-section.com",
+      "mobile": "9410183437"
+    },
+    "address": "Sarjapur, West Region Office",
+    "gis": {
+      "lat": "12.489315",
+      "lng": "77.993456"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Geranium",
+    "subdivision": "W1",
+    "section": "SEC-186",
+    "officeName": "Office of the Assistant Engineer of Banashankari Section",
+    "officer": {
+      "name": "Sneha Patel",
+      "designation": "Assistant Engineer",
+      "email": "sneha.patel@utility-section.com",
+      "mobile": "9714783316"
+    },
+    "address": "Banashankari, West Region Office",
+    "gis": {
+      "lat": "12.254190",
+      "lng": "77.636949"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Geranium",
+    "subdivision": "W2",
+    "officeName": "Subdivision W2",
+    "officer": {
+      "name": "Rahul Kumar",
+      "designation": "Assistant Executive Engineer",
+      "email": "rahul.kumar@utility-subdivision.com",
+      "mobile": "9169012461"
+    },
+    "address": "W2, West Region Office",
+    "gis": {
+      "lat": "12.816442",
+      "lng": "77.145532"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Geranium",
+    "subdivision": "W2",
+    "section": "SEC-187",
+    "officeName": "Office of the Assistant Engineer of Malleshwaram Section",
+    "officer": {
+      "name": "Sneha Das",
+      "designation": "Assistant Engineer",
+      "email": "sneha.das@utility-section.com",
+      "mobile": "9765917497"
+    },
+    "address": "Malleshwaram, West Region Office",
+    "gis": {
+      "lat": "12.751717",
+      "lng": "77.020861"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Geranium",
+    "subdivision": "W2",
+    "section": "SEC-188",
+    "officeName": "Office of the Assistant Engineer of Rajajinagar Section",
+    "officer": {
+      "name": "Meena Reddy",
+      "designation": "Assistant Engineer",
+      "email": "meena.reddy@utility-section.com",
+      "mobile": "9608859308"
+    },
+    "address": "Rajajinagar, West Region Office",
+    "gis": {
+      "lat": "12.472338",
+      "lng": "77.674490"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Geranium",
+    "subdivision": "W3",
+    "officeName": "Subdivision W3",
+    "officer": {
+      "name": "Suresh Kumar",
+      "designation": "Assistant Executive Engineer",
+      "email": "suresh.kumar@utility-subdivision.com",
+      "mobile": "9204609073"
+    },
+    "address": "W3, West Region Office",
+    "gis": {
+      "lat": "12.847749",
+      "lng": "77.100775"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Geranium",
+    "subdivision": "W3",
+    "section": "SEC-189",
+    "officeName": "Office of the Assistant Engineer of Bellandur Section",
+    "officer": {
+      "name": "Arjun Reddy",
+      "designation": "Assistant Engineer",
+      "email": "arjun.reddy@utility-section.com",
+      "mobile": "9153526476"
+    },
+    "address": "Bellandur, West Region Office",
+    "gis": {
+      "lat": "12.251258",
+      "lng": "77.113106"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Geranium",
+    "subdivision": "W3",
+    "section": "SEC-190",
+    "officeName": "Office of the Assistant Engineer of Electronic City Section",
+    "officer": {
+      "name": "Kiran Nair",
+      "designation": "Assistant Engineer",
+      "email": "kiran.nair@utility-section.com",
+      "mobile": "9716476617"
+    },
+    "address": "Electronic City, West Region Office",
+    "gis": {
+      "lat": "12.559906",
+      "lng": "77.023477"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Geranium",
+    "subdivision": "W4",
+    "officeName": "Subdivision W4",
+    "officer": {
+      "name": "Meena Reddy",
+      "designation": "Assistant Executive Engineer",
+      "email": "meena.reddy@utility-subdivision.com",
+      "mobile": "9475579782"
+    },
+    "address": "W4, West Region Office",
+    "gis": {
+      "lat": "12.996181",
+      "lng": "77.390124"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Geranium",
+    "subdivision": "W4",
+    "section": "SEC-191",
+    "officeName": "Office of the Assistant Engineer of Peenya Section",
+    "officer": {
+      "name": "Kiran Kumar",
+      "designation": "Assistant Engineer",
+      "email": "kiran.kumar@utility-section.com",
+      "mobile": "9523086945"
+    },
+    "address": "Peenya, West Region Office",
+    "gis": {
+      "lat": "12.905508",
+      "lng": "77.186081"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Geranium",
+    "subdivision": "W4",
+    "section": "SEC-192",
+    "officeName": "Office of the Assistant Engineer of Hebbal Section",
+    "officer": {
+      "name": "Anita Iyer",
+      "designation": "Assistant Engineer",
+      "email": "anita.iyer@utility-section.com",
+      "mobile": "9289134094"
+    },
+    "address": "Hebbal, West Region Office",
+    "gis": {
+      "lat": "12.876955",
+      "lng": "77.704816"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Hydrangea",
+    "officeName": "Hydrangea Division Office",
+    "officer": {
+      "name": "Arjun Reddy",
+      "designation": "Executive Engineer",
+      "email": "arjun.reddy@utility-division.com",
+      "mobile": "9643387040"
+    },
+    "address": "Hydrangea, West Region Office",
+    "gis": {
+      "lat": "12.260264",
+      "lng": "77.090824"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Hydrangea",
+    "subdivision": "W5",
+    "officeName": "Subdivision W5",
+    "officer": {
+      "name": "Kiran Iyer",
+      "designation": "Assistant Executive Engineer",
+      "email": "kiran.iyer@utility-subdivision.com",
+      "mobile": "9880288959"
+    },
+    "address": "W5, West Region Office",
+    "gis": {
+      "lat": "12.557241",
+      "lng": "77.959354"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Hydrangea",
+    "subdivision": "W5",
+    "section": "SEC-193",
+    "officeName": "Office of the Assistant Engineer of Kengeri Section",
+    "officer": {
+      "name": "Ravi Patel",
+      "designation": "Assistant Engineer",
+      "email": "ravi.patel@utility-section.com",
+      "mobile": "9605138071"
+    },
+    "address": "Kengeri, West Region Office",
+    "gis": {
+      "lat": "12.868417",
+      "lng": "77.748245"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Hydrangea",
+    "subdivision": "W5",
+    "section": "SEC-194",
+    "officeName": "Office of the Assistant Engineer of KR Puram Section",
+    "officer": {
+      "name": "Suresh Nair",
+      "designation": "Assistant Engineer",
+      "email": "suresh.nair@utility-section.com",
+      "mobile": "9758490347"
+    },
+    "address": "KR Puram, West Region Office",
+    "gis": {
+      "lat": "12.085922",
+      "lng": "77.922224"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Hydrangea",
+    "subdivision": "W6",
+    "officeName": "Subdivision W6",
+    "officer": {
+      "name": "Deepa Das",
+      "designation": "Assistant Executive Engineer",
+      "email": "deepa.das@utility-subdivision.com",
+      "mobile": "9385177952"
+    },
+    "address": "W6, West Region Office",
+    "gis": {
+      "lat": "12.715906",
+      "lng": "77.647758"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Hydrangea",
+    "subdivision": "W6",
+    "section": "SEC-195",
+    "officeName": "Office of the Assistant Engineer of KR Puram Section",
+    "officer": {
+      "name": "Ravi Patel",
+      "designation": "Assistant Engineer",
+      "email": "ravi.patel@utility-section.com",
+      "mobile": "9588410858"
+    },
+    "address": "KR Puram, West Region Office",
+    "gis": {
+      "lat": "12.028643",
+      "lng": "77.776869"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Hydrangea",
+    "subdivision": "W6",
+    "section": "SEC-196",
+    "officeName": "Office of the Assistant Engineer of Marathahalli Section",
+    "officer": {
+      "name": "Vijay Gupta",
+      "designation": "Assistant Engineer",
+      "email": "vijay.gupta@utility-section.com",
+      "mobile": "9612706127"
+    },
+    "address": "Marathahalli, West Region Office",
+    "gis": {
+      "lat": "12.928231",
+      "lng": "77.262141"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Hydrangea",
+    "subdivision": "W7",
+    "officeName": "Subdivision W7",
+    "officer": {
+      "name": "Ravi Reddy",
+      "designation": "Assistant Executive Engineer",
+      "email": "ravi.reddy@utility-subdivision.com",
+      "mobile": "9514430603"
+    },
+    "address": "W7, West Region Office",
+    "gis": {
+      "lat": "12.029153",
+      "lng": "77.572534"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Hydrangea",
+    "subdivision": "W7",
+    "section": "SEC-197",
+    "officeName": "Office of the Assistant Engineer of Domlur Section",
+    "officer": {
+      "name": "Sneha Reddy",
+      "designation": "Assistant Engineer",
+      "email": "sneha.reddy@utility-section.com",
+      "mobile": "9463195883"
+    },
+    "address": "Domlur, West Region Office",
+    "gis": {
+      "lat": "12.174056",
+      "lng": "77.314247"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Hydrangea",
+    "subdivision": "W7",
+    "section": "SEC-198",
+    "officeName": "Office of the Assistant Engineer of Yelahanka Section",
+    "officer": {
+      "name": "Arjun Reddy",
+      "designation": "Assistant Engineer",
+      "email": "arjun.reddy@utility-section.com",
+      "mobile": "9811283750"
+    },
+    "address": "Yelahanka, West Region Office",
+    "gis": {
+      "lat": "12.256578",
+      "lng": "77.295790"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Hydrangea",
+    "subdivision": "W8",
+    "officeName": "Subdivision W8",
+    "officer": {
+      "name": "Anita Iyer",
+      "designation": "Assistant Executive Engineer",
+      "email": "anita.iyer@utility-subdivision.com",
+      "mobile": "9939461503"
+    },
+    "address": "W8, West Region Office",
+    "gis": {
+      "lat": "12.338795",
+      "lng": "77.252769"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Hydrangea",
+    "subdivision": "W8",
+    "section": "SEC-199",
+    "officeName": "Office of the Assistant Engineer of Hebbal Section",
+    "officer": {
+      "name": "Arjun Nair",
+      "designation": "Assistant Engineer",
+      "email": "arjun.nair@utility-section.com",
+      "mobile": "9611940404"
+    },
+    "address": "Hebbal, West Region Office",
+    "gis": {
+      "lat": "12.982506",
+      "lng": "77.623563"
+    }
+  },
+  {
+    "level": "Section",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Hydrangea",
+    "subdivision": "W8",
+    "section": "SEC-200",
+    "officeName": "Office of the Assistant Engineer of KR Puram Section",
+    "officer": {
+      "name": "Suresh Gupta",
+      "designation": "Assistant Engineer",
+      "email": "suresh.gupta@utility-section.com",
+      "mobile": "9257337093"
+    },
+    "address": "KR Puram, West Region Office",
+    "gis": {
+      "lat": "12.920764",
+      "lng": "77.831948"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Poppy",
+    "officeName": "Poppy Division Office",
+    "officer": {
+      "name": "Rahul Iyer",
+      "designation": "Executive Engineer",
+      "email": "rahul.iyer@utility-division.com",
+      "mobile": "9337472165"
+    },
+    "address": "Poppy, West Region Office",
+    "gis": {
+      "lat": "12.929834",
+      "lng": "77.430185"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Poppy",
+    "subdivision": "W9",
+    "officeName": "Subdivision W9",
+    "officer": {
+      "name": "Rahul Patel",
+      "designation": "Assistant Executive Engineer",
+      "email": "rahul.patel@utility-subdivision.com",
+      "mobile": "9136658540"
+    },
+    "address": "W9, West Region Office",
+    "gis": {
+      "lat": "12.759070",
+      "lng": "77.865795"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Poppy",
+    "subdivision": "W10",
+    "officeName": "Subdivision W10",
+    "officer": {
+      "name": "Kiran Patel",
+      "designation": "Assistant Executive Engineer",
+      "email": "kiran.patel@utility-subdivision.com",
+      "mobile": "9357507055"
+    },
+    "address": "W10, West Region Office",
+    "gis": {
+      "lat": "12.549456",
+      "lng": "77.089411"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Poppy",
+    "subdivision": "W11",
+    "officeName": "Subdivision W11",
+    "officer": {
+      "name": "Meena Singh",
+      "designation": "Assistant Executive Engineer",
+      "email": "meena.singh@utility-subdivision.com",
+      "mobile": "9913376813"
+    },
+    "address": "W11, West Region Office",
+    "gis": {
+      "lat": "12.203729",
+      "lng": "77.234766"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Poppy",
+    "subdivision": "W12",
+    "officeName": "Subdivision W12",
+    "officer": {
+      "name": "Deepa Kumar",
+      "designation": "Assistant Executive Engineer",
+      "email": "deepa.kumar@utility-subdivision.com",
+      "mobile": "9601548978"
+    },
+    "address": "W12, West Region Office",
+    "gis": {
+      "lat": "12.391455",
+      "lng": "77.837050"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Primrose",
+    "officeName": "Primrose Division Office",
+    "officer": {
+      "name": "Sneha Gupta",
+      "designation": "Executive Engineer",
+      "email": "sneha.gupta@utility-division.com",
+      "mobile": "9537159569"
+    },
+    "address": "Primrose, West Region Office",
+    "gis": {
+      "lat": "12.944568",
+      "lng": "77.905733"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Primrose",
+    "subdivision": "W13",
+    "officeName": "Subdivision W13",
+    "officer": {
+      "name": "Kiran Das",
+      "designation": "Assistant Executive Engineer",
+      "email": "kiran.das@utility-subdivision.com",
+      "mobile": "9297879956"
+    },
+    "address": "W13, West Region Office",
+    "gis": {
+      "lat": "12.079833",
+      "lng": "77.981381"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Primrose",
+    "subdivision": "W14",
+    "officeName": "Subdivision W14",
+    "officer": {
+      "name": "Vijay Singh",
+      "designation": "Assistant Executive Engineer",
+      "email": "vijay.singh@utility-subdivision.com",
+      "mobile": "9800021214"
+    },
+    "address": "W14, West Region Office",
+    "gis": {
+      "lat": "12.064795",
+      "lng": "77.334350"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Primrose",
+    "subdivision": "W15",
+    "officeName": "Subdivision W15",
+    "officer": {
+      "name": "Kiran Kumar",
+      "designation": "Assistant Executive Engineer",
+      "email": "kiran.kumar@utility-subdivision.com",
+      "mobile": "9234246857"
+    },
+    "address": "W15, West Region Office",
+    "gis": {
+      "lat": "12.311889",
+      "lng": "77.904621"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Pineapple",
+    "division": "Primrose",
+    "subdivision": "W16",
+    "officeName": "Subdivision W16",
+    "officer": {
+      "name": "Meena Reddy",
+      "designation": "Assistant Executive Engineer",
+      "email": "meena.reddy@utility-subdivision.com",
+      "mobile": "9421480289"
+    },
+    "address": "W16, West Region Office",
+    "gis": {
+      "lat": "12.204679",
+      "lng": "77.762050"
+    }
+  },
+  {
+    "level": "Circle",
+    "zone": "West",
+    "circle": "Peach",
+    "officeName": "Peach Circle Office",
+    "officer": {
+      "name": "Sneha Reddy",
+      "designation": "Superintending Engineer",
+      "email": "sneha.reddy@utility-circle.com",
+      "mobile": "9392979083"
+    },
+    "address": "Peach, West Region Office",
+    "gis": {
+      "lat": "12.824137",
+      "lng": "77.644042"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "West",
+    "circle": "Peach",
+    "division": "Snowdrop",
+    "officeName": "Snowdrop Division Office",
+    "officer": {
+      "name": "Sneha Gupta",
+      "designation": "Executive Engineer",
+      "email": "sneha.gupta@utility-division.com",
+      "mobile": "9216552618"
+    },
+    "address": "Snowdrop, West Region Office",
+    "gis": {
+      "lat": "12.928747",
+      "lng": "77.514903"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Peach",
+    "division": "Snowdrop",
+    "subdivision": "W17",
+    "officeName": "Subdivision W17",
+    "officer": {
+      "name": "Anita Sharma",
+      "designation": "Assistant Executive Engineer",
+      "email": "anita.sharma@utility-subdivision.com",
+      "mobile": "9625678412"
+    },
+    "address": "W17, West Region Office",
+    "gis": {
+      "lat": "12.866845",
+      "lng": "77.334102"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Peach",
+    "division": "Snowdrop",
+    "subdivision": "W18",
+    "officeName": "Subdivision W18",
+    "officer": {
+      "name": "Ravi Kumar",
+      "designation": "Assistant Executive Engineer",
+      "email": "ravi.kumar@utility-subdivision.com",
+      "mobile": "9885258620"
+    },
+    "address": "W18, West Region Office",
+    "gis": {
+      "lat": "12.106490",
+      "lng": "77.294722"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Peach",
+    "division": "Snowdrop",
+    "subdivision": "W19",
+    "officeName": "Subdivision W19",
+    "officer": {
+      "name": "Suresh Nair",
+      "designation": "Assistant Executive Engineer",
+      "email": "suresh.nair@utility-subdivision.com",
+      "mobile": "9107122589"
+    },
+    "address": "W19, West Region Office",
+    "gis": {
+      "lat": "12.480201",
+      "lng": "77.828924"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Peach",
+    "division": "Snowdrop",
+    "subdivision": "W20",
+    "officeName": "Subdivision W20",
+    "officer": {
+      "name": "Sneha Das",
+      "designation": "Assistant Executive Engineer",
+      "email": "sneha.das@utility-subdivision.com",
+      "mobile": "9906156664"
+    },
+    "address": "W20, West Region Office",
+    "gis": {
+      "lat": "12.995205",
+      "lng": "77.422865"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "West",
+    "circle": "Peach",
+    "division": "Verbena",
+    "officeName": "Verbena Division Office",
+    "officer": {
+      "name": "Suresh Reddy",
+      "designation": "Executive Engineer",
+      "email": "suresh.reddy@utility-division.com",
+      "mobile": "9537070473"
+    },
+    "address": "Verbena, West Region Office",
+    "gis": {
+      "lat": "12.262355",
+      "lng": "77.708443"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Peach",
+    "division": "Verbena",
+    "subdivision": "W21",
+    "officeName": "Subdivision W21",
+    "officer": {
+      "name": "Arjun Patel",
+      "designation": "Assistant Executive Engineer",
+      "email": "arjun.patel@utility-subdivision.com",
+      "mobile": "9215484554"
+    },
+    "address": "W21, West Region Office",
+    "gis": {
+      "lat": "12.178660",
+      "lng": "77.795027"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Peach",
+    "division": "Verbena",
+    "subdivision": "W22",
+    "officeName": "Subdivision W22",
+    "officer": {
+      "name": "Ravi Patel",
+      "designation": "Assistant Executive Engineer",
+      "email": "ravi.patel@utility-subdivision.com",
+      "mobile": "9870513834"
+    },
+    "address": "W22, West Region Office",
+    "gis": {
+      "lat": "12.004485",
+      "lng": "77.390733"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Peach",
+    "division": "Verbena",
+    "subdivision": "W23",
+    "officeName": "Subdivision W23",
+    "officer": {
+      "name": "Rahul Rao",
+      "designation": "Assistant Executive Engineer",
+      "email": "rahul.rao@utility-subdivision.com",
+      "mobile": "9587661248"
+    },
+    "address": "W23, West Region Office",
+    "gis": {
+      "lat": "12.260568",
+      "lng": "77.835852"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Peach",
+    "division": "Verbena",
+    "subdivision": "W24",
+    "officeName": "Subdivision W24",
+    "officer": {
+      "name": "Deepa Reddy",
+      "designation": "Assistant Executive Engineer",
+      "email": "deepa.reddy@utility-subdivision.com",
+      "mobile": "9420149835"
+    },
+    "address": "W24, West Region Office",
+    "gis": {
+      "lat": "12.076034",
+      "lng": "77.125349"
+    }
+  },
+  {
+    "level": "Division",
+    "zone": "West",
+    "circle": "Peach",
+    "division": "Zinnia",
+    "officeName": "Zinnia Division Office",
+    "officer": {
+      "name": "Vijay Patel",
+      "designation": "Executive Engineer",
+      "email": "vijay.patel@utility-division.com",
+      "mobile": "9729284287"
+    },
+    "address": "Zinnia, West Region Office",
+    "gis": {
+      "lat": "12.413384",
+      "lng": "77.453721"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Peach",
+    "division": "Zinnia",
+    "subdivision": "W25",
+    "officeName": "Subdivision W25",
+    "officer": {
+      "name": "Meena Sharma",
+      "designation": "Assistant Executive Engineer",
+      "email": "meena.sharma@utility-subdivision.com",
+      "mobile": "9334066670"
+    },
+    "address": "W25, West Region Office",
+    "gis": {
+      "lat": "12.979033",
+      "lng": "77.416218"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Peach",
+    "division": "Zinnia",
+    "subdivision": "W26",
+    "officeName": "Subdivision W26",
+    "officer": {
+      "name": "Sneha Das",
+      "designation": "Assistant Executive Engineer",
+      "email": "sneha.das@utility-subdivision.com",
+      "mobile": "9906917438"
+    },
+    "address": "W26, West Region Office",
+    "gis": {
+      "lat": "12.242267",
+      "lng": "77.427727"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Peach",
+    "division": "Zinnia",
+    "subdivision": "W27",
+    "officeName": "Subdivision W27",
+    "officer": {
+      "name": "Meena Gupta",
+      "designation": "Assistant Executive Engineer",
+      "email": "meena.gupta@utility-subdivision.com",
+      "mobile": "9718770073"
+    },
+    "address": "W27, West Region Office",
+    "gis": {
+      "lat": "12.958763",
+      "lng": "77.812609"
+    }
+  },
+  {
+    "level": "Subdivision",
+    "zone": "West",
+    "circle": "Peach",
+    "division": "Zinnia",
+    "subdivision": "W28",
+    "officeName": "Subdivision W28",
+    "officer": {
+      "name": "Vijay Rao",
+      "designation": "Assistant Executive Engineer",
+      "email": "vijay.rao@utility-subdivision.com",
+      "mobile": "9653784983"
+    },
+    "address": "W28, West Region Office",
+    "gis": {
+      "lat": "12.074821",
+      "lng": "77.308680"
+    }
+  }
+]
