@@ -37,18 +37,22 @@
 </aside>
 
 <main class="main">
-
 <header class="topbar">
-    <div class="search-wrapper">
-    <input
-        type="text"
-        id="searchInput"
-        placeholder="Search by name, email, phone, designation, office..." >
-
-    <button id="clearSearchBtn" class="search-clear">
-        <i class="fa-solid fa-xmark"></i>
+    <!-- MOBILE: sidebar toggle -->
+    <button id="sidebarToggle" class="sidebar-toggle" aria-label="Toggle filters">
+        <i class="fa-solid fa-bars"></i>
     </button>
-</div>
+
+    <div class="search-wrapper">
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search by name, email, phone, designation, office..." >
+
+        <button id="clearSearchBtn" class="search-clear">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
 
     <div id="resultCount" class="result-count">0 results</div>
 
@@ -65,9 +69,18 @@
     <div id="copiedMsg" class="copied-msg">✔ Copied</div>
 </header>
 
+<!-- Empty state container -->
+<div id="emptyState" class="empty-state" style="display:none;">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <p>No results found for the current filters.</p>
+    <p class="empty-hint">Try clearing filters or using a different search term.</p>
+</div>
+
 <div id="cardContainer" class="cards"></div>
 
 </main>
+<!-- Backdrop for mobile sidebar -->
+<div id="sidebarBackdrop" class="sidebar-backdrop"></div>
 </div>
 
 <script src="app.js"></script>

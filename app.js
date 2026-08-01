@@ -13,6 +13,11 @@ const copiedMsg = document.getElementById("copiedMsg");
 const regionSearch = document.getElementById("regionSearch");
 const designationSearch = document.getElementById("designationSearch");
 const clearSearchBtn =   document.getElementById("clearSearchBtn");
+// NEW:
+const sidebarToggle = document.getElementById("sidebarToggle");
+const sidebarBackdrop = document.getElementById("sidebarBackdrop");
+const appRoot = document.querySelector(".app");
+const emptyState = document.getElementById("emptyState");
 
 /* DESIGNATION ORDER (Hierarchy) */
 const designationOrder = [
@@ -141,6 +146,14 @@ function render() {
 	const filtered = getFilteredData();
 
     resultCount.innerText = `${filtered.length} results`;
+        // Empty state handling
+    if (!filtered.length) {
+        container.innerHTML = "";
+        if (emptyState) emptyState.style.display = "block";
+        return;
+    } else if (emptyState) {
+        emptyState.style.display = "none";
+    }
     container.innerHTML = "";
 
     filtered.forEach((o, index) => {
@@ -298,6 +311,7 @@ document.addEventListener("keydown", e => {
         searchInput.value="";
         clearSearchBtn.classList.remove("show");
         render();
+        closeSidebar();  // NEW: close sidebar if open
     }
 	
     else if (e.ctrlKey && e.key === "a") {
@@ -307,3 +321,31 @@ document.addEventListener("keydown", e => {
         render();
     }
 });
+
+function openSidebar() {
+    if (!appRoot) return;
+    appRoot.classList.add("sidebar-open");
+    if (sidebarBackdrop) sidebarBackdrop.classList.add("show");
+}
+
+function closeSidebar() {
+    if (!appRoot) return;
+    appRoot.classList.remove("sidebar-open");
+    if (sidebarBackdrop) sidebarBackdrop.classList.remove("show");
+}
+
+if (sidebarToggle) {
+    sidebarToggle.addEventListener("click", () => {
+        if (appRoot.classList.contains("sidebar-open")) {
+            closeSidebar();
+        } else {
+            openSidebar();
+        }
+    });
+}
+
+if (sidebarBackdrop) {
+    sidebarBackdrop.addEventListener("click", () => {
+        closeSidebar();
+    });
+}

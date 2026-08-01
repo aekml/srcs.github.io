@@ -41,6 +41,34 @@ body { margin:0; background:#f5f7fb; }
     z-index:10;
 }
 
+/* Sidebar toggle button (hamburger) */
+.sidebar-toggle {
+    border:none;
+    background:transparent;
+    color:#111827;
+    font-size:20px;
+    cursor:pointer;
+    display:none;           /* shown only on small screens */
+    padding:4px 8px;
+    margin-right:8px;
+}
+
+/* Mobile sidebar backdrop */
+.sidebar-backdrop {
+    position:fixed;
+    inset:0;
+    background:rgba(15,23,42,0.4);
+    opacity:0;
+    pointer-events:none;
+    transition:opacity .2s;
+    z-index:15;
+}
+
+.sidebar-backdrop.show {
+    opacity:1;
+    pointer-events:auto;
+}
+
 .result-count { font-size:14px; color:#555; }
 
 .actions { display:flex; gap:10px; }
@@ -354,4 +382,92 @@ body { margin:0; background:#f5f7fb; }
     box-shadow:
         0 10px 24px rgba(0,0,0,0.08),
         0 0 0 2px rgba(37,99,235,0.05);
+}
+
+/* MOBILE / TABLET RESPONSIVE LAYOUT */
+@media (max-width: 768px) {
+
+    .app {
+        flex-direction:column;
+    }
+
+    .sidebar {
+        position:fixed;
+        top:0;
+        left:0;
+        height:100vh;
+        transform:translateX(-100%);
+        transition:transform .2s ease;
+        z-index:20;
+        width:260px;
+    }
+
+    /* When app has sidebar-open, slide it in */
+    .app.sidebar-open .sidebar {
+        transform:translateX(0);
+    }
+
+    .sidebar-toggle {
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+    }
+
+    .topbar {
+        flex-wrap:wrap;
+        align-items:flex-start;
+        gap:10px;
+    }
+
+    .result-count {
+        order:3;
+        width:100%;
+        font-size:13px;
+    }
+
+    .actions {
+        order:2;
+        margin-left:auto;
+    }
+
+    .cards {
+        padding:12px;
+        grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
+    }
+}
+
+/* Very small phones */
+@media (max-width: 480px) {
+
+    .topbar {
+        flex-direction:column;
+        align-items:stretch;
+    }
+
+    .actions {
+        width:100%;
+        justify-content:flex-start;
+    }
+
+    .result-count {
+        margin-top:6px;
+    }
+}
+
+/* Empty state */
+.empty-state {
+    padding:40px 20px 0;
+    text-align:center;
+    color:#6b7280;
+}
+
+.empty-state i {
+    font-size:28px;
+    margin-bottom:10px;
+    color:#9ca3af;
+}
+
+.empty-hint {
+    font-size:13px;
+    color:#9ca3af;
 }
