@@ -1,0 +1,72 @@
+[
+  {
+    "itemId": "PIN-000001",
+    "startDate": "1982-07-12",
+    "endDate": "1984-06-30",
+    "title": "Assistant Engineer",
+    "location": "O&M Sub-Division, Kolar",
+    "group": "Regular Posting",
+    "orderReference": "BESCOM/HR/APPT/1982/031",
+    "description": "Initial appointment"
+  },
+  {
+    "itemId": "PIN-000001",
+    "startDate": "1984-07-01",
+    "endDate": "1992-01-31",
+    "title": "Assistant Engineer",
+    "location": "Distribution Division, Bengaluru North",
+    "group": "Regular Posting",
+    "orderReference": "BESCOM/HR/TRF/1984/144",
+    "description": "Transfer on administrative grounds"
+  },
+  {
+    "itemId": "PIN-000001",
+    "startDate": "1992-02-01",
+    "endDate": "2003-09-30",
+    "title": "Assistant Executive Engineer",
+    "location": "Apple Circle Office",
+    "group": "Promotion",
+    "orderReference": "BESCOM/HR/PRM/1992/078",
+    "description": "Promotion to Assistant Executive Engineer"
+  },
+  {
+    "itemId": "PIN-000001",
+    "startDate": "2003-10-01",
+    "endDate": "2015-05-31",
+    "title": "Executive Engineer",
+    "location": "Rose Division Office",
+    "group": "Promotion",
+    "orderReference": "BESCOM/HR/PRM/2003/221",
+    "description": "Promotion and posting"
+  },
+  {
+    "itemId": "PIN-000001",
+    "startDate": "2015-06-01",
+    "endDate": null,
+    "title": "Chief Engineer",
+    "location": "Office of Chief Engineer - North Zone",
+    "group": "Promotion",
+    "orderReference": "BESCOM/HR/PRM/2015/409",
+    "description": "Current posting"
+  },
+  {
+    "itemId": "PIN-000002",
+    "startDate": "2001-06-15",
+    "endDate": "2010-03-31",
+    "title": "Assistant Engineer",
+    "location": "Kolar Division",
+    "group": "Regular Posting",
+    "orderReference": "BESCOM/HR/APPT/2001/064",
+    "description": "Initial appointment"
+  },
+  {
+    "itemId": "PIN-000002",
+    "startDate": "2010-04-01",
+    "endDate": null,
+    "title": "Superintending Engineer",
+    "location": "Apple Circle Office",
+    "group": "Promotion",
+    "orderReference": "BESCOM/HR/PRM/2010/104",
+    "description": "Current posting"
+  }
+]
