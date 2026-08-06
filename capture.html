@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Post & Person Data Capture</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Optional: basic system fonts -->
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f5f7fb;
+      color: #111827;
+    }
+    .app {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 16px;
+    }
+    header {
+      margin-bottom: 12px;
+    }
+    header h1 {
+      margin: 0 0 4px;
+      font-size: 20px;
+    }
+    header p {
+      margin: 0;
+      font-size: 13px;
+      color: #4b5563;
+    }
+
+    form {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+      background: #ffffff;
+      padding: 16px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(15, 23, 42, 0.08);
+    }
+
+    fieldset {
+      border: none;
+      padding: 0;
+      margin: 0;
+    }
+    fieldset legend {
+      font-weight: 600;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    .field-group {
+      margin-bottom: 10px;
+    }
+    label {
+      display: block;
+      font-size: 13px;
+      font-weight: 500;
+      margin-bottom: 4px;
+      color: #374151;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 8px 10px;
+      font-size: 13px;
+      border-radius: 8px;
+      border: 1px solid #cbd5e1;
+      background: #f9fafb;
+    }
+    input:focus, select:focus, textarea:focus {
+      outline: 2px solid #2563eb;
+      outline-offset: 1px;
+      background: #ffffff;
+    }
+    textarea {
+      min-height: 60px;
+      resize: vertical;
+    }
+
+    .actions {
+      grid-column: 1 / -1;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: flex-end;
+      margin-top: 4px;
+    }
+    button {
+      border-radius: 999px;
+      border: none;
+      padding: 9px 14px;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    .primary-btn {
+      background: #2563eb;
+      color: #ffffff;
+    }
+    .secondary-btn {
+      background: #e5e7eb;
+      color: #111827;
+    }
+
+    .output {
+      margin-top: 16px;
+      background: #ffffff;
+      padding: 12px 14px;
+      border-radius: 10px;
+      border: 1px solid #e5e7eb;
+      font-size: 12px;
+      color: #374151;
+    }
+    .output code {
+      display: block;
+      white-space: nowrap;
+      overflow-x: auto;
+      padding-top: 4px;
+    }
+
+    @media (max-width: 768px) {
+      form {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>Post & Person Data Capture</h1>
+      <p>Fill this form to generate a CSV row for the directory migration.</p>
+    </header>
+
+    <form id="captureForm" autocomplete="off">
+      <!-- Person details -->
+      <fieldset>
+        <legend>Person details</legend>
+
+        <div class="field-group">
+          <label for="sourceRecordId">Source record ID</label>
+          <input id="sourceRecordId" name="SourceRecordId" type="text" placeholder="e.g. DIR-0001">
+        </div>
+
+        <div class="field-group">
+          <label for="personName">Person name</label>
+          <input id="personName" name="PersonName" type="text" placeholder="e.g. Sneha Patel" required>
+        </div>
+
+        <div class="field-group">
+          <label for="fatherName">Father / guardian name</label>
+          <input id="fatherName" name="FatherOrGuardianName" type="text" placeholder="e.g. Ramesh Patel">
+        </div>
+
+        <div class="field-group">
+          <label for="dob">Date of birth</label>
+          <input id="dob" name="DateOfBirth" type="date">
+        </div>
+
+        <div class="field-group">
+          <label for="doj">Date of joining service</label>
+          <input id="doj" name="DateOfJoiningService" type="date">
+        </div>
+
+        <div class="field-group">
+          <label for="pin">Official PIN</label>
+          <input id="pin" name="OfficialPIN" type="text" placeholder="e.g. PIN-000001">
+        </div>
+
+        <div class="field-group">
+          <label for="email">Email</label>
+          <input id="email" name="Email" type="email" placeholder="e.g. sneha.patel@utility-zone.com">
+        </div>
+
+        <div class="field-group">
+          <label for="mobile">Mobile</label>
+          <input id="mobile" name="Mobile" type="tel" placeholder="e.g. 9718611810">
+        </div>
+
+        <div class="field-group">
+          <label for="personStatus">Person status</label>
+          <select id="personStatus" name="PersonStatus">
+            <option value="">(select)</option>
+            <option value="Active">Active</option>
+            <option value="Retired">Retired</option>
+            <option value="Unknown">Unknown</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <!-- Post details -->
+      <fieldset>
+        <legend>Post / office details</legend>
+
+        <div class="field-group">
+          <label for="postTitle">Post title</label>
+          <select id="postTitle" name="PostTitle">
+            <option value="">(select)</option>
+            <option value="Chief Engineer">Chief Engineer</option>
+            <option value="Superintending Engineer">Superintending Engineer</option>
+            <option value="Executive Engineer">Executive Engineer</option>
+            <option value="Assistant Executive Engineer">Assistant Executive Engineer</option>
+            <option value="Assistant Engineer">Assistant Engineer</option>
+          </select>
+        </div>
+
+        <div class="field-group">
+          <label for="level">Level</label>
+          <select id="level" name="Level">
+            <option value="">(select)</option>
+            <option value="Zone">Zone</option>
+            <option value="Circle">Circle</option>
+            <option value="Division">Division</option>
+            <option value="Subdivision">Subdivision</option>
+            <option value="Section">Section</option>
+          </select>
+        </div>
+
+        <div class="field-group">
+          <label for="zone">Zone</label>
+          <select id="zone" name="Zone">
+            <option value="">(select)</option>
+            <option value="North">North</option>
+            <option value="South">South</option>
+            <option value="East">East</option>
+            <option value="West">West</option>
+          </select>
+        </div>
+
+        <div class="field-group">
+          <label for="circle">Circle</label>
+          <input id="circle" name="Circle" type="text" placeholder="e.g. Apple">
+        </div>
+
+        <div class="field-group">
+          <label for="division">Division</label>
+          <input id="division" name="Division" type="text" placeholder="e.g. Rose">
+        </div>
+
+        <div class="field-group">
+          <label for="subdivision">Subdivision</label>
+          <input id="subdivision" name="Subdivision" type="text" placeholder="e.g. N1">
+        </div>
+
+        <div class="field-group">
+          <label for="section">Section</label>
+          <input id="section" name="Section" type="text" placeholder="e.g. SEC-1">
+        </div>
+
+        <div class="field-group">
+          <label for="officeName">Office name</label>
+          <input id="officeName" name="OfficeName" type="text" placeholder="e.g. Office of Chief Engineer - North Zone">
+        </div>
+
+        <div class="field-group">
+          <label for="address">Address</label>
+          <textarea id="address" name="Address" placeholder="e.g. Head Office, North Region Office"></textarea>
+        </div>
+
+        <div class="field-group">
+          <label for="postStatus">Post status</label>
+          <select id="postStatus" name="PostStatus">
+            <option value="">(select)</option>
+            <option value="Active">Active</option>
+            <option value="VacantOnly">VacantOnly</option>
+            <option value="Abolished">Abolished</option>
+            <option value="Unknown">Unknown</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <!-- Assignment details: who ↔ post ↔ when -->
+      <fieldset>
+        <legend>Assignment (posting) details</legend>
+
+        <div class="field-group">
+          <label for="startDate">Start date</label>
+          <input id="startDate" name="StartDate" type="date">
+        </div>
+
+        <div class="field-group">
+          <label for="endDate">End date</label>
+          <input id="endDate" name="EndDate" type="date">
+        </div>
+
+        <div class="field-group">
+          <label for="assignmentType">Assignment type</label>
+          <select id="assignmentType" name="AssignmentType">
+            <option value="">(select)</option>
+            <option value="Regular appointment">Regular appointment</option>
+            <option value="Promotion">Promotion</option>
+            <option value="Transfer">Transfer</option>
+            <option value="Deputation">Deputation</option>
+            <option value="Additional Charge">Additional Charge</option>
+            <option value="Acting">Acting</option>
+            <option value="Unknown">Unknown</option>
+          </select>
+        </div>
+
+        <div class="field-group">
+          <label for="orderRef">Order reference</label>
+          <input id="orderRef" name="OrderReference" type="text" placeholder="e.g. BESCOM/HR/PRM/2016/409">
+        </div>
+
+        <div class="field-group">
+          <label for="note">Note</label>
+          <textarea id="note" name="Note" placeholder="e.g. Current incumbent"></textarea>
+        </div>
+      </fieldset>
+
+      <div class="actions">
+        <button type="button" class="secondary-btn" id="resetBtn">Clear form</button>
+        <button type="button" class="primary-btn" id="generateBtn">Generate CSV row</button>
+      </div>
+    </form>
+
+    <div class="output" id="outputBox" hidden>
+      <div>CSV header:</div>
+      <code id="csvHeader"></code>
+      <div style="margin-top:6px;">CSV row:</div>
+      <code id="csvRow"></code>
+    </div>
+  </div>
+
+  <script>
+    const header = [
+      "SourceRecordId","PersonName","FatherOrGuardianName","DateOfBirth","DateOfJoiningService",
+      "OfficialPIN","Email","Mobile","PersonStatus",
+      "PostTitle","Level","Zone","Circle","Division","Subdivision","Section","OfficeName","Address","PostStatus",
+      "StartDate","EndDate","AssignmentType","OrderReference","Note"
+    ];
+
+    document.getElementById("csvHeader").textContent = header.join(",");
+
+    function escCsv(val) {
+      if (val == null) return "";
+      const s = String(val);
+      if (/[\",]/.test(s)) {
+        return '"' + s.replace(/"/g, '""') + '"';
+      }
+      return s;
+    }
+
+    document.getElementById("generateBtn").addEventListener("click", () => {
+      const form = document.getElementById("captureForm");
+      const values = header.map(name => {
+        const field = form.querySelector(`[name="${name}"]`);
+        return field ? escCsv(field.value.trim()) : "";
+      });
+
+      document.getElementById("csvRow").textContent = values.join(",");
+      document.getElementById("outputBox").hidden = false;
+    });
+
+    document.getElementById("resetBtn").addEventListener("click", () => {
+      document.getElementById("captureForm").reset();
+      document.getElementById("outputBox").hidden = true;
+    });
+  </script>
+</body>
+</html>
