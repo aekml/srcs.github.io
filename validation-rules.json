@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "capture-r1",
+  "csvHeader": [
+    "PersonName",
+    "FatherOrGuardianName",
+    "DateOfBirth",
+    "DateOfJoiningService",
+    "OfficialPIN",
+    "Email",
+    "PersonalMobile",
+    "PersonStatus",
+    "PostTitle",
+    "Level",
+    "Zone",
+    "Circle",
+    "Division",
+    "Subdivision",
+    "Section",
+    "OfficeName",
+    "OfficialEmail",
+    "OfficeMobile",
+    "Address",
+    "PostStatus",
+    "StartDate",
+    "EndDate",
+    "AssignmentType",
+    "OrderReference",
+    "Note"
+  ],
+  "requiredFields": [
+    "PersonName",
+    "PersonStatus",
+    "PostTitle",
+    "Level",
+    "OfficeName",
+    "PostStatus",
+    "AssignmentType"
+  ],
+  "allowedValues": {
+    "PersonStatus": [
+      "Active",
+      "Retired",
+      "Unknown"
+    ],
+    "PostStatus": [
+      "Active",
+      "VacantOnly",
+      "Abolished",
+      "Unknown"
+    ],
+    "AssignmentType": [
+      "Regular appointment",
+      "Promotion",
+      "Transfer",
+      "Deputation",
+      "Additional Charge",
+      "Acting",
+      "Unknown"
+    ],
+    "Level": [
+      "Corporate Office",
+      "Zonal Office",
+      "Zone",
+      "Circle Office",
+      "Circle",
+      "Division Office",
+      "Division",
+      "Subdivision Office",
+      "Subdivision",
+      "Section"
+    ],
+    "PostTitle": [
+      "Chief Engineer",
+      "Superintending Engineer",
+      "Executive Engineer",
+      "Assistant Executive Engineer",
+      "Assistant Engineer"
+    ]
+  },
+  "officeLevels": [
+    "Corporate Office",
+    "Zonal Office",
+    "Circle Office",
+    "Division Office",
+    "Subdivision Office"
+  ],
+  "hierarchyLevels": {
+    "Zone": [
+      "Zone",
+      "Circle",
+      "Division",
+      "Subdivision",
+      "Section"
+    ],
+    "Circle": [
+      "Circle",
+      "Division",
+      "Subdivision",
+      "Section"
+    ],
+    "Division": [
+      "Division",
+      "Subdivision",
+      "Section"
+    ],
+    "Subdivision": [
+      "Subdivision",
+      "Section"
+    ],
+    "Section": [
+      "Section"
+    ]
+  },
+  "identityReadiness": {
+    "pinPattern": "^PIN-[A-Za-z0-9-]+$",
+    "fallbackFields": [
+      "PersonName",
+      "FatherOrGuardianName",
+      "DateOfBirth",
+      "DateOfJoiningService"
+    ],
+    "minimumFallbackFields": 3
+  },
+  "validation": {
+    "emailPattern": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$",
+    "phoneDigitsMinimum": 10,
+    "phoneDigitsMaximum": 15,
+    "bulkUploadMaximumRows": 1000,
+    "bulkUploadMaximumBytes": 5242880
+  }
+}

@@ -9,13 +9,11 @@
       "designation": "Chief Engineer",
       "email": "sneha.patel@utility-zone.com",
       "mobile": "9718611810"
-    },
-    "address": "Head Office, North Region Office"
+    }
   },
   {
     "level": "Circle",
     "zone": "North",
-    "circle": "Apple",
     "officeName": "Apple Circle Office",
     "officer": {
       "pin": "PIN-000002",
@@ -23,14 +21,11 @@
       "designation": "Superintending Engineer",
       "email": "deepa.kumar@utility-circle.com",
       "mobile": "9910036277"
-    },
-    "address": "Apple, North Region Office"
+    }
   },
   {
     "level": "Division",
     "zone": "North",
-    "circle": "Apple",
-    "division": "Rose",
     "officeName": "Rose Division Office",
     "officer": {
       "pin": "PIN-000003",
@@ -38,15 +33,11 @@
       "designation": "Executive Engineer",
       "email": "vijay.nair@utility-division.com",
       "mobile": "9657419612"
-    },
-    "address": "Rose, North Region Office"
+    }
   },
   {
     "level": "Subdivision",
     "zone": "North",
-    "circle": "Apple",
-    "division": "Rose",
-    "subdivision": "N1",
     "officeName": "Subdivision N1",
     "officer": {
       "pin": "PIN-000004",
@@ -54,24 +45,18 @@
       "designation": "Assistant Executive Engineer",
       "email": "sneha.iyer@utility-subdivision.com",
       "mobile": "9153553888"
-    },
-    "address": "N1, North Region Office"
+    }
   },
   {
     "level": "Section",
     "zone": "North",
-    "circle": "Apple",
-    "division": "Rose",
-    "subdivision": "N1",
-    "section": "SEC-1",
-    "officeName": "Office of the Assistant Engineer of Banashankari Section",
+    "officeName": "Banashankari Section",
     "officer": {
       "pin": "PIN-000005",
       "name": "Deepa Sharma",
       "designation": "Assistant Engineer",
       "email": "deepa.sharma@utility-section.com",
       "mobile": "9618518219"
-    },
-    "address": "Banashankari, North Region Office"
+    }
   }
 ]
