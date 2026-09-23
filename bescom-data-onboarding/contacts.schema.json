@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/bescom/contacts.schema.json",
+  "title": "BESCOM Directory Contact",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "level", "zone", "circle", "division", "category", "status", "officeName", "officer"],
+    "properties": {
+      "id": {"type": "string"},
+      "code": {"type": "string"},
+      "sourceSheet": {"type": "string"},
+      "sourceRow": {"type": "integer"},
+      "level": {"type": "string"},
+      "zone": {"enum": ["", "BMAZ SOUTH", "BMAZ NORTH", "BRAZ", "CTAZ"]},
+      "circle": {"enum": ["", "BANGALORE SOUTH", "BANGALORE WEST", "BANGALORE NORTH", "BANGALORE CENTRAL", "BANGALORE EAST", "BANGALORE RURAL", "RAMANAGARA", "KOLAR", "TUMKUR", "DAVANAGERE"]},
+      "division": {"type": "string"},
+      "subdivision": {"type": "string"},
+      "section": {"type": "string"},
+      "category": {"enum": ["Engineer", "Accounts", "Corporate Office"]},
+      "status": {"enum": ["Active", "Vacant"]},
+      "officeName": {"type": "string"},
+      "address": {"type": "string"},
+      "dateOfAssumingCharge": {"type": "string"},
+      "remarks": {"type": "string"},
+      "officer": {
+        "type": "object",
+        "required": ["name", "designation", "pinNumber", "email", "primaryPhone", "secondaryPhones", "mobile"],
+        "properties": {
+          "name": {"type": "string"},
+          "designation": {"type": "string"},
+          "rawDesignation": {"type": "string"},
+          "pinNumber": {"type": "string"},
+          "email": {"type": "string"},
+          "primaryPhone": {"type": "string"},
+          "secondaryPhones": {"type": "array", "items": {"type": "string"}},
+          "mobile": {"type": "string"}
+        }
+      }
+    }
+  }
+}

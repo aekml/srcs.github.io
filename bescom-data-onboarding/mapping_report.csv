@@ -1,0 +1,49 @@
+﻿id,sourceSheet,sourceRow,name,designation,officeName,zone,circle,division,mappingStatus
+FS-1,Field Section,2,Kashiram Pavar,Chief Engineer,Bengaluru Metropolitan Area Zone (South),BMAZ SOUTH,,,partial
+FS-2,Field Section,3,Romaraj,Chief Engineer,Chitradurga Zone,CTAZ,,,partial
+FS-3,Field Section,4,R Parashuram,Chief Controller of Accounts,Bengaluru Metropolitan Area. South Zone,BMAZ SOUTH,,,partial
+FS-4,Field Section,5,Sarvesh V G,Chief Controller of Accounts,Bengaluru Metropolitan Area. North Zone,BMAZ NORTH,,,partial
+FS-5,Field Section,6,Ramesh V N,Chief Controller of Accounts,Bengaluru Rural Area Zone,BRAZ,,,partial
+FS-6,Field Section,7,Anand S B,Chief Controller of Accounts,Chitradurga Zone,CTAZ,,,partial
+FS-7,Field Section,8,Mallikarjunamma,Superintending Engineer,Bengaluru Metropolitan Area. Zone Office (South),BMAZ SOUTH,,,partial
+FS-8,Field Section,9,Umesh D H,Superintending Engineer,Bengaluru Metropolitan Area. Zone Office (North),BMAZ NORTH,,,partial
+FS-9,Field Section,10,Timmegowda D,Superintending Engineer,Bengaluru Rural Area Zone Office,BRAZ,,,partial
+FS-10,Field Section,11,K.C.Komala,Superintending Engineer,Chitradurga Zone Office,CTAZ,,,partial
+FS-28,Field Section,29,Sayeeda Tasmiya Taranum,Executive Engineer,"Executive Engineer M.T. Division, Bengaluru Metropolitan Area North Zone",BMAZ NORTH,,,partial
+FS-29,Field Section,30,Chaitra R,Executive Engineer,"Executive Engineer M.T. Division, Bengaluru Metropolitan Area South Zone",BMAZ SOUTH,,,partial
+FS-30,Field Section,31,Sudharani K H,Executive Engineer,Executive Engineer (Works unit- South),,,,unresolved
+FS-34,Field Section,35,Tirukkannanavar Bhuvaneshvari,Executive Engineer,North Works Unit,,,,unresolved
+FS-35,Field Section,36,Savita N,Executive Engineer,Executive Engineer(Bescom Stores),,,,unresolved
+FS-45,Field Section,46,Kiran M S,Executive Engineer,Bengaluru East Works Unit,,,,unresolved
+FS-49,Field Section,50,Deepak B S,Executive Engineer,"M.T. Division, Bengaluru Rural Area Zone",BRAZ,,,partial
+FS-50,Field Section,51,Rashmi G K,Executive Engineer,Bengaluru West Works Unit,,,,unresolved
+FS-52,Field Section,53,R V Ganesh,Executive Engineer,Ramanagara Works Unit,,,,unresolved
+FS-57,Field Section,58,Lohit M,Executive Engineer,Bengaluru Rural Works Unit,,,,unresolved
+FS-65,Field Section,66,S Lakshmi,Executive Engineer,M. T. Division Chitradurga,,,,unresolved
+FS-66,Field Section,67,Megharaj.M.N,Executive Engineer,Chitradurga Technical & Safety,,,,unresolved
+FS-67,Field Section,68,Sandhya.N.R,Executive Engineer,Tumkur Works Unit,,,,unresolved
+FS-77,Field Section,78,Savita Yallapur,Executive Engineer (Civil),Corporate Office EE(Civil),,,,unresolved
+FS-78,Field Section,79,Manjunatha K T,Executive Engineer (Civil),BMA South Zone,BMAZ SOUTH,,,partial
+FS-79,Field Section,80,Sowmya K T,Executive Engineer (Civil),BMA North Zone,BMAZ NORTH,,,partial
+FS-80,Field Section,81,M.K Praveen,Executive Engineer (Civil),Bengaluru Rural Area Zone,BRAZ,,,partial
+FS-81,Field Section,82,Tippeswamy T,Executive Engineer (Civil),Chitradurga Zone,CTAZ,,,partial
+FS-82,Field Section,83,B.K.Vimala,Accounts Officer,(I/A) Zone & Circle(South),,,,unresolved
+FS-92,Field Section,93,Vasantabhanu K,Accounts Officer,(BMAZ North),BMAZ NORTH,,,partial
+FS-107,Field Section,108,Venkatesh C,Accounts Officer,Tumkur div,,,,unresolved
+FS-114,Field Section,115,M.R Katyayini,Assistant Executive Engineer,Bengaluru Zone (South),BMAZ SOUTH,,,partial
+FS-115,Field Section,116,Ashok Kumar,Assistant Executive Engineer,(HT Rating -South),BMAZ SOUTH,,,partial
+FS-117,Field Section,118,Manjunatha J,Assistant Executive Engineer,"R. M.U.(South Upavibaga) (M.R.T. Division), Bengaluru Metropolitan Area (South) Zone (RMU-South)",BMAZ SOUTH,,,partial
+FS-118,Field Section,119,Pandurangegowda S,Assistant Executive Engineer,Bengaluru Metropolitan Area South Zone (HT- Rating),BMAZ SOUTH,,,partial
+FS-119,Field Section,120,Shalini (Extra Cost),Assistant Executive Engineer,Bengaluru Metropolitan Area South Zone (HT- Rating),BMAZ SOUTH,,,partial
+FS-177,Field Section,178,Netravati K,Assistant Executive Engineer,"Assistant Executive Engineer (Ele), Bengaluru Metropolitan Area (North) Zone",BMAZ NORTH,,,partial
+FS-178,Field Section,179,Prashant M,Assistant Executive Engineer,"R. M.U. (North Sub-Division) (M.R.T. Division), Bengaluru Metropolitan Area (South) Zone (RMU-North)",BMAZ SOUTH,,,partial
+FS-179,Field Section,180,Poornima.N,Assistant Executive Engineer,Assistant Executive Engineer (Ele) H.T. Sub-Division (HT- Commercial),BMAZ SOUTH,,,partial
+FS-180,Field Section,181,Chandan L,Assistant Executive Engineer,"M. T. Section, Bengaluru Metropolitan Area. Zone (North) (MT- North)",BMAZ NORTH,,,partial
+FS-181,Field Section,182,Dhanyakumar.Hach.C,Assistant Executive Engineer,Bengaluru Metropolitan Area (North) (HT Rating- North),BMAZ NORTH,,,partial
+FS-182,Field Section,183,Vani.R,Assistant Executive Engineer,Bengaluru Metropolitan Area (North) Zone (HT Rating- East),BMAZ NORTH,,,partial
+FS-183,Field Section,184,Pratibha R,Assistant Executive Engineer,Bengaluru Metropolitan Area (South) Zone (MRT- South),BMAZ SOUTH,,,partial
+FS-243,Field Section,244,Nagaraj G,Assistant Executive Engineer,BRAZ office,BRAZ,,,partial
+FS-244,Field Section,245,Manjunatha V,Assistant Executive Engineer,"M. T. Section, BRAZ. Zone (MT section)",BRAZ,,,partial
+FS-247,Field Section,248,Hemalata. B.K,Assistant Executive Engineer,"H.T. Rating, BRAZ, Zone (HT Rating)",BRAZ,,,partial
+FS-316,Field Section,317,Mamata.B,Assistant Executive Engineer,Chitradurga Zone Office,CTAZ,,,partial
+FS-317,Field Section,318,Saiyad Aareeph (Deputation 1 year ),Assistant Executive Engineer,M.T. Division Chitradurga MT Div Chitradurga,CTAZ,,,partial

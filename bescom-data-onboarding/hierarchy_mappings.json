@@ -1,0 +1,503 @@
+{
+  "zoneCircles": {
+    "BMAZ SOUTH": [
+      "BANGALORE SOUTH",
+      "BANGALORE WEST"
+    ],
+    "BMAZ NORTH": [
+      "BANGALORE NORTH",
+      "BANGALORE CENTRAL",
+      "BANGALORE EAST"
+    ],
+    "BRAZ": [
+      "BANGALORE RURAL",
+      "RAMANAGARA",
+      "KOLAR"
+    ],
+    "CTAZ": [
+      "TUMKUR",
+      "DAVANAGERE"
+    ]
+  },
+  "zoneAliases": {
+    "BMAZ SOUTH": [
+      "bmaz south",
+      "bma south",
+      "bengaluru metropolitan area south",
+      "bengaluru metropolitan area zone south",
+      "bengaluru zone south",
+      "bengaluru metropolitan area zone office south"
+    ],
+    "BMAZ NORTH": [
+      "bmaz north",
+      "bma north",
+      "bengaluru metropolitan area north",
+      "bengaluru metropolitan area zone north",
+      "bengaluru zone north",
+      "bengaluru metropolitan area zone office north"
+    ],
+    "BRAZ": [
+      "braz",
+      "bengaluru rural area zone",
+      "bengaluru rural zone"
+    ],
+    "CTAZ": [
+      "ctaz",
+      "chitradurga zone"
+    ]
+  },
+  "circleAliases": {
+    "BANGALORE SOUTH": [
+      "bengaluru south circle",
+      "bangalore south circle",
+      "south circle"
+    ],
+    "BANGALORE WEST": [
+      "bengaluru west circle",
+      "bangalore west circle",
+      "west circle"
+    ],
+    "BANGALORE NORTH": [
+      "bengaluru north circle",
+      "bangalore north circle",
+      "north circle"
+    ],
+    "BANGALORE CENTRAL": [
+      "bengaluru central circle",
+      "bangalore central circle",
+      "central circle"
+    ],
+    "BANGALORE EAST": [
+      "bengaluru east circle",
+      "bangalore east circle",
+      "east circle"
+    ],
+    "BANGALORE RURAL": [
+      "bengaluru rural circle",
+      "bangalore rural circle",
+      "rural circle"
+    ],
+    "RAMANAGARA": [
+      "ramanagara circle",
+      "ramnagara circle"
+    ],
+    "KOLAR": [
+      "kolara circle",
+      "kolar circle"
+    ],
+    "TUMKUR": [
+      "tumkur circle",
+      "tumakuru circle",
+      "tumakooru circle"
+    ],
+    "DAVANAGERE": [
+      "davanagere circle",
+      "davangere circle"
+    ]
+  },
+  "divisions": {
+    "JAYANAGARA": {
+      "circle": "BANGALORE SOUTH",
+      "aliases": [
+        "jayanagara",
+        "jayanagar"
+      ]
+    },
+    "KORAMANGALA": {
+      "circle": "BANGALORE SOUTH",
+      "aliases": [
+        "koramangala",
+        "kormangala"
+      ]
+    },
+    "HSR": {
+      "circle": "BANGALORE SOUTH",
+      "aliases": [
+        "h s r",
+        "hsr",
+        "badavane"
+      ]
+    },
+    "RAJAJINAGARA": {
+      "circle": "BANGALORE WEST",
+      "aliases": [
+        "rajajinagara",
+        "rajajinagar"
+      ]
+    },
+    "RAJARAJESHWARI NAGARA": {
+      "circle": "BANGALORE WEST",
+      "aliases": [
+        "rajarajeshwari",
+        "rajarajeshvari",
+        "rr nagar",
+        "rrnagara",
+        "rajarajeshvarinagara",
+        "rajarajeshwarinagara"
+      ]
+    },
+    "KENGERI": {
+      "circle": "BANGALORE WEST",
+      "aliases": [
+        "kengeri",
+        "kaggalipura",
+        "anjananagara"
+      ]
+    },
+    "PEENYA": {
+      "circle": "BANGALORE NORTH",
+      "aliases": [
+        "peenya",
+        "dasarahalli",
+        "kurubarahalli"
+      ]
+    },
+    "MALLESHWARAM": {
+      "circle": "BANGALORE NORTH",
+      "aliases": [
+        "malleshwaram",
+        "malleshvaran",
+        "malleshcharan"
+      ]
+    },
+    "HEBBALA": {
+      "circle": "BANGALORE NORTH",
+      "aliases": [
+        "hebbala",
+        "hebballa",
+        "heballa",
+        "sahakara nagara"
+      ]
+    },
+    "JALAHALLI": {
+      "circle": "BANGALORE NORTH",
+      "aliases": [
+        "jalahalli"
+      ]
+    },
+    "VIDHANA SOUDHA": {
+      "circle": "BANGALORE CENTRAL",
+      "aliases": [
+        "vidhana soudha",
+        "vidhanasoudha",
+        "vidhanasowdha",
+        "vidhanasouda"
+      ]
+    },
+    "INDIRANAGARA": {
+      "circle": "BANGALORE CENTRAL",
+      "aliases": [
+        "indiranagara",
+        "indiranagar",
+        "hal 2nd stage",
+        "b station"
+      ]
+    },
+    "WHITEFIELD": {
+      "circle": "BANGALORE EAST",
+      "aliases": [
+        "whitefield",
+        "white field",
+        "dooravani nagara",
+        "mahadevapura"
+      ]
+    },
+    "SHIVAJINAGARA": {
+      "circle": "BANGALORE EAST",
+      "aliases": [
+        "shivajinagara",
+        "shivajinagar",
+        "queens road",
+        "c station",
+        "sivajinagara"
+      ]
+    },
+    "HAL": {
+      "circle": "BANGALORE EAST",
+      "aliases": [
+        "h a l division",
+        "hal division"
+      ]
+    },
+    "NELAMANGALA": {
+      "circle": "BANGALORE RURAL",
+      "aliases": [
+        "nelamangala",
+        "nelamagala",
+        "dabas pete",
+        "dabaspet",
+        "madanayakanahalli"
+      ]
+    },
+    "DEVANAHALLI": {
+      "circle": "BANGALORE RURAL",
+      "aliases": [
+        "devanahalli",
+        "doddaballapura",
+        "doddaballpura",
+        "vijayapura sd"
+      ]
+    },
+    "HOSAKOTE": {
+      "circle": "BANGALORE RURAL",
+      "aliases": [
+        "hosakote",
+        "hoskote",
+        "vidyanagara",
+        "nandagudi",
+        "aavalahalli"
+      ]
+    },
+    "RAMANAGARA": {
+      "circle": "RAMANAGARA",
+      "aliases": [
+        "ramanagara division",
+        "ramnagara division",
+        "channapattana",
+        "bidadi",
+        "bevoor"
+      ]
+    },
+    "MAGADI": {
+      "circle": "RAMANAGARA",
+      "aliases": [
+        "magadi",
+        "tavarekere",
+        "kudur"
+      ]
+    },
+    "KANAKAPURA": {
+      "circle": "RAMANAGARA",
+      "aliases": [
+        "kanakapura",
+        "kankapura",
+        "satnoor",
+        "harohalli",
+        "kankapuradiv"
+      ]
+    },
+    "CHANDAPURA": {
+      "circle": "RAMANAGARA",
+      "aliases": [
+        "chandapura",
+        "anekal",
+        "jigani",
+        "attibele",
+        "veerasandra"
+      ]
+    },
+    "KOLAR": {
+      "circle": "KOLAR",
+      "aliases": [
+        "kolara division",
+        "kolar division",
+        "malooru",
+        "mulabagilu"
+      ]
+    },
+    "KGF": {
+      "circle": "KOLAR",
+      "aliases": [
+        "k g f",
+        "kgf",
+        "betamangala",
+        "bangarapete"
+      ]
+    },
+    "CHIKKABALLAPURA": {
+      "circle": "KOLAR",
+      "aliases": [
+        "chikkaballapura",
+        "chikkaballpura",
+        "gowribidanooru",
+        "gudibande",
+        "bagepalli"
+      ]
+    },
+    "CHINTAMANI": {
+      "circle": "KOLAR",
+      "aliases": [
+        "chintamani",
+        "shidlaghatta",
+        "sidlaghatta"
+      ]
+    },
+    "TUMKUR": {
+      "circle": "TUMKUR",
+      "aliases": [
+        "tumkur division",
+        "tumakuru division",
+        "tumakooru division",
+        "kyatsandra",
+        "gubbi"
+      ]
+    },
+    "KUNIGAL": {
+      "circle": "TUMKUR",
+      "aliases": [
+        "kunigal",
+        "huliyurdurga"
+      ]
+    },
+    "TIPTUR": {
+      "circle": "TUMKUR",
+      "aliases": [
+        "tiptur",
+        "tipatooru",
+        "turuvekere",
+        "chikkanayakkanahalli"
+      ]
+    },
+    "MADHUGIRI": {
+      "circle": "TUMKUR",
+      "aliases": [
+        "madhugiri",
+        "madugiri",
+        "koratagere",
+        "pavagada",
+        "sira urban",
+        "sira rural"
+      ]
+    },
+    "DAVANAGERE": {
+      "circle": "DAVANAGERE",
+      "aliases": [
+        "davanagere division",
+        "davangere division",
+        "dvg rural",
+        "anagodu",
+        "jagalooru",
+        "davanagare",
+        "davangere"
+      ]
+    },
+    "CHITRADURGA": {
+      "circle": "DAVANAGERE",
+      "aliases": [
+        "chitradurga division",
+        "holalkere",
+        "hosadurga",
+        "sri ranpura",
+        "sri rampura",
+        "santebennooru"
+      ]
+    },
+    "HIRIYUR": {
+      "circle": "DAVANAGERE",
+      "aliases": [
+        "hiriyur",
+        "hiriyooru",
+        "challakere",
+        "molakalmooru",
+        "talaku",
+        "hiriyuru"
+      ]
+    },
+    "HARIHARA": {
+      "circle": "DAVANAGERE",
+      "aliases": [
+        "harihara",
+        "harapanahalli",
+        "honnali",
+        "channagiri",
+        "nyamati",
+        "harappanahalli",
+        "telagi"
+      ]
+    }
+  },
+  "sectionCodes": {
+    "JAYANAGARA": [
+      "S1",
+      "S2",
+      "S5",
+      "S6",
+      "S9",
+      "S14",
+      "S15",
+      "S18"
+    ],
+    "KORAMANGALA": [
+      "S3",
+      "S4",
+      "S7",
+      "S16",
+      "S17"
+    ],
+    "HSR": [
+      "S8",
+      "S10",
+      "S11",
+      "S12",
+      "S13",
+      "S19",
+      "S20"
+    ],
+    "RAJAJINAGARA": [
+      "N1",
+      "N2",
+      "N3",
+      "N6",
+      "N8",
+      "N10"
+    ],
+    "RAJARAJESHWARI NAGARA": [
+      "W1",
+      "W2",
+      "W6",
+      "W7",
+      "W8"
+    ],
+    "KENGERI": [
+      "K1",
+      "K2",
+      "K3",
+      "K4"
+    ],
+    "PEENYA": [
+      "N4",
+      "N5",
+      "N7"
+    ],
+    "MALLESHWARAM": [
+      "C1",
+      "C2",
+      "C6"
+    ],
+    "HEBBALA": [
+      "C4",
+      "C5",
+      "C7",
+      "C8"
+    ],
+    "JALAHALLI": [
+      "C3",
+      "C9",
+      "N9"
+    ],
+    "VIDHANA SOUDHA": [
+      "W3",
+      "W4",
+      "W5"
+    ],
+    "INDIRANAGARA": [
+      "E3",
+      "E6",
+      "E10",
+      "E11"
+    ],
+    "WHITEFIELD": [
+      "E4",
+      "E7",
+      "E12"
+    ],
+    "SHIVAJINAGARA": [
+      "E1",
+      "E2",
+      "E5",
+      "E8",
+      "E9",
+      "E13"
+    ]
+  }
+}
