@@ -1,0 +1,187 @@
+{
+  "zoneCircles": {
+    "BMAZ SOUTH": ["BANGALORE SOUTH","BANGALORE WEST"],
+    "BMAZ NORTH": ["BANGALORE NORTH","BANGALORE CENTRAL","BANGALORE EAST"],
+    "BRAZ": ["BANGALORE RURAL","RAMANAGARA","KOLAR"],
+    "CTAZ": ["TUMKUR","DAVANAGERE"]
+  },
+  "zoneAliases": {
+    "BMAZ SOUTH": [
+      "bmaz south","bma south","bengaluru metropolitan area south",
+      "bengaluru metropolitan area zone south","bengaluru zone south",
+      "bengaluru metropolitan area zone office south",
+      "bengaluru metropolitan area zone (south)",
+      "bengaluru metropolitan area. south zone",
+      "bengaluru metropolitan area. zone office (south)",
+      "bengaluru metropolitan area south zone",
+      "bengaluru metropolitan area (south) zone",
+      "bma south zone","bengaluru zone (south)",
+      "works unit south","works unit- south",
+      "ht rating south","ht rating -south","mrt south","mrt- south",
+      "rmu south","rmu-south","rmu-north"
+    ],
+    "BMAZ NORTH": [
+      "bmaz north","bma north","bengaluru metropolitan area north",
+      "bengaluru metropolitan area zone north","bengaluru zone north",
+      "bengaluru metropolitan area zone office north",
+      "bengaluru metropolitan area. north zone",
+      "bengaluru metropolitan area. zone office (north)",
+      "bengaluru metropolitan area north zone",
+      "bengaluru metropolitan area (north) zone",
+      "bma north zone","north works unit",
+      "ht rating north","ht rating- north","mt north","mt- north"
+    ],
+    "BRAZ": [
+      "braz","bengaluru rural area zone","bengaluru rural zone",
+      "bengaluru rural area zone office","braz office",
+      "bengaluru rural works unit","ramanagara works unit"
+    ],
+    "CTAZ": [
+      "ctaz","chitradurga zone","chitradurga zone office",
+      "m t division chitradurga","mt division chitradurga",
+      "chitradurga technical and safety","tumkur works unit"
+    ]
+  },
+  "circleAliases": {
+    "BANGALORE SOUTH": ["bengaluru south circle","bangalore south circle","south circle"],
+    "BANGALORE WEST": ["bengaluru west circle","bangalore west circle","west circle","bengaluru west works unit","west works unit"],
+    "BANGALORE NORTH": ["bengaluru north circle","bangalore north circle","north circle"],
+    "BANGALORE CENTRAL": ["bengaluru central circle","bangalore central circle","central circle"],
+    "BANGALORE EAST": ["bengaluru east circle","bangalore east circle","east circle","bengaluru east works unit","east works unit"],
+    "BANGALORE RURAL": ["bengaluru rural circle","bangalore rural circle","rural circle"],
+    "RAMANAGARA": ["ramanagara circle","ramnagara circle"],
+    "KOLAR": ["kolara circle","kolar circle"],
+    "TUMKUR": ["tumkur circle","tumakuru circle","tumakooru circle"],
+    "DAVANAGERE": ["davanagere circle","davangere circle"]
+  },
+  "divisions": {
+    "JAYANAGARA": {"circle": "BANGALORE SOUTH","aliases": ["jayanagara","jayanagar"]},
+    "KORAMANGALA": {"circle": "BANGALORE SOUTH","aliases": ["koramangala","kormangala"]},
+    "HSR": {"circle": "BANGALORE SOUTH","aliases": ["h s r","hsr","badavane"]},
+    "RAJAJINAGARA": {"circle": "BANGALORE WEST","aliases": ["rajajinagara","rajajinagar"]},
+    "RAJARAJESHWARI NAGARA": {"circle": "BANGALORE WEST","aliases": ["rajarajeshwari","rajarajeshvari","rr nagar","rrnagara","rajarajeshvarinagara","rajarajeshwarinagara"]},
+    "KENGERI": {"circle": "BANGALORE WEST","aliases": ["kengeri","kaggalipura","anjananagara"]},
+    "PEENYA": {"circle": "BANGALORE NORTH","aliases": ["peenya","dasarahalli","kurubarahalli"]},
+    "MALLESHWARAM": {"circle": "BANGALORE NORTH","aliases": ["malleshwaram","malleshvaran","malleshcharan"]},
+    "HEBBALA": {"circle": "BANGALORE NORTH","aliases": ["hebbala","hebballa","heballa","sahakara nagara"]},
+    "JALAHALLI": {"circle": "BANGALORE NORTH","aliases": ["jalahalli"]},
+    "VIDHANA SOUDHA": {"circle": "BANGALORE CENTRAL","aliases": ["vidhana soudha","vidhanasoudha","vidhanasowdha","vidhanasouda"]},
+    "INDIRANAGARA": {"circle": "BANGALORE CENTRAL","aliases": ["indiranagara","indiranagar","hal 2nd stage","b station"]},
+    "WHITEFIELD": {"circle": "BANGALORE EAST","aliases": ["whitefield","white field","dooravani nagara","mahadevapura"]},
+    "SHIVAJINAGARA": {"circle": "BANGALORE EAST","aliases": ["shivajinagara","shivajinagar","queens road","c station","sivajinagara"]},
+    "HAL": {"circle": "BANGALORE EAST","aliases": ["h a l division","hal division"]},
+    "NELAMANGALA": {"circle": "BANGALORE RURAL","aliases": [
+      "nelamangala","nelamagala","dabas pete","dabaspet","madanayakanahalli",
+      "nelamangala sub","nelamangala division","madanayakanahalli sub"
+    ]},
+    "DEVANAHALLI": {"circle": "BANGALORE RURAL","aliases": [
+      "devanahalli","doddaballapura","doddaballpura","vijayapura sd",
+      "devanahalli sub","doddaballapura sub","vijayapura sub"
+    ]},
+    "HOSAKOTE": {"circle": "BANGALORE RURAL","aliases": [
+      "hosakote","hoskote","vidyanagara","nandagudi","aavalahalli",
+      "hosakote sub","vidyanagara sub","nandagudi sub","aavalahalli sub"
+    ]},
+    "RAMANAGARA": {"circle": "RAMANAGARA","aliases": [
+      "ramanagara division","ramnagara division","channapattana","bidadi","bevoor",
+      "ramanagara works unit","works unit ramnagara","works unit- ramnagara",
+      "ramanagara urban","ramanagara rural","channapattana sub","bidadi sub","bevoor sub"
+    ]},
+    "MAGADI": {"circle": "RAMANAGARA","aliases": [
+      "magadi","tavarekere","kudur",
+      "magadi sub","tavarekere sub","kudur sub"
+    ]},
+    "KANAKAPURA": {"circle": "RAMANAGARA","aliases": [
+      "kanakapura","kankapura","satnoor","harohalli","kankapuradiv",
+      "kanakapura urban","kanakapura rural","satnoor sub","harohalli sub"
+    ]},
+    "CHANDAPURA": {"circle": "RAMANAGARA","aliases": [
+      "chandapura","anekal","jigani","attibele","veerasandra",
+      "chandapura sub","anekal sub","jigani sub","veerasandra sub"
+    ]},
+    "KOLAR": {"circle": "KOLAR","aliases": [
+      "kolara division","kolar division","malooru","mulabagilu",
+      "kolara division office","kolara works unit","works unit kolara","works unit- kolara",
+      "kolara nagara","kolara rural","malooru sub","mulabagilu sub","kolara urban"
+    ]},
+    "KGF": {"circle": "KOLAR","aliases": [
+      "k g f","kgf","betamangala","bangarapete",
+      "kgf sub","betamangala sub","bangarapete sub","k g f sub"
+    ]},
+    "CHIKKABALLAPURA": {"circle": "KOLAR","aliases": [
+      "chikkaballapura","chikkaballpura","gowribidanooru","gudibande","bagepalli",
+      "chikkaballapura nagara","chikkaballapura grameena","chikkaballapura urban","chikkaballapura rural",
+      "gowribidanooru sub","gudibande sub","bagepalli sub"
+    ]},
+    "CHINTAMANI": {"circle": "KOLAR","aliases": [
+      "chintamani","shidlaghatta","sidlaghatta",
+      "chintamani nagara","chintamani grameena","chintamani urban","chintamani rural",
+      "shidlaghatta nagara","shidlaghatta grameena","shidlaghatta urban","shidlaghatta rural"
+    ]},
+    "TUMKUR": {"circle": "TUMKUR","aliases": [
+      "tumkur division","tumakuru division","tumakooru division","kyatsandra","gubbi",
+      "tumkur div","tumkur division office","tumkur urban","tumkur rural",
+      "tumkur urban sd","tumkur rural sd","lt rating tumkur","1 tumkur urban",
+      "kyatsandra sub","gubbi sub","nittooru sub","nittooru","yadiyur","yadiyur sd",
+      "kodigenahalli","kodigenahalli sub"
+    ]},
+    "KUNIGAL": {"circle": "TUMKUR","aliases": [
+      "kunigal","huliyurdurga",
+      "kunigal nagara","kunigal sub","huliyurdurga sd"
+    ]},
+    "TIPTUR": {"circle": "TUMKUR","aliases": [
+      "tiptur","tipatooru","turuvekere","chikkanayakkanahalli",
+      "tipatooru sub","turuvekere sub","chikkanayakkanahalli sub"
+    ]},
+    "MADHUGIRI": {"circle": "TUMKUR","aliases": [
+      "madhugiri","madugiri","koratagere","pavagada","sira urban","sira rural",
+      "madhugiri sub","koratagere sub","pavagada sub"
+    ]},
+    "DAVANAGERE": {"circle": "DAVANAGERE","aliases": [
+      "davanagere division","davangere division","dvg rural","anagodu","jagalooru",
+      "davanagare","davangere","davanagere division office","lt rating davanagere",
+      "davanagere nagara","davanagere urban","davanagere rural",
+      "davanagere nagara sub","jagalooru sub","anagodu sub","dvg rural sub"
+    ]},
+    "CHITRADURGA": {"circle": "DAVANAGERE","aliases": [
+      "chitradurga division","holalkere","hosadurga","sri ranpura","sri rampura","santebennooru",
+      "chitradurga nagara","chitradurga rural","holalkere sub","hosadurga sub",
+      "sri rampura sub","santebennooru sub"
+    ]},
+    "HIRIYUR": {"circle": "DAVANAGERE","aliases": [
+      "hiriyur","hiriyooru","challakere","molakalmooru","talaku","hiriyuru",
+      "hiriyooru sub","challakere sub","molakalmooru sub","talaku sub"
+    ]},
+    "HARIHARA": {"circle": "DAVANAGERE","aliases": [
+      "harihara","harappanahalli","honnali","channagiri","nyamati","telagi",
+      "harihara sub","harappanahalli sub","honnali sub","channagiri sub","nyamati sub","telagi sub"
+    ]}
+  },
+  "sectionCodes": {
+    "JAYANAGARA": ["S1","S2","S5","S6","S9","S14","S15","S18"],
+    "KORAMANGALA": ["S3","S4","S7","S16","S17"],
+    "HSR": ["S8","S10","S11","S12","S13","S19","S20"],
+    "RAJAJINAGARA": ["N1","N2","N3","N6","N8","N10"],
+    "RAJARAJESHWARI NAGARA": ["W1","W2","W6","W7","W8"],
+    "KENGERI": ["K1","K2","K3","K4"],
+    "PEENYA": ["N4","N5","N7"],
+    "MALLESHWARAM": ["C1","C2","C6"],
+    "HEBBALA": ["C4","C5","C7","C8"],
+    "JALAHALLI": ["C3","C9","N9"],
+    "VIDHANA SOUDHA": ["W3","W4","W5"],
+    "INDIRANAGARA": ["E3","E6","E10","E11"],
+    "WHITEFIELD": ["E4","E7","E12"],
+    "SHIVAJINAGARA": ["E1","E2","E5","E8","E9","E13"]
+  },
+  "zoneOnlyOffices": {
+    "BMAZ SOUTH": [
+      "bescom stores","i a zone and circle south",
+      "ht sub division ht commercial","mrt division"
+    ],
+    "BMAZ NORTH": [
+      "mt section bengaluru metropolitan area zone north","ht rating east"
+    ],
+    "BRAZ": ["mt section braz"],
+    "CTAZ": ["chitradurga technical and safety"]
+  }
+}

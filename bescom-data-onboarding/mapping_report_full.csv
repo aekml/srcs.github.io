@@ -1,0 +1,556 @@
+﻿id,sourceSheet,sourceRow,name,designation,officeName,zone,circle,division,mappingStatus,primaryPhone,dateOfAssumingCharge
+FS-1,Field Section,2,Kashiram Pavar,Chief Engineer,Bengaluru Metropolitan Area Zone (South),BMAZ SOUTH,,,partial,9449045888,2025-09-03
+FS-2,Field Section,3,Romaraj,Chief Engineer,Chitradurga Zone,CTAZ,,,partial,9448461466,2024-02-01
+FS-3,Field Section,4,R Parashuram,Chief Controller of Accounts,Bengaluru Metropolitan Area. South Zone,BMAZ SOUTH,,,partial,9449844680,2025-01-31
+FS-4,Field Section,5,Sarvesh V G,Chief Controller of Accounts,Bengaluru Metropolitan Area. North Zone,BMAZ NORTH,,,partial,8277892577,2024-10-23
+FS-5,Field Section,6,Ramesh V N,Chief Controller of Accounts,Bengaluru Rural Area Zone,BRAZ,,,partial,9448279144,2023-11-06
+FS-6,Field Section,7,Anand S B,Chief Controller of Accounts,Chitradurga Zone,CTAZ,,,partial,9448451778,2025-09-04
+FS-7,Field Section,8,Mallikarjunamma,Superintending Engineer,Bengaluru Metropolitan Area. Zone Office (South),BMAZ SOUTH,,,partial,9448046585,2025-01-02
+FS-8,Field Section,9,Umesh D H,Superintending Engineer,Bengaluru Metropolitan Area. Zone Office (North),BMAZ NORTH,,,partial,8277892588,2025-05-21
+FS-9,Field Section,10,Timmegowda D,Superintending Engineer,Bengaluru Rural Area Zone Office,BRAZ,,,partial,9448452103,2025-04-05
+FS-10,Field Section,11,K.C.Komala,Superintending Engineer,Chitradurga Zone Office,CTAZ,,,partial,9448279580,2024-09-06
+FS-11,Field Section,12,D Jayanna,Superintending Engineer,Bengaluru South Circle,BMAZ SOUTH,BANGALORE SOUTH,,resolved,9449877444,2025-01-03
+FS-12,Field Section,13,B V Palanetra,Superintending Engineer,Bengaluru North Circle,BMAZ NORTH,BANGALORE NORTH,,resolved,9449844988,2024-09-06
+FS-13,Field Section,14,Maruti T,Superintending Engineer,Bengaluru Central  Circle,BMAZ NORTH,BANGALORE CENTRAL,,resolved,8277889656,2026-02-26
+FS-14,Field Section,15,Lokesh Babu M,Superintending Engineer,Bengaluru East Circle,BMAZ NORTH,BANGALORE EAST,,resolved,9449877999,2023-06-06
+FS-15,Field Section,16,B Narayanaswamy,Superintending Engineer,Bengaluru West Circle,BMAZ SOUTH,BANGALORE WEST,,resolved,9449847999,2024-10-05
+FS-16,Field Section,17,C Basavanna,Superintending Engineer,Bengaluru Rural Circle,BRAZ,BANGALORE RURAL,,resolved,9448279007,2024-09-06
+FS-17,Field Section,18,Chanakeshava Moorty P R,Superintending Engineer,Ramanagara Circle,BRAZ,RAMANAGARA,,resolved,9449841655,2024-09-06
+FS-18,Field Section,19,Devireddy B N,Superintending Engineer,Kolara Circle,BRAZ,KOLAR,,resolved,9448279008,2025-09-03
+FS-19,Field Section,20,Narasinhamoorthy B L,Superintending Engineer,Tumkur Circle,CTAZ,TUMKUR,,resolved,9448279006,2024-09-12
+FS-20,Field Section,21,S K Patel,Superintending Engineer,Davanagere Circle,CTAZ,DAVANAGERE,,resolved,9448279094,2024-09-06
+FS-21,Field Section,22,Ramachandrayya C,Deputy Controller of Accounts,Bengaluru South Circle,BMAZ SOUTH,BANGALORE SOUTH,,resolved,9449820866,2025-09-05
+FS-22,Field Section,23,Raveendranath Sing B,Deputy Controller of Accounts,Bengaluru East Circle,BMAZ NORTH,BANGALORE EAST,,resolved,9449844865,2025-09-03
+FS-23,Field Section,24,Vinay V,Deputy Controller of Accounts,Bengaluru West Circle,BMAZ SOUTH,BANGALORE WEST,,resolved,9449877272,2025-09-04
+FS-24,Field Section,25,Rajakumar H V,Deputy Controller of Accounts,Bengaluru Rural Circle,BRAZ,BANGALORE RURAL,,resolved,9448279120,2025-09-03
+FS-25,Field Section,26,Ashoka Reddi A,Deputy Controller of Accounts,Kolara Circle,BRAZ,KOLAR,,resolved,9448279579,2025-09-02
+FS-26,Field Section,27,Tippeshi,Deputy Controller of Accounts,Tumkur Circle,CTAZ,TUMKUR,,resolved,9448279582,2025-07-04
+FS-27,Field Section,28,Pushpalata A Swamy,Deputy Controller of Accounts,Davanagere Circle,CTAZ,DAVANAGERE,,resolved,9448279581,2023-03-28
+FS-28,Field Section,29,Sayeeda Tasmiya Taranum,Executive Engineer,"Executive Engineer M.T. Division, Bengaluru Metropolitan Area North Zone",BMAZ NORTH,,,partial,9449812929,2026-07-01
+FS-29,Field Section,30,Chaitra R,Executive Engineer,"Executive Engineer M.T. Division, Bengaluru Metropolitan Area South Zone",BMAZ SOUTH,,,partial,9449841586,2024-08-09
+FS-30,Field Section,31,Sudharani K H,Executive Engineer,Executive Engineer (Works unit- South),BMAZ SOUTH,,,partial,9449046584,2025-07-03
+FS-31,Field Section,32,K Yogesh,Executive Engineer,Jayanagara Division,BMAZ SOUTH,BANGALORE SOUTH,JAYANAGARA,resolved,9449844612,2024-09-06
+FS-32,Field Section,33,Mohan Kumar K K,Executive Engineer,Koramangala Division,BMAZ SOUTH,BANGALORE SOUTH,KORAMANGALA,resolved,9449844613,2026-06-01
+FS-33,Field Section,34,Lokesh B C,Executive Engineer,H. S. R. Layout Division,BMAZ SOUTH,BANGALORE SOUTH,HSR,resolved,9449844825,2026-03-18
+FS-34,Field Section,35,Tirukkannanavar Bhuvaneshvari,Executive Engineer,North Works Unit,BMAZ NORTH,,,partial,9449844895,2025-06-30
+FS-35,Field Section,36,Savita N,Executive Engineer,Executive Engineer(Bescom Stores),BMAZ SOUTH,,,zone_only,9449844626,2025-10-30
+FS-36,Field Section,37,C.T.Manjunath,Executive Engineer,Rajajinagara Division EE(Rajajinagar),BMAZ SOUTH,BANGALORE WEST,RAJAJINAGARA,resolved,9449844608,2023-11-27
+FS-37,Field Section,38,B T Gangaraju,Executive Engineer,Peenya Division,BMAZ NORTH,BANGALORE NORTH,PEENYA,resolved,9449844609,2024-10-14
+FS-38,Field Section,39,Aanand Kumar K,Executive Engineer,Jalahalli Division,BMAZ NORTH,BANGALORE NORTH,JALAHALLI,resolved,8277893904,2024-08-08
+FS-39,Field Section,40,Siddaraju T,Executive Engineer,Malleshwaram Division,BMAZ NORTH,BANGALORE NORTH,MALLESHWARAM,resolved,9449844606,2025-11-13
+FS-40,Field Section,41,Sri Ramu V,Executive Engineer,Hebbala Division,BMAZ NORTH,BANGALORE NORTH,HEBBALA,resolved,9449844607,2024-09-09
+FS-41,Field Section,42,Gangadhar B,Executive Engineer,Rajarajeshvarinagara Division,BMAZ SOUTH,BANGALORE WEST,RAJARAJESHWARI NAGARA,resolved,9449844619,2024-08-08
+FS-42,Field Section,43,Aananda C S,Executive Engineer,Bengaluru Central Circle EE(Central Circle),BMAZ NORTH,BANGALORE CENTRAL,,resolved,,2026-06-08
+FS-43,Field Section,44,G.M Amaranathareddi,Executive Engineer,Vidhanasoudha Division,BMAZ NORTH,BANGALORE CENTRAL,VIDHANA SOUDHA,resolved,9449844618,2021-03-24
+FS-44,Field Section,45,Chandrashekhara Desayi,Executive Engineer,Indiranagara Division,BMAZ NORTH,BANGALORE CENTRAL,INDIRANAGARA,resolved,9449844616,2026-03-13
+FS-45,Field Section,46,Kiran M S,Executive Engineer,Bengaluru East Works Unit,BMAZ NORTH,BANGALORE EAST,,resolved,9449844866,2024-08-09
+FS-46,Field Section,47,H M Nagaraju,Executive Engineer,Shivajinagara Division,BMAZ NORTH,BANGALORE EAST,SHIVAJINAGARA,resolved,9449844617,2025-10-24
+FS-47,Field Section,48,Shivasharana Agar‍Khed,Executive Engineer,Whitefield Division,BMAZ NORTH,BANGALORE EAST,WHITEFIELD,resolved,8277893919,2026-03-20
+FS-48,Field Section,49,Muraleedhara K H,Executive Engineer,H.A.L Division,BMAZ NORTH,BANGALORE EAST,HAL,resolved,9980921241,2026-06-01
+FS-49,Field Section,50,Deepak B S,Executive Engineer,"M.T. Division, Bengaluru Rural Area Zone",BRAZ,,,partial,94482791010,2024-08-02
+FS-50,Field Section,51,Rashmi G K,Executive Engineer,Bengaluru West Works Unit,BMAZ SOUTH,BANGALORE WEST,,resolved,9480811290,2026-07-03
+FS-51,Field Section,52,Shivakumar N,Executive Engineer,Kengeri Division,BMAZ SOUTH,BANGALORE WEST,KENGERI,resolved,9449877033,2024-08-09
+FS-52,Field Section,53,R V Ganesh,Executive Engineer,Ramanagara Works Unit,BRAZ,RAMANAGARA,RAMANAGARA,resolved,9449841656,2025-07-02
+FS-53,Field Section,54,R Jitendra Kumar,Executive Engineer,Ramanagara Division,BRAZ,RAMANAGARA,RAMANAGARA,resolved,9448279026,2025-07-01
+FS-54,Field Section,55,Prasanna kumar,Executive Engineer,Magadi Division,BRAZ,RAMANAGARA,MAGADI,resolved,8277893905,2026-03-23
+FS-55,Field Section,56,Krishnamoorty,Executive Engineer,Kanakapura Division,BRAZ,RAMANAGARA,KANAKAPURA,resolved,9449841650,2024-10-16
+FS-56,Field Section,57,Dhananjaya C,Executive Engineer,Chandapura Division,BRAZ,RAMANAGARA,CHANDAPURA,resolved,9448279027,2024-12-03
+FS-57,Field Section,58,Lohit M,Executive Engineer,Bengaluru Rural Works Unit,BRAZ,,,partial,9448452101,
+FS-58,Field Section,59,K R Kumar Nayak,Executive Engineer,Nelamangala Division,BRAZ,BANGALORE RURAL,NELAMANGALA,resolved,9448279025,2024-08-09
+FS-59,Field Section,60,Venkateshappa Y S,Executive Engineer,Hosakote Division,BRAZ,BANGALORE RURAL,HOSAKOTE,resolved,9448279024,2025-08-14
+FS-60,Field Section,61,Chandrashekara M.B,Executive Engineer,Devanahalli Division,BRAZ,BANGALORE RURAL,DEVANAHALLI,resolved,6361914742,2026-03-24
+FS-61,Field Section,62,Shubha B.N,Executive Engineer,Kolara Division,BRAZ,KOLAR,KOLAR,resolved,9448279019,2023-11-03
+FS-62,Field Section,63,Kavita L,Executive Engineer,K.G.F Division,BRAZ,KOLAR,KGF,resolved,9448279020,2024-08-09
+FS-63,Field Section,64,P.G Ramesh Kumar,Executive Engineer,Chikkaballapura Division,BRAZ,KOLAR,CHIKKABALLAPURA,resolved,9448279023,2024-08-09
+FS-64,Field Section,65,Sri Nath K,Executive Engineer,Chintamani Division,BRAZ,KOLAR,CHINTAMANI,resolved,9449844851,2023-11-03
+FS-65,Field Section,66,S Lakshmi,Executive Engineer,M. T. Division Chitradurga,CTAZ,,,partial,9448279016,2025-07-01
+FS-66,Field Section,67,Megharaj.M.N,Executive Engineer,Chitradurga Technical & Safety,CTAZ,,,zone_only,9448081672,2023-11-07
+FS-67,Field Section,68,Sandhya.N.R,Executive Engineer,Tumkur Works Unit,CTAZ,,,partial,9448279388,2023-07-14
+FS-68,Field Section,69,Prakash M.V,Executive Engineer,Tumkur Division,CTAZ,TUMKUR,TUMKUR,resolved,9448279016,
+FS-69,Field Section,70,R. Purupottam,Executive Engineer,Kunigal Division,CTAZ,TUMKUR,KUNIGAL,resolved,9448998014,2019-12-27
+FS-70,Field Section,71,G.Somashekhar Gowda,Executive Engineer,Tiptur Division,CTAZ,TUMKUR,TIPTUR,resolved,9448279017,2021-03-19
+FS-71,Field Section,72,G.Jagadeesh,Executive Engineer,Madhugiri Division,CTAZ,TUMKUR,MADHUGIRI,resolved,9448279018,2022-11-02
+FS-72,Field Section,73,Vinay Kumar P,Executive Engineer,Davanagare Works Unit,CTAZ,DAVANAGERE,DAVANAGERE,resolved,9448279330,2025-04-11
+FS-73,Field Section,74,A K Tippesvami,Executive Engineer,Davanagare Division,CTAZ,DAVANAGERE,DAVANAGERE,resolved,9448279012,2024-10-14
+FS-74,Field Section,75,Lingaraju M.H,Executive Engineer,Chitradurga Division,CTAZ,DAVANAGERE,CHITRADURGA,resolved,9448279014,2025-10-29
+FS-75,Field Section,76,Ashok Hendegar,Executive Engineer,Hiriyuru Division,CTAZ,DAVANAGERE,HIRIYUR,resolved,9448279015,2025-09-01
+FS-76,Field Section,77,Shivajirav T,Executive Engineer,Harihara Division,CTAZ,DAVANAGERE,HARIHARA,resolved,9448279013,2026-03-06
+FS-77,Field Section,78,Savita Yallapur,Executive Engineer (Civil),Corporate Office EE(Civil),,,,not_applicable,,2022-11-21
+FS-78,Field Section,79,Manjunatha K T,Executive Engineer (Civil),BMA South Zone,BMAZ SOUTH,,,partial,,2025-05-19
+FS-79,Field Section,80,Sowmya K T,Executive Engineer (Civil),BMA North Zone,BMAZ NORTH,,,partial,,2022-11-22
+FS-80,Field Section,81,M.K Praveen,Executive Engineer (Civil),Bengaluru Rural Area Zone,BRAZ,,,partial,,2025-06-30
+FS-81,Field Section,82,Tippeswamy T,Executive Engineer (Civil),Chitradurga Zone,CTAZ,,,partial,,2025-06-27
+FS-82,Field Section,83,B.K.Vimala,Accounts Officer,(I/A) Zone & Circle(South),BMAZ SOUTH,,,zone_only,9480841060,2018-10-01
+FS-83,Field Section,84,Ganesh N,Accounts Officer,(Jayanagara Div)(I/a),BMAZ SOUTH,BANGALORE SOUTH,JAYANAGARA,resolved,9480841062,
+FS-84,Field Section,85,Sri Sudheer Kumar H.M,Accounts Officer,(Kormangala),BMAZ SOUTH,BANGALORE SOUTH,KORAMANGALA,resolved,9449840841,2022-01-21
+FS-85,Field Section,86,T.M Ramesh,Accounts Officer,(HSR Div),BMAZ SOUTH,BANGALORE SOUTH,HSR,resolved,9449840845,2020-11-11
+FS-86,Field Section,87,Narendra,Accounts Officer,(HSR Div)(I/a),BMAZ SOUTH,BANGALORE SOUTH,HSR,resolved,9480841064,
+FS-87,Field Section,88,Kumar Svami B R,Accounts Officer,(West Circle),BMAZ SOUTH,BANGALORE WEST,,resolved,8277892558,2026-07-01
+FS-88,Field Section,89,Balakrushna K H,Accounts Officer,(RR Nagar div),BMAZ SOUTH,BANGALORE WEST,RAJARAJESHWARI NAGARA,resolved,9449840336,2021-11-11
+FS-89,Field Section,90,Sandeepa M A,Accounts Officer,(RR Nagar div)(I/a),BMAZ SOUTH,BANGALORE WEST,RAJARAJESHWARI NAGARA,resolved,9341282728,2024-05-21
+FS-90,Field Section,91,L Ningaraju,Accounts Officer,(Kengeri Div),BMAZ SOUTH,BANGALORE WEST,KENGERI,resolved,9449870298,2025-10-13
+FS-91,Field Section,92,K Chikkamma,Accounts Officer,(Kengeri Div)(I/a),BMAZ SOUTH,BANGALORE WEST,KENGERI,resolved,9449870299,2024-08-05
+FS-92,Field Section,93,Vasantabhanu K,Accounts Officer,(BMAZ North),BMAZ NORTH,,,partial,8277892584,2024-09-30
+FS-93,Field Section,94,B N Nagendra,Accounts Officer,(Peenya),BMAZ NORTH,BANGALORE NORTH,PEENYA,resolved,9449841628,2026-07-02
+FS-94,Field Section,95,Revana Siddhappa S,Accounts Officer,(Malleshwaram Div)(I/a),BMAZ NORTH,BANGALORE NORTH,MALLESHWARAM,resolved,984475447,2023-08-16
+FS-95,Field Section,96,P. Aananda Moorti,Accounts Officer,(Heballa)(I/a),BMAZ NORTH,BANGALORE NORTH,HEBBALA,resolved,9449841528,2023-06-22
+FS-96,Field Section,97,Manjunatha T.R,Accounts Officer,(Jalahalli),BMAZ NORTH,BANGALORE NORTH,JALAHALLI,resolved,8277893916,2020-08-20
+FS-97,Field Section,98,G.C. Mahesh,Accounts Officer,(Indiranagar div),BMAZ NORTH,BANGALORE CENTRAL,INDIRANAGARA,resolved,9449874201,2021-08-09
+FS-98,Field Section,99,Nagaraju J.B,Accounts Officer,(whitefield Div),BMAZ NORTH,BANGALORE EAST,WHITEFIELD,resolved,9480818828,2021-11-11
+FS-99,Field Section,100,A.V Dhananjaya,Accounts Officer,(Sivajinagara Div),BMAZ NORTH,BANGALORE EAST,SHIVAJINAGARA,resolved,9480812476,2021-11-11
+FS-100,Field Section,101,A Bhagya,Accounts Officer,(Ramnagara Circle),BRAZ,RAMANAGARA,,resolved,9448667548,2024-12-16
+FS-101,Field Section,102,Sri Chandrappa,Accounts Officer,(Kankapura Div),BRAZ,RAMANAGARA,KANAKAPURA,resolved,9449841646,2024-06-13
+FS-102,Field Section,103,C.S. Varadaraju,Accounts Officer,(KankapuraDiv) (I/a),BRAZ,RAMANAGARA,KANAKAPURA,resolved,,2020-06-03
+FS-103,Field Section,104,H C Shivaramu,Accounts Officer,Chandapura Div,BRAZ,RAMANAGARA,CHANDAPURA,resolved,9449865127,2022-08-24
+FS-104,Field Section,105,P S Shashidhara,Accounts Officer,Chikkaballpura div,BRAZ,KOLAR,CHIKKABALLAPURA,resolved,9538972370,2024-08-06
+FS-105,Field Section,106,Ramanji,Accounts Officer,Chikkaballpura div (i/a),BRAZ,KOLAR,CHIKKABALLAPURA,resolved,9448259575,2021-11-15
+FS-106,Field Section,107,Sowmya Sri R M,Accounts Officer,Tumkur Circle (i/a),CTAZ,TUMKUR,,resolved,9845719723,
+FS-107,Field Section,108,Venkatesh C,Accounts Officer,Tumkur div,CTAZ,TUMKUR,TUMKUR,resolved,9449843513,
+FS-108,Field Section,109,H.R.Annapoorna,Accounts Officer,Kunigal Div(i/a),CTAZ,TUMKUR,KUNIGAL,resolved,9740570709,2018-04-30
+FS-109,Field Section,110,Kumar Svami.B.T,Accounts Officer,Tiptur Div,CTAZ,TUMKUR,TIPTUR,resolved,9449843521,2017-11-01
+FS-110,Field Section,111,Prakash. S,Accounts Officer,Tiptur Div(i/a),CTAZ,TUMKUR,TIPTUR,resolved,9449843585,2017-07-17
+FS-111,Field Section,112,Ravikumar.T (Prabhara Vyavasthe) (K.K.R),Accounts Officer,Davangere Div,CTAZ,DAVANAGERE,DAVANAGERE,resolved,9449844727,2023-08-07
+FS-112,Field Section,113,Satees Jinnappa Dhoolappanavar,Accounts Officer,Harihara Div,CTAZ,DAVANAGERE,HARIHARA,resolved,9449843559,2023-12-01
+FS-113,Field Section,114,M.S.Guruprasad,Accounts Officer,Harihara Div (i/A),CTAZ,DAVANAGERE,HARIHARA,resolved,9449843552,2019-01-10
+FS-114,Field Section,115,M.R Katyayini,Assistant Executive Engineer,Bengaluru Zone (South),BMAZ SOUTH,,,partial,9480816103,2021-11-08
+FS-115,Field Section,116,Ashok Kumar,Assistant Executive Engineer,(HT Rating -South),BMAZ SOUTH,,,partial,9449844699,2024-08-05
+FS-116,Field Section,117,Manohara Shetti,Assistant Executive Engineer,( H T  Rating -Nelamangala),BRAZ,BANGALORE RURAL,NELAMANGALA,resolved,9448490019,
+FS-117,Field Section,118,Manjunatha J,Assistant Executive Engineer,"R. M.U.(South Upavibaga) (M.R.T. Division), Bengaluru Metropolitan Area (South) Zone (RMU-South)",BMAZ SOUTH,,,zone_only,9449844690,2025-07-03
+FS-118,Field Section,119,Pandurangegowda S,Assistant Executive Engineer,Bengaluru Metropolitan Area South Zone (HT- Rating),BMAZ SOUTH,,,partial,9449844802,2026-05-18
+FS-119,Field Section,120,Shalini (Extra Cost),Assistant Executive Engineer,Bengaluru Metropolitan Area South Zone (HT- Rating),BMAZ SOUTH,,,partial,9449841551,2022-07-20
+FS-120,Field Section,121,K Kavita,Assistant Executive Engineer,South Circle,BMAZ SOUTH,BANGALORE SOUTH,,resolved,,2024-08-03
+FS-121,Field Section,122,Manjula K,Assistant Executive Engineer,Jayanagara Division Office,BMAZ SOUTH,BANGALORE SOUTH,JAYANAGARA,resolved,9449866810,2024-08-29
+FS-122,Field Section,123,Nalina T V,Assistant Executive Engineer,LT Rating Jayanagara,BMAZ SOUTH,BANGALORE SOUTH,JAYANAGARA,resolved,9449821805,
+FS-123,Field Section,124,K.L.Gopinath,Assistant Executive Engineer,LT Rating Jayanagara,BMAZ SOUTH,BANGALORE SOUTH,JAYANAGARA,resolved,9449821804,
+FS-124,Field Section,125,Yoganarasinhayya,Assistant Executive Engineer,LT Rating Jayanagara,BMAZ SOUTH,BANGALORE SOUTH,JAYANAGARA,resolved,9449844833,2026-05-04
+FS-125,Field Section,126,Parimala S. Kulakarni,Assistant Executive Engineer,Cable Works,BMAZ SOUTH,BANGALORE SOUTH,JAYANAGARA,resolved,9449844633,2021-05-04
+FS-126,Field Section,127,Rajashekhar Gandhad,Assistant Executive Engineer,"Jayanagara, Bengaluru ( S1)",BMAZ SOUTH,BANGALORE SOUTH,JAYANAGARA,resolved,9449844661,2024-08-05
+FS-127,Field Section,128,K Venugopal,Assistant Executive Engineer,(S5),BMAZ SOUTH,BANGALORE SOUTH,JAYANAGARA,resolved,9449844665,
+FS-128,Field Section,129,Sri Nivas. M,Assistant Executive Engineer,(S6),BMAZ SOUTH,BANGALORE SOUTH,JAYANAGARA,resolved,9449844660,2024-01-22
+FS-129,Field Section,130,Bharati M,Assistant Executive Engineer,( S9),BMAZ SOUTH,BANGALORE SOUTH,JAYANAGARA,resolved,9449844669,2024-09-17
+FS-130,Field Section,131,Nagaraju S,Assistant Executive Engineer,(S14),BMAZ SOUTH,BANGALORE SOUTH,JAYANAGARA,resolved,8277893196,2025-07-03
+FS-131,Field Section,132,Prakash,Assistant Executive Engineer,(S15),BMAZ SOUTH,BANGALORE SOUTH,JAYANAGARA,resolved,8277893192,2025-06-02
+FS-132,Field Section,133,Venkateshaï K S,Assistant Executive Engineer,(S18),BMAZ SOUTH,BANGALORE SOUTH,JAYANAGARA,resolved,8277893182,2024-08-05
+FS-133,Field Section,134,Ranganath B R,Assistant Executive Engineer,(Works Unit- Jayanagara),BMAZ SOUTH,BANGALORE SOUTH,JAYANAGARA,resolved,9449878748,2024-08-05
+FS-134,Field Section,135,Hapheej Unneesa,Assistant Executive Engineer,Kormangala Division Office,BMAZ SOUTH,BANGALORE SOUTH,KORAMANGALA,resolved,9449866811,2025-07-03
+FS-135,Field Section,136,Ganesh N,Assistant Executive Engineer,"Astin‍Town, Bengaluru ( S3)",BMAZ SOUTH,BANGALORE SOUTH,KORAMANGALA,resolved,9449844663,2026-05-04
+FS-136,Field Section,137,Jagadeesh. H. R,Assistant Executive Engineer,"( S7)
+H.A.L. Maratahalli, Bengaluru",BMAZ SOUTH,BANGALORE SOUTH,KORAMANGALA,resolved,9449844667,2024-11-25
+FS-137,Field Section,138,Dhananjaya V,Assistant Executive Engineer,"( S16)
+Madivala, Bengaluru",BMAZ SOUTH,BANGALORE SOUTH,KORAMANGALA,resolved,8277893193,2025-03-04
+FS-138,Field Section,139,Gowni krishnamoorti,Assistant Executive Engineer,Bengaluru  (S17),BMAZ SOUTH,BANGALORE SOUTH,KORAMANGALA,resolved,8277893183,2024-08-14
+FS-139,Field Section,140,Pooja Mallik,Assistant Executive Engineer,"Works Melvicharana Unit, Koramangala (Works Unit-Kormangala)",BMAZ SOUTH,BANGALORE SOUTH,KORAMANGALA,resolved,,2024-08-12
+FS-140,Field Section,141,Manjula K N,Assistant Executive Engineer,HSR Division Office,BMAZ SOUTH,BANGALORE SOUTH,HSR,resolved,9449866812,2025-07-03
+FS-141,Field Section,142,Geeta V Madivalar,Assistant Executive Engineer,"Bommanahalli, Bengaluru (S8)",BMAZ SOUTH,BANGALORE SOUTH,HSR,resolved,9449844668,2026-06-08
+FS-142,Field Section,143,T.G.Mohan Kumar,Assistant Executive Engineer,"J. P. Nagara, Bengaluru (S10)",BMAZ SOUTH,BANGALORE SOUTH,HSR,resolved,9449844670,
+FS-143,Field Section,144,Nitin H,Assistant Executive Engineer,"H.S.R Layout, Bengaluru (S11)",BMAZ SOUTH,BANGALORE SOUTH,HSR,resolved,9449844826,
+FS-144,Field Section,145,Venkatateshwara K N,Assistant Executive Engineer,"J.P. Nagara, Bengaluru (S12)",BMAZ SOUTH,BANGALORE SOUTH,HSR,resolved,9449844827,
+FS-145,Field Section,146,M Venkatasvami,Assistant Executive Engineer,"(S13)
+Bengaluru",BMAZ SOUTH,BANGALORE SOUTH,HSR,resolved,9449841598,2025-07-02
+FS-146,Field Section,147,Nagaratana R,Assistant Executive Engineer,"Vijaya Bank Layout, Bengaluru (S19)",BMAZ SOUTH,BANGALORE SOUTH,HSR,resolved,8277893180,2024-09-06
+FS-147,Field Section,148,Nagabhooshan B,Assistant Executive Engineer,"Agara, Bengaluru (S20)",BMAZ SOUTH,BANGALORE SOUTH,HSR,resolved,8277893186,
+FS-148,Field Section,149,Roopa M Kudaragi,Assistant Executive Engineer,H. S. R. Badavane (Works unit- HSR),BMAZ SOUTH,BANGALORE SOUTH,HSR,resolved,,2025-07-03
+FS-149,Field Section,150,Asha M,Assistant Executive Engineer,West Circle office,BMAZ SOUTH,BANGALORE WEST,,resolved,9449868849,2024-07-01
+FS-150,Field Section,151,Vidyavati C H,Assistant Executive Engineer,Bescom Stores,BMAZ SOUTH,,,zone_only,9886494179,
+FS-151,Field Section,152,Hrudya C R,Assistant Executive Engineer,Rajajinagar Division Office,BMAZ SOUTH,BANGALORE WEST,RAJAJINAGARA,resolved,9449868850,2025-07-04
+FS-152,Field Section,153,Sujata G,Assistant Executive Engineer,LT Rating Rajajinagara,BMAZ SOUTH,BANGALORE WEST,RAJAJINAGARA,resolved,9449021801,
+FS-153,Field Section,154,A Nujarat,Assistant Executive Engineer,LT Rating Rajajinagara,BMAZ SOUTH,BANGALORE WEST,RAJAJINAGARA,resolved,9449844816,2024-08-28
+FS-154,Field Section,155,Venkatesh S,Assistant Executive Engineer,LT Rating Rajajinagara,BMAZ SOUTH,BANGALORE WEST,RAJAJINAGARA,resolved,9449844815,2023-11-06
+FS-155,Field Section,156,Sowbhagya K.N,Assistant Executive Engineer,"Rajajinagara, (N1)",BMAZ SOUTH,BANGALORE WEST,RAJAJINAGARA,resolved,9449844651,2024-07-24
+FS-156,Field Section,157,Shashikala K.G,Assistant Executive Engineer,"Vijayanagara, (N2)",BMAZ SOUTH,BANGALORE SOUTH,JAYANAGARA,resolved,9449844652,2025-11-17
+FS-157,Field Section,158,Mallikarjuna C,Assistant Executive Engineer,Ullala Sub-Division (N8),BMAZ SOUTH,BANGALORE WEST,RAJAJINAGARA,resolved,9449844897,
+FS-158,Field Section,159,Meena G,Assistant Executive Engineer,Moodalapalya  (N10),BMAZ SOUTH,BANGALORE WEST,RAJAJINAGARA,resolved,8277893190,2023-11-07
+FS-159,Field Section,160,Vijay‍Kumar Chavhan,Assistant Executive Engineer,"Basaveshvaranagara, (N3)",BMAZ SOUTH,BANGALORE WEST,RAJAJINAGARA,resolved,9449844653,2024-08-07
+FS-160,Field Section,161,Sangeeta Gireesh,Assistant Executive Engineer,"Sunkadakatte, (N6)",BMAZ SOUTH,BANGALORE WEST,RAJAJINAGARA,resolved,9449844656,2023-07-13
+FS-161,Field Section,162,Dhanarekha S,Assistant Executive Engineer,(Works unit- Rajajinagar),BMAZ SOUTH,BANGALORE WEST,RAJAJINAGARA,resolved,9449841537,2024-08-28
+FS-162,Field Section,163,Sunanda N,Assistant Executive Engineer,Rajarajeshvarinagara Division Office,BMAZ SOUTH,BANGALORE WEST,RAJARAJESHWARI NAGARA,resolved,9449870533,2023-11-08
+FS-163,Field Section,164,Dakshayini T J,Assistant Executive Engineer,LT Rating Rajarajeshwari Nagara,BMAZ SOUTH,BANGALORE WEST,RAJARAJESHWARI NAGARA,resolved,9449021803,2022-06-30
+FS-164,Field Section,165,P.Lata,Assistant Executive Engineer,Cable Works,BMAZ SOUTH,BANGALORE WEST,RAJARAJESHWARI NAGARA,resolved,9448581787,2021-03-17
+FS-165,Field Section,166,Farjan R,Assistant Executive Engineer,(W1),BMAZ SOUTH,BANGALORE WEST,RAJARAJESHWARI NAGARA,resolved,9449844681,2022-08-11
+FS-166,Field Section,167,Raj Kumar Nayak,Assistant Executive Engineer,N.R.Calony (W8),BMAZ SOUTH,BANGALORE WEST,RAJARAJESHWARI NAGARA,resolved,8277890545,
+FS-167,Field Section,168,Fakaruddeen M,Assistant Executive Engineer,(W2),BMAZ SOUTH,BANGALORE WEST,RAJARAJESHWARI NAGARA,resolved,9449844682,2024-08-06
+FS-168,Field Section,169,L. Ramesh,Assistant Executive Engineer,(W6),BMAZ SOUTH,BANGALORE WEST,RAJARAJESHWARI NAGARA,resolved,9449844686,2024-08-05
+FS-169,Field Section,170,Mohita H,Assistant Executive Engineer,(W7),BMAZ SOUTH,BANGALORE WEST,RAJARAJESHWARI NAGARA,resolved,9449844894,
+FS-170,Field Section,171,C.M Bhairegowda,Assistant Executive Engineer,(Works unit- RRnagara),BMAZ SOUTH,BANGALORE WEST,RAJARAJESHWARI NAGARA,resolved,9449868848,2025-12-29
+FS-171,Field Section,172,Shilpa H,Assistant Executive Engineer,kengeri Division office,BMAZ SOUTH,BANGALORE WEST,KENGERI,resolved,9449870302,2025-07-02
+FS-172,Field Section,173,Venkatarakesh A,Assistant Executive Engineer,Kengeri Division Office (Rating),BMAZ SOUTH,BANGALORE WEST,KENGERI,resolved,9449844889,
+FS-173,Field Section,174,Puttappa B S,Assistant Executive Engineer,Anjananagara Sub-Division (K-2),BMAZ SOUTH,BANGALORE WEST,KENGERI,resolved,9449844892,2025-07-03
+FS-174,Field Section,175,Jitendra Kumar B N,Assistant Executive Engineer,Kengeri Sub-Division (K-1),BMAZ SOUTH,BANGALORE WEST,KENGERI,resolved,9449844687,2024-08-03
+FS-175,Field Section,176,Anuradha.B.V,Assistant Executive Engineer,"Kengeri-4 Sub-Division, R. R. Layout (K4)",BMAZ SOUTH,BANGALORE WEST,KENGERI,resolved,8277893934,2025-09-01
+FS-176,Field Section,177,Prakash.M,Assistant Executive Engineer,"Kaggalipura Sub-Division (Kaggalipura)
+ K3",BMAZ SOUTH,BANGALORE WEST,KENGERI,resolved,9449844893,2025-09-01
+FS-177,Field Section,178,Netravati K,Assistant Executive Engineer,"Assistant Executive Engineer (Ele), Bengaluru Metropolitan Area (North) Zone",BMAZ NORTH,,,partial,8277893198,2025-08-01
+FS-178,Field Section,179,Prashant M,Assistant Executive Engineer,"R. M.U. (North Sub-Division) (M.R.T. Division), Bengaluru Metropolitan Area (South) Zone (RMU-North)",BMAZ SOUTH,,,zone_only,9449041658,2025-07-03
+FS-179,Field Section,180,Poornima.N,Assistant Executive Engineer,Assistant Executive Engineer (Ele) H.T. Sub-Division (HT- Commercial),BMAZ SOUTH,,,zone_only,9449844732,2018-04-24
+FS-180,Field Section,181,Chandan L,Assistant Executive Engineer,"M. T. Section, Bengaluru Metropolitan Area. Zone (North) (MT- North)",BMAZ NORTH,,,zone_only,9449844749,
+FS-181,Field Section,182,Dhanyakumar.Hach.C,Assistant Executive Engineer,Bengaluru Metropolitan Area (North) (HT Rating- North),BMAZ NORTH,,,partial,9449844801,2023-07-24
+FS-182,Field Section,183,Vani.R,Assistant Executive Engineer,Bengaluru Metropolitan Area (North) Zone (HT Rating- East),BMAZ NORTH,,,zone_only,,2023-11-06
+FS-183,Field Section,184,Pratibha R,Assistant Executive Engineer,Bengaluru Metropolitan Area (South) Zone (MRT- South),BMAZ SOUTH,,,partial,,2021-07-19
+FS-184,Field Section,185,Sunita.L.V,Assistant Executive Engineer,Bengaluru North Circle,BMAZ NORTH,BANGALORE NORTH,,resolved,9449844682,2023-09-27
+FS-185,Field Section,186,Lalita.H.R,Assistant Executive Engineer,Peenya Division Office,BMAZ NORTH,BANGALORE NORTH,PEENYA,resolved,9449865393,2024-01-31
+FS-186,Field Section,187,Pratibha G V,Assistant Executive Engineer,LT Rating Peenya,BMAZ NORTH,BANGALORE NORTH,PEENYA,resolved,9449821800,2024-08-05
+FS-187,Field Section,188,V Prashant‍Kumar,Assistant Executive Engineer,"Peenya, Bengaluru (N4)",BMAZ NORTH,BANGALORE NORTH,PEENYA,resolved,9449844654,2025-07-02
+FS-188,Field Section,189,Rajesh Kumar S,Assistant Executive Engineer,"Dasarahalli, Bengaluru (N5)",BMAZ NORTH,BANGALORE NORTH,PEENYA,resolved,9449844655,2024-11-04
+FS-189,Field Section,190,K R Revanasiddappa,Assistant Executive Engineer,"Kurubarahalli, Bengaluru (N7)",BMAZ NORTH,BANGALORE NORTH,PEENYA,resolved,9449844657,2022-11-14
+FS-190,Field Section,191,Pushpa S,Assistant Executive Engineer,Peenya (Works unit- Peenya),BMAZ NORTH,BANGALORE NORTH,PEENYA,resolved,,2025-08-11
+FS-191,Field Section,192,Rekha B N,Assistant Executive Engineer,LT Rating Malleshvaran,BMAZ NORTH,BANGALORE NORTH,MALLESHWARAM,resolved,9449821808,2024-07-04
+FS-192,Field Section,193,Venkatesh T.V,Assistant Executive Engineer,LT Rating Malleshvaran,BMAZ NORTH,BANGALORE NORTH,MALLESHWARAM,resolved,9449844814,2022-03-09
+FS-193,Field Section,194,Khyale Chandra Shekhara,Assistant Executive Engineer,Cable Works,BMAZ NORTH,BANGALORE NORTH,MALLESHWARAM,resolved,,2025-02-03
+FS-194,Field Section,195,Sri Nivasa B Mantrodi,Assistant Executive Engineer,(C1),BMAZ NORTH,BANGALORE NORTH,MALLESHWARAM,resolved,9449844641,2024-11-07
+FS-195,Field Section,196,Parameshvarappa,Assistant Executive Engineer,(C2),BMAZ NORTH,BANGALORE NORTH,MALLESHWARAM,resolved,9449844642,
+FS-196,Field Section,197,Topinakatti A.M,Assistant Executive Engineer,(C6),BMAZ NORTH,BANGALORE NORTH,MALLESHWARAM,resolved,9449844646,2025-10-23
+FS-197,Field Section,198,Puttasvami.D.V,Assistant Executive Engineer,(Works unit- Malleshwaram),BMAZ NORTH,BANGALORE NORTH,MALLESHWARAM,resolved,,2025-05-20
+FS-198,Field Section,199,G Shveta Reddi,Assistant Executive Engineer,Hebbala Division Office,BMAZ NORTH,BANGALORE NORTH,HEBBALA,resolved,9449864891,2023-11-06
+FS-199,Field Section,200,Roopa B N,Assistant Executive Engineer,LT Rating Heballa,BMAZ NORTH,BANGALORE NORTH,HEBBALA,resolved,9449021809,2026-07-02
+FS-200,Field Section,201,B H Narayana Bhovi,Assistant Executive Engineer,(C4),BMAZ NORTH,BANGALORE NORTH,HEBBALA,resolved,9449844644,2025-05-20
+FS-201,Field Section,202,Manjunath R,Assistant Executive Engineer,(C5),BMAZ NORTH,BANGALORE NORTH,HEBBALA,resolved,9449844645,2025-05-20
+FS-202,Field Section,203,M B Uday‍Kumar,Assistant Executive Engineer,(C7),BMAZ NORTH,BANGALORE NORTH,HEBBALA,resolved,9449844647,
+FS-203,Field Section,204,Y V Aadireddi,Assistant Executive Engineer,(C8),BMAZ NORTH,BANGALORE NORTH,HEBBALA,resolved,9449841574,
+FS-204,Field Section,205,Radhika P,Assistant Executive Engineer,Hebbala (Works unit- Heballa),BMAZ NORTH,BANGALORE NORTH,HEBBALA,resolved,,2025-08-11
+FS-205,Field Section,206,Manjunath P,Assistant Executive Engineer,Jalahalli Division Office,BMAZ NORTH,BANGALORE NORTH,JALAHALLI,resolved,8277893199,2022-07-22
+FS-206,Field Section,207,Ashok P.S,Assistant Executive Engineer,M.T. Jalahalli Division (MT),BMAZ NORTH,BANGALORE NORTH,JALAHALLI,resolved,8277893194,2024-03-15
+FS-207,Field Section,208,Raghunath A S,Assistant Executive Engineer,(C3),BMAZ NORTH,BANGALORE NORTH,JALAHALLI,resolved,9449844643,2025-07-16
+FS-208,Field Section,209,Lakshmeenarayana H D,Assistant Executive Engineer,(C9),BMAZ NORTH,BANGALORE NORTH,JALAHALLI,resolved,8277893915,2026-03-09
+FS-209,Field Section,210,Paneendra N,Assistant Executive Engineer,(N9),BMAZ NORTH,BANGALORE NORTH,JALAHALLI,resolved,8277893918,2024-08-03
+FS-210,Field Section,211,Mohan H.S,Assistant Executive Engineer,Vidhanasowdha Division Office,BMAZ NORTH,BANGALORE CENTRAL,VIDHANA SOUDHA,resolved,9480088188,2024-07-04
+FS-211,Field Section,212,Shivakumaraswami B L,Assistant Executive Engineer,LT Rating Vidhanasowdha,BMAZ NORTH,BANGALORE CENTRAL,VIDHANA SOUDHA,resolved,8660015709,
+FS-212,Field Section,213,Vinay Kumar K,Assistant Executive Engineer,LT Rating Vidhanasowdha,BMAZ NORTH,BANGALORE CENTRAL,VIDHANA SOUDHA,resolved,9916275747,2024-11-13
+FS-213,Field Section,214,Madhu,Assistant Executive Engineer,LT Rating Vidhanasowdha,BMAZ NORTH,BANGALORE CENTRAL,VIDHANA SOUDHA,resolved,9449844859,
+FS-214,Field Section,215,Mallikarjuna Shirooru,Assistant Executive Engineer,LT Rating Vidhanasowdha,BMAZ NORTH,BANGALORE CENTRAL,VIDHANA SOUDHA,resolved,9449844830,2025-07-02
+FS-215,Field Section,216,Prema N,Assistant Executive Engineer,Cables (Works Mattu Nirvahane) (Cables),BMAZ NORTH,BANGALORE CENTRAL,VIDHANA SOUDHA,resolved,,2024-07-14
+FS-216,Field Section,217,Gonibasappa,Assistant Executive Engineer,(W3),BMAZ NORTH,BANGALORE CENTRAL,VIDHANA SOUDHA,resolved,9449844683,
+FS-217,Field Section,218,Totanagowda Hosalli,Assistant Executive Engineer,(W4),BMAZ NORTH,BANGALORE CENTRAL,VIDHANA SOUDHA,resolved,9449844688,
+FS-218,Field Section,219,Sheshachala K.R,Assistant Executive Engineer,5Ne West Sub-Division (W5),BMAZ NORTH,BANGALORE CENTRAL,VIDHANA SOUDHA,resolved,9449844685,2024-03-14
+FS-219,Field Section,220,Vinayaka L,Assistant Executive Engineer,Vidhana soudha (Works unit- Vidhanasouda),BMAZ NORTH,BANGALORE CENTRAL,VIDHANA SOUDHA,resolved,9449841546,2024-08-06
+FS-220,Field Section,221,Channakeshavayya S,Assistant Executive Engineer,LT Rating Indiranagara,BMAZ NORTH,BANGALORE CENTRAL,INDIRANAGARA,resolved,9449821806,2024-02-22
+FS-221,Field Section,222,Rajikhunnisa,Assistant Executive Engineer,LT Rating Indiranagara,BMAZ NORTH,BANGALORE CENTRAL,INDIRANAGARA,resolved,9449844821,2022-12-08
+FS-222,Field Section,223,Shashidhar.M.K,Assistant Executive Engineer,(E3) B Station,BMAZ NORTH,BANGALORE CENTRAL,INDIRANAGARA,resolved,9449844673,2023-07-24
+FS-223,Field Section,224,Naresh V,Assistant Executive Engineer,H.A.L. 2nd stage  Bengaluru (E6),BMAZ NORTH,BANGALORE CENTRAL,INDIRANAGARA,resolved,9449874616,2025-07-05
+FS-224,Field Section,225,Ramatirtha,Assistant Executive Engineer,(E10),BMAZ NORTH,BANGALORE CENTRAL,INDIRANAGARA,resolved,9449868808,
+FS-225,Field Section,226,Bodapati Shivakumar,Assistant Executive Engineer,(E11),BMAZ NORTH,BANGALORE CENTRAL,INDIRANAGARA,resolved,8277893923,2026-07-03
+FS-226,Field Section,227,Kalavati S V,Assistant Executive Engineer,Indiranagara (Works unit- Indiranagar),BMAZ NORTH,BANGALORE CENTRAL,INDIRANAGARA,resolved,948812466,
+FS-227,Field Section,228,Bharat Chowvhan,Assistant Executive Engineer,East Circle Office,BMAZ NORTH,BANGALORE EAST,,resolved,9449844865,
+FS-228,Field Section,229,Mallappa G,Assistant Executive Engineer,Whitefield Division office,BMAZ NORTH,BANGALORE EAST,WHITEFIELD,resolved,8277893929,
+FS-229,Field Section,230,Sateesh S K,Assistant Executive Engineer,M.R.T White field Division (MRT),BMAZ NORTH,BANGALORE EAST,WHITEFIELD,resolved,8277893195,2025-07-02
+FS-230,Field Section,231,Jagannatha Yalagoda,Assistant Executive Engineer,(E4),BMAZ NORTH,BANGALORE EAST,WHITEFIELD,resolved,9449844674,2025-08-01
+FS-231,Field Section,232,Muruli Mohan.R,Assistant Executive Engineer,"Dooravani Nagara, Bengaluru (E7)",BMAZ NORTH,BANGALORE EAST,WHITEFIELD,resolved,9449844677,2024-09-12
+FS-232,Field Section,233,Ajay Chavhan,Assistant Executive Engineer,"Mahadevapura, Bengaluru (E12)",BMAZ NORTH,BANGALORE EAST,WHITEFIELD,resolved,8277893920,2026-03-09
+FS-233,Field Section,234,Prameela M,Assistant Executive Engineer,Shivajinagara Division Office,BMAZ NORTH,BANGALORE EAST,SHIVAJINAGARA,resolved,9449873978,2025-02-24
+FS-234,Field Section,235,Basappa K,Assistant Executive Engineer,LT Rating Shivajinagar,BMAZ NORTH,BANGALORE EAST,SHIVAJINAGARA,resolved,944911807,2024-08-02
+FS-235,Field Section,236,Ayaz Khan S,Assistant Executive Engineer,Bengaluru (E1),BMAZ NORTH,BANGALORE EAST,SHIVAJINAGARA,resolved,9449844671,
+FS-236,Field Section,237,Nandeesh C P,Assistant Executive Engineer,"'C' Station, Queens Road Bengaluru (E2)",BMAZ NORTH,BANGALORE EAST,SHIVAJINAGARA,resolved,9449844672,2025-09-11
+FS-237,Field Section,238,Geeta M,Assistant Executive Engineer,(E5),BMAZ NORTH,BANGALORE EAST,SHIVAJINAGARA,resolved,9449844675,2024-07-04
+FS-238,Field Section,239,G.V. Chalapati,Assistant Executive Engineer,(E8),BMAZ NORTH,BANGALORE EAST,SHIVAJINAGARA,resolved,9449844678,2024-02-05
+FS-239,Field Section,240,Venkateshappa V H,Assistant Executive Engineer,(E9),BMAZ NORTH,BANGALORE EAST,SHIVAJINAGARA,resolved,9449877171,2025-08-04
+FS-240,Field Section,241,Suresh Giri,Assistant Executive Engineer,(E13),BMAZ NORTH,BANGALORE EAST,SHIVAJINAGARA,resolved,,2025-09-06
+FS-241,Field Section,242,Shivakumar.S,Assistant Executive Engineer,Shivajinagara (Works unit- Shivajinagar),BMAZ NORTH,BANGALORE EAST,SHIVAJINAGARA,resolved,9449864483,2017-09-08
+FS-242,Field Section,243,Nagaraj M,Assistant Executive Engineer,H.A.L Division Office HAL Division office,BMAZ NORTH,BANGALORE EAST,HAL,resolved,,
+FS-243,Field Section,244,Nagaraj G,Assistant Executive Engineer,BRAZ office,BRAZ,,,partial,9449844798,2023-11-08
+FS-244,Field Section,245,Manjunatha V,Assistant Executive Engineer,"M. T. Section, BRAZ. Zone (MT section)",BRAZ,,,zone_only,,2024-07-03
+FS-245,Field Section,246,Danareddi K,Assistant Executive Engineer,"Meter Test Benches) Chandapura, Chandapura",BRAZ,RAMANAGARA,CHANDAPURA,resolved,,2022-07-04
+FS-246,Field Section,247,Shruti S,Assistant Executive Engineer,M.R.T. North,BRAZ,RAMANAGARA,CHANDAPURA,resolved,9448289437,2025-07-05
+FS-247,Field Section,248,Hemalata. B.K,Assistant Executive Engineer,"H.T. Rating, BRAZ, Zone (HT Rating)",BRAZ,,,partial,9448452102,2024-12-16
+FS-248,Field Section,249,Shweta Y,Assistant Executive Engineer,Ramanagara Circle Office,BRAZ,RAMANAGARA,,resolved,,
+FS-249,Field Section,250,Hoolemma,Assistant Executive Engineer,Ramanagara Division Office,BRAZ,RAMANAGARA,RAMANAGARA,resolved,,
+FS-250,Field Section,251,Nagesh K N,Assistant Executive Engineer,(Vigilance-Ramanagara),BRAZ,RAMANAGARA,RAMANAGARA,resolved,,2025-07-04
+FS-251,Field Section,252,Anil‍Kumar S,Assistant Executive Engineer,LT Rating Ramanagara,BRAZ,RAMANAGARA,RAMANAGARA,resolved,,2025-01-28
+FS-252,Field Section,253,Pushpa B.C,Assistant Executive Engineer,Ramanagara urban Sub div,BRAZ,RAMANAGARA,RAMANAGARA,resolved,9448279088,
+FS-253,Field Section,254,Mahesh Kumar M.C,Assistant Executive Engineer,Ramanagara Rural Sub div,BRAZ,RAMANAGARA,RAMANAGARA,resolved,9448088763,2025-07-05
+FS-254,Field Section,255,Ravi R,Assistant Executive Engineer,Bidadi Sub Division,BRAZ,RAMANAGARA,RAMANAGARA,resolved,9448094839,2025-11-26
+FS-255,Field Section,256,Chidananda. G,Assistant Executive Engineer,Channapattana Sub div,BRAZ,RAMANAGARA,RAMANAGARA,resolved,9448279090,
+FS-256,Field Section,257,Shivaraju Heggade,Assistant Executive Engineer,Channapattana Rural Sub div,BRAZ,RAMANAGARA,RAMANAGARA,resolved,9448279091,2024-08-12
+FS-257,Field Section,258,Manjunath S,Assistant Executive Engineer,Ramanagara (Works unit- Ramnagara),BRAZ,RAMANAGARA,RAMANAGARA,resolved,,2025-07-05
+FS-258,Field Section,259,Jayakumar.A.S,Assistant Executive Engineer,LT Rating Magadi,BRAZ,RAMANAGARA,MAGADI,resolved,,2019-01-29
+FS-259,Field Section,260,Ravikumar H,Assistant Executive Engineer,Magadi Sub Div,BRAZ,RAMANAGARA,MAGADI,resolved,9448279078,2025-07-11
+FS-260,Field Section,261,Obayya,Assistant Executive Engineer,Tavarekere Sub div,BRAZ,RAMANAGARA,MAGADI,resolved,9449844871,2026-05-19
+FS-261,Field Section,262,Chandan V,Assistant Executive Engineer,Kudur Sub Div,BRAZ,RAMANAGARA,MAGADI,resolved,9448042373,2025-07-02
+FS-262,Field Section,263,Geetanjali R,Assistant Executive Engineer,Kanakapura Division Office,BRAZ,RAMANAGARA,KANAKAPURA,resolved,,2025-12-03
+FS-263,Field Section,264,Puttasvami N,Assistant Executive Engineer,Kanakapura Urban Sub Diiv,BRAZ,RAMANAGARA,KANAKAPURA,resolved,9448279086,2025-07-18
+FS-264,Field Section,265,Rangasvami B,Assistant Executive Engineer,Satnoor Sub div,BRAZ,RAMANAGARA,KANAKAPURA,resolved,9449844832,2022-02-24
+FS-265,Field Section,266,Nagabhooshan N G,Assistant Executive Engineer,Harohalli Sub div,BRAZ,RAMANAGARA,KANAKAPURA,resolved,9449841648,2025-07-02
+FS-266,Field Section,267,Somashekhar Bellad,Assistant Executive Engineer,Chandapura Division Office,BRAZ,RAMANAGARA,CHANDAPURA,resolved,,2025-07-04
+FS-267,Field Section,268,Styanli Jons,Assistant Executive Engineer,Chandapura Sub-Division,BRAZ,RAMANAGARA,CHANDAPURA,resolved,9448279093,
+FS-268,Field Section,269,Shankar B,Assistant Executive Engineer,Anekal Sub Div,BRAZ,RAMANAGARA,CHANDAPURA,resolved,9448279092,
+FS-269,Field Section,270,Bheemanagowda (Kalyana Karnataka),Assistant Executive Engineer,Jigani Sub-Division,BRAZ,RAMANAGARA,CHANDAPURA,resolved,9448991274,2025-07-02
+FS-270,Field Section,271,S Raj‍Kumar,Assistant Executive Engineer,Attibele,BRAZ,RAMANAGARA,CHANDAPURA,resolved,9449844891,2023-11-04
+FS-271,Field Section,272,S Venugopala Rav,Assistant Executive Engineer,(Works unit- Chandapura),BRAZ,RAMANAGARA,CHANDAPURA,resolved,,2021-11-15
+FS-272,Field Section,273,Bhargavi B.S,Assistant Executive Engineer,Rural Circle office,BRAZ,BANGALORE RURAL,,resolved,,2024-03-18
+FS-273,Field Section,274,Pampapati S,Assistant Executive Engineer,Nelamangala Division Office,BRAZ,BANGALORE RURAL,NELAMANGALA,resolved,,
+FS-274,Field Section,275,Abhilash,Assistant Executive Engineer,LT Rating Nelamagala,BRAZ,BANGALORE RURAL,NELAMANGALA,resolved,,2023-09-27
+FS-275,Field Section,276,Ramesh T,Assistant Executive Engineer,Nelamangala Sub-Division,BRAZ,BANGALORE RURAL,NELAMANGALA,resolved,9448279077,2025-12-29
+FS-276,Field Section,277,H.R. Sri Nivas,Assistant Executive Engineer,Dabas‍Pete Sub-Division,BRAZ,BANGALORE RURAL,NELAMANGALA,resolved,8277892562,2024-11-08
+FS-277,Field Section,278,Raghunand C,Assistant Executive Engineer,Madanayakanahalli Sub-Division,BRAZ,BANGALORE RURAL,NELAMANGALA,resolved,,2026-05-15
+FS-278,Field Section,279,Anusooya S. Lamani,Assistant Executive Engineer,Nelamangala (Works unit- Nelamangala),BRAZ,BANGALORE RURAL,NELAMANGALA,resolved,,2017-12-06
+FS-279,Field Section,280,Anil Kumar A V,Assistant Executive Engineer,Devanahalli Division Office,BRAZ,BANGALORE RURAL,DEVANAHALLI,resolved,,2023-01-04
+FS-280,Field Section,281,Ramachandra Nayak,Assistant Executive Engineer,Devanahalli Sub-Division,BRAZ,BANGALORE RURAL,DEVANAHALLI,resolved,9448279082,2026-07-02
+FS-281,Field Section,282,Lakshmeekanta B M,Assistant Executive Engineer,Doddaballpura Urban,BRAZ,BANGALORE RURAL,DEVANAHALLI,resolved,9448279080,
+FS-282,Field Section,283,A Manjunatha,Assistant Executive Engineer,Doddaballapura Rural,BRAZ,BANGALORE RURAL,DEVANAHALLI,resolved,8277892573,2024-08-08
+FS-283,Field Section,284,Vinay Kumar H.P [Kalyana Karnataka],Assistant Executive Engineer,Vijayapura SD,BRAZ,BANGALORE RURAL,DEVANAHALLI,resolved,,
+FS-284,Field Section,285,Pavan Kumar N,Assistant Executive Engineer,Hosakote Division Office,BRAZ,BANGALORE RURAL,HOSAKOTE,resolved,9916885694,2022-07-20
+FS-285,Field Section,286,R M Yogesh,Assistant Executive Engineer,(Vigilance  Hoskote),BRAZ,BANGALORE RURAL,HOSAKOTE,resolved,9902344802,2026-03-09
+FS-286,Field Section,287,Dakya Nayak,Assistant Executive Engineer,Vidyanagara Sub-Division,BRAZ,BANGALORE RURAL,HOSAKOTE,resolved,9449871699,
+FS-287,Field Section,288,Sridara moorti A L,Assistant Executive Engineer,Nandagudi Sub-Division,BRAZ,BANGALORE RURAL,HOSAKOTE,resolved,9448279085,2023-02-16
+FS-288,Field Section,289,Puttashamayya,Assistant Executive Engineer,Hosakote Sub-Division,BRAZ,BANGALORE RURAL,HOSAKOTE,resolved,9448079084,2023-02-16
+FS-289,Field Section,290,Praveena.A.E,Assistant Executive Engineer,Aavalahalli Sub-Division,BRAZ,BANGALORE RURAL,HOSAKOTE,resolved,9449871689,2024-11-22
+FS-290,Field Section,291,T S Lakshmi Narayana moorti,Assistant Executive Engineer,Kolara Circle Office,BRAZ,KOLAR,,resolved,9449878433,2024-07-04
+FS-291,Field Section,292,Saiyada Shahabuddeen Huseni,Assistant Executive Engineer,Technical and Quality check,BRAZ,KOLAR,,resolved,9448088840,2016-11-10
+FS-292,Field Section,293,Naheed Pasha S,Assistant Executive Engineer,Kolara Division Office,BRAZ,KOLAR,KOLAR,resolved,9743215055,2021-02-02
+FS-293,Field Section,294,S.N. Ramesh,Assistant Executive Engineer,"M. T. Division, Kolara MT Div Kolara",BRAZ,KOLAR,KOLAR,resolved,9448093021,2016-10-05
+FS-294,Field Section,295,Sri Nivasulu N,Assistant Executive Engineer,Kolara Nagara Sub-Division,BRAZ,KOLAR,KOLAR,resolved,9448279059,2024-11-21
+FS-295,Field Section,296,Basavaraja C,Assistant Executive Engineer,Kolara Rural SD,BRAZ,KOLAR,KOLAR,resolved,9448279060,2023-03-27
+FS-296,Field Section,297,Manjula K,Assistant Executive Engineer,Kolara  (Works unit- Kolara),BRAZ,KOLAR,KOLAR,resolved,9008313986,
+FS-297,Field Section,298,Raveendra babu P B,Assistant Executive Engineer,K.G.F. Division Office,BRAZ,KOLAR,KGF,resolved,,2025-07-10
+FS-298,Field Section,299,H. Hema Lata,Assistant Executive Engineer,K.G.F Sub-Division,BRAZ,KOLAR,KGF,resolved,9448279064,2016-10-19
+FS-299,Field Section,300,Sukumara Raju,Assistant Executive Engineer,Bangarapete Sub-Division,BRAZ,KOLAR,KGF,resolved,9448279065,2024-08-05
+FS-300,Field Section,301,Ansar Bhasha,Assistant Executive Engineer,Malooru Sub-Division,BRAZ,KOLAR,KOLAR,resolved,9448279066,2018-09-17
+FS-301,Field Section,302,Gireesh G N,Assistant Executive Engineer,Mulabagilu SD,BRAZ,KOLAR,KOLAR,resolved,9448279067,
+FS-302,Field Section,303,Kirubarani A,Assistant Executive Engineer,"Works Melvicharana Unit, K.G.F (Works unit- KGF)",BRAZ,KOLAR,KGF,resolved,9480203017,2021-11-11
+FS-303,Field Section,304,V.R. Anil Kumar,Assistant Executive Engineer,Chikkaballapura Division Office,BRAZ,KOLAR,CHIKKABALLAPURA,resolved,9945276502,2019-06-29
+FS-304,Field Section,305,Manjunatha B A,Assistant Executive Engineer,"Vigilance Squad, Chikkaballapura Vigilance Chikkaballapura",BRAZ,KOLAR,CHIKKABALLAPURA,resolved,,2025-10-16
+FS-305,Field Section,306,Gayatri.V,Assistant Executive Engineer,LT Rating Chikkaballapura,BRAZ,KOLAR,CHIKKABALLAPURA,resolved,,2024-01-01
+FS-306,Field Section,307,Venugopal H J,Assistant Executive Engineer,Chikkaballapura Grrameena Sub-Division Chikkaballapura Rural,BRAZ,KOLAR,CHIKKABALLAPURA,resolved,9448279069,2025-09-20
+FS-307,Field Section,308,Rohit. N,Assistant Executive Engineer,Gowribidanooru Sub-Division Gowribidnoor SD,BRAZ,KOLAR,CHIKKABALLAPURA,resolved,9448279073,
+FS-308,Field Section,309,Vishvas K,Assistant Executive Engineer,Gudibande Sub-Division Gudibande SD,BRAZ,KOLAR,CHIKKABALLAPURA,resolved,9448279072,2024-07-04
+FS-309,Field Section,310,Muniraju C,Assistant Executive Engineer,"Works Melvicharana Unit, Chikkaballapura (Works unit- Chikkaballapura)",BRAZ,KOLAR,CHIKKABALLAPURA,resolved,9448259689,2023-01-12
+FS-310,Field Section,311,Sooryaprakash R,Assistant Executive Engineer,Chintamani Division Office,BRAZ,KOLAR,CHINTAMANI,resolved,9448643229,2022-03-21
+FS-311,Field Section,312,Shivashankar.D.G,Assistant Executive Engineer,Chintamani Nagara Sub-Division  chintamani Urban,BRAZ,KOLAR,CHINTAMANI,resolved,9448279061,2022-03-21
+FS-312,Field Section,313,P.V Sri Nivasa Kumar,Assistant Executive Engineer,Chintamani Grameena Sub-Division  Chintamani Rural,BRAZ,KOLAR,CHINTAMANI,resolved,9448279062,2016-10-03
+FS-313,Field Section,314,Jayaram J M,Assistant Executive Engineer,Shidlaghatta Nagara Sub-Division Shidlaghatta urban SD,BRAZ,KOLAR,CHINTAMANI,resolved,9448279074,2024-08-09
+FS-314,Field Section,315,Prabhu.B,Assistant Executive Engineer,Shidlaghatta Grrameena Sub-Division Sidlaghatta Rural,BRAZ,KOLAR,CHINTAMANI,resolved,9448279076,2019-05-30
+FS-315,Field Section,316,R Jayant,Assistant Executive Engineer,"Works Melvicharana Unit, Chintamani (Works unit- Chintamani)",BRAZ,KOLAR,CHINTAMANI,resolved,,
+FS-316,Field Section,317,Mamata.B,Assistant Executive Engineer,Chitradurga Zone Office,CTAZ,,,partial,9008545887,
+FS-317,Field Section,318,Saiyad Aareeph (Deputation 1 year ),Assistant Executive Engineer,M.T. Division Chitradurga MT Div Chitradurga,CTAZ,,,partial,9449056660,
+FS-318,Field Section,319,Manjula.B,Assistant Executive Engineer,Tumkur Circle office,CTAZ,TUMKUR,,resolved,9480880460,2023-07-13
+FS-319,Field Section,320,Gururaj T S,Assistant Executive Engineer,"Tumakooru Circle Office,",CTAZ,TUMKUR,,resolved,944906661,
+FS-320,Field Section,321,Hareesh,Assistant Executive Engineer,"Vigilance Squad, Tumakooru (Vigilance Tumakuru)",CTAZ,TUMKUR,,resolved,9448094829,2025-07-28
+FS-321,Field Section,322,Sri Nath H J,Assistant Executive Engineer,H.T. Rating (HT Rating),CTAZ,TUMKUR,,resolved,9448279389,2025-12-17
+FS-322,Field Section,323,Manohar J,Assistant Executive Engineer,Tumkur Division Office,CTAZ,TUMKUR,TUMKUR,resolved,9483544489,2025-07-07
+FS-323,Field Section,324,Saiyad Amjad A,Assistant Executive Engineer,LT Rating Tumkur,CTAZ,TUMKUR,TUMKUR,resolved,9448488517,2025-12-17
+FS-324,Field Section,325,Rajesh D,Assistant Executive Engineer,M.T. Sub-Division (MT ),CTAZ,TUMKUR,TUMKUR,resolved,9448279389,2024-09-20
+FS-325,Field Section,326,H P Nagaraju,Assistant Executive Engineer,1 Tumkur Urban SD-1,CTAZ,TUMKUR,TUMKUR,resolved,9448279045,2022-06-10
+FS-326,Field Section,327,Mehaboob Shareep,Assistant Executive Engineer,Tumkur Rural-1,CTAZ,TUMKUR,TUMKUR,resolved,9448088760,
+FS-327,Field Section,328,Sateesh Kumar B V,Assistant Executive Engineer,Tumkur Rural-2,CTAZ,TUMKUR,TUMKUR,resolved,9448279046,2025-07-25
+FS-328,Field Section,329,Venkatesh B S,Assistant Executive Engineer,Kyatsandra Sub-Division,CTAZ,TUMKUR,TUMKUR,resolved,9449843533,2024-08-12
+FS-329,Field Section,330,Jaldesh B N,Assistant Executive Engineer,Gubbi Sub-Division,CTAZ,TUMKUR,TUMKUR,resolved,9448279047,2025-07-07
+FS-330,Field Section,331,Veerabhadrachar.A.C,Assistant Executive Engineer,Huliyurdurga SD,CTAZ,TUMKUR,KUNIGAL,resolved,9449843532,2017-12-22
+FS-331,Field Section,332,Hariharappa T,Assistant Executive Engineer,Tipatooru Division Office,CTAZ,TUMKUR,TIPTUR,resolved,9449843545,2025-08-08
+FS-332,Field Section,333,Sri Nivas L G,Assistant Executive Engineer,M.T. Sub-Division (MT),CTAZ,TUMKUR,TIPTUR,resolved,9449844620,2025-07-02
+FS-333,Field Section,334,Manohar T L,Assistant Executive Engineer,Tipatooru Sub-Division,CTAZ,TUMKUR,TIPTUR,resolved,9448279050,2021-08-19
+FS-334,Field Section,335,M.C Rajashekhara,Assistant Executive Engineer,Turuvekere Sub-Division,CTAZ,TUMKUR,TIPTUR,resolved,9448279052,2023-11-09
+FS-335,Field Section,336,N.B.Gavirangayya,Assistant Executive Engineer,Chikkanayakkanahalli Sub-Division,CTAZ,TUMKUR,TIPTUR,resolved,9448279051,2023-07-15
+FS-336,Field Section,337,Mallanna V,Assistant Executive Engineer,Madhugiri Division Office,CTAZ,TUMKUR,MADHUGIRI,resolved,9449843612,
+FS-337,Field Section,338,Mayakanna Nayk M,Assistant Executive Engineer,LT Rating Madhugiri,CTAZ,TUMKUR,MADHUGIRI,resolved,9448488516,
+FS-338,Field Section,339,Prasannakumar V,Assistant Executive Engineer,Koratagere Sub-Division Koratagere SD,CTAZ,TUMKUR,MADHUGIRI,resolved,9448279058,2024-08-02
+FS-339,Field Section,340,B.G.Krishnamoorti,Assistant Executive Engineer,Pavagada Sub-Division,CTAZ,TUMKUR,MADHUGIRI,resolved,9448279057,2021-11-15
+FS-340,Field Section,341,Timmuraju T,Assistant Executive Engineer,Sira Urban,CTAZ,TUMKUR,MADHUGIRI,resolved,9448279055,2025-07-02
+FS-341,Field Section,342,Sri Nivas S T,Assistant Executive Engineer,Sira Rural,CTAZ,TUMKUR,MADHUGIRI,resolved,9448279056,
+FS-342,Field Section,343,Mahammad Naseeruddeen,Assistant Executive Engineer,Madhugiri (Works unit- Madugiri),CTAZ,TUMKUR,MADHUGIRI,resolved,,
+FS-343,Field Section,344,Deepa P V,Assistant Executive Engineer,Davanagere Circle Office,CTAZ,DAVANAGERE,,resolved,9738664146,2022-09-16
+FS-344,Field Section,345,Ramachandrappa.E,Assistant Executive Engineer,Davanagere Circle Office Technical and Quality check,CTAZ,DAVANAGERE,,resolved,9449056660,2023-07-14
+FS-345,Field Section,346,Lohit Kumar K,Assistant Executive Engineer,Davanagere Division Office,CTAZ,DAVANAGERE,DAVANAGERE,resolved,9741708719,2023-11-10
+FS-346,Field Section,347,Asif ulla D R,Assistant Executive Engineer,"Vigilance Squad, Davanagere (Vigilance) Davanagere",CTAZ,DAVANAGERE,DAVANAGERE,resolved,9480725720,2025-07-03
+FS-347,Field Section,348,Annapoorna B,Assistant Executive Engineer,H.T. Rating (HT Rating),CTAZ,DAVANAGERE,DAVANAGERE,resolved,9448279331,2026-03-20
+FS-348,Field Section,349,Suneeta H S,Assistant Executive Engineer,LT Rating Davanagere,CTAZ,DAVANAGERE,DAVANAGERE,resolved,9448488518,2025-07-04
+FS-349,Field Section,350,H B Venkatesh,Assistant Executive Engineer,LT Rating Davanagere,CTAZ,DAVANAGERE,DAVANAGERE,resolved,9449844820,2025-07-04
+FS-350,Field Section,351,Chandranayka,Assistant Executive Engineer,Davanagere Nagara Sub-Division -1,CTAZ,DAVANAGERE,DAVANAGERE,resolved,9448279028,2024-11-04
+FS-351,Field Section,352,Prashant H Y,Assistant Executive Engineer,Davanagere Nagara Sub-Division -2,CTAZ,DAVANAGERE,DAVANAGERE,resolved,9448279029,2025-07-02
+FS-352,Field Section,353,G.M Nayak,Assistant Executive Engineer,Division DVG Rural,CTAZ,DAVANAGERE,DAVANAGERE,resolved,9448279030,2023-07-14
+FS-353,Field Section,354,Teerthesh.K.N,Assistant Executive Engineer,Anagodu Rural,CTAZ,DAVANAGERE,DAVANAGERE,resolved,9448094833,2018-06-29
+FS-354,Field Section,355,J Mallikarjuna (Kalyana Karnataka),Assistant Executive Engineer,Jagalooru Sub-Division,CTAZ,DAVANAGERE,DAVANAGERE,resolved,9448279031,2025-07-07
+FS-355,Field Section,356,Viroopakshappa D.R,Assistant Executive Engineer,Santebennooru Sub-Division,CTAZ,DAVANAGERE,CHITRADURGA,resolved,9448279033,
+FS-356,Field Section,357,Praveen G M,Assistant Executive Engineer,Davanagere (Works unit- Davangere),CTAZ,DAVANAGERE,DAVANAGERE,resolved,9449843573,2025-07-02
+FS-357,Field Section,358,M.M Sudharani,Assistant Executive Engineer,Chitradurga Division Office,CTAZ,DAVANAGERE,CHITRADURGA,resolved,9448279014,2025-07-07
+FS-358,Field Section,359,GausPheer.M,Assistant Executive Engineer,"Vigilance Squad, Chitradurga (Vigilance Chitradurga)",CTAZ,DAVANAGERE,CHITRADURGA,resolved,9448094830,2024-01-05
+FS-359,Field Section,360,Basavaraju. K. P,Assistant Executive Engineer,LT Rating Chitradurga,CTAZ,DAVANAGERE,CHITRADURGA,resolved,9448488519,2017-12-04
+FS-360,Field Section,361,V.Umesha,Assistant Executive Engineer,Chitradurga Nagara Sub-Division,CTAZ,DAVANAGERE,CHITRADURGA,resolved,9448279037,
+FS-361,Field Section,362,Nagarajappa C,Assistant Executive Engineer,Chitradurga Rural SD,CTAZ,DAVANAGERE,CHITRADURGA,resolved,9448279038,2025-05-21
+FS-362,Field Section,363,Jayanna R,Assistant Executive Engineer,Holalkere Sub-Division,CTAZ,DAVANAGERE,CHITRADURGA,resolved,9448279040,2026-01-16
+FS-363,Field Section,364,Kiran Reddi,Assistant Executive Engineer,Hosadurga Sub-Division,CTAZ,DAVANAGERE,CHITRADURGA,resolved,9448279039,2023-11-08
+FS-364,Field Section,365,Anil Kumar B,Assistant Executive Engineer,Sri Rampura Sub-Division,CTAZ,DAVANAGERE,CHITRADURGA,resolved,9591858523,2024-08-06
+FS-365,Field Section,366,Ghnanesh Raj B.R,Assistant Executive Engineer,Chitradurga (Works unit- Chitradurga),CTAZ,DAVANAGERE,CHITRADURGA,resolved,,2023-11-06
+FS-366,Field Section,367,Mahaveera.P,Assistant Executive Engineer,Hiriyooru Division Office,CTAZ,DAVANAGERE,HIRIYUR,resolved,7760478159,2024-10-14
+FS-367,Field Section,368,Shanmukhappa M.J,Assistant Executive Engineer,LT Rating Hiriyur,CTAZ,DAVANAGERE,HIRIYUR,resolved,9742161967,2024-03-18
+FS-368,Field Section,369,Raju N S,Assistant Executive Engineer,Hiriyooru Sub-Division,CTAZ,DAVANAGERE,HIRIYUR,resolved,9448225179,
+FS-369,Field Section,370,G Shivaprasad,Assistant Executive Engineer,Challakere Sub-Division,CTAZ,DAVANAGERE,HIRIYUR,resolved,9448279042,2024-08-16
+FS-370,Field Section,371,Mamata N.G,Assistant Executive Engineer,Talaku Sub-Division,CTAZ,DAVANAGERE,HIRIYUR,resolved,6362360543,2023-11-10
+FS-371,Field Section,372,Govindaraya G H,Assistant Executive Engineer,Hiriyooru (Works unit- Hiriyur,CTAZ,DAVANAGERE,HIRIYUR,resolved,9448982145,2025-02-01
+FS-372,Field Section,373,C N Ramesh,Assistant Executive Engineer,Harihara Division Office,CTAZ,DAVANAGERE,HARIHARA,resolved,9620437317,2025-09-01
+FS-373,Field Section,374,Mala S Bidi,Assistant Executive Engineer,LT Rating Harihara,CTAZ,DAVANAGERE,HARIHARA,resolved,9449844823,2025-07-04
+FS-374,Field Section,375,Lakshmappa K,Assistant Executive Engineer,Harihara Sub-Division,CTAZ,DAVANAGERE,HARIHARA,resolved,9448279034,2025-04-09
+FS-375,Field Section,376,Sri Nivas. B.K,Assistant Executive Engineer,Honnali Sub-Division,CTAZ,DAVANAGERE,HARIHARA,resolved,9448279035,
+FS-376,Field Section,377,Rameshachari H,Assistant Executive Engineer,Nyamati Sub-Division,CTAZ,DAVANAGERE,HARIHARA,resolved,8277893935,
+FS-377,Field Section,378,Prakash Pattenooru,Assistant Executive Engineer,Harappanahalli Sub-Division,CTAZ,DAVANAGERE,HARIHARA,resolved,,2024-08-07
+FS-378,Field Section,379,Panditaradhya,Assistant Executive Engineer,Telagi Sub-Division,CTAZ,DAVANAGERE,HARIHARA,resolved,,2023-07-13
+FS-379,Field Section,380,Santosha R M,Assistant Executive Engineer,Harihara (Works unit- Harihara),CTAZ,DAVANAGERE,HARIHARA,resolved,9945522904,2024-11-28
+FS-380,Field Section,381,Tirumala K,Assistant Executive Engineer (Civil),Bengaluru North Circle North Circle,BMAZ NORTH,BANGALORE NORTH,,resolved,9449009202,2021-11-11
+FS-381,Field Section,382,Mahesh (K.K.R),Assistant Executive Engineer (Civil),Bengaluru  South Circle,BMAZ SOUTH,BANGALORE SOUTH,,resolved,9449841559,2025-09-09
+FS-382,Field Section,383,Praveen L,Assistant Executive Engineer (Civil),Bengaluru East Cirlce,BMAZ SOUTH,BANGALORE SOUTH,,resolved,,2025-09-08
+FS-383,Field Section,384,J.B Lingegowda,Assistant Executive Engineer (Civil),Bengaluru West Circle,BMAZ SOUTH,BANGALORE WEST,,resolved,,2021-12-17
+FS-384,Field Section,385,S.Rajakumar,Assistant Executive Engineer (Civil),Ramanagara Circle,BRAZ,RAMANAGARA,,resolved,9449841649,2022-07-19
+FS-385,Field Section,386,Murali Babu D N,Assistant Executive Engineer (Civil),Kolara Circle,BRAZ,KOLAR,,resolved,,2025-09-08
+FS-386,Field Section,387,G.Basavarajappa (i/c),Assistant Executive Engineer (Civil),Tumakuru Circle,CTAZ,TUMKUR,,resolved,9448088762,2017-02-13
+FS-387,Field Section,388,Arjun R H,Assistant Executive Engineer (Civil),Davanagere Circle,CTAZ,DAVANAGERE,,resolved,9448094838,2024-09-27
+CO-1,Corporate Office,2,Ramesh.H.J,Director,Director (Technical),,,,not_applicable,,2023-02-17
+CO-2,Corporate Office,3,Mahadeva,Director,Director (Finance),,,,not_applicable,,2024-12-09
+CO-3,Corporate Office,4,Maruti Yamunappa Bhovi PH,Chief General Manager,Finance & Commercial,,,,not_applicable,9483546576,2024-11-14
+CO-4,Corporate Office,5,Prakash T R,Chief General Manager,Internal Audit,,,,not_applicable,9448588619,2024-10-14
+CO-5,Corporate Office,6,Sangameshvar,Chief General Manager,Accounts & Revenue,,,,not_applicable,9449030863,2026-05-30
+CO-6,Corporate Office,7,Suma G P,Company Secretary,Company Secretary,,,,not_applicable,9449878280,2022-02-23
+CO-7,Corporate Office,8,Yogesh B K,Chief General Manager,Procurement Section,,,,not_applicable,9448532345,2026-02-20
+CO-8,Corporate Office,9,B R Dayananda,General Manager,Andministration & Human Resource,,,,not_applicable,9449844880,2024-08-30
+CO-9,Corporate Office,10,Satyamoorti N S,General Manager,Costing Taxation & GST,,,,not_applicable,9449010864,
+CO-10,Corporate Office,11,M.D Raghavendra,General Manager,Finance and Resource,,,,not_applicable,9449844649,2023-08-03
+CO-11,Corporate Office,12,M Suresh,General Manager,Power Purchase,,,,not_applicable,9449055636,2024-09-09
+CO-12,Corporate Office,13,Uma.H.M,General Manager,Demamd Side Management,,,,not_applicable,9449844861,2025-04-08
+CO-13,Corporate Office,14,HD Channakeshava,General Manager,Quality Standard &Safety,,,,not_applicable,9449046576,2025-01-01
+CO-14,Corporate Office,15,Pakeerappa B G,General Manager,Das & Smart Grid,,,,not_applicable,,2024-09-09
+CO-15,Corporate Office,16,Ravindra M,General Manager,Meters & Commercial,,,,not_applicable,8277893903,2026-02-23
+CO-16,Corporate Office,17,Jaheeda Begam,General Manager,Customer Relations,,,,not_applicable,,2025-12-20
+CO-17,Corporate Office,18,Srinath C K,General Manager,ICT&MIS,,,,not_applicable,9449844720,2025-09-01
+CO-18,Corporate Office,19,Nirmala C C,General Manager,Project Monitoring Unit,,,,not_applicable,8277889659,2025-10-14
+CO-19,Corporate Office,20,Kavita R,General Manager,Civil,,,,not_applicable,8277892569,2025-09-15
+CO-20,Corporate Office,21,Sayida Unnsiyet Parveen,Deputy General Manager,Enquiry & RTI & KAA,,,,not_applicable,9480834885,2025-09-02
+CO-21,Corporate Office,22,Nirmala S,Deputy General Manager,Revenue-1,,,,not_applicable,9449030868,2026-01-08
+CO-22,Corporate Office,23,Nagabhooshana Reddi T,Deputy General Manager,Revenue-2,,,,not_applicable,9449045069,2025-09-25
+CO-23,Corporate Office,24,Narayanasvami G,Deputy General Manager,Finance & Resources,,,,not_applicable,9449839256,2025-09-04
+CO-24,Corporate Office,25,Krishnegowda L,Deputy General Manager,Personnel,,,,not_applicable,9449877555,2025-09-02
+CO-25,Corporate Office,26,Swarooparani,Deputy General Manager,Pension,,,,not_applicable,9901083387,2025-09-03
+CO-26,Corporate Office,27,Harish Babu M,Deputy General Manager,Power Purchase,,,,not_applicable,,2025-11-05
+CO-27,Corporate Office,28,Mahammad Imran,Deputy General Manager,Online Payment Cell,,,,not_applicable,9448490341,2025-09-03
+CO-28,Corporate Office,29,Manjula M,Deputy General Manager,Costing Taxation & GST,,,,not_applicable,8277889693,2025-09-03
+CO-29,Corporate Office,30,Kumara M,Deputy General Manager,Internal Audit,,,,not_applicable,9449045069,2025-09-12
+CO-30,Corporate Office,31,Ranjita V,Deputy General Manager,Operations,,,,not_applicable,9449046580,2023-08-07
+CO-31,Corporate Office,32,M.D.Kartik,Deputy General Manager,Operations,,,,not_applicable,9449844747,2022-01-12
+CO-32,Corporate Office,33,D C Rajashekarappa,Deputy General Manager,Power Purchase,,,,not_applicable,9449844790,2024-10-14
+CO-33,Corporate Office,34,Tarana,Deputy General Manager,Power Purchase,,,,not_applicable,9449844839,2021-08-07
+CO-34,Corporate Office,35,Nagubayi C,Deputy General Manager,Corporate Affairs-1,,,,not_applicable,9449844621,2026-01-29
+CO-35,Corporate Office,36,Jyoti,Deputy General Manager,Corporate Affairs-2,,,,not_applicable,9449844862,2022-01-12
+CO-36,Corporate Office,37,T Sri Kant,Deputy General Manager,Procurement,,,,not_applicable,9449844689,2026-07-02
+CO-37,Corporate Office,38,Harini.S,Deputy General Manager,Regulatory Affairs,,,,not_applicable,9449802401,2018-04-17
+CO-38,Corporate Office,39,Basavaraju.H.B,Deputy General Manager,Energy Audit,,,,not_applicable,9449844860,2022-01-12
+CO-39,Corporate Office,40,B Shwetha,Deputy General Manager,Meteres & Commercial,,,,not_applicable,9449844600,2022-03-09
+CO-40,Corporate Office,41,G Shivashankar,Deputy General Manager,Quality Standard &Safety,,,,not_applicable,9449844600,2023-08-07
+CO-41,Corporate Office,42,Premalata P,Deputy General Manager,Quality Standard &Safety,,,,not_applicable,9449844838,2026-02-25
+CO-42,Corporate Office,43,Naveen B C,Deputy General Manager,Quality Standard &Safety,,,,not_applicable,9449800158,2026-07-01
+CO-43,Corporate Office,44,B. Venkatesh,Deputy General Manager,Quality Standard &Safety,,,,not_applicable,9449844630,2022-02-14
+CO-44,Corporate Office,45,Priyadarshini,Deputy General Manager,Quality Standard &Safety,,,,not_applicable,7899272401,2023-02-17
+CO-45,Corporate Office,46,T N Sudhakar Reddi,Deputy General Manager,Quality Standard &Safety,,,,not_applicable,,2024-06-24
+CO-46,Corporate Office,47,Annapoorna K P,Deputy General Manager,Demamd Side Management,,,,not_applicable,9449078010,2024-10-21
+CO-47,Corporate Office,48,Maitri.S.K,Deputy General Manager,ICT&MIS,,,,not_applicable,9449078010,2022-02-14
+CO-48,Corporate Office,49,Pramod Kumar R,Deputy General Manager,HRD,,,,not_applicable,9449844615,2024-11-20
+CO-49,Corporate Office,50,Yashodha C,Deputy General Manager,DAS & Smart Grid,,,,not_applicable,9449844627,2022-07-19
+CO-50,Corporate Office,51,Priya Jakkannanavar,Deputy General Manager,DAS & Smart Grid,,,,not_applicable,9480812482,2022-02-14
+CO-51,Corporate Office,52,Roopa Sri.M.N,Deputy General Manager,DAS & Smart Grid,,,,not_applicable,9449046577,2018-04-19
+CO-52,Corporate Office,53,Usha.H.V,Deputy General Manager,DAS & Smart Grid,,,,not_applicable,8861356921,2023-02-17
+CO-53,Corporate Office,54,D.M.Shashikant,Deputy General Manager,DAS & Smart Grid,,,,not_applicable,9481162279,2023-12-15
+CO-54,Corporate Office,55,VinayKumar,Deputy General Manager,Projects,,,,not_applicable,9449877771,0206-07-02
+CO-55,Corporate Office,56,Raghu T,Deputy General Manager,Nirantara Jyothi-1,,,,not_applicable,9449844610,2023-07-10
+CO-56,Corporate Office,57,Chikkegowda.P.D,Deputy General Manager,Projects,,,,not_applicable,9449840344,2024-10-16
+CO-57,Corporate Office,58,Umesh Hitnal,Deputy General Manager,Vigilance,,,,not_applicable,9448094802,2026-03-23
+CO-58,Corporate Office,59,K.Balaji,Deputy General Manager,Technology Innovation Centre,,,,not_applicable,8277889653,2022-02-14
+CO-59,Corporate Office,60,G Anasooya,Deputy General Manager,EV Cell,,,,not_applicable,,2024-10-16
+CO-60,Corporate Office,61,Sudha B N,Deputy General Manager,M.P.D,,,,not_applicable,8277889689,2024-10-14
+CO-61,Corporate Office,62,Shruti A Upadhyaya,Deputy General Manager,T.C.D,,,,not_applicable,8277889685,2024-10-14
+CO-62,Corporate Office,63,Suma nayak,Deputy General Manager,IT,,,,not_applicable,9449844848,2024-10-14
+CO-63,Corporate Office,64,Parvatibabu,Deputy General Manager,IT,,,,not_applicable,9449844850,
+CO-64,Corporate Office,65,D.D.Jamuna,Deputy General Manager,IT,,,,not_applicable,9448281272,2021-04-19
+CO-65,Corporate Office,66,Prem Kumar M,Deputy General Manager,IT,,,,not_applicable,,
+CO-66,Corporate Office,67,Savita Yallapur,EE(Civil),Civil,,,,not_applicable,,2022-11-21
+CO-67,Corporate Office,68,Ramesh G,Assistant General Manager,Director (Finance)'s Section,,,,not_applicable,9980036566,
+CO-68,Corporate Office,69,H.M.Padmavati,Assistant General Manager,I/A,,,,not_applicable,9449868913,2018-10-01
+CO-69,Corporate Office,70,Padmavati D,Assistant General Manager,(I/A) Special Auit,,,,not_applicable,9449868909,
+CO-70,Corporate Office,71,Vijay‍Kumar E,Assistant General Manager,Costing Taxation Corporate Office,,,,not_applicable,9341249732,2021-11-11
+CO-71,Corporate Office,72,Saraswati S,Assistant General Manager,Costing Taxation &GST,,,,not_applicable,8277892559,
+CO-72,Corporate Office,73,Pramila.M,Assistant General Manager,ICT &MIS,,,,not_applicable,9480812463,2023-09-07
+CO-73,Corporate Office,74,S Gireesh,Assistant General Manager,DAS,,,,not_applicable,,2025-07-14
+CO-74,Corporate Office,75,S Navaneet Krishnan,Assistant General Manager,MD Personal Section,,,,not_applicable,08029613311,2021-11-11
+CO-75,Corporate Office,76,B.A Usha,Assistant General Manager,HRD,,,,not_applicable,9632215179,
+CO-76,Corporate Office,77,Suma K.S,Assistant General Manager,Legal Section,,,,not_applicable,,2024-07-04
+CO-77,Corporate Office,78,Vaishali B S,Assistant General Manager,Customer Relations,,,,not_applicable,,2025-08-01
+CO-78,Corporate Office,79,Nagaveni T G,Assistant General Manager,Customer Relations,,,,not_applicable,9480812452,2024-09-26
+CO-79,Corporate Office,80,Shubha K. Megharaj,Assistant General Manager,Customer Relations,,,,not_applicable,8277892596,2021-05-13
+CO-80,Corporate Office,81,Triveni. V,Assistant General Manager,Corporate Affairs,,,,not_applicable,9449844846,2019-05-28
+CO-81,Corporate Office,82,Lakshmi K,Assistant General Manager,Corporate Affairs,,,,not_applicable,9449844800,2023-02-06
+CO-82,Corporate Office,83,B S Basavarajayya,Assistant General Manager,Vigilance General) Rajajinagara,,,,not_applicable,9845051162,2022-11-10
+CO-83,Corporate Office,84,Ramakrushna.V,Assistant General Manager,(Vigilance malleshwaram),,,,not_applicable,9448094822,
+CO-84,Corporate Office,85,Manjunath N,Assistant General Manager,(Vigilance Indiranagar),,,,not_applicable,9448094821,
+CO-85,Corporate Office,86,Sri Nivasa T R,Assistant General Manager,(Vigilance Jayanagar),,,,not_applicable,9448094818,2025-10-16
+CO-86,Corporate Office,87,Rashmi M,Assistant General Manager,Operations Sections,,,,not_applicable,9449844879,2024-09-26
+CO-87,Corporate Office,88,M.A. Vanajakshi,Assistant General Manager,Operations Sections,,,,not_applicable,9449844898,2024-06-21
+CO-88,Corporate Office,89,Malati P,Assistant General Manager,Operations Sections,,,,not_applicable,9449844870,2022-02-14
+CO-89,Corporate Office,90,Sunanda,Assistant General Manager,Operations Sections,,,,not_applicable,9845763300,2018-06-13
+CO-90,Corporate Office,91,Seema,Assistant General Manager,Operations Sections,,,,not_applicable,9449868903,2012-08-13
+CO-91,Corporate Office,92,Sowbiya Munavar,Assistant General Manager,Operations Sections,,,,not_applicable,9449844811,2024-11-19
+CO-92,Corporate Office,93,Indira. J,Assistant General Manager,Operations Sections,,,,not_applicable,9986615976,2024-02-22
+CO-93,Corporate Office,94,Vidhya M.J,Assistant General Manager,Operations Sections,,,,not_applicable,9972137016,2025-05-25
+CO-94,Corporate Office,95,Abhijate,Assistant General Manager,Operations Sections,,,,not_applicable,,2026-04-04
+CO-95,Corporate Office,96,Karthik L,Assistant General Manager,Procurement Section,,,,not_applicable,9741969002,2021-12-17
+CO-96,Corporate Office,97,Aayesha Began,Assistant General Manager,Procurement Section,,,,not_applicable,08022354939,2022-05-13
+CO-97,Corporate Office,98,Girija Veerappa Chillalashetti,Assistant General Manager,Procurement Section,,,,not_applicable,9986244053,2022-07-23
+CO-98,Corporate Office,99,Venkatesh Sagar [Kalyana Karnataka],Assistant General Manager,Procurement Section,,,,not_applicable,08022354939,
+CO-99,Corporate Office,100,Jayamalini.S,Assistant General Manager,Projects Section,,,,not_applicable,9449844628,2017-06-22
+CO-100,Corporate Office,101,Pavitra C.V,Assistant General Manager,Projects Section,,,,not_applicable,8277892515,2021-12-22
+CO-101,Corporate Office,102,Pushpa K.,Assistant General Manager,Energy Audit,,,,not_applicable,8277892576,2017-12-04
+CO-102,Corporate Office,103,Ajit Kumar,Assistant General Manager,ICT & MIS,,,,not_applicable,9480816120,2021-11-15
+CO-103,Corporate Office,104,C.Shobha,Assistant General Manager,ICT&MIS,,,,not_applicable,8277893913,2018-04-24
+CO-104,Corporate Office,105,Chetana B.M,Assistant General Manager,Das & Smart Grid,,,,not_applicable,9449844614,2021-11-11
+CO-105,Corporate Office,106,Sowbhagya H.N,Assistant General Manager,Das & Smart Grid,,,,not_applicable,9480812495,2021-11-11
+CO-106,Corporate Office,107,Lakshmamma.Ar.K,Assistant General Manager,Das & Smart Grid,,,,not_applicable,8904574813,2023-12-14
+CO-107,Corporate Office,108,Chaitra Dayananda Bongale,Assistant General Manager,Das & Smart Grid,,,,not_applicable,9449844836,2022-11-25
+CO-108,Corporate Office,109,M.P. Ragini,Assistant General Manager,Das & Smart Grid,,,,not_applicable,9449841584,2017-09-05
+CO-109,Corporate Office,110,S Prakash Kumar,Assistant General Manager,Das & Smart Grid,,,,not_applicable,9449877979,2012-10-19
+CO-110,Corporate Office,111,Poornima.L.J,Assistant General Manager,Das & Smart Grid,,,,not_applicable,,2018-11-13
+CO-111,Corporate Office,112,N Mamata,Assistant General Manager,Das & Smart Grid,,,,not_applicable,9449844758,2013-09-04
+CO-112,Corporate Office,113,Shobhanalakshmi  M.K,Assistant General Manager,Das & Smart Grid,,,,not_applicable,9449844819,2021-11-15
+CO-113,Corporate Office,114,Anita A.V,Assistant General Manager,Das & Smart Grid,,,,not_applicable,8277892563,2021-11-11
+CO-114,Corporate Office,115,P.T Bhanu Prakash,Assistant General Manager,Das & Smart Grid,,,,not_applicable,9480812468,2020-07-15
+CO-115,Corporate Office,116,Shilpa,Assistant General Manager,Das & Smart Grid,,,,not_applicable,9449841594,2024-08-08
+CO-116,Corporate Office,117,Akshata B,Assistant General Manager,Das & Smart Grid,,,,not_applicable,9449046581,2021-02-18
+CO-117,Corporate Office,118,Shubha.Y.D,Assistant General Manager,Das & Smart Grid,,,,not_applicable,8277892580,2020-03-04
+CO-118,Corporate Office,119,Shivaraja K,Assistant General Manager,Das & Smart Grid,,,,not_applicable,9448080591,2022-03-16
+CO-119,Corporate Office,120,Bhagyalakshmi,Assistant General Manager,Das & Smart Grid,,,,not_applicable,9620278249,
+CO-120,Corporate Office,121,Bhagya K,Assistant General Manager,Das & Smart Grid,,,,not_applicable,9480318464,
+CO-121,Corporate Office,122,Vasantakumari S N,Assistant General Manager,Das & Smart Grid,,,,not_applicable,9480826749,2024-07-01
+CO-122,Corporate Office,123,Siddagangayya,Assistant General Manager,Das & Smart Grid,,,,not_applicable,,2024-07-04
+CO-123,Corporate Office,124,Usha G,Assistant General Manager,Das & Smart Grid,,,,not_applicable,,2025-01-24
+CO-124,Corporate Office,125,Ranjan Sab,Assistant General Manager,Quality &Safety,,,,not_applicable,9449844828,2024-03-18
+CO-125,Corporate Office,126,Savita K,Assistant General Manager,Quality &Safety,,,,not_applicable,9449046664,2017-12-04
+CO-126,Corporate Office,127,G.B Mala,Assistant General Manager,Quality &Safety,,,,not_applicable,9449187477,2023-06-16
+CO-127,Corporate Office,128,K M Anil Kumar,Assistant General Manager,Quality &Safety,,,,not_applicable,9449800159,2024-08-21
+CO-128,Corporate Office,129,Aanand R. Kulakarni,Assistant General Manager,Quality &Safety,,,,not_applicable,9480811292,2013-09-03
+CO-129,Corporate Office,130,C.G Basavaprakash,Assistant General Manager,Quality &Safety,,,,not_applicable,9449868906,2012-08-13
+CO-130,Corporate Office,131,Lizi Joy,Assistant General Manager,"Energy Audit Cell, 
+Meters & Commercial",,,,not_applicable,9964383165,2023-06-16
+CO-131,Corporate Office,132,Rekha A.R,Assistant General Manager,"Energy Audit Cell,
+Meters & Commercial",,,,not_applicable,949868902,2013-02-04
+CO-132,Corporate Office,133,Bharati K Sukhasare,Assistant General Manager,"Energy Audit Cell,
+Meters & Commercial",,,,not_applicable,9480812490,2024-01-09
+CO-133,Corporate Office,134,Anupama,Assistant General Manager,Meters & Commercial,,,,not_applicable,9972740531,2017-09-14
+CO-134,Corporate Office,135,Savita M,Assistant General Manager,Meters & Commercial,,,,not_applicable,9481242320,2021-02-03
+CO-135,Corporate Office,136,K.Rajeshvari,Assistant General Manager,D.S.M Section,,,,not_applicable,9480812458,2013-01-30
+CO-136,Corporate Office,137,Dhatri Joshi,Assistant General Manager,D.S.M Section,,,,not_applicable,9449844890,2020-08-28
+CO-137,Corporate Office,138,L.S Jyotirani,Assistant General Manager,D.S.M Section,,,,not_applicable,9449868931,2016-10-03
+CO-138,Corporate Office,139,S Pharhana Tabassum,Assistant General Manager,D.S.M Section,,,,not_applicable,9480834881,2020-08-28
+CO-139,Corporate Office,140,N.Manju,Assistant General Manager,Power Purchase section,,,,not_applicable,9449844603,2014-01-25
+CO-140,Corporate Office,141,Archana Shyamasundar K,Assistant General Manager,Power Purchase section,,,,not_applicable,9449078076,2025-07-05
+CO-141,Corporate Office,142,Shailaja,Assistant General Manager,Power Purchase section,,,,not_applicable,8971474211,2017-12-01
+CO-142,Corporate Office,143,K. Ramesh,Assistant General Manager,MPD,,,,not_applicable,6362023075,2020-08-20
+CO-143,Corporate Office,144,Indrani.G.N,Assistant General Manager,MPD,,,,not_applicable,8277889682,2019-10-21
+CO-144,Corporate Office,145,Ratneshvari Phatate,Assistant General Manager,MPD,,,,not_applicable,8277889686,2019-11-11
+CO-145,Corporate Office,146,Pushpa Tangade,Assistant General Manager,TCD,,,,not_applicable,8277889694,
+CO-146,Corporate Office,147,Sujata.P.U,Assistant General Manager,TCD,,,,not_applicable,8277892510,2021-02-15
+CO-147,Corporate Office,148,Bhuvaneshvari A V,Assistant General Manager,MPD,,,,not_applicable,,2024-07-16
+CO-148,Corporate Office,149,Priyanka K.,Assistant General Manager,Technology Innovation Centre,,,,not_applicable,9449841589,2023-02-06
+CO-149,Corporate Office,150,Vijaya B,Assistant General Manager,Smart Grid & Electric Vehicle cell,,,,not_applicable,,2021-11-11
+CO-150,Corporate Office,151,Vijayalakshmee A Kenchanagudda,Assistant General Manager,Regulatory Affairs,,,,not_applicable,9480812494,2024-07-04
+CO-151,Corporate Office,152,Tabassum Parveen,Assistant General Manager,Information Technology          [ Hardware],,,,not_applicable,9449868918,2014-07-19
+CO-152,Corporate Office,153,T.Gayatri,Assistant General Manager,Information Technology  [ Network],,,,not_applicable,,2014-07-19
+CO-153,Corporate Office,154,Mahamad Javid,Assistant General Manager,Information Technology  [ Services],,,,not_applicable,9480812461,2025-10-28
+CO-154,Corporate Office,155,B. Sri Nivasamoorti,Assistant General Manager,Information Technology  [ Application],,,,not_applicable,9449868917,2014-02-14
+CO-155,Corporate Office,156,Kusuma.S.G,Assistant General Manager,Information Technology  [ Application],,,,not_applicable,8277892567,2022-07-19
+CO-156,Corporate Office,157,Savita M,Assistant General Manager,Information Technology [ Application],,,,not_applicable,9481242320,2021-03-06
+CO-157,Corporate Office,158,Jaya Sri B R,Assistant General Manager,Information Technology [ Application],,,,not_applicable,9449841595,2024-07-04
+CO-158,Corporate Office,159,Anupama,Assistant General Manager,Information Technology  [ Application],,,,not_applicable,9972740531,2021-02-25
+CO-159,Corporate Office,160,Rashmi.I,Assistant General Manager,Information Technology [ Application],,,,not_applicable,9449844818,2017-09-06
+CO-160,Corporate Office,161,Aasha Kotian,Assistant General Manager,Information Technology  [ Automation],,,,not_applicable,8277892567,2017-12-04
+CO-161,Corporate Office,162,Akshata B,Assistant General Manager,Information Technology  [ Automation],,,,not_applicable,9449046581,2021-02-18
